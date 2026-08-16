@@ -3265,10 +3265,10 @@
   {
     "id": "waybill",
     "name": "Waybill",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.64139,
-      "lng": 77.22055
+      "lat": 28.46501,
+      "lng": 77.008
     },
     "contactEmail": null,
     "founders": [
@@ -3294,10 +3294,10 @@
   {
     "id": "paasa",
     "name": "Paasa",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.65817,
-      "lng": 77.18928
+      "lat": 28.46523,
+      "lng": 77.00889
     },
     "contactEmail": null,
     "founders": [
@@ -3323,7 +3323,7 @@
   {
     "id": "surebright",
     "name": "SureBright",
-    "address": "New Delhi, India",
+    "address": "New Delhi, Delhi, India",
     "location": {
       "lat": 28.62155,
       "lng": 77.25022
@@ -3352,10 +3352,10 @@
   {
     "id": "algotest",
     "name": "AlgoTest",
-    "address": "New Delhi, India",
+    "address": "Delhi, India",
     "location": {
-      "lat": 28.64989,
-      "lng": 77.19985
+      "lat": 28.65436,
+      "lng": 77.22431
     },
     "contactEmail": null,
     "founders": [
@@ -3376,10 +3376,10 @@
   {
     "id": "clinikally",
     "name": "Clinikally",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.59646,
-      "lng": 77.16805
+      "lat": 28.44708,
+      "lng": 77.03679
     },
     "contactEmail": null,
     "founders": [
@@ -3400,10 +3400,10 @@
   {
     "id": "kaagaz",
     "name": "Kaagaz",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.61156,
-      "lng": 77.25138
+      "lat": 28.46253,
+      "lng": 77.00673
     },
     "contactEmail": null,
     "founders": [
@@ -3434,10 +3434,10 @@
   {
     "id": "savein",
     "name": "SaveIN",
-    "address": "New Delhi, India",
+    "address": "Delhi, India",
     "location": {
-      "lat": 28.63131,
-      "lng": 77.19089
+      "lat": 28.67794,
+      "lng": 77.25072
     },
     "contactEmail": null,
     "founders": [
@@ -3463,10 +3463,10 @@
   {
     "id": "rdash",
     "name": "RDash",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.61455,
-      "lng": 77.16774
+      "lat": 28.45845,
+      "lng": 77.00803
     },
     "contactEmail": null,
     "founders": [
@@ -3492,7 +3492,7 @@
   {
     "id": "hiration",
     "name": "Hiration",
-    "address": "New Delhi, India",
+    "address": "New Delhi, Delhi, India",
     "location": {
       "lat": 28.63427,
       "lng": 77.20051
@@ -3516,10 +3516,10 @@
   {
     "id": "odwen",
     "name": "ODWEN",
-    "address": "New Delhi, India",
+    "address": "Delhi, India",
     "location": {
-      "lat": 28.57162,
-      "lng": 77.22506
+      "lat": 28.655,
+      "lng": 77.22126
     },
     "contactEmail": null,
     "founders": [
@@ -3540,10 +3540,10 @@
   {
     "id": "enerjazz",
     "name": "Enerjazz",
-    "address": "New Delhi, India",
+    "address": "Delhi, India",
     "location": {
-      "lat": 28.5779,
-      "lng": 77.17879
+      "lat": 28.64671,
+      "lng": 77.23306
     },
     "contactEmail": null,
     "founders": [
@@ -3564,10 +3564,10 @@
   {
     "id": "novatr",
     "name": "Novatr",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.65567,
-      "lng": 77.17641
+      "lat": 28.46749,
+      "lng": 77.01394
     },
     "contactEmail": null,
     "founders": [
@@ -3598,10 +3598,10 @@
   {
     "id": "advantage-club",
     "name": "Advantage Club",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.57135,
-      "lng": 77.23736
+      "lat": 28.4459,
+      "lng": 77.04308
     },
     "contactEmail": null,
     "founders": [
@@ -3627,7 +3627,7 @@
   {
     "id": "appx",
     "name": "AppX",
-    "address": "New Delhi, India",
+    "address": "New Delhi, Delhi, India",
     "location": {
       "lat": 28.65805,
       "lng": 77.17374
@@ -3651,10 +3651,10 @@
   {
     "id": "salarybox",
     "name": "SalaryBox",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.62811,
-      "lng": 77.18455
+      "lat": 28.47876,
+      "lng": 77.02267
     },
     "contactEmail": null,
     "founders": [
@@ -3680,10 +3680,10 @@
   {
     "id": "gromo",
     "name": "GroMo",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.65833,
-      "lng": 77.17079
+      "lat": 28.45105,
+      "lng": 77.02178
     },
     "contactEmail": null,
     "founders": [
@@ -3709,10 +3709,10 @@
   {
     "id": "pragmatic-leaders-ankai-inc",
     "name": "Pragmatic Leaders (Ankai Inc)",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.63358,
-      "lng": 77.22641
+      "lat": 28.46946,
+      "lng": 77.04554
     },
     "contactEmail": null,
     "founders": [
@@ -3738,10 +3738,10 @@
   {
     "id": "swadesi-way",
     "name": "Swadesi Way",
-    "address": "New Delhi, India",
+    "address": "Delhi, India",
     "location": {
-      "lat": 28.58752,
-      "lng": 77.23312
+      "lat": 28.65092,
+      "lng": 77.21933
     },
     "contactEmail": null,
     "founders": [
@@ -3767,10 +3767,10 @@
   {
     "id": "zingbus",
     "name": "zingbus",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.611,
-      "lng": 77.25128
+      "lat": 28.44872,
+      "lng": 77.02664
     },
     "contactEmail": null,
     "founders": [
@@ -3801,10 +3801,10 @@
   {
     "id": "redcliffe-lifetech",
     "name": "Redcliffe Lifetech",
-    "address": "New Delhi, India",
+    "address": "Delhi, India",
     "location": {
-      "lat": 28.61966,
-      "lng": 77.22328
+      "lat": 28.66921,
+      "lng": 77.23236
     },
     "contactEmail": null,
     "founders": [
@@ -3830,10 +3830,10 @@
   {
     "id": "farmako-healthcare",
     "name": "Farmako Healthcare",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.65688,
-      "lng": 77.24125
+      "lat": 28.45402,
+      "lng": 77.02462
     },
     "contactEmail": null,
     "founders": [
@@ -3854,10 +3854,10 @@
   {
     "id": "statiq",
     "name": "Statiq.",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.64361,
-      "lng": 77.24059
+      "lat": 28.46246,
+      "lng": 77.02335
     },
     "contactEmail": null,
     "founders": [
@@ -3883,10 +3883,10 @@
   {
     "id": "kosh",
     "name": "Kosh",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.64847,
-      "lng": 77.16927
+      "lat": 28.46296,
+      "lng": 77.04528
     },
     "contactEmail": null,
     "founders": [
@@ -3912,10 +3912,10 @@
   {
     "id": "bikry",
     "name": "Bikry",
-    "address": "New Delhi, India",
+    "address": "Noida, Uttar Pradesh, India",
     "location": {
-      "lat": 28.61569,
-      "lng": 77.23206
+      "lat": 28.52978,
+      "lng": 77.4009
     },
     "contactEmail": null,
     "founders": [
@@ -3941,7 +3941,7 @@
   {
     "id": "cityfurnish",
     "name": "Cityfurnish",
-    "address": "New Delhi, India",
+    "address": "New Delhi, Delhi, India",
     "location": {
       "lat": 28.65418,
       "lng": 77.21257
@@ -3970,7 +3970,7 @@
   {
     "id": "exly",
     "name": "Exly",
-    "address": "New Delhi, India",
+    "address": "New Delhi, Delhi, India",
     "location": {
       "lat": 28.57203,
       "lng": 77.20653
@@ -3999,10 +3999,10 @@
   {
     "id": "acciojob",
     "name": "AccioJob",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.61208,
-      "lng": 77.23261
+      "lat": 28.48014,
+      "lng": 77.03172
     },
     "contactEmail": null,
     "founders": [
@@ -4038,10 +4038,10 @@
   {
     "id": "ziffyhomes",
     "name": "ZiffyHomes",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.58197,
-      "lng": 77.21136
+      "lat": 28.47769,
+      "lng": 77.01808
     },
     "contactEmail": null,
     "founders": [
@@ -4067,10 +4067,10 @@
   {
     "id": "helloverify",
     "name": "Helloverify",
-    "address": "New Delhi, India",
+    "address": "Noida, Uttar Pradesh, India",
     "location": {
-      "lat": 28.62264,
-      "lng": 77.2259
+      "lat": 28.54323,
+      "lng": 77.39801
     },
     "contactEmail": null,
     "founders": [
@@ -4096,10 +4096,10 @@
   {
     "id": "dost-education",
     "name": "Dost Education",
-    "address": "New Delhi, India",
+    "address": "Delhi, India",
     "location": {
-      "lat": 28.65436,
-      "lng": 77.22353
+      "lat": 28.64726,
+      "lng": 77.22139
     },
     "contactEmail": null,
     "founders": [
@@ -4125,10 +4125,10 @@
   {
     "id": "redcarpetup",
     "name": "RedCarpetUp",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.59394,
-      "lng": 77.17098
+      "lat": 28.4548,
+      "lng": 77.02346
     },
     "contactEmail": null,
     "founders": [
@@ -4149,7 +4149,7 @@
   {
     "id": "techbiz",
     "name": "TechBiz",
-    "address": "New Delhi, India",
+    "address": "New Delhi, Delhi, India",
     "location": {
       "lat": 28.59271,
       "lng": 77.23654
@@ -4178,10 +4178,10 @@
   {
     "id": "bueno-finance",
     "name": "Bueno Finance",
-    "address": "New Delhi, India",
+    "address": "Gurugram, Haryana, India",
     "location": {
-      "lat": 28.63523,
-      "lng": 77.16764
+      "lat": 28.46703,
+      "lng": 77.02709
     },
     "contactEmail": null,
     "founders": [
@@ -4207,7 +4207,7 @@
   {
     "id": "seawise-capital",
     "name": "Seawise Capital",
-    "address": "New Delhi, India",
+    "address": "New Delhi, Delhi, India",
     "location": {
       "lat": 28.57231,
       "lng": 77.19525
@@ -4241,7 +4241,7 @@
   {
     "id": "innov8",
     "name": "Innov8",
-    "address": "New Delhi, India",
+    "address": "New Delhi, Delhi, India",
     "location": {
       "lat": 28.65648,
       "lng": 77.21072
@@ -109580,5 +109580,1471 @@
     "description": "AI Platform for Efficient and Sustainable Operations",
     "status": "Active",
     "dataConfidence": "approximate"
+  },
+  {
+    "id": "markupwand",
+    "name": "Markupwand",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.93708,
+      "lng": 77.61728
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Rajagopal Natarajan",
+        "linkedinUrl": "https://www.linkedin.com/in/rajagopaln",
+        "twitterUrl": "https://twitter.com/haxplorer"
+      },
+      {
+        "name": "Alagu M",
+        "linkedinUrl": "https://www.linkedin.com/in/alagu2/",
+        "twitterUrl": "https://www.twitter.com/alagu"
+      },
+      {
+        "name": "Surendran Mahendran",
+        "linkedinUrl": "https://www.linkedin.com/in/surendranm/",
+        "twitterUrl": "https://twitter.com/suren"
+      }
+    ],
+    "yearFounded": 2012,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ee21082d6cb8096eeec027fb12b3d4e3cf1392ca.png",
+    "ycBatch": "S12",
+    "website": "http://markupwand.com",
+    "description": "Convert Design files to working websites automagically",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "kisan-network",
+    "name": "Kisan Network",
+    "address": "Gurugram, Haryana, India",
+    "location": {
+      "lat": 28.46759,
+      "lng": 77.02693
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Aditya Agarwalla",
+        "linkedinUrl": "https://linkedin.com/in/adiagarwalla",
+        "twitterUrl": "https://twitter.com/adi_agarwalla"
+      },
+      {
+        "name": "Sanjay Kumar Agarwalla",
+        "linkedinUrl": "https://linkedin.com/in/sanjaykagarwalla",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/db2008b79867d33375690a57e489390ac2d6b52f.png",
+    "ycBatch": "W16",
+    "website": "https://www.kisannetwork.com",
+    "description": "Tech enabled and fully integrated PAN India agri produce supply chain",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "drivezy",
+    "name": "Drivezy",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99311,
+      "lng": 77.59314
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Abhishek Mahajan",
+        "linkedinUrl": "https://in.linkedin.com/in/abhishek-mahajan-385a9734",
+        "twitterUrl": null
+      },
+      {
+        "name": "Hemant Sah",
+        "linkedinUrl": "https://linkedin.com/in/hemantanshu",
+        "twitterUrl": "https://twitter.com/hemantanshu"
+      },
+      {
+        "name": "Ashwarya Singh",
+        "linkedinUrl": "https://www.linkedin.com/in/ashwarya-singh-79900658?authType=NAME_SEARCH&authToken=Bdi7&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A203058405%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1455786424625%2Ctas%3Aashwarya",
+        "twitterUrl": null
+      },
+      {
+        "name": "vasant verma",
+        "linkedinUrl": "in.linkedin.com/in/vasantverma",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b83c298b96264e91d71c57fafedfa83149d9d6a4.png",
+    "ycBatch": "S16",
+    "website": "http://www.drivezy.com",
+    "description": "India's largest vehicle sharing platform, turning people's vehicles…",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "scribe",
+    "name": "Scribe",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99739,
+      "lng": 77.6203
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sachin Bhat",
+        "linkedinUrl": "https://www.linkedin.com/in/sachin-a-s-16863014",
+        "twitterUrl": "https://twitter.com/sachinbhat_"
+      },
+      {
+        "name": "Rutika Muchhala",
+        "linkedinUrl": "https://www.linkedin.com/in/rutikamuchhala",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2016,
+    "logoUrl": null,
+    "ycBatch": "W17",
+    "website": "http://tryscribe.com/",
+    "description": "Scribe is an AI based Sales Development Representative that you can…",
+    "dataConfidence": "approximate",
+    "status": "Acquired"
+  },
+  {
+    "id": "pulse",
+    "name": "Pulse",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97736,
+      "lng": 77.58768
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Chaitu Aluru",
+        "linkedinUrl": "https://www.linkedin.com/in/chaitu-aluru-723b12165",
+        "twitterUrl": null
+      },
+      {
+        "name": "Vamsee Chamakura",
+        "linkedinUrl": "https://www.linkedin.com/in/vamseems",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/210caac404ec9d36bfaa99a4ccfac8d16cb390a3.png",
+    "ycBatch": "W17",
+    "website": "http://www.getpulse.care/",
+    "description": "Electronic Medical Records for India",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "bicycle-ai",
+    "name": "Bicycle AI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.96958,
+      "lng": 77.60354
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Arpit Mohan",
+        "linkedinUrl": "https://in.linkedin.com/in/arpitmohan",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2016,
+    "logoUrl": null,
+    "ycBatch": "W17",
+    "website": "http://bicycleai.com",
+    "description": "Bicycle AI provides customer support as a service. We work on top of…",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "piggy",
+    "name": "Piggy",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.10182,
+      "lng": 72.86101
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ankush Singh",
+        "linkedinUrl": "https://linkedin.com/in/ankushsinghbaedas",
+        "twitterUrl": null
+      },
+      {
+        "name": "Nikhil Satya Mantha",
+        "linkedinUrl": "https://in.linkedin.com/in/nikhilsmantha",
+        "twitterUrl": null
+      },
+      {
+        "name": "Kunal Sangwan",
+        "linkedinUrl": "https://in.linkedin.com/in/kunal-sangwan-9127a418",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5184ec7534362c1a66e059ec557d55ea721821ff.png",
+    "ycBatch": "S17",
+    "website": "https://piggy.co.in",
+    "description": "App for Indians to make investments in mutual funds, manage their…",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "fastpad",
+    "name": "Fastpad",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95625,
+      "lng": 77.61161
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sanat Ghosh",
+        "linkedinUrl": "https://www.linkedin.com/in/ghoshsanat/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2017,
+    "logoUrl": null,
+    "ycBatch": "S17",
+    "website": "https://fastpad.com/",
+    "description": "Hiring Software for India",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "nextdrop",
+    "name": "NextDrop",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95703,
+      "lng": 77.55727
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Anu Sridharan",
+        "linkedinUrl": "https://www.linkedin.com/in/anu-sridharan-b24a016/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Devin Miller",
+        "linkedinUrl": "https://in.linkedin.com/in/devin-miller-5138817a",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/67360132b1680f560e9b085055d4bff122269265.png",
+    "ycBatch": "S17",
+    "website": "https://thenextdrop.com/",
+    "description": "NextDrop is the water marketplace for urban India.  We connect water…",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "wheelstreet",
+    "name": "WheelStreet",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99865,
+      "lng": 77.58928
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Pranay Shrivastava",
+        "linkedinUrl": "https://www.linkedin.com/in/shrivastavapranay",
+        "twitterUrl": null
+      },
+      {
+        "name": "Moksha Srivastava",
+        "linkedinUrl": "https://www.linkedin.com/in/moksha-srivastava-35aa32a1/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b74d32e12dc0532725502f65534cf69abf4a4479.png",
+    "ycBatch": "S17",
+    "website": "https://www.wheelstreet.com/",
+    "description": "WheelStreet is a Motorbike rental marketplace that connects…",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "skill-lync",
+    "name": "Skill-lync",
+    "address": "Chennai, Tamil Nadu, India",
+    "location": {
+      "lat": 13.07804,
+      "lng": 80.26166
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Surya Paneerselvam",
+        "linkedinUrl": "https://www.linkedin.com/in/suryanarayanan-paneerselvam-05b65732/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Sarang",
+        "linkedinUrl": "https://www.linkedin.com/in/sarangarajan-v-iyengar",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/93debe185cf01796dca3de42aa2f07d3e37fbab2.png",
+    "ycBatch": "W19",
+    "website": "http://skill-lync.com",
+    "description": "Online engineering college for India. Learn technical skills & get…",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "pulse-active-stations-network",
+    "name": "Pulse Active Stations Network",
+    "address": "Plot no. 28, Road no. 76, Jubilee Hills, Hyderabad, Telangana 500033, India",
+    "location": {
+      "lat": 17.43084,
+      "lng": 78.41029
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Joginder Tanikella",
+        "linkedinUrl": "https://www.linkedin.com/in/jogindertanikella/",
+        "twitterUrl": "https://twitter.com/jogitanikella"
+      }
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8c6013a5e3fb548e18594a466880a61de1aadcd7.png",
+    "ycBatch": "W19",
+    "website": "http://www.getpulse.in/",
+    "description": "We are a connected network of smart health machines in India.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "nonu",
+    "name": "Nonu",
+    "address": "Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.35929,
+      "lng": 78.46033
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Anudeep Reddy Sura",
+        "linkedinUrl": "https://www.linkedin.com/in/anudeepreddysura/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7f9f5173748bd97ae8f93b30cfe876bae0b0e146.png",
+    "ycBatch": "S19",
+    "website": "https://nonucare.com/",
+    "description": "We deliver hair loss medicines for Indian men on a subscription basis.",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "helpnow",
+    "name": "HelpNow",
+    "address": "101, LD Building, 1st Floor, Mehra Industrial Estate, LBS Marg, Vikhroli West, Mumbai, Maharashtra 400079, India",
+    "location": {
+      "lat": 19.10834,
+      "lng": 72.9251
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Shikhar Agrawal",
+        "linkedinUrl": "https://www.linkedin.com/in/shikhar-agrawal-367969157/",
+        "twitterUrl": "https://twitter.com/sa_shikhar"
+      },
+      {
+        "name": "Venkatesh Amrutwar",
+        "linkedinUrl": "https://www.linkedin.com/in/venkateshamrutwar/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Aditya Makkar",
+        "linkedinUrl": "https://www.linkedin.com/in/adityamak/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e9980ce54defe188c491d271fa9b0710384aa9ae.png",
+    "ycBatch": "W20",
+    "website": "http://www.getHelpNow.in",
+    "description": "India's most reliable Ambulance service. (uber for ambulances)",
+    "dataConfidence": "verified",
+    "status": "Inactive"
+  },
+  {
+    "id": "khabri",
+    "name": "Khabri",
+    "address": "New Delhi, Delhi, India",
+    "location": {
+      "lat": 28.61474,
+      "lng": 77.22897
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Pulkit Sharma",
+        "linkedinUrl": "https://in.linkedin.com/in/pulkit-sharma-42334479",
+        "twitterUrl": "https://twitter.com/PulkitSh5"
+      },
+      {
+        "name": "Aankit Roy",
+        "linkedinUrl": "https://www.linkedin.com/in/aankit-roy-20515b35/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Sandeep",
+        "linkedinUrl": "http://linkedin.com/in/sandeepsin",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/875a6ba6eff51c44bcbca27b52567e2fe670a41c.png",
+    "ycBatch": "S19",
+    "website": "https://khabri.app/",
+    "description": "India's Largest Podcast Platform",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "namaste-business",
+    "name": "Namaste Business",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94484,
+      "lng": 77.6194
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Shubham Agrawal",
+        "linkedinUrl": "https://linkedin.com/in/shubham01",
+        "twitterUrl": "https://x.com/codeshm"
+      },
+      {
+        "name": "Dhilbar Roshan",
+        "linkedinUrl": "https://www.linkedin.com/in/dhilbar-roshan/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2a434704677560934762a7eb4897fecdba24c9e7.png",
+    "ycBatch": "S19",
+    "website": "https://mynamaste.in",
+    "description": "Shopify for a mobile first world",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "godutch",
+    "name": "goDutch",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.05473,
+      "lng": 72.90978
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Riyaz Khan",
+        "linkedinUrl": "https://www.linkedin.com/in/riyazk",
+        "twitterUrl": null
+      },
+      {
+        "name": "Sagar Sheth",
+        "linkedinUrl": "https://www.linkedin.com/in/sagar8sheth/",
+        "twitterUrl": "https://twitter.com/sagar_s95"
+      },
+      {
+        "name": "Aniruddh Singh",
+        "linkedinUrl": "https://www.linkedin.com/in/aniruddhsingh11/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/139f3923e5b1264c5832c11db6a942d85eef67ba.png",
+    "ycBatch": "W20",
+    "website": "https://godutchpay.in",
+    "description": "Group payments product which lets people pay together at any offline…",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "chutney-inc",
+    "name": "Chutney Inc",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95168,
+      "lng": 77.59292
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Jhansi Elango",
+        "linkedinUrl": "https://www.linkedin.com/in/jhansi-elango-b0b6b357/",
+        "twitterUrl": "https://twitter.com/Jhansi189?t=NjmOIxVyDbi_CPcdDq6nKQ&s=08"
+      },
+      {
+        "name": "Vivek Nautiyal",
+        "linkedinUrl": "https://www.linkedin.com/in/vivek-nautiyal-7a896181/",
+        "twitterUrl": "https://x.com/vivnau?t=V4ojxxa7YPXaZaun4g1IYw&s=09"
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/1ae6c0cb382bcd0084b164a7baf124b6109a2f1a.png",
+    "ycBatch": "W20",
+    "website": null,
+    "description": "Pseudonymous avatar-based social network",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "pillarplus",
+    "name": "PillarPlus",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.08012,
+      "lng": 72.87084
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Naman Kasliwal",
+        "linkedinUrl": "https://www.linkedin.com/in/namankas/",
+        "twitterUrl": "https://twitter.com/namankas"
+      },
+      {
+        "name": "Rushil Mathur",
+        "linkedinUrl": "https://www.linkedin.com/in/rushil-mathur-77059611b/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b019dc9df86b0e3d7418198422cddd4c458d87a6.png",
+    "ycBatch": "W20",
+    "website": "https://pillarplus.com",
+    "description": "Software to automatically create construction blueprints",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "sprintai",
+    "name": "SprintAI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98628,
+      "lng": 77.6081
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Anurag Bhatt",
+        "linkedinUrl": "https://in.linkedin.com/in/anurag-bhatt",
+        "twitterUrl": null
+      },
+      {
+        "name": "Sharad Lahoti",
+        "linkedinUrl": "https://www.linkedin.com/in/sharad-lahoti/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/88ed649d4ffefdc8e5652f12e5915dd242bed4ff.png",
+    "ycBatch": "W20",
+    "website": "https://www.getsprint.ai/",
+    "description": "AI-led platform for inventory and fulfillment optimization",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "tagmango",
+    "name": "TagMango",
+    "address": "Twin Tower EN69, Office #301, Tower 2, EN Block, Sector V, Salt Lake, Kolkata, West Bengal 700091, India",
+    "location": {
+      "lat": 22.57545,
+      "lng": 88.43226
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Mohammad Hasan",
+        "linkedinUrl": "https://www.linkedin.com/in/mohammadhasan7/",
+        "twitterUrl": "https://x.com/_mohammadhasan7"
+      },
+      {
+        "name": "Divyanshu Damani",
+        "linkedinUrl": "https://www.linkedin.com/in/divyanshudamani/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/83927ef9957ba6a2aac4a859cd38eec8ef4fde7b.png",
+    "ycBatch": "W20",
+    "website": "https://www.tagmango.com",
+    "description": "Monetisation tool for the Indian creator economy",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "thunderpod",
+    "name": "Thunderpod",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.96102,
+      "lng": 77.61389
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Bhavesh Khandelwal",
+        "linkedinUrl": "https://www.linkedin.com/in/bhaveshkhandelwal/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Rahul Khanna",
+        "linkedinUrl": "https://www.linkedin.com/in/rahul-khanna-01705827",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/91478c7c3ca52d34bc10c964c9668b6eb566be9c.png",
+    "ycBatch": "W20",
+    "website": "https://www.thunderpod.com/",
+    "description": "Community Engagement Platform",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "edurev",
+    "name": "EduRev",
+    "address": "Chandigarh, India",
+    "location": {
+      "lat": 30.73444,
+      "lng": 76.76678
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Hardik Dhamija",
+        "linkedinUrl": "https://www.linkedin.com/in/hardik-dhamija-25bb4044/",
+        "twitterUrl": "https://twitter.com/h_dhamija"
+      },
+      {
+        "name": "Kunaal Satija",
+        "linkedinUrl": "https://in.linkedin.com/in/kunaalsatija",
+        "twitterUrl": "https://twitter.com/kunaalsatija"
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/1e6a86b48fb942874f774cbfcbb5cfdeaaef5cb9.png",
+    "ycBatch": "W20",
+    "website": "http://edurev.in",
+    "description": "Learning App for 400M Indian Students like a Netflix for Education",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "synapsica-healthcare",
+    "name": "Synapsica Healthcare",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99431,
+      "lng": 77.57115
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Cherian Dr",
+        "linkedinUrl": "https://www.linkedin.com/in/cherian-dr/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Gandharv Goyal",
+        "linkedinUrl": "https://www.linkedin.com/in/dr-gandharv/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Kuldeep Singh Chauhan",
+        "linkedinUrl": "https://www.linkedin.com/in/kuldeepksc/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Meenakshi Singh",
+        "linkedinUrl": "https://www.linkedin.com/in/meenakshi-singh-47903439/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ae83920ac4eee163846bdc260d3911efe906c4d2.png",
+    "ycBatch": "W20",
+    "website": "https://synapsica.com/",
+    "description": "AI-enabled automation of diagnostic radiology workflow and reporting.",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "easyplan",
+    "name": "Easyplan",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.10673,
+      "lng": 72.86511
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sanjay Gandhi",
+        "linkedinUrl": "https://www.linkedin.com/in/sanjay-gandhi-58318410/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Manisha Pandita",
+        "linkedinUrl": "https://www.linkedin.com/in/manisha-pandita?originalsubdomain=in",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ce1f5cbfeb5313bfa743850844903dc383d7e630.png",
+    "ycBatch": "W20",
+    "website": "https://easyplan.in/",
+    "description": "An AI-driven investment app for beginner investors in India",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "breathe-well-being",
+    "name": "Breathe Well-being",
+    "address": "New Delhi, Delhi, India",
+    "location": {
+      "lat": 28.59802,
+      "lng": 77.19843
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Aditya Kaicker",
+        "linkedinUrl": "https://www.linkedin.com/in/aditya-kaicker-6238aa49/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Rohan Verma",
+        "linkedinUrl": "https://www.linkedin.com/in/rohan-verma-300b9572/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/926cbc556ca37dc16d59342ee434e8dcc1d391b4.png",
+    "ycBatch": "W20",
+    "website": "http://www.breathewellbeing.in",
+    "description": "A digital well-being program to help people prevent or manage chronic…",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "jeevam-health",
+    "name": "Jeevam Health",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95327,
+      "lng": 77.61596
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Piyush Vishwakarma",
+        "linkedinUrl": "https://www.linkedin.com/in/piyush-021092/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Kamran Alam",
+        "linkedinUrl": "https://www.linkedin.com/in/kamran-alam-80446860/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a11681b8399f0e26f6957a87b153da16738b2f26.png",
+    "ycBatch": "S20",
+    "website": "https://www.jeevamhealth.com/",
+    "description": "Digital holistic care for complex chronic conditions",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "pensil",
+    "name": "Pensil",
+    "address": "Gurugram, Haryana, India",
+    "location": {
+      "lat": 28.46106,
+      "lng": 77.04591
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Surender Singh",
+        "linkedinUrl": "https://www.linkedin.com/in/surender-singh-9ab77b71/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Anil Meena",
+        "linkedinUrl": "https://www.linkedin.com/in/anil-meena-536ba431/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/eef64ad25f3034fe027f2570b9f47afa9396caf4.png",
+    "ycBatch": "W21",
+    "website": "https://pensil.in",
+    "description": "New-Age White Label Community Platform SDKs and APIs for Games,…",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "joinsub",
+    "name": "JoinSub",
+    "address": "Delhi, India",
+    "location": {
+      "lat": 28.67997,
+      "lng": 77.23145
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Dhruv Goel",
+        "linkedinUrl": "https://www.linkedin.com/in/goeldhruv90",
+        "twitterUrl": null
+      },
+      {
+        "name": "Ankur Solanki",
+        "linkedinUrl": "https://www.linkedin.com/in/ankur-solanki",
+        "twitterUrl": "https://x.com/ankursolanki_"
+      }
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8f6311ab798c568114d69f91d489b612d220383d.png",
+    "ycBatch": "W21",
+    "website": "https://joinsub.com",
+    "description": "India's first aggregator and provider of local business subscriptions",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "krab",
+    "name": "Krab",
+    "address": "Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.37207,
+      "lng": 78.50415
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Vijay Kumar",
+        "linkedinUrl": "https://www.linkedin.com/in/vijay-kumar-0359b55/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Yogesh Bathina",
+        "linkedinUrl": "https://www.linkedin.com/in/yogesh-bathina-23460a111/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5b3461bd6c0d7c8c6a07247a48430eef9a92dc13.png",
+    "ycBatch": "W21",
+    "website": "https://www.krab.in",
+    "description": "Instant loans for trucking companies in India",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "bewell-digital",
+    "name": "BeWell Digital",
+    "address": "Coimbatore, Tamil Nadu, India",
+    "location": {
+      "lat": 11.01146,
+      "lng": 76.96557
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Alagiri Senthilkumar",
+        "linkedinUrl": "https://www.linkedin.com/in/alagirisamy/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Vishnu Vardhana Balu",
+        "linkedinUrl": "https://linkedin.com/in/vishnu-vardhana-b7183226",
+        "twitterUrl": "https://twitter.com/VishnuVardhana"
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8ca19ad5afea17ab8c1d3f189f862aaf5a8f67ef.png",
+    "ycBatch": "W21",
+    "website": "http://www.bewelldigital.com",
+    "description": "Building the operating system for diagnosis.",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "yourquote",
+    "name": "YourQuote",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.961,
+      "lng": 77.57114
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Harsh Snehanshu",
+        "linkedinUrl": "https://linkedin.com/in/harshsnehanshu",
+        "twitterUrl": "https://twitter.com/harshsnehanshu"
+      },
+      {
+        "name": "Ashish Singh",
+        "linkedinUrl": "https://www.linkedin.com/in/imashishsingh/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/670b377633e46c39192c05808c322fd25b5e8fda.png",
+    "ycBatch": "W21",
+    "website": "https://www.yourquote.in",
+    "description": "YourQuote is India's largest writing platform",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "gimbooks",
+    "name": "GimBooks",
+    "address": "3rd Floor, GimBooks Office, New Bharat Sweets Building, Opp. to BTI Ground, Shankar Nagar, Raipur, Chhattisgarh 492004, India",
+    "location": {
+      "lat": 21.24848,
+      "lng": 81.66091
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Yash Agrawal",
+        "linkedinUrl": "https://www.linkedin.com/in/yash-agrawal-4187b518/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2017,
+    "logoUrl": null,
+    "ycBatch": "W21",
+    "website": "https://gimbooks.com/",
+    "description": "GimBooks makes Bookkeeping Easy for small business owners",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "invoid",
+    "name": "Invoid",
+    "address": "Gurugram, Haryana, India",
+    "location": {
+      "lat": 28.46326,
+      "lng": 77.02432
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Kunwar Raj Singh Sethi",
+        "linkedinUrl": "https://www.linkedin.com/in/kunwarraj01/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Sarthak Goel",
+        "linkedinUrl": "https://www.linkedin.com/in/iamsarthakgoel",
+        "twitterUrl": "Https://www.twitter.com/sarthaksg"
+      }
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d2e3c9b022819f2037f731e715774474465db9c7.png",
+    "ycBatch": "W21",
+    "website": "https://www.invoid.co/",
+    "description": "Create identity verification workflows the way you want",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "gobillion",
+    "name": "Gobillion",
+    "address": "New Delhi, Delhi, India",
+    "location": {
+      "lat": 28.59825,
+      "lng": 77.21404
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Roshan Farhan",
+        "linkedinUrl": "https://www.linkedin.com/in/roshanfarhan/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Kulapradip Bharali",
+        "linkedinUrl": "https://www.linkedin.com/in/kulapradipbharali/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0adb623358e23d19debfccd4479f9ec020bfa54a.png",
+    "ycBatch": "S21",
+    "website": "https://gobillion.co",
+    "description": "Pinduoduo for India",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "kalam-labs",
+    "name": "Kalam Labs",
+    "address": "Lucknow, Uttar Pradesh, India",
+    "location": {
+      "lat": 26.86181,
+      "lng": 80.95686
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ahmad Faraaz",
+        "linkedinUrl": null,
+        "twitterUrl": "https://twitter.com/AHMADFA38043127"
+      },
+      {
+        "name": "Sashakt Tripathi",
+        "linkedinUrl": "https://www.linkedin.com/in/sashakt-tripathi",
+        "twitterUrl": "https://twitter.com/sashakttripathi"
+      },
+      {
+        "name": "Harshit Awasthi",
+        "linkedinUrl": "https://www.linkedin.com/in/harshit016/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/af09359ecc24430a6054310be3115645fc95f1d8.png",
+    "ycBatch": "S21",
+    "website": "http://www.kalamlabs.in",
+    "description": "Near Space Flying Machines",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "akudo",
+    "name": "Akudo",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99219,
+      "lng": 77.58804
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sajal Khanna",
+        "linkedinUrl": "https://www.linkedin.com/in/sajal-khanna-52aa9b126",
+        "twitterUrl": null
+      },
+      {
+        "name": "Lavika Aggarwal",
+        "linkedinUrl": "https://www.linkedin.com/in/lavika-aggarwal-463a4b132/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Jagveer Gandhi",
+        "linkedinUrl": "https://www.linkedin.com/in/jagveer-gandhi-1344b016/",
+        "twitterUrl": "https://twitter.com/jagveersg"
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3046538d2939ee60ee1e0209232445c07f2b8eb7.png",
+    "ycBatch": "S21",
+    "website": "https://www.akudo.in/",
+    "description": "India's first learning-focused neobank for teenagers",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "propreturns",
+    "name": "PropReturns",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.08436,
+      "lng": 72.87154
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Jayant Panwar",
+        "linkedinUrl": "https://www.linkedin.com/in/jayant-panwar/",
+        "twitterUrl": "https://twitter.com/JayantPanwar17"
+      },
+      {
+        "name": "Somil Mathur",
+        "linkedinUrl": "https://www.linkedin.com/in/somilmathur",
+        "twitterUrl": "https://twitter.com/SomilMathur14"
+      },
+      {
+        "name": "Kenish Shah",
+        "linkedinUrl": "https://www.linkedin.com/in/kenishshah/",
+        "twitterUrl": "https://twitter.com/kenishshah"
+      }
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8c6ba36875562c96fddf6ef04d0acd5852345d88.png",
+    "ycBatch": "S21",
+    "website": "https://www.propreturns.com/",
+    "description": "End-to-end commercial real estate transaction platform",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "nino-foods",
+    "name": "Nino Foods",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.08686,
+      "lng": 72.84829
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Nishant Jhaveri",
+        "linkedinUrl": "https://www.linkedin.com/in/nishantjhaveri23/",
+        "twitterUrl": "https://twitter.com/nishant2392"
+      },
+      {
+        "name": "Pranav Mehra",
+        "linkedinUrl": "https://www.linkedin.com/in/pranav-mehra/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/df80427d3277e874a082878b88292a9f7eecc488.png",
+    "ycBatch": "S21",
+    "website": "https://eatnino.com/",
+    "description": "Building India's fast food empire",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "swipe-2",
+    "name": "Swipe",
+    "address": "Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.3657,
+      "lng": 78.48469
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Aditya Vemuganti",
+        "linkedinUrl": "https://www.linkedin.com/in/aditya-v-b0838622/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Sri Teja Allaparthi",
+        "linkedinUrl": "https://www.linkedin.com/in/sriteja95",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/503edcb02d5cc855d205e529939710e731d771cb.png",
+    "ycBatch": "S21",
+    "website": "https://getswipe.in",
+    "description": "Super AI Accountant for SMBs",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "fieldproxy",
+    "name": "Fieldproxy",
+    "address": "Chennai, Tamil Nadu, India",
+    "location": {
+      "lat": 13.08303,
+      "lng": 80.24238
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Swaroop Vijayakumar",
+        "linkedinUrl": "https://www.linkedin.com/in/swaroopcmc/",
+        "twitterUrl": "https://twitter.com/swaroop_vij"
+      },
+      {
+        "name": "Balakrishna Balasubramanian",
+        "linkedinUrl": "https://www.linkedin.com/in/balakrishna-b-a624a8106",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/29d280b26b9013cd722967a3c3239ae0da94db1c.png",
+    "ycBatch": "W22",
+    "website": "http://fieldproxy.com/",
+    "description": "Retool for 20 Million Field Teams",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "castled-io",
+    "name": "Castled.io",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97405,
+      "lng": 77.62118
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Manish Singh",
+        "linkedinUrl": "https://www.linkedin.com/in/manishsingh123/",
+        "twitterUrl": "https://twitter.com/_manish_s"
+      },
+      {
+        "name": "Franklin George",
+        "linkedinUrl": "https://www.linkedin.com/in/frgeorge",
+        "twitterUrl": null
+      },
+      {
+        "name": "Abhilash Thulaseedharan",
+        "linkedinUrl": "https://www.linkedin.com/in/abhilashtdharan",
+        "twitterUrl": "https://twitter.com/abhilashtdharan"
+      },
+      {
+        "name": "Arun Thulasidharan",
+        "linkedinUrl": "https://www.linkedin.com/in/arun-thulasidharan-53a1322b/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a415f42fd3d3ae124e10f5ef086446cbfc36c4ec.png",
+    "ycBatch": "W22",
+    "website": "https://castled.io/",
+    "description": "Customer Engagement software on top of BigQuery/Snowflake",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "antwalk",
+    "name": "AntWalk",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.9881,
+      "lng": 77.60113
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Joybroto Ganguly",
+        "linkedinUrl": "https://www.linkedin.com/in/joybroto-ganguly-antwak/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/54a8cf0b68ea1720cdf1adba0a1c01b4115f5972.png",
+    "ycBatch": "W22",
+    "website": "https://www.antwalk.com/",
+    "description": "An employee up-skilling platform for fast growing companies",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "fello",
+    "name": "Fello",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98631,
+      "lng": 77.56237
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Manish Maryada",
+        "linkedinUrl": "https://www.linkedin.com/in/manish-maryada/",
+        "twitterUrl": "https://twitter.com/maryadamanishi"
+      },
+      {
+        "name": "Shourya Lala",
+        "linkedinUrl": "https://www.linkedin.com/in/shouryalala/",
+        "twitterUrl": "https://twitter.com/atShourya"
+      }
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5217735d0eee015e36414930d3f8d9c1c25f207e.png",
+    "ycBatch": "W22",
+    "website": "https://fello.in",
+    "description": "Grow money and win $1000 every week by saving and playing games",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "avairsense",
+    "name": "AvairSense",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99018,
+      "lng": 77.60366
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sourav Sanyal",
+        "linkedinUrl": "https://www.linkedin.com/in/sourav-s/",
+        "twitterUrl": "https://twitter.com/SouravSanyal07"
+      },
+      {
+        "name": "Miran Junaidi",
+        "linkedinUrl": "https://www.linkedin.com/in/miran-junaidi-02a10014b/",
+        "twitterUrl": "https://twitter.com/MiranJunaidi"
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8d8d639e2da217393023962cadbf5e44f0794f06.png",
+    "ycBatch": "W22",
+    "website": "https://www.avairsense.com/",
+    "description": "We go all out to Build the Smartest AI-Enabled Cameras!",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "integration-labs",
+    "name": "Integration Labs",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99636,
+      "lng": 77.58711
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ishwar Gogineni",
+        "linkedinUrl": "https://www.linkedin.com/in/ishwar-gogineni/",
+        "twitterUrl": null
+      },
+      {
+        "name": "Parth Shah",
+        "linkedinUrl": "https://www.linkedin.com/in/parth-yo-shah/",
+        "twitterUrl": "https://twitter.com/cryptofudin"
+      },
+      {
+        "name": "Sidharth Rao",
+        "linkedinUrl": "https://www.linkedin.com/in/siddharth-rao-33ba80146/",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ea7e6661f892abcb5298813588ef6cc256d72baa.png",
+    "ycBatch": "S22",
+    "website": "https://www.integrationlabs.co",
+    "description": "The Unified API for Business Financial Data",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "clickpe",
+    "name": "ClickPe",
+    "address": "Surat, Gujarat, India",
+    "location": {
+      "lat": 21.17572,
+      "lng": 72.83914
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Shashwat Shrikhande",
+        "linkedinUrl": "https://www.linkedin.com/in/shashwat-shrikhande",
+        "twitterUrl": null
+      },
+      {
+        "name": "Saurabh Gupta",
+        "linkedinUrl": "https://www.linkedin.com/in/saurabh-gupta2104",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3c6e584d85f4fd70f979807e451c948d3482cdf8.png",
+    "ycBatch": "W23",
+    "website": "https://clickpe.ai/",
+    "description": "Finance on a Click",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "codeparrot-ai",
+    "name": "CodeParrot AI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98978,
+      "lng": 77.56518
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Royal Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/royal-jain",
+        "twitterUrl": "https://twitter.com/royaljain4"
+      },
+      {
+        "name": "Vedant Agarwala",
+        "linkedinUrl": "https://www.linkedin.com/in/vedantsopinions",
+        "twitterUrl": "https://twitter.com/vedantsopinions"
+      }
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/dc7c9f809980c4c0462aa8ad39e4f211d37121ab.png",
+    "ycBatch": "W23",
+    "website": "https://codeparrot.ai/",
+    "description": "Helps Developers build stunning UI Lightning Fast ⚡️",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
+  },
+  {
+    "id": "toolify",
+    "name": "Toolify",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.93686,
+      "lng": 77.58618
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Rohan Mayya",
+        "linkedinUrl": "https://linkedin.com/in/rohan-mayya-a9b341173",
+        "twitterUrl": "https://twitter.com/rohan_mayya"
+      },
+      {
+        "name": "Saifur Rahman",
+        "linkedinUrl": "https://linkedin.com/in/saif-ur-rahman",
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2023,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/dda140ccf9838edcec96e76d3655e00315a0b4a7.png",
+    "ycBatch": "W24",
+    "website": "https://toolify.sh",
+    "description": "Build internal tools with AI",
+    "dataConfidence": "approximate",
+    "status": "Inactive"
   }
 ]

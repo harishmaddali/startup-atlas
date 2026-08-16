@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Startup Atlas",
-  description: "YC-backed startups in Hyderabad, mapped.",
+  description: "YC-backed startups worldwide, mapped.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
