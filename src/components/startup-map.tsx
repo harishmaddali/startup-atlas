@@ -2,15 +2,14 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { MapContainer, TileLayer, Marker, useMapEvents } from "react-leaflet";
+import type { LatLngBounds } from "leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { AnimatePresence } from "motion/react";
 import type { Company } from "@/types/company";
-import { HYDERABAD_CENTER, distanceKm } from "@/lib/geo";
+import { HYDERABAD_CENTER } from "@/lib/geo";
 import { CompanySheet } from "@/components/company-sheet";
 import { CompanyList } from "@/components/company-list";
-
-const NEARBY_RADIUS_KM = 15;
 
 function markerIcon(isActive: boolean) {
   return L.divIcon({
@@ -25,17 +24,20 @@ function markerIcon(isActive: boolean) {
 
 function MapController({
   selected,
-  onMoveEnd,
+  onBoundsChange,
 }: {
   selected: Company | null;
-  onMoveEnd: (center: { lat: number; lng: number }) => void;
+  onBoundsChange: (bounds: LatLngBounds) => void;
 }) {
   const map = useMapEvents({
-    moveend: () => {
-      const c = map.getCenter();
-      onMoveEnd({ lat: c.lat, lng: c.lng });
-    },
+    moveend: () => onBoundsChange(map.getBounds()),
   });
+
+  useEffect(() => {
+    map.invalidateSize();
+    onBoundsChange(map.getBounds());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     if (!selected) return;
@@ -52,20 +54,16 @@ interface StartupMapProps {
 }
 
 export function StartupMap({ companies }: StartupMapProps) {
-  const [center, setCenter] = useState(HYDERABAD_CENTER);
+  const [bounds, setBounds] = useState<LatLngBounds | null>(null);
   const [selected, setSelected] = useState<Company | null>(null);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
-  const nearby = useMemo(() => {
-    const withDistance = companies
-      .map((c) => ({ company: c, distance: distanceKm(center, c.location) }))
-      .sort((a, b) => a.distance - b.distance);
-
-    const withinRadius = withDistance.filter(
-      (d) => d.distance <= NEARBY_RADIUS_KM
+  const visible = useMemo(() => {
+    if (!bounds) return companies;
+    return companies.filter((c) =>
+      bounds.contains([c.location.lat, c.location.lng])
     );
-    return withinRadius.length > 0 ? withinRadius : withDistance;
-  }, [center, companies]);
+  }, [bounds, companies]);
 
   const selectCompany = useCallback((company: Company) => {
     setSelected(company);
@@ -75,7 +73,7 @@ export function StartupMap({ companies }: StartupMapProps) {
     <div className="relative flex h-full w-full">
       <aside className="z-10 hidden w-96 shrink-0 flex-col border-r bg-background/95 backdrop-blur md:flex">
         <CompanyList
-          items={nearby}
+          items={visible}
           selectedId={selected?.id ?? null}
           hoveredId={hoveredId}
           onHover={setHoveredId}
@@ -96,7 +94,7 @@ export function StartupMap({ companies }: StartupMapProps) {
             url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
           />
 
-          <MapController selected={selected} onMoveEnd={setCenter} />
+          <MapController selected={selected} onBoundsChange={setBounds} />
 
           {companies.map((company) => {
             const isActive =

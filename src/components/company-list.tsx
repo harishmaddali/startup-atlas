@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 import type { Company } from "@/types/company";
 
 interface CompanyListProps {
-  items: { company: Company; distance: number }[];
+  items: Company[];
   selectedId: string | null;
   hoveredId: string | null;
   onHover: (id: string | null) => void;
@@ -29,11 +29,16 @@ export function CompanyList({
           Startup Atlas
         </h1>
         <p className="text-sm text-muted-foreground">
-          YC-backed startups in Hyderabad
+          YC-backed startups, mapped
         </p>
       </div>
 
       <ScrollArea className="flex-1">
+        {items.length === 0 && (
+          <p className="px-5 py-6 text-sm text-muted-foreground">
+            No startups in the current map view. Try zooming or panning out.
+          </p>
+        )}
         <motion.ul
           className="flex flex-col gap-1 p-3"
           initial="hidden"
@@ -43,7 +48,7 @@ export function CompanyList({
             show: { transition: { staggerChildren: 0.04 } },
           }}
         >
-          {items.map(({ company, distance }) => {
+          {items.map((company) => {
             const isActive =
               selectedId === company.id || hoveredId === company.id;
             return (
@@ -86,7 +91,7 @@ export function CompanyList({
                       )}
                     </div>
                     <p className="truncate text-xs text-muted-foreground">
-                      {distance.toFixed(1)} km away · {company.yearFounded}
+                      {company.yearFounded}
                     </p>
                   </div>
                 </button>
