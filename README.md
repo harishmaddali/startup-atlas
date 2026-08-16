@@ -30,8 +30,8 @@ Company data lives in [`src/data/companies.json`](src/data/companies.json)
 ```ts
 {
   id, name, address, location: { lat, lng },
-  contactEmail, founders, yearFounded, logoUrl,
-  ycBatch, website, description, status, dataConfidence
+  contactEmail, founders: { name, linkedinUrl?, twitterUrl? }[],
+  yearFounded, logoUrl, ycBatch, website, description, status, dataConfidence
 }
 ```
 
@@ -84,8 +84,14 @@ location pages aren't always literally scoped to one city:
   the ~198 later companies with no YC logo now use instead of being dropped.
 - Checked whether T-Hub (Hyderabad's large public-private incubator, 2,000+
   portfolio companies) had YC-backed startups missing from YC's own
-  Hyderabad listing. It didn't — none of T-Hub's featured startups turned up
-  as YC-backed, and YC's own location page was already the complete set.
+  Hyderabad listing. The ~8 startups T-Hub features on its homepage weren't
+  YC-backed, and their own `/startups-directory` page (which should list
+  the full portfolio) rendered empty when checked — not something to
+  exhaustively cross-reference by hand either way. YC's own location page
+  remains the source of truth here; nothing added from this angle.
+- Founder `linkedinUrl`/`twitterUrl` are only populated for the 10
+  Hyderabad companies so far (straight from YC's own founder records, same
+  as everything else) — every other company's founders just have `name`.
 
 **Address precision is mixed, and this is tracked per row**
 (`dataConfidence: "verified" | "approximate"`). For most of the dataset,

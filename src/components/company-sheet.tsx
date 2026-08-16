@@ -69,7 +69,25 @@ export function CompanySheet({ company, onOpenChange }: CompanySheetProps) {
         </div>
         <div className="col-span-2">
           <dt className="text-xs text-muted-foreground">Founders</dt>
-          <dd>{company.founders.join(", ")}</dd>
+          <dd>
+            {company.founders.map((founder, i) => (
+              <span key={founder.name}>
+                {i > 0 && ", "}
+                {founder.linkedinUrl ? (
+                  <a
+                    href={founder.linkedinUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary underline underline-offset-2"
+                  >
+                    {founder.name}
+                  </a>
+                ) : (
+                  founder.name
+                )}
+              </span>
+            ))}
+          </dd>
         </div>
         {company.website && (
           <div className="col-span-2">

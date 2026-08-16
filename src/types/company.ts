@@ -1,3 +1,10 @@
+export interface Founder {
+  name: string;
+  /** Founder's own LinkedIn profile, when known -- not researched for every company yet. */
+  linkedinUrl?: string | null;
+  twitterUrl?: string | null;
+}
+
 export interface Company {
   id: string;
   name: string;
@@ -7,7 +14,7 @@ export interface Company {
     lng: number;
   };
   contactEmail: string | null;
-  founders: string[];
+  founders: Founder[];
   yearFounded: number;
   logoUrl: string | null;
   /** YC batch label, e.g. "S22" */
