@@ -86,7 +86,6 @@ export function CompanyList({
                     name={company.name}
                     logoUrl={company.logoUrl}
                     size={36}
-                    padded={false}
                   />
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2">

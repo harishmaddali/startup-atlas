@@ -6,16 +6,9 @@ interface CompanyLogoProps {
   logoUrl: string | null;
   size: number;
   className?: string;
-  padded?: boolean;
 }
 
-export function CompanyLogo({
-  name,
-  logoUrl,
-  size,
-  className,
-  padded = true,
-}: CompanyLogoProps) {
+export function CompanyLogo({ name, logoUrl, size, className }: CompanyLogoProps) {
   const box = `${size}px`;
 
   if (!logoUrl) {
@@ -47,7 +40,7 @@ export function CompanyLogo({
         alt=""
         fill
         sizes={box}
-        className={cn("object-contain", padded && "p-1")}
+        className="object-contain"
         unoptimized
       />
     </div>
