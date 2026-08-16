@@ -1,9 +1,9 @@
-import { StartupMap } from "@/components/startup-map";
+import { StartupMapLoader } from "@/components/startup-map-loader";
 
 export default function Home() {
   return (
     <main className="h-screen w-screen">
-      <StartupMap />
+      <StartupMapLoader />
     </main>
   );
 }

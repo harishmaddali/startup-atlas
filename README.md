@@ -7,26 +7,13 @@ A map of YC-backed startups, starting with Hyderabad, India. Inspired by
 
 - Next.js (App Router) + TypeScript
 - Tailwind CSS + shadcn/ui
-- Mapbox GL JS via `react-map-gl`
+- Leaflet via `react-leaflet`, tiles from CARTO/OpenStreetMap (no API key needed)
 - [motion](https://motion.dev) for animations
 
 ## Getting started
 
 ```bash
 pnpm install
-```
-
-Add a Mapbox access token to `.env.local` (copy `.env.example`):
-
-```
-NEXT_PUBLIC_MAPBOX_TOKEN=pk.your_token_here
-```
-
-Get a free token at [mapbox.com/account/access-tokens](https://account.mapbox.com/access-tokens/).
-Without it, the app still runs and the company sidebar is usable, but the map
-pane shows a placeholder instead of tiles.
-
-```bash
 pnpm dev
 ```
 
