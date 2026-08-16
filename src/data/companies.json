@@ -30,7 +30,8 @@
     "ycBatch": "S22",
     "website": "https://www.landeed.com/",
     "description": "AI-native digital infrastructure for property intelligence, verification, and transactions in India.",
-    "dataConfidence": "verified"
+    "dataConfidence": "verified",
+    "status": "Active"
   },
   {
     "id": "cone",
@@ -58,7 +59,8 @@
     "ycBatch": "S22",
     "website": "https://www.getcone.io",
     "description": "AI-powered work operating system that unifies accounting workflows.",
-    "dataConfidence": "verified"
+    "dataConfidence": "verified",
+    "status": "Active"
   },
   {
     "id": "spadeworks",
@@ -81,7 +83,8 @@
     "ycBatch": "W22",
     "website": "https://www.spadeworks.co",
     "description": "AI agents that turn every call into revenue for trade contractors.",
-    "dataConfidence": "approximate"
+    "dataConfidence": "approximate",
+    "status": "Active"
   },
   {
     "id": "algouniversity",
@@ -109,7 +112,8 @@
     "ycBatch": "S21",
     "website": "http://algouniversity.com/",
     "description": "Live teaching infrastructure enabling top educators to coach large numbers of students.",
-    "dataConfidence": "approximate"
+    "dataConfidence": "approximate",
+    "status": "Active"
   },
   {
     "id": "reclaim-protocol",
@@ -142,7 +146,8 @@
     "ycBatch": "W21",
     "website": "https://reclaimprotocol.org",
     "description": "Verification infrastructure for education, employment, and loyalty data with 45%+ conversion.",
-    "dataConfidence": "approximate"
+    "dataConfidence": "approximate",
+    "status": "Active"
   },
   {
     "id": "unschool",
@@ -165,7 +170,8 @@
     "ycBatch": "W21",
     "website": "https://www.unschool.in/",
     "description": "Marketplace where college students in India learn from expert-created courses.",
-    "dataConfidence": "verified"
+    "dataConfidence": "verified",
+    "status": "Active"
   },
   {
     "id": "urbankisaan",
@@ -198,7 +204,8 @@
     "ycBatch": "W20",
     "website": "https://www.urbankisaan.com",
     "description": "AI-for-plant-biology company building foundation models and controlled-environment agriculture.",
-    "dataConfidence": "verified"
+    "dataConfidence": "verified",
+    "status": "Active"
   },
   {
     "id": "edyst",
@@ -221,7 +228,8 @@
     "ycBatch": "W19",
     "website": "https://edyst.com",
     "description": "Online learning and employability platform with 80%+ course completion rates.",
-    "dataConfidence": "verified"
+    "dataConfidence": "verified",
+    "status": "Active"
   },
   {
     "id": "golorry",
@@ -254,7 +262,8 @@
     "ycBatch": "W16",
     "website": "http://www.golorry.com",
     "description": "Mobile marketplace for inter-city trucking in India.",
-    "dataConfidence": "verified"
+    "dataConfidence": "verified",
+    "status": "Active"
   },
   {
     "id": "digi-prex",
@@ -277,7 +286,8 @@
     "ycBatch": "S19",
     "website": "http://www.digi-prex.com/",
     "description": "Subscription pharmacy for patients with chronic diseases.",
-    "dataConfidence": "verified"
+    "dataConfidence": "verified",
+    "status": "Active"
   },
   {
     "id": "groww",
@@ -71696,35 +71706,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "slinkset",
-    "name": "Slinkset",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.6495,
-      "lng": -122.44602
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Brett Gibson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "John Baunach",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2008,
-    "logoUrl": null,
-    "ycBatch": "S08",
-    "website": "http://slinkset.com",
-    "description": "Votable lists",
-    "status": "Inactive",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "backtype",
     "name": "BackType",
     "address": "San Francisco",
@@ -73294,30 +73275,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "hungry-labs",
-    "name": "Hungry Labs",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.38388,
-      "lng": -122.01476
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Kevin Lacker",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "http://hungrylabs.com",
-    "description": "Now part of Snaplayer.",
-    "status": "Inactive",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "automatic",
     "name": "Automatic",
     "address": "San Francisco",
@@ -74522,35 +74479,6 @@
     "website": "http://icracked.com",
     "description": "On-demand smartphone repair in 3 countries and launching smart home…",
     "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "picwing",
-    "name": "Picwing",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.55151,
-      "lng": -122.14237
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Edward Kim",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Enrique Rodriguez Chamussy",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2008,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9e865cf64815fa8e2f38e1969ab67848346e981d.png",
-    "ycBatch": "S08",
-    "website": "http://picwing.com",
-    "description": "Photo Sharing platform for families",
-    "status": "Inactive",
     "dataConfidence": "approximate"
   },
   {
@@ -107577,30 +107505,6 @@
     "website": "http://sphere.works",
     "description": null,
     "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "infogami",
-    "name": "Infogami",
-    "address": "London",
-    "location": {
-      "lat": 51.53938,
-      "lng": -0.11019
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Aaron Swartz",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2005,
-    "logoUrl": null,
-    "ycBatch": "S05",
-    "website": "http://infogami.com",
-    "description": null,
-    "status": "Inactive",
     "dataConfidence": "approximate"
   },
   {
