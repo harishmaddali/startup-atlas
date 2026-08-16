@@ -96,7 +96,7 @@ export function StartupMap({ companies }: StartupMapProps) {
 
   return (
     <div className="relative flex h-full w-full">
-      <aside className="z-10 hidden w-96 shrink-0 flex-col border-r bg-background/95 backdrop-blur md:flex">
+      <aside className="z-10 hidden h-full min-h-0 w-96 shrink-0 flex-col border-r bg-background/95 backdrop-blur md:flex">
         <CompanyList
           items={visible}
           totalInView={inView.length}
@@ -107,7 +107,7 @@ export function StartupMap({ companies }: StartupMapProps) {
         />
       </aside>
 
-      <div className="relative flex-1">
+      <div className="relative min-h-0 flex-1">
         <MapContainer
           center={[WORLD_CENTER.lat, WORLD_CENTER.lng]}
           zoom={WORLD_DEFAULT_ZOOM}

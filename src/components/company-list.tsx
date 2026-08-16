@@ -26,7 +26,7 @@ export function CompanyList({
 }: CompanyListProps) {
   const isCapped = totalInView > items.length;
   return (
-    <div className="flex h-full flex-col">
+    <div className="flex h-full min-h-0 flex-col">
       <div className="border-b px-5 py-4">
         <h1 className="text-lg font-semibold tracking-tight">
           Startup Atlas
@@ -36,7 +36,7 @@ export function CompanyList({
         </p>
       </div>
 
-      <ScrollArea className="flex-1">
+      <ScrollArea className="min-h-0 flex-1">
         {items.length === 0 && (
           <p className="px-5 py-6 text-sm text-muted-foreground">
             No startups in the current map view. Try zooming or panning out.
