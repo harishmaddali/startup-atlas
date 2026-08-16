@@ -2,16 +2,19 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { MapContainer, TileLayer, Marker, useMapEvents } from "react-leaflet";
+import MarkerClusterGroup from "react-leaflet-cluster";
 import type { LatLngBounds } from "leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "leaflet.markercluster/dist/MarkerCluster.css";
+import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import { AnimatePresence } from "motion/react";
 import type { Company } from "@/types/company";
-import { INDIA_CENTER, INDIA_DEFAULT_ZOOM } from "@/lib/geo";
+import { WORLD_CENTER, WORLD_DEFAULT_ZOOM } from "@/lib/geo";
 import { CompanySheet } from "@/components/company-sheet";
 import { CompanyList } from "@/components/company-list";
 
-function markerIcon(isActive: boolean) {
+function buildMarkerIcon(isActive: boolean) {
   return L.divIcon({
     className: "",
     html: `<span class="relative flex h-9 w-9 items-center justify-center rounded-full border-2 border-white bg-primary shadow-lg ring-2 ring-primary/30 transition-transform duration-200 ${
@@ -19,6 +22,24 @@ function markerIcon(isActive: boolean) {
     }"><span class="h-2.5 w-2.5 rounded-full bg-white"></span></span>`,
     iconSize: [36, 36],
     iconAnchor: [18, 18],
+  });
+}
+
+// Built once and reused across all markers -- with thousands of markers,
+// constructing a new L.divIcon per marker on every hover/select re-render
+// is measurably slow, and every inactive marker looks identical anyway.
+const INACTIVE_ICON = buildMarkerIcon(false);
+const ACTIVE_ICON = buildMarkerIcon(true);
+
+function clusterIcon(cluster: L.MarkerCluster) {
+  const count = cluster.getChildCount();
+  const size = count < 25 ? 40 : count < 100 ? 46 : 54;
+  return L.divIcon({
+    className: "",
+    html: `<span class="flex items-center justify-center rounded-full border-2 border-white bg-primary text-white shadow-lg ring-2 ring-primary/30" style="width:${size}px;height:${size}px;font-size:${
+      size <= 40 ? 12 : 13
+    }px;font-weight:600;">${count}</span>`,
+    iconSize: [size, size],
   });
 }
 
@@ -49,6 +70,8 @@ function MapController({
   return null;
 }
 
+const LIST_CAP = 200;
+
 interface StartupMapProps {
   companies: Company[];
 }
@@ -58,12 +81,14 @@ export function StartupMap({ companies }: StartupMapProps) {
   const [selected, setSelected] = useState<Company | null>(null);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
-  const visible = useMemo(() => {
+  const inView = useMemo(() => {
     if (!bounds) return companies;
     return companies.filter((c) =>
       bounds.contains([c.location.lat, c.location.lng])
     );
   }, [bounds, companies]);
+
+  const visible = useMemo(() => inView.slice(0, LIST_CAP), [inView]);
 
   const selectCompany = useCallback((company: Company) => {
     setSelected(company);
@@ -74,6 +99,7 @@ export function StartupMap({ companies }: StartupMapProps) {
       <aside className="z-10 hidden w-96 shrink-0 flex-col border-r bg-background/95 backdrop-blur md:flex">
         <CompanyList
           items={visible}
+          totalInView={inView.length}
           selectedId={selected?.id ?? null}
           hoveredId={hoveredId}
           onHover={setHoveredId}
@@ -83,8 +109,8 @@ export function StartupMap({ companies }: StartupMapProps) {
 
       <div className="relative flex-1">
         <MapContainer
-          center={[INDIA_CENTER.lat, INDIA_CENTER.lng]}
-          zoom={INDIA_DEFAULT_ZOOM}
+          center={[WORLD_CENTER.lat, WORLD_CENTER.lng]}
+          zoom={WORLD_DEFAULT_ZOOM}
           scrollWheelZoom
           style={{ width: "100%", height: "100%" }}
           className="z-0"
@@ -96,22 +122,28 @@ export function StartupMap({ companies }: StartupMapProps) {
 
           <MapController selected={selected} onBoundsChange={setBounds} />
 
-          {companies.map((company) => {
-            const isActive =
-              selected?.id === company.id || hoveredId === company.id;
-            return (
-              <Marker
-                key={company.id}
-                position={[company.location.lat, company.location.lng]}
-                icon={markerIcon(isActive)}
-                eventHandlers={{
-                  click: () => setSelected(company),
-                  mouseover: () => setHoveredId(company.id),
-                  mouseout: () => setHoveredId(null),
-                }}
-              />
-            );
-          })}
+          <MarkerClusterGroup
+            chunkedLoading
+            maxClusterRadius={50}
+            iconCreateFunction={clusterIcon}
+          >
+            {companies.map((company) => {
+              const isActive =
+                selected?.id === company.id || hoveredId === company.id;
+              return (
+                <Marker
+                  key={company.id}
+                  position={[company.location.lat, company.location.lng]}
+                  icon={isActive ? ACTIVE_ICON : INACTIVE_ICON}
+                  eventHandlers={{
+                    click: () => setSelected(company),
+                    mouseover: () => setHoveredId(company.id),
+                    mouseout: () => setHoveredId(null),
+                  }}
+                />
+              );
+            })}
+          </MarkerClusterGroup>
         </MapContainer>
 
         <AnimatePresence>

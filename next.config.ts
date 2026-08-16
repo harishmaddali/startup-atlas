@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "bookface-images.s3.us-west-2.amazonaws.com",
       },
+      {
+        protocol: "https",
+        hostname: "bookface-images.s3.amazonaws.com",
+      },
     ],
   },
 };

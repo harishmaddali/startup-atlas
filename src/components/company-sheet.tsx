@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "motion/react";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import { CompanyLogo } from "@/components/company-logo";
 import type { Company } from "@/types/company";
 
 interface CompanySheetProps {
@@ -30,16 +30,7 @@ export function CompanySheet({ company, onOpenChange }: CompanySheetProps) {
       </button>
 
       <div className="flex items-start gap-3">
-        <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-md border bg-white">
-          <Image
-            src={company.logoUrl}
-            alt=""
-            fill
-            sizes="48px"
-            className="object-contain p-1.5"
-            unoptimized
-          />
-        </div>
+        <CompanyLogo name={company.name} logoUrl={company.logoUrl} size={48} />
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-2">
             <h2 className="text-base font-semibold">{company.name}</h2>

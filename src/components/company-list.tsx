@@ -1,14 +1,15 @@
 "use client";
 
 import { motion } from "motion/react";
-import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { CompanyLogo } from "@/components/company-logo";
 import { cn } from "@/lib/utils";
 import type { Company } from "@/types/company";
 
 interface CompanyListProps {
   items: Company[];
+  totalInView: number;
   selectedId: string | null;
   hoveredId: string | null;
   onHover: (id: string | null) => void;
@@ -17,11 +18,13 @@ interface CompanyListProps {
 
 export function CompanyList({
   items,
+  totalInView,
   selectedId,
   hoveredId,
   onHover,
   onSelect,
 }: CompanyListProps) {
+  const isCapped = totalInView > items.length;
   return (
     <div className="flex h-full flex-col">
       <div className="border-b px-5 py-4">
@@ -37,6 +40,12 @@ export function CompanyList({
         {items.length === 0 && (
           <p className="px-5 py-6 text-sm text-muted-foreground">
             No startups in the current map view. Try zooming or panning out.
+          </p>
+        )}
+        {isCapped && (
+          <p className="px-5 pt-4 text-xs text-muted-foreground">
+            Showing {items.length} of {totalInView} in view — zoom in to
+            narrow the list.
           </p>
         )}
         <motion.ul
@@ -69,16 +78,7 @@ export function CompanyList({
                     isActive ? "bg-accent" : "hover:bg-accent/60"
                   )}
                 >
-                  <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-md border bg-white">
-                    <Image
-                      src={company.logoUrl}
-                      alt=""
-                      fill
-                      sizes="36px"
-                      className="object-contain p-1"
-                      unoptimized
-                    />
-                  </div>
+                  <CompanyLogo name={company.name} logoUrl={company.logoUrl} size={36} />
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2">
                       <span className="truncate text-sm font-medium">

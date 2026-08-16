@@ -9,7 +9,7 @@ export interface Company {
   contactEmail: string | null;
   founders: string[];
   yearFounded: number;
-  logoUrl: string;
+  logoUrl: string | null;
   /** YC batch label, e.g. "S22" */
   ycBatch?: string;
   website?: string;
