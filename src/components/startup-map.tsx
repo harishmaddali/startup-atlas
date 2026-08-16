@@ -37,15 +37,18 @@ function getMarkerIcon(company: Company, isActive: boolean): L.DivIcon {
   const cached = iconCache.get(key);
   if (cached) return cached;
 
-  const size = isActive ? 40 : 32;
+  const size = isActive ? 60 : 46;
+  const borderWidth = isActive ? 4 : 3;
   const borderColor = isActive ? ACTIVE_COLOR : "#ffffff";
   const boxShadow = isActive
-    ? `0 0 0 3px ${ACTIVE_COLOR}66, 0 4px 10px rgba(0,0,0,0.35)`
-    : "0 2px 6px rgba(0,0,0,0.3)";
+    ? `0 0 0 4px ${ACTIVE_COLOR}66, 0 6px 14px rgba(0,0,0,0.4)`
+    : "0 2px 8px rgba(0,0,0,0.35)";
   const inner = company.logoUrl
     ? `<img src="${escapeHtml(
         company.logoUrl
-      )}" alt="" style="width:100%;height:100%;object-fit:contain;padding:3px;box-sizing:border-box;" />`
+      )}" alt="" style="width:100%;height:100%;object-fit:contain;padding:${Math.round(
+        size * 0.09
+      )}px;box-sizing:border-box;" />`
     : `<span style="font-size:${Math.round(
         size * 0.42
       )}px;font-weight:700;color:#6b7280;">${escapeHtml(
@@ -54,7 +57,7 @@ function getMarkerIcon(company: Company, isActive: boolean): L.DivIcon {
 
   const icon = L.divIcon({
     className: "",
-    html: `<span style="display:flex;align-items:center;justify-content:center;width:${size}px;height:${size}px;border-radius:9999px;background:#fff;border:2px solid ${borderColor};box-shadow:${boxShadow};overflow:hidden;">${inner}</span>`,
+    html: `<span style="display:flex;align-items:center;justify-content:center;width:${size}px;height:${size}px;border-radius:9999px;background:#fff;border:${borderWidth}px solid ${borderColor};box-shadow:${boxShadow};overflow:hidden;">${inner}</span>`,
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2],
   });
@@ -64,11 +67,11 @@ function getMarkerIcon(company: Company, isActive: boolean): L.DivIcon {
 
 function clusterIcon(cluster: L.MarkerCluster) {
   const count = cluster.getChildCount();
-  const size = count < 25 ? 40 : count < 100 ? 46 : 54;
+  const size = count < 25 ? 50 : count < 100 ? 58 : 68;
   return L.divIcon({
     className: "",
-    html: `<span class="flex items-center justify-center rounded-full border-2 border-white bg-primary text-white shadow-lg ring-2 ring-primary/30" style="width:${size}px;height:${size}px;font-size:${
-      size <= 40 ? 12 : 13
+    html: `<span class="flex items-center justify-center rounded-full border-[3px] border-white bg-primary text-white shadow-lg ring-2 ring-primary/30" style="width:${size}px;height:${size}px;font-size:${
+      size <= 50 ? 15 : 17
     }px;font-weight:600;">${count}</span>`,
     iconSize: [size, size],
   });
