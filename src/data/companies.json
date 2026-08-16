@@ -292,10 +292,10 @@
   {
     "id": "groww",
     "name": "Groww",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Vaishnavi Tech Park, South Tower, 3rd Floor, Survey No. 16/1 and 17/2, Ambalipura Village, Varthur Hobli, Bellandur, Bengaluru, Karnataka 560103, India",
     "location": {
-      "lat": 12.98884,
-      "lng": 77.58385
+      "lat": 12.9274,
+      "lng": 77.6793
     },
     "contactEmail": null,
     "founders": [
@@ -326,15 +326,15 @@
     "website": "https://groww.in",
     "description": "Making financial services simple, transparent and delightful.",
     "status": "Public",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "meesho",
     "name": "Meesho",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "3rd Floor, Wing-E, Helios Business Park, Kadubeesanahalli Village, Varthur Hobli, Outer Ring Road, Bellandur, Bengaluru, Karnataka 560103, India",
     "location": {
-      "lat": 12.97462,
-      "lng": 77.58926
+      "lat": 12.93728,
+      "lng": 77.68918
     },
     "contactEmail": null,
     "founders": [
@@ -355,15 +355,15 @@
     "website": "http://www.meesho.com",
     "description": "Democratizing internet commerce for everyone in India",
     "status": "Public",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "razorpay",
     "name": "Razorpay",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "1st Floor, SJR Cyber, 22 Laskar Hosur Road, Adugodi, Bengaluru, Karnataka 560030, India",
     "location": {
-      "lat": 12.94728,
-      "lng": 77.61524
+      "lat": 12.9419,
+      "lng": 77.6084
     },
     "contactEmail": null,
     "founders": [
@@ -384,7 +384,7 @@
     "website": "https://razorpay.com",
     "description": "India's only full-stack financial solutions company for businesses.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "godhands",
@@ -418,10 +418,10 @@
   {
     "id": "ritivel",
     "name": "Ritivel",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "F2, 1/1 Subbu Building, Shanthinagar, Bengaluru, Karnataka 560027, India",
     "location": {
-      "lat": 13.00648,
-      "lng": 77.62805
+      "lat": 12.95781,
+      "lng": 77.59942
     },
     "contactEmail": null,
     "founders": [
@@ -447,15 +447,15 @@
     "website": "https://www.ritivel.com",
     "description": "AI-native platform for Life-Sciences Documentation",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "ressl-ai",
     "name": "Ressl AI",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 18, Flat No. 001, Swamy Ayyappa Temple Road, Teachers Colony, HSR Layout Sector 5, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 12.94229,
-      "lng": 77.60679
+      "lat": 12.91883,
+      "lng": 77.63412
     },
     "contactEmail": null,
     "founders": [
@@ -476,7 +476,7 @@
     "website": "https://ressl.ai",
     "description": "Train, eval and build autonomous agents",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "perseus",
@@ -534,10 +534,10 @@
   {
     "id": "truffle-ai",
     "name": "Truffle AI",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "235, Binnamangala, 13th Cross Road, Indiranagar, Bengaluru, Karnataka 560038, India",
     "location": {
-      "lat": 12.96247,
-      "lng": 77.57952
+      "lat": 12.97332,
+      "lng": 77.63524
     },
     "contactEmail": null,
     "founders": [
@@ -558,7 +558,7 @@
     "website": "https://www.trytruffle.ai/",
     "description": "AWS for AI Agents",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "rowboat-labs",
@@ -592,10 +592,10 @@
   {
     "id": "xpay",
     "name": "xPay",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "1331, 24th Main, HSR Layout Sector 2, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.96203,
-      "lng": 77.63924
+      "lat": 12.91158,
+      "lng": 77.64909
     },
     "contactEmail": null,
     "founders": [
@@ -616,15 +616,15 @@
     "website": "https://www.xpaycheckout.com/",
     "description": "International Billing Ops, Sales Tax and Payments for SaaS businesses",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "yenmo",
     "name": "Yenmo",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 148, 6th Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.94527,
-      "lng": 77.60096
+      "lat": 12.91274,
+      "lng": 77.63801
     },
     "contactEmail": null,
     "founders": [
@@ -645,15 +645,15 @@
     "website": "https://yenmo.in/",
     "description": "Secured consumer lending in India",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "infinity",
     "name": "Infinity",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Ground Floor, Olsen Spaces, Vanganahalli, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 13.0024,
-      "lng": 77.55879
+      "lat": 12.91591,
+      "lng": 77.64504
     },
     "contactEmail": null,
     "founders": [
@@ -674,7 +674,7 @@
     "website": "https://www.infinityapp.in/",
     "description": "Business banking for cross-border SMBs & Startups",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "heysol",
@@ -713,10 +713,10 @@
   {
     "id": "superapi",
     "name": "SuperAPI",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 12 and 13, Third Floor, South End Road, Basavanagudi, Bengaluru, Karnataka 560004, India",
     "location": {
-      "lat": 12.96823,
-      "lng": 77.55865
+      "lat": 12.9379,
+      "lng": 77.5799
     },
     "contactEmail": null,
     "founders": [
@@ -732,15 +732,15 @@
     "website": "https://trysuperapi.com",
     "description": "Programmable API gateway that makes APIs cacheable",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "floworks",
     "name": "Floworks",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 2735, 2nd Floor, 16th Cross, 27th Main Road, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.94932,
-      "lng": 77.59241
+      "lat": 12.92339,
+      "lng": 77.65162
     },
     "contactEmail": null,
     "founders": [
@@ -761,15 +761,15 @@
     "website": "https://floworks.ai/",
     "description": "Hire the best AI Sales employees | AI SDR | AI RevOps | AI EA",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "clueso",
     "name": "Clueso",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "3491/1, 14th A Main, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008, India",
     "location": {
-      "lat": 12.94563,
-      "lng": 77.59479
+      "lat": 12.96974,
+      "lng": 77.64585
     },
     "contactEmail": null,
     "founders": [
@@ -795,7 +795,7 @@
     "website": "https://clueso.io",
     "description": "Create beautiful videos & docs for any product or process in minutes",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "superkalam",
@@ -863,10 +863,10 @@
   {
     "id": "drdroid",
     "name": "DrDroid",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "D-1901, Salarpuria Sattva Senorita, Sarjapur Road, Carmelram, Bengaluru, Karnataka 560035, India",
     "location": {
-      "lat": 12.98331,
-      "lng": 77.6144
+      "lat": 12.91048,
+      "lng": 77.68278
     },
     "contactEmail": null,
     "founders": [
@@ -887,15 +887,15 @@
     "website": "https://drdroid.io/",
     "description": "Your best friend in production.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "gullak-money",
     "name": "Gullak Money",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "4th Floor, Building 387, Koramangala 4th Block, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 12.99368,
-      "lng": 77.56561
+      "lat": 12.93278,
+      "lng": 77.62941
     },
     "contactEmail": null,
     "founders": [
@@ -921,15 +921,15 @@
     "website": "https://gullak.money",
     "description": "Gullak automates savings & invests these in gold",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "coupl",
     "name": "Coupl",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "WeWork Prestige Atlanta, 80 Feet Main Road, Koramangala 1A Block, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 13.01174,
-      "lng": 77.61548
+      "lat": 12.92896,
+      "lng": 77.63281
     },
     "contactEmail": null,
     "founders": [
@@ -950,7 +950,7 @@
     "website": "https://coupl.money/",
     "description": "Banking designed for Indian couples.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "slidely-ai",
@@ -984,10 +984,10 @@
   {
     "id": "flatx",
     "name": "FlatX",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "301/302, 3rd Floor, Saket Callipolis, Doddakannelli, Bengaluru, Karnataka 560035, India",
     "location": {
-      "lat": 12.97811,
-      "lng": 77.55086
+      "lat": 12.90973,
+      "lng": 77.68562
     },
     "contactEmail": null,
     "founders": [
@@ -1008,15 +1008,15 @@
     "website": "https://www.flatx.co/",
     "description": "AI-Powered Rental Platform for Urban Renters",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "raven",
     "name": "Raven",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "350, 1st Floor, 6th Main Road, Sector 6, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.92983,
-      "lng": 77.55357
+      "lat": 12.91478,
+      "lng": 77.63298
     },
     "contactEmail": null,
     "founders": [
@@ -1037,15 +1037,15 @@
     "website": "https://startraven.com",
     "description": "AI Assistants for Manufacturing Operations",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "maya-labs",
     "name": "Maya Labs",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "167, First Floor, 9th Cross, Indiranagar 1st Stage, Bengaluru, Karnataka 560038, India",
     "location": {
-      "lat": 12.99394,
-      "lng": 77.56235
+      "lat": 12.97934,
+      "lng": 77.63915
     },
     "contactEmail": null,
     "founders": [
@@ -1066,15 +1066,15 @@
     "website": "https://mayalabs.io",
     "description": "Building self-programming machines",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "compup",
     "name": "CompUp",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. L-176, 5th Main, 6th Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.97487,
-      "lng": 77.60621
+      "lat": 12.91528,
+      "lng": 77.63237
     },
     "contactEmail": null,
     "founders": [
@@ -1100,7 +1100,7 @@
     "website": "https://www.compup.io",
     "description": "Building a compensation graph to help companies optimise people spend",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "100x",
@@ -1134,10 +1134,10 @@
   {
     "id": "peoplebox",
     "name": "Peoplebox.ai",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "2nd Floor, Hustlehub SB01, 581/A, 1st Cross Road, Sector 6, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.94663,
-      "lng": 77.62285
+      "lat": 12.91645,
+      "lng": 77.63674
     },
     "contactEmail": null,
     "founders": [
@@ -1158,15 +1158,15 @@
     "website": "https://www.peoplebox.ai",
     "description": "AI talent platform to hire, manage, and grow your people",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "flux-auto",
     "name": "Flux Auto",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 102, 4th Block, 4th Stage, 8th Main, Basaveshwaranagar, Bengaluru, Karnataka 560079, India",
     "location": {
-      "lat": 12.95103,
-      "lng": 77.61425
+      "lat": 12.99347,
+      "lng": 77.53896
     },
     "contactEmail": null,
     "founders": [
@@ -1187,7 +1187,7 @@
     "website": "https://fluxauto.ai",
     "description": "Physical AI for Warehouses and Factories",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "apollo-3",
@@ -1221,10 +1221,10 @@
   {
     "id": "material-depot",
     "name": "Material Depot",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Ground Floor, 15, Bannerghatta Road, Sarakki Industrial Layout, JP Nagar 3rd Phase, Bengaluru, Karnataka 560076, India",
     "location": {
-      "lat": 13.00971,
-      "lng": 77.56587
+      "lat": 12.91097,
+      "lng": 77.59998
     },
     "contactEmail": null,
     "founders": [
@@ -1245,7 +1245,7 @@
     "website": "https://materialdepot.in/",
     "description": "India's Fastest Growing Home Decor destination for Floor & Wall Decor",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "recordbook",
@@ -1274,10 +1274,10 @@
   {
     "id": "salt",
     "name": "SALT",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "512/10, Service Lane, Outer Ring Road, Mahadevapura, Bengaluru, Karnataka 560048, India",
     "location": {
-      "lat": 12.9615,
-      "lng": 77.60375
+      "lat": 12.98635,
+      "lng": 77.69061
     },
     "contactEmail": null,
     "founders": [
@@ -1298,7 +1298,7 @@
     "website": "https://salt.pe",
     "description": "B2B Cross-Border Payment & Compliance Platform",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "better-opinions",
@@ -1332,10 +1332,10 @@
   {
     "id": "paycrunch",
     "name": "PayCrunch",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "7, Dasta Concerto, Sarjapur, Bengaluru, Karnataka 562125, India",
     "location": {
-      "lat": 12.96719,
-      "lng": 77.57449
+      "lat": 12.8605,
+      "lng": 77.7865
     },
     "contactEmail": null,
     "founders": [
@@ -1351,7 +1351,7 @@
     "website": "https://paycrunch.in",
     "description": "Credit Card for college students based on UPI.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "rehook-ai",
@@ -1487,10 +1487,10 @@
   {
     "id": "docvita",
     "name": "DocVita",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "WeWork Galaxy, 43 Residency Road, Bengaluru, Karnataka 560025, India",
     "location": {
-      "lat": 12.98638,
-      "lng": 77.6021
+      "lat": 12.97357,
+      "lng": 77.60876
     },
     "contactEmail": null,
     "founders": [
@@ -1511,15 +1511,15 @@
     "website": "https://docvita.com",
     "description": "Telehealth provider for India.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "coulomb-ai",
     "name": "Coulomb AI",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Site No. 16, 9th Main, 17th Cross, HSR Layout Sector 7, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.97389,
-      "lng": 77.56517
+      "lat": 12.91239,
+      "lng": 77.63525
     },
     "contactEmail": null,
     "founders": [
@@ -1540,15 +1540,15 @@
     "website": "https://coulomb.ai/",
     "description": "Battery Observability Platform for Electric Vehicles",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "ivy-homes",
     "name": "Ivy Homes",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Hara Chambers, #22, 4th Floor, KH Road, Bengaluru, Karnataka 560027, India",
     "location": {
-      "lat": 12.95525,
-      "lng": 77.6325
+      "lat": 12.9615,
+      "lng": 77.59438
     },
     "contactEmail": null,
     "founders": [
@@ -1564,15 +1564,15 @@
     "website": "https://ivy.homes",
     "description": "We make instant offers to buy homes in India",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "marketfeed",
     "name": "marketfeed",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "HoneyKomb by Bhive, 19th Main Road, HSR Layout Sector 3, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.97098,
-      "lng": 77.56376
+      "lat": 12.91131,
+      "lng": 77.64457
     },
     "contactEmail": null,
     "founders": [
@@ -1593,15 +1593,15 @@
     "website": "https://marketfeed.com",
     "description": "Helping Indians make better financial decisions.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "infer",
     "name": "Infer",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "#58, GM Arcade, 3rd Floor, 5th Block, Koramangala, Bengaluru, Karnataka 560095, India",
     "location": {
-      "lat": 12.97819,
-      "lng": 77.56123
+      "lat": 12.93484,
+      "lng": 77.61898
     },
     "contactEmail": null,
     "founders": [
@@ -1627,15 +1627,15 @@
     "website": "https://www.infer.so/",
     "description": "Operating system for insurance agencies",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "frontpage",
     "name": "FrontPage",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "#703, 22nd A Main Road, 2nd Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.98568,
-      "lng": 77.6083
+      "lat": 12.9095,
+      "lng": 77.6468
     },
     "contactEmail": null,
     "founders": [
@@ -1651,15 +1651,15 @@
     "website": "https://front.page",
     "description": "Community for 100M Indian Financial Market Traders & Investors",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "karbon-card",
     "name": "Karbon Card",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Ground Floor, 1st Stage Road, Binnamangala, Indiranagar, Bengaluru, Karnataka 560038, India",
     "location": {
-      "lat": 12.93722,
-      "lng": 77.55564
+      "lat": 12.98399,
+      "lng": 77.64168
     },
     "contactEmail": null,
     "founders": [
@@ -1675,15 +1675,15 @@
     "website": "https://www.karboncard.com/",
     "description": "Corporate Card solution for Indian businesses",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "koshex",
     "name": "Koshex",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "4th Floor, 2633, 27th Main Road, 13th Cross Road, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 13.01141,
-      "lng": 77.58323
+      "lat": 12.91599,
+      "lng": 77.65183
     },
     "contactEmail": null,
     "founders": [
@@ -1704,15 +1704,15 @@
     "website": "https://www.koshex.com",
     "description": "Automating wealth creation for 400M Indian millennials",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "rivia-ai",
     "name": "Rivia.AI",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "677, 1st Floor, Suite No. 318, 27th Main, 13th Cross, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.94226,
-      "lng": 77.61733
+      "lat": 12.91599,
+      "lng": 77.65183
     },
     "contactEmail": null,
     "founders": [
@@ -1728,15 +1728,15 @@
     "website": "https://rivia.ai",
     "description": "Interactive Product Demos",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "stownest",
     "name": "Stownest",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "#31, 1st A Main Road, Yelahanka Satellite Town, Bengaluru, Karnataka 560064, India",
     "location": {
-      "lat": 12.93955,
-      "lng": 77.57198
+      "lat": 13.09922,
+      "lng": 77.5851
     },
     "contactEmail": null,
     "founders": [
@@ -1767,15 +1767,15 @@
     "website": "https://stownest.com",
     "description": "Flexible On-Demand Storage Space for Household, SMEs & Travellers.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "codingal",
     "name": "Codingal",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Bren Imperia, 15th Main Road, Kasavanahalli, Haralur Road, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 13.01472,
-      "lng": 77.60223
+      "lat": 12.90722,
+      "lng": 77.67196
     },
     "contactEmail": null,
     "founders": [
@@ -1796,15 +1796,15 @@
     "website": "https://www.codingal.com/?utm_source=yc",
     "description": "Leading online after-school for kids & teens to learn AI & coding",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "fifthtry",
     "name": "FifthTry",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Flat No. 2102, Block A, Hillcrest, House of Hiranandani, Begur Road, Bengaluru, Karnataka 560068, India",
     "location": {
-      "lat": 13.00629,
-      "lng": 77.56297
+      "lat": 12.8775,
+      "lng": 77.6098
     },
     "contactEmail": null,
     "founders": [
@@ -1820,7 +1820,7 @@
     "website": "https://www.FifthTry.com",
     "description": "Continuous Documentation To End Documentation Rot",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "rocketsdr",
@@ -1883,10 +1883,10 @@
   {
     "id": "cashbook",
     "name": "CashBook",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Site Number 233, 22nd Cross, 16th Main Road, Sector 3, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 13.00596,
-      "lng": 77.57643
+      "lat": 12.90861,
+      "lng": 77.64175
     },
     "contactEmail": null,
     "founders": [
@@ -1907,15 +1907,15 @@
     "website": "https://cashbook.in",
     "description": "Ramp for Indian Businesses - UPI Wallets for Employee Expenses",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "bimaplan",
     "name": "Bimaplan",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Workshaala Neo, 3rd Floor, Building No. 17/R, 18th Cross Road, Sector 3, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 13.00045,
-      "lng": 77.63154
+      "lat": 12.91195,
+      "lng": 77.64306
     },
     "contactEmail": null,
     "founders": [
@@ -1931,15 +1931,15 @@
     "website": "https://www.bimaplan.co",
     "description": "Affordable insurance for the next billion Indians",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "tilt-2",
     "name": "Tilt",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "HD-139, WeWork Salarpuria Magnifica, 13th Floor, 78 Old Madras Road, Mahadevapura, Bengaluru, Karnataka 560016, India",
     "location": {
-      "lat": 12.987,
-      "lng": 77.56007
+      "lat": 13.0045,
+      "lng": 77.6608
     },
     "contactEmail": null,
     "founders": [
@@ -1960,15 +1960,15 @@
     "website": "https://tilt.bike/",
     "description": "Bringing the joy of cycling to millions of Indians",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "weekday",
     "name": "Weekday",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "2nd Floor, No. 3291, 12th Main Road, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008, India",
     "location": {
-      "lat": 12.97259,
-      "lng": 77.58858
+      "lat": 12.97037,
+      "lng": 77.64531
     },
     "contactEmail": null,
     "founders": [
@@ -1994,15 +1994,15 @@
     "website": "https://weekday.works",
     "description": "AI recruiter that runs outbound sourcing campaigns to find top talent",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "voosh",
     "name": "Voosh",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Sierra Cartel, No. 91, 17th Cross, 14th Main Road, Sector 4, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.94174,
-      "lng": 77.61024
+      "lat": 12.9148,
+      "lng": 77.63873
     },
     "contactEmail": null,
     "founders": [
@@ -2023,15 +2023,15 @@
     "website": "https://voosh.ai/",
     "description": "Making Restaurants more data-driven!",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "zoko",
     "name": "ZOKO",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "A/4M, IG KHB Colony, 5th Block, Koramangala, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 13.0037,
-      "lng": 77.62059
+      "lat": 12.93496,
+      "lng": 77.61777
     },
     "contactEmail": null,
     "founders": [
@@ -2047,15 +2047,15 @@
     "website": "https://www.zoko.io/",
     "description": "Better Business on WhatsApp",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "businessonbot",
     "name": "BusinessOnBot",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Urban Vault HSR Layout, 1781, 19th Main Road, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.95724,
-      "lng": 77.57221
+      "lat": 12.91591,
+      "lng": 77.64504
     },
     "contactEmail": null,
     "founders": [
@@ -2071,15 +2071,15 @@
     "website": "https://www.businessonbot.com/",
     "description": "Automated user acquisition & selling on WhatsApp for businesses",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "betterhalf",
     "name": "Betterhalf",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "1st Floor, No. 375, 5th Main, Sector 6, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 13.00058,
-      "lng": 77.55412
+      "lat": 12.91528,
+      "lng": 77.63237
     },
     "contactEmail": null,
     "founders": [
@@ -2100,15 +2100,15 @@
     "website": "https://betterhalf.ai",
     "description": "India’s first and only marriage super app",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "orange-health-labs",
     "name": "Orange Health Labs",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "GKR Towers, 2nd Floor, #912, 80 Feet Road, 6th Block, Koramangala, Bengaluru, Karnataka 560095, India",
     "location": {
-      "lat": 12.96289,
-      "lng": 77.58801
+      "lat": 12.935,
+      "lng": 77.6245
     },
     "contactEmail": null,
     "founders": [
@@ -2129,15 +2129,15 @@
     "website": "http://www.orangehealth.in",
     "description": "India's Fastest Diagnostics Service",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "cradle",
     "name": "Cradle",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 6/A, 1st Cross, Doddanekundi, Bengaluru, Karnataka 560037, India",
     "location": {
-      "lat": 12.98906,
-      "lng": 77.57063
+      "lat": 12.97132,
+      "lng": 77.69648
     },
     "contactEmail": null,
     "founders": [
@@ -2153,15 +2153,15 @@
     "website": "https://www.cradlefinance.com",
     "description": "B2B payments network in India",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "wareiq",
     "name": "WareIQ",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "36/5, Hustlehub Tech Park, Somasundarapalya, HSR Layout Sector 2, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 13.0071,
-      "lng": 77.6271
+      "lat": 12.9008,
+      "lng": 77.6475
     },
     "contactEmail": null,
     "founders": [
@@ -2182,15 +2182,15 @@
     "website": "https://www.wareiq.com/",
     "description": "Amazon-prime like logistics for eCommerce companies in India",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "explorex",
     "name": "Explorex",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "WeWork Embassy TechVillage, Block L, Devarabisanahalli, Outer Ring Road, Bellandur, Bengaluru, Karnataka 560103, India",
     "location": {
-      "lat": 12.9493,
-      "lng": 77.62559
+      "lat": 12.93069,
+      "lng": 77.69142
     },
     "contactEmail": null,
     "founders": [
@@ -2211,15 +2211,15 @@
     "website": "https://explorex.co",
     "description": "Ecosystem Platform for Restaurants in India",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "medpiper-technologies-inc",
     "name": "MedPiper Technologies, Inc",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "677, 1st Floor, 27th Main, 13th Cross, HSR Layout Sector 1, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.93035,
-      "lng": 77.61101
+      "lat": 12.91599,
+      "lng": 77.65183
     },
     "contactEmail": null,
     "founders": [
@@ -2240,15 +2240,15 @@
     "website": "https://www.medpiper.com",
     "description": "Instant cash payouts for delayed flights",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "volopay",
     "name": "Volopay",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "459, Khata No. 357/459, HSR Layout Sector 4, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.95659,
-      "lng": 77.55564
+      "lat": 12.92046,
+      "lng": 77.6445
     },
     "contactEmail": null,
     "founders": [
@@ -2269,15 +2269,15 @@
     "website": "https://www.volopay.com/",
     "description": "Brex for South East Asia - Corporate cards & automated payments.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "decentro",
     "name": "Decentro",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "461, 1st Floor, Shri Krishna Temple Road, Binnamangala, Indiranagar, Bengaluru, Karnataka 560038, India",
     "location": {
-      "lat": 12.95304,
-      "lng": 77.62229
+      "lat": 12.97883,
+      "lng": 77.64612
     },
     "contactEmail": null,
     "founders": [
@@ -2293,15 +2293,15 @@
     "website": "https://decentro.tech",
     "description": "API Platform for Banking Integrations (Plaid for India and APAC)",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "stayqrious",
     "name": "StayQrious",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "A/4 MIG, KHB Colony, 5th Block, Koramangala, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 13.00801,
-      "lng": 77.55583
+      "lat": 12.93496,
+      "lng": 77.61777
     },
     "contactEmail": null,
     "founders": [
@@ -2327,15 +2327,15 @@
     "website": "https://StayQrious.com",
     "description": "StayQrious helps kids in India learn through online group classes,…",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "spenny",
     "name": "Spenny",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "677, 1st Floor, Suite 239, 27th Main, HSR Layout Sector 1, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.93735,
-      "lng": 77.57173
+      "lat": 12.92309,
+      "lng": 77.65154
     },
     "contactEmail": null,
     "founders": [
@@ -2351,15 +2351,15 @@
     "website": "http://spennyapp.com",
     "description": "Acorns for India. Every time you swipe you make a digital…",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "morphle-labs",
     "name": "Morphle Labs",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 7A, Veerasandra Industrial Area, Phase 2, Electronic City, Bengaluru, Karnataka 560100, India",
     "location": {
-      "lat": 12.99591,
-      "lng": 77.5889
+      "lat": 12.84189,
+      "lng": 77.68065
     },
     "contactEmail": null,
     "founders": [
@@ -2375,15 +2375,15 @@
     "website": "https://morphlelabs.com",
     "description": "Robotic Automation for cancer diagnostics - Robotic Microscopes &…",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "fampay",
     "name": "FamPay",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "3rd Floor, Obeya Verve, L376/A, 14th B Cross Road, Sector 6, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.99692,
-      "lng": 77.58261
+      "lat": 12.9145,
+      "lng": 77.6368
     },
     "contactEmail": null,
     "founders": [
@@ -2404,15 +2404,15 @@
     "website": "https://fampay.in",
     "description": "India’s first neobank for teenagers",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "vahan",
     "name": "Vahan",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 327, 10th Main, Eshwara Layout, Indiranagar, Bengaluru, Karnataka 560038, India",
     "location": {
-      "lat": 12.9992,
-      "lng": 77.58362
+      "lat": 12.97175,
+      "lng": 77.63443
     },
     "contactEmail": null,
     "founders": [
@@ -2428,15 +2428,15 @@
     "website": "https://vahan.ai",
     "description": "AI recruiter for India's massive blue-collar workforce",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "lokal",
     "name": "Lokal",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "1501, 19th Main Road, Sector 1, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 13.0004,
-      "lng": 77.58607
+      "lat": 12.91237,
+      "lng": 77.64469
     },
     "contactEmail": null,
     "founders": [
@@ -2457,15 +2457,15 @@
     "website": "https://www.getlokalapp.com",
     "description": "Local news, information and classifieds for India's small town users",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "binks",
     "name": "Binks",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Prestige Atlanta, 80 Feet Road, Koramangala 1A Block, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 12.9514,
-      "lng": 77.62391
+      "lat": 12.92896,
+      "lng": 77.63281
     },
     "contactEmail": null,
     "founders": [
@@ -2486,15 +2486,15 @@
     "website": "https://getbinks.com/",
     "description": "A zero inventory, zero returns factory-to-consumer apparel company",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "inito",
     "name": "Inito",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "1st Floor, Indiqube Infinia, Municipal No. 57, Koramangala 2nd Block, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 13.00624,
-      "lng": 77.57138
+      "lat": 12.9348,
+      "lng": 77.6255
     },
     "contactEmail": null,
     "founders": [
@@ -2515,15 +2515,15 @@
     "website": "https://www.inito.com/",
     "description": "Enabling better self care with at-home hormone tracking.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "dockup",
     "name": "Dockup",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "1678, 2nd Floor, 23rd Cross, 27th Main Road, HSR Layout 2nd Sector, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.93171,
-      "lng": 77.55147
+      "lat": 12.90741,
+      "lng": 77.64866
     },
     "contactEmail": null,
     "founders": [
@@ -2544,15 +2544,15 @@
     "website": "https://getdockup.com/",
     "description": "On demand ephemeral environments to run manual and automated tests.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "mudrex",
     "name": "Mudrex",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "4th Floor, 315 Work Avenue, 257, 16th Cross, 5th Main Road, Sector 6, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.92845,
-      "lng": 77.62851
+      "lat": 12.91289,
+      "lng": 77.63262
     },
     "contactEmail": null,
     "founders": [
@@ -2568,15 +2568,15 @@
     "website": "https://mudrex.com",
     "description": "India's largest crypto investing paltform",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "okcredit",
     "name": "OkCredit",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "5th Floor, Incubex HQ, 339, 14th B Cross Road, Sector 6, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.98814,
-      "lng": 77.62652
+      "lat": 12.9138,
+      "lng": 77.6375
     },
     "contactEmail": null,
     "founders": [
@@ -2602,15 +2602,15 @@
     "website": "https://www.okcredit.in",
     "description": "Simple and secure bookkeeping for Indian businesses.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "khatabook",
     "name": "Khatabook",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "1539, 18th Cross Road, Sector 3, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.93232,
-      "lng": 77.57815
+      "lat": 12.91195,
+      "lng": 77.64306
     },
     "contactEmail": null,
     "founders": [
@@ -2626,15 +2626,15 @@
     "website": "https://khatabook.com/",
     "description": "Manage your ledgers and avail Financial Services like Lending on your…",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "cashfree-payments",
     "name": "Cashfree Payments",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Building No. 7, 10th Floor, Ecoworld, Sarjapur Marathahalli Outer Ring Road, Bellandur, Bengaluru, Karnataka 560103, India",
     "location": {
-      "lat": 13.00575,
-      "lng": 77.61895
+      "lat": 12.92981,
+      "lng": 77.68463
     },
     "contactEmail": null,
     "founders": [
@@ -2655,15 +2655,15 @@
     "website": "https://www.cashfree.com/",
     "description": "Next-gen digital payments provider for India.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "onefin",
     "name": "OneFin",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "48, Church Street, Ashok Nagar, Bengaluru, Karnataka 560001, India",
     "location": {
-      "lat": 12.95277,
-      "lng": 77.59932
+      "lat": 12.97491,
+      "lng": 77.60526
     },
     "contactEmail": null,
     "founders": [
@@ -2684,15 +2684,15 @@
     "website": "https://www.onefin.in",
     "description": "Shopify for Financial Services",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "wifi-dabba-inc",
     "name": "Wifi Dabba, Inc.",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "A1-1201, South City, Arekere Mico Layout, Bengaluru, Karnataka 560076, India",
     "location": {
-      "lat": 12.92951,
-      "lng": 77.55587
+      "lat": 12.88945,
+      "lng": 77.59384
     },
     "contactEmail": null,
     "founders": [
@@ -2713,15 +2713,15 @@
     "website": "https://dabba.com",
     "description": "Decentralised broadband connectivity.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "cleartax",
     "name": "Clear",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "23-24 AMR Tech Park, Block 1, 1st Floor, Hosur Main Road, Hongasandra, Bengaluru, Karnataka 560068, India",
     "location": {
-      "lat": 12.98509,
-      "lng": 77.61668
+      "lat": 12.8993,
+      "lng": 77.6306
     },
     "contactEmail": null,
     "founders": [
@@ -2747,15 +2747,15 @@
     "website": "https://clear.in/",
     "description": "Fintech SaaS platform for invoices, taxes, wealth management & credit.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "chequpi",
     "name": "CheqUPI",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "1507, 19th Main, 11th Cross Road, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.92833,
-      "lng": 77.60078
+      "lat": 12.92027,
+      "lng": 77.64502
     },
     "contactEmail": null,
     "founders": [
@@ -2776,7 +2776,7 @@
     "website": "https://www.cheq.money",
     "description": "India's first UPI wallet for foreign nationals and NRIs",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "bharatx",
@@ -2820,10 +2820,10 @@
   {
     "id": "blitzllama",
     "name": "Blitzllama",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 202, 9/2 Lewis Road, Cooke Town, Bengaluru, Karnataka 560005, India",
     "location": {
-      "lat": 12.94064,
-      "lng": 77.6241
+      "lat": 13.00009,
+      "lng": 77.62368
     },
     "contactEmail": null,
     "founders": [
@@ -2849,15 +2849,15 @@
     "website": "https://www.blitzllama.com/",
     "description": "A platform to collect and analyze in-product user feedback",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "spark-studio",
     "name": "Spark Studio",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 45/1, 2nd Main Road, 1st Block, Koramangala, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 12.98995,
-      "lng": 77.62681
+      "lat": 12.92779,
+      "lng": 77.6366
     },
     "contactEmail": null,
     "founders": [
@@ -2888,7 +2888,7 @@
     "website": "https://sparkstudio.co",
     "description": "The most magical personal Voice-Led AI English Learning Buddy for Kids",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "verak",
@@ -2975,10 +2975,10 @@
   {
     "id": "chaos-genius",
     "name": "Chaos Genius",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "B204, St. John's Wood Apartment, Tavarekere Main Road, Bengaluru, Karnataka 560029, India",
     "location": {
-      "lat": 12.9786,
-      "lng": 77.5992
+      "lat": 12.92475,
+      "lng": 77.60909
     },
     "contactEmail": null,
     "founders": [
@@ -2994,15 +2994,15 @@
     "website": "http://www.chaosgenius.io",
     "description": "DataOps Observability Platform for Snowflake",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "able",
     "name": "Able",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Ground Floor, No. 445/A, 4th Block, 12th Main Road, Koramangala, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 12.98871,
-      "lng": 77.6013
+      "lat": 12.93366,
+      "lng": 77.62859
     },
     "contactEmail": null,
     "founders": [
@@ -3028,7 +3028,7 @@
     "website": "https://ablejobs.co/",
     "description": "India's Largest Placement Platform for Early Professionals",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "pay-swifter",
@@ -3057,10 +3057,10 @@
   {
     "id": "farmtheory",
     "name": "farmtheory",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "4th Floor, No. 02, 3rd Cross, 8th Block, Koramangala, Bengaluru, Karnataka 560095, India",
     "location": {
-      "lat": 13.00531,
-      "lng": 77.59522
+      "lat": 12.94087,
+      "lng": 77.61734
     },
     "contactEmail": null,
     "founders": [
@@ -3081,15 +3081,15 @@
     "website": "http://farmtheory.in/",
     "description": "India's first vegetable delivery service to restaurants with a hack",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "ybanq",
     "name": "yBANQ",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "HD203, Purva Whitehall, Sarjapur Main Road, Bengaluru, Karnataka 560035, India",
     "location": {
-      "lat": 13.01286,
-      "lng": 77.60887
+      "lat": 12.9118,
+      "lng": 77.6845
     },
     "contactEmail": null,
     "founders": [
@@ -3115,15 +3115,15 @@
     "website": "https://ybanq.com",
     "description": "yBANQ is building a Bill.com for India to simplify collections and…",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "mypetrolpump",
     "name": "MyPetrolPump",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 580/B, NCR Arcade, 1st Floor, Sector 6, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.96324,
-      "lng": 77.58524
+      "lat": 12.91757,
+      "lng": 77.62729
     },
     "contactEmail": null,
     "founders": [
@@ -3139,15 +3139,15 @@
     "website": "https://mypetrolpump.com/",
     "description": "On demand fuel delivery service in India",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "wingman",
     "name": "Wingman",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "#113, 6th Sector, 10th Main, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.95948,
-      "lng": 77.63572
+      "lat": 12.91382,
+      "lng": 77.63581
     },
     "contactEmail": null,
     "founders": [
@@ -3173,15 +3173,15 @@
     "website": "https://www.trywingman.com",
     "description": "Wingman helps inside sales reps with coaching while they're on a call.",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "lotuspay",
     "name": "LotusPay",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "First Floor, Indiqube Grape Garden, 18th Main, 6th Block, Koramangala, Bengaluru, Karnataka 560095, India",
     "location": {
-      "lat": 13.0161,
-      "lng": 77.55012
+      "lat": 12.9345,
+      "lng": 77.6228
     },
     "contactEmail": null,
     "founders": [
@@ -3207,15 +3207,15 @@
     "website": "http://www.lotuspay.com",
     "description": "Recurring payments solution for businesses in India.",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "playment",
     "name": "Playment",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "4th Floor, Building 4C, Ecoworld, Sarjapur Marathahalli Outer Ring Road, Bellandur, Bengaluru, Karnataka 560103, India",
     "location": {
-      "lat": 12.96825,
-      "lng": 77.5746
+      "lat": 12.92981,
+      "lng": 77.68463
     },
     "contactEmail": null,
     "founders": [
@@ -3231,7 +3231,7 @@
     "website": "https://playment.io/",
     "description": "Mechanical Turk for enterprises.",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "supr-daily",
@@ -109647,10 +109647,10 @@
   {
     "id": "drivezy",
     "name": "Drivezy",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "432/A, Chiranthana Sankeerna, 4th Cross, 9th Main, HAL 3rd Stage, Bengaluru, Karnataka 560075, India",
     "location": {
-      "lat": 12.99311,
-      "lng": 77.59314
+      "lat": 12.96921,
+      "lng": 77.64893
     },
     "contactEmail": null,
     "founders": [
@@ -109680,7 +109680,7 @@
     "ycBatch": "S16",
     "website": "http://www.drivezy.com",
     "description": "India's largest vehicle sharing platform, turning people's vehicles…",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
@@ -109802,10 +109802,10 @@
   {
     "id": "fastpad",
     "name": "Fastpad",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Flat E-112, A-5 Sobha Eternia, Haralur Village, Varthur Hobli, Bengaluru, Karnataka 560103, India",
     "location": {
-      "lat": 12.95625,
-      "lng": 77.61161
+      "lat": 12.90382,
+      "lng": 77.6649
     },
     "contactEmail": null,
     "founders": [
@@ -109820,16 +109820,16 @@
     "ycBatch": "S17",
     "website": "https://fastpad.com/",
     "description": "Hiring Software for India",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
     "id": "nextdrop",
     "name": "NextDrop",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "45/3, 1st Floor, Gopalakrishna Complex, Off Residency Road, Bengaluru, Karnataka 560025, India",
     "location": {
-      "lat": 12.95703,
-      "lng": 77.55727
+      "lat": 12.97364,
+      "lng": 77.60916
     },
     "contactEmail": null,
     "founders": [
@@ -109849,16 +109849,16 @@
     "ycBatch": "S17",
     "website": "https://thenextdrop.com/",
     "description": "NextDrop is the water marketplace for urban India.  We connect water…",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
     "id": "wheelstreet",
     "name": "WheelStreet",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "#611, 1st Floor, 80 Feet Main Road, Venkata Reddy Layout, 6th Block, Koramangala, Bengaluru, Karnataka 560095, India",
     "location": {
-      "lat": 12.99865,
-      "lng": 77.58928
+      "lat": 12.94013,
+      "lng": 77.62514
     },
     "contactEmail": null,
     "founders": [
@@ -109878,7 +109878,7 @@
     "ycBatch": "S17",
     "website": "https://www.wheelstreet.com/",
     "description": "WheelStreet is a Motorbike rental marketplace that connects…",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
@@ -110029,10 +110029,10 @@
   {
     "id": "namaste-business",
     "name": "Namaste Business",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Number 1, 10th Main, Jeevanbhima Nagar Main Road, Bengaluru, Karnataka 560075, India",
     "location": {
-      "lat": 12.94484,
-      "lng": 77.6194
+      "lat": 12.96921,
+      "lng": 77.6505
     },
     "contactEmail": null,
     "founders": [
@@ -110052,7 +110052,7 @@
     "ycBatch": "S19",
     "website": "https://mynamaste.in",
     "description": "Shopify for a mobile first world",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
@@ -110092,10 +110092,10 @@
   {
     "id": "chutney-inc",
     "name": "Chutney Inc",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "First Floor, 412A, 18th Main, 23rd Cross, HSR Layout Sector 3, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.95168,
-      "lng": 77.59292
+      "lat": 12.90917,
+      "lng": 77.64329
     },
     "contactEmail": null,
     "founders": [
@@ -110115,7 +110115,7 @@
     "ycBatch": "W20",
     "website": null,
     "description": "Pseudonymous avatar-based social network",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
@@ -110150,10 +110150,10 @@
   {
     "id": "sprintai",
     "name": "SprintAI",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "No. 78/44, 12th Main, 17th Cross, 6th Sector, Behind BDA Complex, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.98628,
-      "lng": 77.6081
+      "lat": 12.91249,
+      "lng": 77.63266
     },
     "contactEmail": null,
     "founders": [
@@ -110173,7 +110173,7 @@
     "ycBatch": "W20",
     "website": "https://www.getsprint.ai/",
     "description": "AI-led platform for inventory and fulfillment optimization",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
@@ -110266,10 +110266,10 @@
   {
     "id": "synapsica-healthcare",
     "name": "Synapsica Healthcare",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Hustlehub Tech Park, 1st Floor, Somasandra Palya, 27th Main Road, 2nd Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.99431,
-      "lng": 77.57115
+      "lat": 12.9008,
+      "lng": 77.6475
     },
     "contactEmail": null,
     "founders": [
@@ -110299,7 +110299,7 @@
     "ycBatch": "W20",
     "website": "https://synapsica.com/",
     "description": "AI-enabled automation of diagnostic radiology workflow and reporting.",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
@@ -110508,10 +110508,10 @@
   {
     "id": "yourquote",
     "name": "YourQuote",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "1655, Jeevan Bhima Nagar Main Road, HAL 3rd Stage, Bengaluru, Karnataka 560075, India",
     "location": {
-      "lat": 12.961,
-      "lng": 77.57114
+      "lat": 12.97153,
+      "lng": 77.64978
     },
     "contactEmail": null,
     "founders": [
@@ -110531,7 +110531,7 @@
     "ycBatch": "W21",
     "website": "https://www.yourquote.in",
     "description": "YourQuote is India's largest writing platform",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
@@ -110808,10 +110808,10 @@
   {
     "id": "castled-io",
     "name": "Castled.io",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "#677, 1st Floor, Suite #423, 27th Main, 13th Cross, Sector 1, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.97405,
-      "lng": 77.62118
+      "lat": 12.91599,
+      "lng": 77.65183
     },
     "contactEmail": null,
     "founders": [
@@ -110841,16 +110841,16 @@
     "ycBatch": "W22",
     "website": "https://castled.io/",
     "description": "Customer Engagement software on top of BigQuery/Snowflake",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
     "id": "antwalk",
     "name": "AntWalk",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "3rd Floor, Building No. 380, 23rd Cross, 9th Main Road, Sector 7, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.9881,
-      "lng": 77.60113
+      "lat": 12.90906,
+      "lng": 77.63377
     },
     "contactEmail": null,
     "founders": [
@@ -110865,16 +110865,16 @@
     "ycBatch": "W22",
     "website": "https://www.antwalk.com/",
     "description": "An employee up-skilling platform for fast growing companies",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
     "id": "fello",
     "name": "Fello",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Hanto Workspace Technologies Pvt Ltd, Kaveri Building, 14th Main, HSR Layout Sector 7, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.98631,
-      "lng": 77.56237
+      "lat": 12.90747,
+      "lng": 77.63707
     },
     "contactEmail": null,
     "founders": [
@@ -110894,16 +110894,16 @@
     "ycBatch": "W22",
     "website": "https://fello.in",
     "description": "Grow money and win $1000 every week by saving and playing games",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
     "id": "avairsense",
     "name": "AvairSense",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "#28, 16th Main Road, 38th Cross, Jayanagar 4th T Block, Bengaluru, Karnataka 560041, India",
     "location": {
-      "lat": 12.99018,
-      "lng": 77.60366
+      "lat": 12.92234,
+      "lng": 77.586
     },
     "contactEmail": null,
     "founders": [
@@ -110923,16 +110923,16 @@
     "ycBatch": "W22",
     "website": "https://www.avairsense.com/",
     "description": "We go all out to Build the Smartest AI-Enabled Cameras!",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {
     "id": "integration-labs",
     "name": "Integration Labs",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Third Floor, North Wing, Block I, No. 43, Electronics City Phase I, Hosur Road, Bengaluru, Karnataka 560100, India",
     "location": {
-      "lat": 12.99636,
-      "lng": 77.58711
+      "lat": 12.8482,
+      "lng": 77.67077
     },
     "contactEmail": null,
     "founders": [
@@ -110957,7 +110957,7 @@
     "ycBatch": "S22",
     "website": "https://www.integrationlabs.co",
     "description": "The Unified API for Business Financial Data",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Inactive"
   },
   {

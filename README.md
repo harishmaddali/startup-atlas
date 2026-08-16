@@ -112,16 +112,23 @@ city/neighborhood-level approximation — deterministically jittered around
 each city's center (with a wider spread for sprawling metros like the Bay
 Area) so markers don't stack, not tied to any claimed real address.
 
-Eleven Indian companies have a real, individually-sourced office address
-(from each company's own site footer or public filings — not a guess)
-geocoded via OpenStreetMap Nominatim, marked `dataConfidence: "verified"`:
-7 in Hyderabad plus HelpNow (Mumbai), TagMango (Kolkata), GimBooks
-(Raipur), and Pulse Active Stations Network (Hyderabad). The remaining
-Hyderabad companies (SpadeWorks, AlgoUniversity, Reclaim Protocol) keep
-the neighborhood-level approximation — no reliable real address turned up
-for them (AlgoUniversity's registered address, for one, is actually in
-Raipur, Chhattisgarh, which would be actively misleading to plot as their
-pin).
+Indian companies with a real, individually-sourced office address (from
+each company's own site footer, legal pages, or public MCA filings — not
+a guess) are geocoded via OpenStreetMap Nominatim and marked
+`dataConfidence: "verified"`:
+
+- **Bengaluru:** 92 of 125 companies now have a street-level pin. The
+  remaining 33 keep the city-level approximation — no trustworthy
+  Bengaluru street address turned up (several are registered in another
+  city, early-stage with no public office, or acquired/defunct with only
+  a vague "Bangalore" listing). Plotting those as a specific building
+  would be actively misleading.
+- **Hyderabad:** 7 of the original 10, plus Pulse Active Stations
+  Network. SpadeWorks, AlgoUniversity, and Reclaim Protocol stay
+  approximate (AlgoUniversity's registered address is in Raipur,
+  Chhattisgarh).
+- **Elsewhere in India:** HelpNow (Mumbai), TagMango (Kolkata), and
+  GimBooks (Raipur).
 
 The map shows exactly the companies whose markers fall inside the current
 viewport (`src/components/startup-map.tsx`), updating live as you pan/zoom
