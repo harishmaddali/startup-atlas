@@ -1,9 +1,12 @@
 import { StartupMapLoader } from "@/components/startup-map-loader";
+import { getCompanies } from "@/app/actions/companies";
 
-export default function Home() {
+export default async function Home() {
+  const companies = await getCompanies();
+
   return (
     <main className="h-screen w-screen">
-      <StartupMapLoader />
+      <StartupMapLoader companies={companies} />
     </main>
   );
 }

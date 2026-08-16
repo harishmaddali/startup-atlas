@@ -5,15 +5,12 @@ import { MapContainer, TileLayer, Marker, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { AnimatePresence } from "motion/react";
-import companies from "@/data/companies.json";
 import type { Company } from "@/types/company";
 import { HYDERABAD_CENTER, distanceKm } from "@/lib/geo";
 import { CompanySheet } from "@/components/company-sheet";
 import { CompanyList } from "@/components/company-list";
 
 const NEARBY_RADIUS_KM = 15;
-
-const allCompanies = companies as Company[];
 
 function markerIcon(isActive: boolean) {
   return L.divIcon({
@@ -50,13 +47,17 @@ function MapController({
   return null;
 }
 
-export function StartupMap() {
+interface StartupMapProps {
+  companies: Company[];
+}
+
+export function StartupMap({ companies }: StartupMapProps) {
   const [center, setCenter] = useState(HYDERABAD_CENTER);
   const [selected, setSelected] = useState<Company | null>(null);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
   const nearby = useMemo(() => {
-    const withDistance = allCompanies
+    const withDistance = companies
       .map((c) => ({ company: c, distance: distanceKm(center, c.location) }))
       .sort((a, b) => a.distance - b.distance);
 
@@ -64,7 +65,7 @@ export function StartupMap() {
       (d) => d.distance <= NEARBY_RADIUS_KM
     );
     return withinRadius.length > 0 ? withinRadius : withDistance;
-  }, [center]);
+  }, [center, companies]);
 
   const selectCompany = useCallback((company: Company) => {
     setSelected(company);
@@ -97,7 +98,7 @@ export function StartupMap() {
 
           <MapController selected={selected} onMoveEnd={setCenter} />
 
-          {allCompanies.map((company) => {
+          {companies.map((company) => {
             const isActive =
               selected?.id === company.id || hoveredId === company.id;
             return (
