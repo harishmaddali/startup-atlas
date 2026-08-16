@@ -14,22 +14,53 @@ import { WORLD_CENTER, WORLD_DEFAULT_ZOOM } from "@/lib/geo";
 import { CompanySheet } from "@/components/company-sheet";
 import { CompanyList } from "@/components/company-list";
 
-function buildMarkerIcon(isActive: boolean) {
-  return L.divIcon({
-    className: "",
-    html: `<span class="relative flex h-9 w-9 items-center justify-center rounded-full border-2 border-white bg-primary shadow-lg ring-2 ring-primary/30 transition-transform duration-200 ${
-      isActive ? "scale-125 -translate-y-1" : ""
-    }"><span class="h-2.5 w-2.5 rounded-full bg-white"></span></span>`,
-    iconSize: [36, 36],
-    iconAnchor: [18, 18],
-  });
+const ACTIVE_COLOR = "#2563eb"; // blue-600 -- the one accent color on an otherwise black/white map
+
+function escapeHtml(str: string) {
+  return str.replace(
+    /[&<>"']/g,
+    (c) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[
+        c
+      ] ?? c
+  );
 }
 
-// Built once and reused across all markers -- with thousands of markers,
-// constructing a new L.divIcon per marker on every hover/select re-render
-// is measurably slow, and every inactive marker looks identical anyway.
-const INACTIVE_ICON = buildMarkerIcon(false);
-const ACTIVE_ICON = buildMarkerIcon(true);
+// Keyed by `${company.id}:${isActive}` and built lazily -- with thousands of
+// markers, constructing a new L.divIcon (and re-decoding the logo URL) per
+// marker on every hover/select re-render is measurably slow, and each
+// company's icon never changes shape once built.
+const iconCache = new Map<string, L.DivIcon>();
+
+function getMarkerIcon(company: Company, isActive: boolean): L.DivIcon {
+  const key = `${company.id}:${isActive ? 1 : 0}`;
+  const cached = iconCache.get(key);
+  if (cached) return cached;
+
+  const size = isActive ? 40 : 32;
+  const borderColor = isActive ? ACTIVE_COLOR : "#ffffff";
+  const boxShadow = isActive
+    ? `0 0 0 3px ${ACTIVE_COLOR}66, 0 4px 10px rgba(0,0,0,0.35)`
+    : "0 2px 6px rgba(0,0,0,0.3)";
+  const inner = company.logoUrl
+    ? `<img src="${escapeHtml(
+        company.logoUrl
+      )}" alt="" style="width:100%;height:100%;object-fit:contain;padding:3px;box-sizing:border-box;" />`
+    : `<span style="font-size:${Math.round(
+        size * 0.42
+      )}px;font-weight:700;color:#6b7280;">${escapeHtml(
+        (company.name.trim().charAt(0) || "?").toUpperCase()
+      )}</span>`;
+
+  const icon = L.divIcon({
+    className: "",
+    html: `<span style="display:flex;align-items:center;justify-content:center;width:${size}px;height:${size}px;border-radius:9999px;background:#fff;border:2px solid ${borderColor};box-shadow:${boxShadow};overflow:hidden;">${inner}</span>`,
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+  });
+  iconCache.set(key, icon);
+  return icon;
+}
 
 function clusterIcon(cluster: L.MarkerCluster) {
   const count = cluster.getChildCount();
@@ -134,7 +165,7 @@ export function StartupMap({ companies }: StartupMapProps) {
                 <Marker
                   key={company.id}
                   position={[company.location.lat, company.location.lng]}
-                  icon={isActive ? ACTIVE_ICON : INACTIVE_ICON}
+                  icon={getMarkerIcon(company, isActive)}
                   eventHandlers={{
                     click: () => setSelected(company),
                     mouseover: () => setHoveredId(company.id),
