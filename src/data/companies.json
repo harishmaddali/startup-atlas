@@ -198,5 +198,3156 @@
     "website": "http://www.digi-prex.com/",
     "description": "Subscription pharmacy for patients with chronic diseases.",
     "dataConfidence": "approximate"
+  },
+  {
+    "id": "groww",
+    "name": "Groww",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98884,
+      "lng": 77.58385
+    },
+    "contactEmail": null,
+    "founders": [
+      "Lalit Keshre",
+      "Ishan Bansal",
+      "Harsh Jain",
+      "Neeraj Singh"
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0ae62cb1672e8223d9b0ae2e5b7ecde4ae763c5e.png",
+    "ycBatch": "W18",
+    "website": "https://groww.in",
+    "description": "Making financial services simple, transparent and delightful.",
+    "status": "Public",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "meesho",
+    "name": "Meesho",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97462,
+      "lng": 77.58926
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vidit Aatrey",
+      "Sanjeev Barnwal"
+    ],
+    "yearFounded": 2015,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2e219c412cfa3b69bc5211d8d7473cf06bfe6593.png",
+    "ycBatch": "S16",
+    "website": "http://www.meesho.com",
+    "description": "Democratizing internet commerce for everyone in India",
+    "status": "Public",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "razorpay",
+    "name": "Razorpay",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94728,
+      "lng": 77.61524
+    },
+    "contactEmail": null,
+    "founders": [
+      "Harshil Mathur",
+      "Shashank Kumar"
+    ],
+    "yearFounded": 2014,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b6a6aaf9a84fa4b7ddb53cabda7443c142a5a154.png",
+    "ycBatch": "W15",
+    "website": "https://razorpay.com",
+    "description": "India's only full-stack financial solutions company for businesses.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "godhands",
+    "name": "GodHands",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97332,
+      "lng": 77.57498
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sai Vamshi Batchu",
+      "Aditya Bommakanti"
+    ],
+    "yearFounded": 2026,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5ec540989c0e572731406bc02714d7608e407cc3.png",
+    "ycBatch": "F26",
+    "website": "https://godhands.dev",
+    "description": "The company knowledge base that updates itself",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "ritivel",
+    "name": "Ritivel",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00648,
+      "lng": 77.62805
+    },
+    "contactEmail": null,
+    "founders": [
+      "Nirmit Arora",
+      "Gunin Gupta",
+      "Pavan Kalyan (a.k.a PK) Tankala"
+    ],
+    "yearFounded": 2025,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/20339e5cb76cdfb65db692fb1ab38e8c6f710609.png",
+    "ycBatch": "W26",
+    "website": "https://www.ritivel.com",
+    "description": "AI-native platform for Life-Sciences Documentation",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "ressl-ai",
+    "name": "Ressl AI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94229,
+      "lng": 77.60679
+    },
+    "contactEmail": null,
+    "founders": [
+      "Arushi Gandhi",
+      "Abhishek E"
+    ],
+    "yearFounded": 2025,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/186bc6483be3828abcf998b9a4ffedbef27ecfed.png",
+    "ycBatch": "W26",
+    "website": "https://ressl.ai",
+    "description": "Train, eval and build autonomous agents",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "perseus",
+    "name": "Perseus",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00775,
+      "lng": 77.57717
+    },
+    "contactEmail": null,
+    "founders": [
+      "Samrath Chadha"
+    ],
+    "yearFounded": 2025,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9765cfac6d122dea71443fd13f227ed6e9c5257b.png",
+    "ycBatch": "F25",
+    "website": "https://perseus.computer",
+    "description": "Applied Lab focused on Search in Latent Spaces.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "bolna-ai",
+    "name": "Bolna AI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94822,
+      "lng": 77.57309
+    },
+    "contactEmail": null,
+    "founders": [
+      "Prateek Sachan",
+      "Maitreya Wagh"
+    ],
+    "yearFounded": 2025,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0b089abe00badc05c8bba9c5210bd4a34f636170.png",
+    "ycBatch": "F25",
+    "website": "https://bolna.ai",
+    "description": "Voice AI to enable India's next billion",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "truffle-ai",
+    "name": "Truffle AI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.96247,
+      "lng": 77.57952
+    },
+    "contactEmail": null,
+    "founders": [
+      "Shaunak Srivastava",
+      "Rahul Karajgikar"
+    ],
+    "yearFounded": 2024,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/17f1a1e21672fa03c69b669feef31d2a59b2c849.png",
+    "ycBatch": "W25",
+    "website": "https://www.trytruffle.ai/",
+    "description": "AWS for AI Agents",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "rowboat-labs",
+    "name": "Rowboat Labs",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.01187,
+      "lng": 77.55998
+    },
+    "contactEmail": null,
+    "founders": [
+      "Arjun Maheswaran",
+      "Ramnique Singh"
+    ],
+    "yearFounded": 2024,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8c4e76ac514dde1b24f29f53724cc0f032c90a91.png",
+    "ycBatch": "S24",
+    "website": "https://www.rowboatlabs.com",
+    "description": "Open-source AI coworker with memory",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "xpay",
+    "name": "xPay",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.96203,
+      "lng": 77.63924
+    },
+    "contactEmail": null,
+    "founders": [
+      "Aniket Gupta",
+      "Rakshit Bansal"
+    ],
+    "yearFounded": 2024,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3971c15f9f5205a1db5b53fe701e75a30c87c769.png",
+    "ycBatch": "W24",
+    "website": "https://www.xpaycheckout.com/",
+    "description": "International Billing Ops, Sales Tax and Payments for SaaS businesses",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "yenmo",
+    "name": "Yenmo",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94527,
+      "lng": 77.60096
+    },
+    "contactEmail": null,
+    "founders": [
+      "Ashutosh Purohit",
+      "Aryan Agarwal"
+    ],
+    "yearFounded": 2024,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e38727bf49fef15610b997e8f1c13cd449e6da05.png",
+    "ycBatch": "W24",
+    "website": "https://yenmo.in/",
+    "description": "Secured consumer lending in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "infinity",
+    "name": "Infinity",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.0024,
+      "lng": 77.55879
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sourav Choraria",
+      "Sidharth Choraria"
+    ],
+    "yearFounded": 2023,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6d4375431e4067cbd0c409f02ba66c5924b3c146.png",
+    "ycBatch": "W24",
+    "website": "https://www.infinityapp.in/",
+    "description": "Business banking for cross-border SMBs & Startups",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "heysol",
+    "name": "CORE",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98485,
+      "lng": 77.56996
+    },
+    "contactEmail": null,
+    "founders": [
+      "Harshith Mullapudi",
+      "Manik Aggarwal",
+      "Manoj K"
+    ],
+    "yearFounded": 2025,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9d0fae4f448de789e718cb96878197c7ecc29e2f.png",
+    "ycBatch": "S23",
+    "website": "https://getcore.me",
+    "description": "Your AI butler that understands you really well and proactively acts…",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "superapi",
+    "name": "SuperAPI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.96823,
+      "lng": 77.55865
+    },
+    "contactEmail": null,
+    "founders": [
+      "Adithya Kavuluru"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c11e1c8d036fe535bd716bcbde93721f71fc8801.png",
+    "ycBatch": "W23",
+    "website": "https://trysuperapi.com",
+    "description": "Programmable API gateway that makes APIs cacheable",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "floworks",
+    "name": "Floworks",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94932,
+      "lng": 77.59241
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sarthak Shrivastava",
+      "Sudipta Biswas"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b971472cf0d2638ad01eeaaf35f5a56a8abd2541.png",
+    "ycBatch": "W23",
+    "website": "https://floworks.ai/",
+    "description": "Hire the best AI Sales employees | AI SDR | AI RevOps | AI EA",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "clueso",
+    "name": "Clueso",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94563,
+      "lng": 77.59479
+    },
+    "contactEmail": null,
+    "founders": [
+      "Akash Anand",
+      "Neel Balar",
+      "Prajwal Prakash"
+    ],
+    "yearFounded": 2023,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8bb9d01e5193ccdd98bfdf1cea08fb2ede901fe5.png",
+    "ycBatch": "W23",
+    "website": "https://clueso.io",
+    "description": "Create beautiful videos & docs for any product or process in minutes",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "superkalam",
+    "name": "SuperKalam",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94519,
+      "lng": 77.56393
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vimal Singh Rathore",
+      "Aseem Gupta"
+    ],
+    "yearFounded": 2023,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3e158289890d2edaade7efd0948c8b53b8775a93.png",
+    "ycBatch": "W23",
+    "website": "https://superkalam.com",
+    "description": "AI-Powered Super Mentor for Test Prep",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "retape",
+    "name": "Retape",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99346,
+      "lng": 77.61973
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sahil Singla",
+      "Ankit Goyal",
+      "Shubham Rana"
+    ],
+    "yearFounded": 2023,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ae3ba43742d4dcd5a5ed43d8813d3cab2253bd1f.png",
+    "ycBatch": "W23",
+    "website": "https://www.retape.ai/",
+    "description": "AI Operating System for Debt Settlement",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "drdroid",
+    "name": "DrDroid",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98331,
+      "lng": 77.6144
+    },
+    "contactEmail": null,
+    "founders": [
+      "Siddarth Jain",
+      "Dipesh Mittal"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7b6d81dd6d4c4bdc913b702f0bd007e3c36cfe55.png",
+    "ycBatch": "W23",
+    "website": "https://drdroid.io/",
+    "description": "Your best friend in production.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "gullak-money",
+    "name": "Gullak Money",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99368,
+      "lng": 77.56561
+    },
+    "contactEmail": null,
+    "founders": [
+      "Naimisha Rao",
+      "Dilip Jain",
+      "Manthan Shah"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/02dc5ca39f0b84d551575438e1537fbaa5ba8983.png",
+    "ycBatch": "S22",
+    "website": "https://gullak.money",
+    "description": "Gullak automates savings & invests these in gold",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "coupl",
+    "name": "Coupl",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.01174,
+      "lng": 77.61548
+    },
+    "contactEmail": null,
+    "founders": [
+      "Srinivas Sarkar",
+      "Kushagra Manglik"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b4973d6115fc1220d3b06c0d5b8280d217651cc1.png",
+    "ycBatch": "S22",
+    "website": "https://coupl.money/",
+    "description": "Banking designed for Indian couples.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "slidely-ai",
+    "name": "Slidely AI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.96267,
+      "lng": 77.58303
+    },
+    "contactEmail": null,
+    "founders": [
+      "Apoorve Singhal",
+      "Nikhil Shah"
+    ],
+    "yearFounded": 2024,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c0fd1e303870cee8f54e36ccbd538d8f026ea4e6.png",
+    "ycBatch": "S22",
+    "website": "https://slidely.ai/",
+    "description": "AI for professional PowerPoint presentations, available in PowerPoint",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "flatx",
+    "name": "FlatX",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97811,
+      "lng": 77.55086
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vedant Kumar",
+      "Paras Rajput"
+    ],
+    "yearFounded": 2025,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/284ae5d823ab5142f0c92e0c84972d5c3c79ca8d.png",
+    "ycBatch": "S22",
+    "website": "https://www.flatx.co/",
+    "description": "AI-Powered Rental Platform for Urban Renters",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "raven",
+    "name": "Raven",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.92983,
+      "lng": 77.55357
+    },
+    "contactEmail": null,
+    "founders": [
+      "Priyansh Srivastava",
+      "Sriyansh Srivastava"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3fb50438182aeb488057a1788d0a93f79ae1c8ec.png",
+    "ycBatch": "S22",
+    "website": "https://startraven.com",
+    "description": "AI Assistants for Manufacturing Operations",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "maya-labs",
+    "name": "Maya Labs",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99394,
+      "lng": 77.56235
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sibesh Kar",
+      "Shubham Mishra"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/93bc27dea8b2f9bdbb3b58f34271dadc324cdf6d.png",
+    "ycBatch": "S22",
+    "website": "https://mayalabs.io",
+    "description": "Building self-programming machines",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "compup",
+    "name": "CompUp",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97487,
+      "lng": 77.60621
+    },
+    "contactEmail": null,
+    "founders": [
+      "Anurag Dixit",
+      "Ramesh Konatham",
+      "Anshul Mishra"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/418fe819ff51f7a93e3dfa5ef6d26990a3053c22.png",
+    "ycBatch": "S22",
+    "website": "https://www.compup.io",
+    "description": "Building a compensation graph to help companies optimise people spend",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "100x",
+    "name": "100x",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94812,
+      "lng": 77.59562
+    },
+    "contactEmail": null,
+    "founders": [
+      "Shardul Lavekar",
+      "Parth Mudgal"
+    ],
+    "yearFounded": 2024,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e57695e93f2c0c4bd59ac6e3b1a1d55dfeb43099.png",
+    "ycBatch": "S22",
+    "website": "https://100x.bot?utm_source=inbound&utm_medium=bookface&utm_campaign=yc&utm_id=122",
+    "description": "Create, Share, and Monetize AI Agents",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "peoplebox",
+    "name": "Peoplebox.ai",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94663,
+      "lng": 77.62285
+    },
+    "contactEmail": null,
+    "founders": [
+      "Abhinav Chugh",
+      "Alagu M"
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d90945bbd65aa37022870fefcb46d282f82e8624.png",
+    "ycBatch": "S22",
+    "website": "https://www.peoplebox.ai",
+    "description": "AI talent platform to hire, manage, and grow your people",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "flux-auto",
+    "name": "Flux Auto",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95103,
+      "lng": 77.61425
+    },
+    "contactEmail": null,
+    "founders": [
+      "Pranav Manpuria",
+      "Abhishek Gupta"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/1782782e9f339f3d5ae2b7213cb07b675c29d2f7.png",
+    "ycBatch": "W21",
+    "website": "https://fluxauto.ai",
+    "description": "Physical AI for Warehouses and Factories",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "apollo-3",
+    "name": "Apollo",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98977,
+      "lng": 77.57303
+    },
+    "contactEmail": null,
+    "founders": [
+      "Tanmaay K",
+      "S G"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2ea4e2897740aa14e96c42667cc3be13a0f2c9e8.png",
+    "ycBatch": "W22",
+    "website": "https://www.apollofirst.xyz/",
+    "description": "Payments & Loyalty Infrastructure",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "material-depot",
+    "name": "Material Depot",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00971,
+      "lng": 77.56587
+    },
+    "contactEmail": null,
+    "founders": [
+      "Manish Reddy",
+      "Sarthak Agrawal"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a662852a35aa588b121563de0be00dcfacd66749.png",
+    "ycBatch": "W22",
+    "website": "https://materialdepot.in/",
+    "description": "India's Fastest Growing Home Decor destination for Floor & Wall Decor",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "recordbook",
+    "name": "RecordBook",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.92945,
+      "lng": 77.59716
+    },
+    "contactEmail": null,
+    "founders": [
+      "Abhishek Choudhary"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3875d1d979cbc4f3d637b7d4c36031d0e7abc4ec.png",
+    "ycBatch": "W22",
+    "website": "https://play.google.com/store/apps/details?id=com.foodmonk.rekordapp",
+    "description": "Airtable for 400 Million SMBs Globally",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "salt",
+    "name": "SALT",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.9615,
+      "lng": 77.60375
+    },
+    "contactEmail": null,
+    "founders": [
+      "Ankit Parasher",
+      "Udita Pal"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6dab9350cc5e586235091913992c3fbaa5770f3e.png",
+    "ycBatch": "W22",
+    "website": "https://salt.pe",
+    "description": "B2B Cross-Border Payment & Compliance Platform",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "better-opinions",
+    "name": "Better Opinions",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.01368,
+      "lng": 77.58098
+    },
+    "contactEmail": null,
+    "founders": [
+      "SAMAY JAIN",
+      "Soumyajit Das"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f6ae65ec2d1ccb8f2c368690d2013dc58fcdf2be.png",
+    "ycBatch": "W22",
+    "website": "https://betteropinions.in/",
+    "description": "Prediction market of India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "paycrunch",
+    "name": "PayCrunch",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.96719,
+      "lng": 77.57449
+    },
+    "contactEmail": null,
+    "founders": [
+      "Aman Bhayana"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/875f70726bf714e04e2c65653e8ccf92d8beb470.png",
+    "ycBatch": "W22",
+    "website": "https://paycrunch.in",
+    "description": "Credit Card for college students based on UPI.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "rehook-ai",
+    "name": "Rehook.ai",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99307,
+      "lng": 77.55341
+    },
+    "contactEmail": null,
+    "founders": [
+      "Akhil Suhag",
+      "Mukul Anand",
+      "Tushar Dhara",
+      "Akshay Suhag"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/53da24c36b479dbe73257b4e0460bbc902e023bf.png",
+    "ycBatch": "W22",
+    "website": "https://rehook.ai/",
+    "description": "Run, Track and manage any and all user incentive campaigns.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "streak-2",
+    "name": "Streak",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.93191,
+      "lng": 77.60718
+    },
+    "contactEmail": null,
+    "founders": [
+      "Mitul Mehta",
+      "Shiv Bidani"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f8c6b91146b5976c6d0c9571ae55fc265975f90e.png",
+    "ycBatch": "W22",
+    "website": "https://www.streakcard.com/",
+    "description": "A neo-banking platform for children in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "mysivi",
+    "name": "MySivi",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95266,
+      "lng": 77.60015
+    },
+    "contactEmail": null,
+    "founders": [
+      "Akshay Sanghai",
+      "Shivam Gupta",
+      "Anoop Jaiswal"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0d0608c9504f2b85980b6db17c332126c43441a4.png",
+    "ycBatch": "W22",
+    "website": "https://www.mysivi.ai/",
+    "description": "MySivi - AI English Speaking Practice App",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "salarybook",
+    "name": "SalaryBook",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99504,
+      "lng": 77.5681
+    },
+    "contactEmail": null,
+    "founders": [
+      "Apoorva Sharma",
+      "Poorva Dixit"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/18003ad0da61412ba9ecc11d59ec2045f6248cc0.png",
+    "ycBatch": "S21",
+    "website": "https://salarybook.co.in/",
+    "description": "Mobile first solution for Payroll, employee & expense management",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "docvita",
+    "name": "DocVita",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98638,
+      "lng": 77.6021
+    },
+    "contactEmail": null,
+    "founders": [
+      "Anmol Arora",
+      "Vikram Patel"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/609a65323334f5f2374a72afdce2a4dd47284790.png",
+    "ycBatch": "W20",
+    "website": "https://docvita.com",
+    "description": "Telehealth provider for India.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "coulomb-ai",
+    "name": "Coulomb AI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97389,
+      "lng": 77.56517
+    },
+    "contactEmail": null,
+    "founders": [
+      "Khushboo Shrivastava",
+      "Santanu Mondal"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0d176e9e252d68df98f28ada02fca2e0e1f38e49.png",
+    "ycBatch": "S21",
+    "website": "https://coulomb.ai/",
+    "description": "Battery Observability Platform for Electric Vehicles",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "ivy-homes",
+    "name": "Ivy Homes",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95525,
+      "lng": 77.6325
+    },
+    "contactEmail": null,
+    "founders": [
+      "Pritam Thakur"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f51dc2b307e3d50d35264d05b53bf776e1a2bdb8.png",
+    "ycBatch": "S21",
+    "website": "https://ivy.homes",
+    "description": "We make instant offers to buy homes in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "marketfeed",
+    "name": "marketfeed",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97098,
+      "lng": 77.56376
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sharique Samsudheen",
+      "Sooraj Elamana"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2d876ee89747c228cdd24b743705be33b8ec8364.png",
+    "ycBatch": "S21",
+    "website": "https://marketfeed.com",
+    "description": "Helping Indians make better financial decisions.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "infer",
+    "name": "Infer",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97819,
+      "lng": 77.56123
+    },
+    "contactEmail": null,
+    "founders": [
+      "Urvin Soneta",
+      "Suneel Matham",
+      "Vaibhav Saxena"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f093ce23ca35f332213eeee11dee08581cefba9d.png",
+    "ycBatch": "S21",
+    "website": "https://www.infer.so/",
+    "description": "Operating system for insurance agencies",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "frontpage",
+    "name": "FrontPage",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98568,
+      "lng": 77.6083
+    },
+    "contactEmail": null,
+    "founders": [
+      "Avijit Sharma"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/29ac95e715a7bf8e21b677a36c6d3cebf4e933ad.png",
+    "ycBatch": "S21",
+    "website": "https://front.page",
+    "description": "Community for 100M Indian Financial Market Traders & Investors",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "karbon-card",
+    "name": "Karbon Card",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.93722,
+      "lng": 77.55564
+    },
+    "contactEmail": null,
+    "founders": [
+      "Pei-fu Hsieh"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/17ef37d6752b041cef8cbde238930aba2834a6a3.png",
+    "ycBatch": "S21",
+    "website": "https://www.karboncard.com/",
+    "description": "Corporate Card solution for Indian businesses",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "koshex",
+    "name": "Koshex",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.01141,
+      "lng": 77.58323
+    },
+    "contactEmail": null,
+    "founders": [
+      "Akash Agrawal",
+      "Komal Kumar Gupta"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5372c43fe16f7453f3807e7fb91ce46ee47099cc.png",
+    "ycBatch": "S21",
+    "website": "https://www.koshex.com",
+    "description": "Automating wealth creation for 400M Indian millennials",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "rivia-ai",
+    "name": "Rivia.AI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94226,
+      "lng": 77.61733
+    },
+    "contactEmail": null,
+    "founders": [
+      "Samay Jain"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/74b8fae20934df4dfafa899ab30b9ddd193b6f6b.png",
+    "ycBatch": "S21",
+    "website": "https://rivia.ai",
+    "description": "Interactive Product Demos",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "stownest",
+    "name": "Stownest",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.93955,
+      "lng": 77.57198
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sudhindra Subbarao",
+      "Ramesh Chincholi",
+      "AMIETH KUMAR",
+      "Srinivasa Murthy"
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c783e8122eec2c0e306b175f148c67b441c33423.png",
+    "ycBatch": "S21",
+    "website": "https://stownest.com",
+    "description": "Flexible On-Demand Storage Space for Household, SMEs & Travellers.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "codingal",
+    "name": "Codingal",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.01472,
+      "lng": 77.60223
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vivek Prakash",
+      "Satyam Baranwal"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/77d50a678b852201eb874c4f38a23e0db3307c4c.png",
+    "ycBatch": "W21",
+    "website": "https://www.codingal.com/?utm_source=yc",
+    "description": "Leading online after-school for kids & teens to learn AI & coding",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "fifthtry",
+    "name": "FifthTry",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00629,
+      "lng": 77.56297
+    },
+    "contactEmail": null,
+    "founders": [
+      "Deepak Angrula"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/552447facd8d9e007c6306d2f307ff1eee8ac30a.png",
+    "ycBatch": "W21",
+    "website": "https://www.FifthTry.com",
+    "description": "Continuous Documentation To End Documentation Rot",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "rocketsdr",
+    "name": "RocketSDR",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.9516,
+      "lng": 77.63921
+    },
+    "contactEmail": null,
+    "founders": [
+      "Ayush Pateria",
+      "Keshav chouksey"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e709fbbd586b69b614e78a934b3926dac2456289.png",
+    "ycBatch": "W21",
+    "website": "https://rocketsdr.ai",
+    "description": "AI Native Sales Outreach Platform",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "zealth",
+    "name": "Zealth",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94344,
+      "lng": 77.61512
+    },
+    "contactEmail": null,
+    "founders": [
+      "Monika Mehta",
+      "Dheeraj Mundhra"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/18c9dca3fe4fe586ecc86e321177f271f61a4ffb.png",
+    "ycBatch": "W21",
+    "website": "https://zealth-ai.com/",
+    "description": "Software for remote monitoring of cancer patients",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "cashbook",
+    "name": "CashBook",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00596,
+      "lng": 77.57643
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vivek Kumar",
+      "Ashutosh Pathak"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3d799a3b8749ea35b175f67bd64402da202e8445.png",
+    "ycBatch": "W21",
+    "website": "https://cashbook.in",
+    "description": "Ramp for Indian Businesses - UPI Wallets for Employee Expenses",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "bimaplan",
+    "name": "Bimaplan",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00045,
+      "lng": 77.63154
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vikul Goyal"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/34ed5c1ce09460f808ff16141b40921c2fce47a7.png",
+    "ycBatch": "W21",
+    "website": "https://www.bimaplan.co",
+    "description": "Affordable insurance for the next billion Indians",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "tilt-2",
+    "name": "Tilt",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.987,
+      "lng": 77.56007
+    },
+    "contactEmail": null,
+    "founders": [
+      "Deepak VS",
+      "Daksh Shah"
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/831d19b9696019cba0a87bff2dc84fcc4d420a5c.png",
+    "ycBatch": "W21",
+    "website": "https://tilt.bike/",
+    "description": "Bringing the joy of cycling to millions of Indians",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "weekday",
+    "name": "Weekday",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97259,
+      "lng": 77.58858
+    },
+    "contactEmail": null,
+    "founders": [
+      "Amit Singh",
+      "Chetan Dalal",
+      "Anubhav Malik"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/abebec09c171112b2f825b920689d4885969573a.png",
+    "ycBatch": "W21",
+    "website": "https://weekday.works",
+    "description": "AI recruiter that runs outbound sourcing campaigns to find top talent",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "voosh",
+    "name": "Voosh",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94174,
+      "lng": 77.61024
+    },
+    "contactEmail": null,
+    "founders": [
+      "Priyam Saraswat",
+      "Kshitiz Sanghi"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ef1e643c10958ceb8cbae838ae55d8e2e2a2d5d9.png",
+    "ycBatch": "W21",
+    "website": "https://voosh.ai/",
+    "description": "Making Restaurants more data-driven!",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "zoko",
+    "name": "ZOKO",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.0037,
+      "lng": 77.62059
+    },
+    "contactEmail": null,
+    "founders": [
+      "Arjun Paul"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/88a29ec13035e5082aa0fc15b5e1d34257c60895.png",
+    "ycBatch": "W21",
+    "website": "https://www.zoko.io/",
+    "description": "Better Business on WhatsApp",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "businessonbot",
+    "name": "BusinessOnBot",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95724,
+      "lng": 77.57221
+    },
+    "contactEmail": null,
+    "founders": [
+      "Kirushanth Kumar"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/03c75b785d321bb19fc8ab6c4a6b736e7b35df44.png",
+    "ycBatch": "W21",
+    "website": "https://www.businessonbot.com/",
+    "description": "Automated user acquisition & selling on WhatsApp for businesses",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "betterhalf",
+    "name": "Betterhalf",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00058,
+      "lng": 77.55412
+    },
+    "contactEmail": null,
+    "founders": [
+      "Pawan Gupta",
+      "Rahul Namdev"
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/cef9597b14ed6c2ccca297255b6622fd1a48448d.png",
+    "ycBatch": "W21",
+    "website": "https://betterhalf.ai",
+    "description": "India’s first and only marriage super app",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "orange-health-labs",
+    "name": "Orange Health Labs",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.96289,
+      "lng": 77.58801
+    },
+    "contactEmail": null,
+    "founders": [
+      "Tarun Bhambra",
+      "Dhruv Gupta"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3e07e4f8af878b1c646ca1ca04c557bb4e10c4a8.png",
+    "ycBatch": "S20",
+    "website": "http://www.orangehealth.in",
+    "description": "India's Fastest Diagnostics Service",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "cradle",
+    "name": "Cradle",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98906,
+      "lng": 77.57063
+    },
+    "contactEmail": null,
+    "founders": [
+      "Gaurav Mishra"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e6b0060a03ac1e3bb4ad8eaf0536ff8caacd95d4.png",
+    "ycBatch": "S20",
+    "website": "https://www.cradlefinance.com",
+    "description": "B2B payments network in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "wareiq",
+    "name": "WareIQ",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.0071,
+      "lng": 77.6271
+    },
+    "contactEmail": null,
+    "founders": [
+      "Harsh Vaidya",
+      "Aayush Mattoo"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/cd493d3173a7c398db40f624d4168ca0dc51665c.png",
+    "ycBatch": "S20",
+    "website": "https://www.wareiq.com/",
+    "description": "Amazon-prime like logistics for eCommerce companies in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "explorex",
+    "name": "Explorex",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.9493,
+      "lng": 77.62559
+    },
+    "contactEmail": null,
+    "founders": [
+      "Mainak Sarkar",
+      "Pritam Khan"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b038a5e905f1f6cf97ad14baa85b93658ffe2791.png",
+    "ycBatch": "S20",
+    "website": "https://explorex.co",
+    "description": "Ecosystem Platform for Restaurants in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "medpiper-technologies-inc",
+    "name": "MedPiper Technologies, Inc",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.93035,
+      "lng": 77.61101
+    },
+    "contactEmail": null,
+    "founders": [
+      "Nitthin Nair",
+      "Pranay Suyash"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f7d30e3e30894c40033c853cefa3efa02ec9f54b.png",
+    "ycBatch": "S20",
+    "website": "https://www.medpiper.com",
+    "description": "Instant cash payouts for delayed flights",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "volopay",
+    "name": "Volopay",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95659,
+      "lng": 77.55564
+    },
+    "contactEmail": null,
+    "founders": [
+      "Rajith Shaji",
+      "Rajesh Raikwar"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a2969762f324adcf3509c5854bebc199ecc587cb.png",
+    "ycBatch": "S20",
+    "website": "https://www.volopay.com/",
+    "description": "Brex for South East Asia - Corporate cards & automated payments.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "decentro",
+    "name": "Decentro",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95304,
+      "lng": 77.62229
+    },
+    "contactEmail": null,
+    "founders": [
+      "Rohit Taneja"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/26546d4be80e83088bea9fc9e77f6aa3cd234174.png",
+    "ycBatch": "S20",
+    "website": "https://decentro.tech",
+    "description": "API Platform for Banking Integrations (Plaid for India and APAC)",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "stayqrious",
+    "name": "StayQrious",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00801,
+      "lng": 77.55583
+    },
+    "contactEmail": null,
+    "founders": [
+      "Shankar Ram A",
+      "Avinash Anand",
+      "Aanand Srinivas"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6777015bca896304ef3afd74444401925f0f7b27.png",
+    "ycBatch": "W20",
+    "website": "https://StayQrious.com",
+    "description": "StayQrious helps kids in India learn through online group classes,…",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "spenny",
+    "name": "Spenny",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.93735,
+      "lng": 77.57173
+    },
+    "contactEmail": null,
+    "founders": [
+      "Gaurav Arora"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c5eab8ce312ccd084d88910aa9abc81700929490.png",
+    "ycBatch": "W20",
+    "website": "http://spennyapp.com",
+    "description": "Acorns for India. Every time you swipe you make a digital…",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "morphle-labs",
+    "name": "Morphle Labs",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99591,
+      "lng": 77.5889
+    },
+    "contactEmail": null,
+    "founders": [
+      "Rohit Hiwale"
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c76097b716ca7b82f6b26beb694f3ab12e87aab6.png",
+    "ycBatch": "W20",
+    "website": "https://morphlelabs.com",
+    "description": "Robotic Automation for cancer diagnostics - Robotic Microscopes &…",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "fampay",
+    "name": "FamPay",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.99692,
+      "lng": 77.58261
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sambhav Jain",
+      "Kush Taneja"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/319c4ca66fa53bdc1e6c40bcff4a0ea5aebe575d.png",
+    "ycBatch": "S19",
+    "website": "https://fampay.in",
+    "description": "India’s first neobank for teenagers",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "vahan",
+    "name": "Vahan",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.9992,
+      "lng": 77.58362
+    },
+    "contactEmail": null,
+    "founders": [
+      "Madhav Krishna"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/970b0a4ef3d00dbfd511f2fe9ccdb3e524078221.png",
+    "ycBatch": "S19",
+    "website": "https://vahan.ai",
+    "description": "AI recruiter for India's massive blue-collar workforce",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "lokal",
+    "name": "Lokal",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.0004,
+      "lng": 77.58607
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vipul Chaudhary",
+      "Jani pasha"
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b20a5bbea30cf4dff9a140da9ea7d30f2d7827ff.png",
+    "ycBatch": "S19",
+    "website": "https://www.getlokalapp.com",
+    "description": "Local news, information and classifieds for India's small town users",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "binks",
+    "name": "Binks",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.9514,
+      "lng": 77.62391
+    },
+    "contactEmail": null,
+    "founders": [
+      "Aamna Khan",
+      "Raj Vardhan"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6464a8a7a2187e9e964be62968ef0310b20f0a5f.png",
+    "ycBatch": "S19",
+    "website": "https://getbinks.com/",
+    "description": "A zero inventory, zero returns factory-to-consumer apparel company",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "inito",
+    "name": "Inito",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00624,
+      "lng": 77.57138
+    },
+    "contactEmail": null,
+    "founders": [
+      "Varun AV",
+      "Aayush Rai"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2e227664daa8b8943b9d87641ef2bf7c2b5c1b42.png",
+    "ycBatch": "W19",
+    "website": "https://www.inito.com/",
+    "description": "Enabling better self care with at-home hormone tracking.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "dockup",
+    "name": "Dockup",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.93171,
+      "lng": 77.55147
+    },
+    "contactEmail": null,
+    "founders": [
+      "Yuva Kumar",
+      "Emil Soman"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7bbbc0b138970d664365f112bc20022470751139.png",
+    "ycBatch": "W19",
+    "website": "https://getdockup.com/",
+    "description": "On demand ephemeral environments to run manual and automated tests.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "mudrex",
+    "name": "Mudrex",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.92845,
+      "lng": 77.62851
+    },
+    "contactEmail": null,
+    "founders": [
+      "Edul Patel"
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d7b2fc776860d94ede337b7dc0245e2e9621b3cf.png",
+    "ycBatch": "W19",
+    "website": "https://mudrex.com",
+    "description": "India's largest crypto investing paltform",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "okcredit",
+    "name": "OkCredit",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98814,
+      "lng": 77.62652
+    },
+    "contactEmail": null,
+    "founders": [
+      "Gaurav Kumar",
+      "Harsh Pokharna",
+      "Aditya Prasad"
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/319d958d1c1ed34dab6fa69de4c65c566d82fcc8.png",
+    "ycBatch": "S18",
+    "website": "https://www.okcredit.in",
+    "description": "Simple and secure bookkeeping for Indian businesses.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "khatabook",
+    "name": "Khatabook",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.93232,
+      "lng": 77.57815
+    },
+    "contactEmail": null,
+    "founders": [
+      "Ravish Naresh"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/66b2f57ed74a17802ce2f389dc5be76a7d2e0fe0.png",
+    "ycBatch": "S18",
+    "website": "https://khatabook.com/",
+    "description": "Manage your ledgers and avail Financial Services like Lending on your…",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "cashfree-payments",
+    "name": "Cashfree Payments",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00575,
+      "lng": 77.61895
+    },
+    "contactEmail": null,
+    "founders": [
+      "Akash Sinha",
+      "Reeju Datta"
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7eb68658869d911582ae784bc8ff049cb6b4a898.png",
+    "ycBatch": "S17",
+    "website": "https://www.cashfree.com/",
+    "description": "Next-gen digital payments provider for India.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "onefin",
+    "name": "OneFin",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95277,
+      "lng": 77.59932
+    },
+    "contactEmail": null,
+    "founders": [
+      "Pratish Gandhi",
+      "Harshit Vaishnav"
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c6faf92eb91f0ff8910311336fa3f164df398c35.png",
+    "ycBatch": "W17",
+    "website": "https://www.onefin.in",
+    "description": "Shopify for Financial Services",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "wifi-dabba-inc",
+    "name": "Wifi Dabba, Inc.",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.92951,
+      "lng": 77.55587
+    },
+    "contactEmail": null,
+    "founders": [
+      "Karam Lakshman",
+      "Shubhendu Sharma"
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/83b4db3a712ba1a50063b75aa9ca4c1c974cf5ae.png",
+    "ycBatch": "W17",
+    "website": "https://dabba.com",
+    "description": "Decentralised broadband connectivity.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "cleartax",
+    "name": "Clear",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98509,
+      "lng": 77.61668
+    },
+    "contactEmail": null,
+    "founders": [
+      "Archit Gupta",
+      "Srivatsan Chari",
+      "Ankit Solanki"
+    ],
+    "yearFounded": 2011,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b9c7802fe390e275d36ad0835a41223e647bcf5a.png",
+    "ycBatch": "S14",
+    "website": "https://clear.in/",
+    "description": "Fintech SaaS platform for invoices, taxes, wealth management & credit.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "chequpi",
+    "name": "CheqUPI",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.92833,
+      "lng": 77.60078
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sudhanshu Shekhar",
+      "Manish Shukla"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a843f9faa1181a347ed222e5101c43bcf320c8d8.png",
+    "ycBatch": "S23",
+    "website": "https://www.cheq.money",
+    "description": "India's first UPI wallet for foreign nationals and NRIs",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "bharatx",
+    "name": "BharatX",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97396,
+      "lng": 77.60527
+    },
+    "contactEmail": null,
+    "founders": [
+      "Mehul Jindal",
+      "Shyam Murugan",
+      "Eeshan Sharma",
+      "Siddharth Venu"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/fefd038c884eb2ec297216fef362234e54c0d4ee.png",
+    "ycBatch": "W22",
+    "website": "https://bharatx.tech/",
+    "description": "Enable Buy-Now-Pay-Later in a White-Labelled Manner",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "blitzllama",
+    "name": "Blitzllama",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.94064,
+      "lng": 77.6241
+    },
+    "contactEmail": null,
+    "founders": [
+      "Rahul Mallapur",
+      "Joel Koshy",
+      "Bently Nixon"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9e5778b59802590e78bb3cca17886152d2581d6a.png",
+    "ycBatch": "W22",
+    "website": "https://www.blitzllama.com/",
+    "description": "A platform to collect and analyze in-product user feedback",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "spark-studio",
+    "name": "Spark Studio",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98995,
+      "lng": 77.62681
+    },
+    "contactEmail": null,
+    "founders": [
+      "Anushree Goenka",
+      "Namita Goel",
+      "Kaustubh Khade",
+      "Jyothika Sahajanandan"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a44566f08ee9e969d5aadd81be190b2c075468d9.png",
+    "ycBatch": "S21",
+    "website": "https://sparkstudio.co",
+    "description": "The most magical personal Voice-Led AI English Learning Buddy for Kids",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "verak",
+    "name": "Verak",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95795,
+      "lng": 77.58832
+    },
+    "contactEmail": null,
+    "founders": [
+      "Rahul Mathur"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/855c741a332ef96bfff5cdcb2a2907b57709f104.png",
+    "ycBatch": "W21",
+    "website": "http://verak.in",
+    "description": "Better Business Insurance for MSMEs in India",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "functionup-fanplay",
+    "name": "FunctionUp (FanPlay)",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95095,
+      "lng": 77.59462
+    },
+    "contactEmail": null,
+    "founders": [
+      "Bharat Gupta",
+      "Pritesh Kumar"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0820440595cd7867b8708d7f3e9a2a2410501d0e.png",
+    "ycBatch": "W21",
+    "website": "https://www.functionup.org/",
+    "description": "A skill-tech platform that runs placement bootcamps",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "dyte",
+    "name": "Dyte",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95456,
+      "lng": 77.5609
+    },
+    "contactEmail": null,
+    "founders": [
+      "Abhishek Kankani",
+      "Palash Golecha"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/770e5b3b347dbbb7f635ee0bda4a8e6f8f4a3f14.png",
+    "ycBatch": "W21",
+    "website": "https://dyte.io",
+    "description": "Real-time audio & video SDKs, ready to launch 🚀",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "chaos-genius",
+    "name": "Chaos Genius",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.9786,
+      "lng": 77.5992
+    },
+    "contactEmail": null,
+    "founders": [
+      "Preeti Shrimal"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c4d680463f8fee3408726becdad9bccd8e14c8a1.png",
+    "ycBatch": "W20",
+    "website": "http://www.chaosgenius.io",
+    "description": "DataOps Observability Platform for Snowflake",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "able",
+    "name": "Able",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.98871,
+      "lng": 77.6013
+    },
+    "contactEmail": null,
+    "founders": [
+      "Ravish Agrawal",
+      "Svatantra Kumar",
+      "Siddharth Srivastava"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a2a30da1ec63594344f86b488362ce0e77f09939.png",
+    "ycBatch": "W20",
+    "website": "https://ablejobs.co/",
+    "description": "India's Largest Placement Platform for Early Professionals",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "pay-swifter",
+    "name": "Pay Swifter",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.97802,
+      "lng": 77.59723
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sowmya Rao"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4ad961e82ac5a621fa95d598d324b11f679eea47.png",
+    "ycBatch": "W20",
+    "website": "https://payswifter.com",
+    "description": "Stripe for Cannabis",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "farmtheory",
+    "name": "farmtheory",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.00531,
+      "lng": 77.59522
+    },
+    "contactEmail": null,
+    "founders": [
+      "Arpit Agarwal",
+      "Sakshi Agarwal"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3d37bcc50ff2f53e1b161407d6bf515c6758d934.png",
+    "ycBatch": "W20",
+    "website": "http://farmtheory.in/",
+    "description": "India's first vegetable delivery service to restaurants with a hack",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "ybanq",
+    "name": "yBANQ",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.01286,
+      "lng": 77.60887
+    },
+    "contactEmail": null,
+    "founders": [
+      "Abhishek Ayyagari",
+      "Ganesh Mallya",
+      "Ahamed Shah Wahidullah"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/adeafd73575a3d62a8377efcebb27aa13569f642.png",
+    "ycBatch": "W20",
+    "website": "https://ybanq.com",
+    "description": "yBANQ is building a Bill.com for India to simplify collections and…",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "mypetrolpump",
+    "name": "MyPetrolPump",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.96324,
+      "lng": 77.58524
+    },
+    "contactEmail": null,
+    "founders": [
+      "Nabin Roy"
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/873e6a24dc0099a9092da2dab96e2393961c5ecb.png",
+    "ycBatch": "S19",
+    "website": "https://mypetrolpump.com/",
+    "description": "On demand fuel delivery service in India",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "wingman",
+    "name": "Wingman",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.95948,
+      "lng": 77.63572
+    },
+    "contactEmail": null,
+    "founders": [
+      "Muralidharan Venkatasubramanian",
+      "Shruti Kapoor",
+      "Srikar Yekollu"
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d85dfc73c9692fefd19b7eeec4502dc106fae113.png",
+    "ycBatch": "S19",
+    "website": "https://www.trywingman.com",
+    "description": "Wingman helps inside sales reps with coaching while they're on a call.",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "lotuspay",
+    "name": "LotusPay",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 13.0161,
+      "lng": 77.55012
+    },
+    "contactEmail": null,
+    "founders": [
+      "Atma Krishna",
+      "Dinesh Gadge",
+      "Anand Krishna"
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9237613d5c6b9ca86e68c4e86a6d63ec1d7337ed.png",
+    "ycBatch": "S17",
+    "website": "http://www.lotuspay.com",
+    "description": "Recurring payments solution for businesses in India.",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "playment",
+    "name": "Playment",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.96825,
+      "lng": 77.5746
+    },
+    "contactEmail": null,
+    "founders": [
+      "Akshay Lal"
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8d042750022ceb867d7506837474acf57e7f3874.png",
+    "ycBatch": "W17",
+    "website": "https://playment.io/",
+    "description": "Mechanical Turk for enterprises.",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "supr-daily",
+    "name": "Supr Daily",
+    "address": "Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.93494,
+      "lng": 77.57314
+    },
+    "contactEmail": null,
+    "founders": [
+      "Puneet Kumar",
+      "Shreyas Nagdawane"
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/53a5b6981dc4bc8f36f7592d30196e1a22512852.png",
+    "ycBatch": "W17",
+    "website": "http://www.suprdaily.com/",
+    "description": "Daily grocery delivery service in India",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "waybill",
+    "name": "Waybill",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.64139,
+      "lng": 77.22055
+    },
+    "contactEmail": null,
+    "founders": [
+      "Tushar Goyal",
+      "Rishi Laddha"
+    ],
+    "yearFounded": 2026,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b91adedb53afabc881281324143485f1dc3c6674.png",
+    "ycBatch": "S26",
+    "website": "https://www.waybill.to/",
+    "description": "Managed procurement & inventory for hardware teams.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "paasa",
+    "name": "Paasa",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.65817,
+      "lng": 77.18928
+    },
+    "contactEmail": null,
+    "founders": [
+      "Nitish Sahni",
+      "Sparsh Sharma"
+    ],
+    "yearFounded": 2024,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/69545faa0fc0f7ee6b89313f1c320d59486f1802.png",
+    "ycBatch": "S24",
+    "website": "https://paasa.com",
+    "description": "Invest in Global Equities from India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "surebright",
+    "name": "SureBright",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.62155,
+      "lng": 77.25022
+    },
+    "contactEmail": null,
+    "founders": [
+      "Manish Chauhan",
+      "Sanket Munjal"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/786573119daa04ca85d28b00e8358a03f4e0a184.png",
+    "ycBatch": "S24",
+    "website": "https://surebright.com/",
+    "description": "Apple Care-like warranty program for every retailer",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "algotest",
+    "name": "AlgoTest",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.64989,
+      "lng": 77.19985
+    },
+    "contactEmail": null,
+    "founders": [
+      "Raghav Malik"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ee27828a872551486a5a61cefdc3f0f73dca1b91.png",
+    "ycBatch": "S22",
+    "website": "https://algotest.in",
+    "description": "Ecosystem for options trading in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "clinikally",
+    "name": "Clinikally",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.59646,
+      "lng": 77.16805
+    },
+    "contactEmail": null,
+    "founders": [
+      "Arjun Soin"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/968a00fcee89cbca494f2021b1f408abac81e1b2.png",
+    "ycBatch": "S22",
+    "website": "https://www.clinikally.com/",
+    "description": "India's Telemedicine Platform & Online Pharmacy for Dermatology Care",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "kaagaz",
+    "name": "Kaagaz",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.61156,
+      "lng": 77.25138
+    },
+    "contactEmail": null,
+    "founders": [
+      "Snehanshu Gandhi",
+      "Tamanjit Bindra",
+      "Gaurav Shrishrimal"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f271350ee43aa2c95ce0719ddd066e79505b3730.png",
+    "ycBatch": "W22",
+    "website": "https://kaagaz.app",
+    "description": "'Office' Suite for Mobile-first Businesses in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "savein",
+    "name": "SaveIN",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.63131,
+      "lng": 77.19089
+    },
+    "contactEmail": null,
+    "founders": [
+      "Jitin Bhasin",
+      "Gaurav Luthra"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7ef8a1947c6f42babb59ca87d2eb2329eb2201cc.png",
+    "ycBatch": "W22",
+    "website": "https://www.savein.money/",
+    "description": "Making private healthcare in India accessible and affordable",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "rdash",
+    "name": "RDash",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.61455,
+      "lng": 77.16774
+    },
+    "contactEmail": null,
+    "founders": [
+      "Amit Bansal",
+      "Puneet Bansal"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/def911c8f3c9b81c8e514a4f1b29d88c06452d30.png",
+    "ycBatch": "W22",
+    "website": "https://www.rdash.io",
+    "description": "AI Powered Construction Management Software",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "hiration",
+    "name": "Hiration",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.63427,
+      "lng": 77.20051
+    },
+    "contactEmail": null,
+    "founders": [
+      "Anish Raj Sikka"
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/cd3bdb3ad18a59cf1cb324981494848107cee057.png",
+    "ycBatch": "W20",
+    "website": "https://www.hiration.com/",
+    "description": "We help job seekers quickly create resumes that get 2X more interviews",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "odwen",
+    "name": "ODWEN",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.57162,
+      "lng": 77.22506
+    },
+    "contactEmail": null,
+    "founders": [
+      "VIJAY ANAND BHAGAVATULA"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e8ab18dae7115ef76227acd0cd0b5680b6505cd7.png",
+    "ycBatch": "S21",
+    "website": "https://www.odwen.co.in",
+    "description": "AirBnB for Small Warehouses",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "enerjazz",
+    "name": "Enerjazz",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.5779,
+      "lng": 77.17879
+    },
+    "contactEmail": null,
+    "founders": [
+      "Ravi Bharihoke"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/01c24744d6258fd6efd2c9b5f35465ca85adc1e0.png",
+    "ycBatch": "S21",
+    "website": "https://www.enerjazz.tech/",
+    "description": "Making electric vehicle batteries affordable",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "novatr",
+    "name": "Novatr",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.65567,
+      "lng": 77.17641
+    },
+    "contactEmail": null,
+    "founders": [
+      "Harkunwar Singh",
+      "Vipanchi Handa",
+      "Chaithanya Murali"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/1179f00a3ef3a6f09115a94a3727c10f972e55a4.png",
+    "ycBatch": "S21",
+    "website": "https://www.novatr.com",
+    "description": "Online cohort based courses for architects, engineers and designers…",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "advantage-club",
+    "name": "Advantage Club",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.57135,
+      "lng": 77.23736
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sourabh Deorah",
+      "Smiti Bhatt Deorah"
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/91384c8f455c6860b2a73e8558d2b314761ecf47.png",
+    "ycBatch": "S21",
+    "website": "https://www.advantageclub.co",
+    "description": "Global platform for employee engagement with rewards&flexible benefits",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "appx",
+    "name": "AppX",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.65805,
+      "lng": 77.17374
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sameer Sadana"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e525187409442d1ab27754ce9ef76abf1c162b05.png",
+    "ycBatch": "S21",
+    "website": "https://appx.co.in",
+    "description": "AppX helps social media creators launch their own mobile apps.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "salarybox",
+    "name": "SalaryBox",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.62811,
+      "lng": 77.18455
+    },
+    "contactEmail": null,
+    "founders": [
+      "Nikhil Goel",
+      "Peeyush Goyal"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/bfea3ef1c729dbc6ec5526da896c404d28fa550f.png",
+    "ycBatch": "S21",
+    "website": "https://salarybox.in/",
+    "description": "Gusto for India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "gromo",
+    "name": "GroMo",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.65833,
+      "lng": 77.17079
+    },
+    "contactEmail": null,
+    "founders": [
+      "Ankit Khandelwal",
+      "Darpan Khurana"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a4e3e8136445391fcfe8afdb23cac5833b3e1e34.png",
+    "ycBatch": "W21",
+    "website": "https://www.gromo.in",
+    "description": "App for independent agents to sell financial products in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "pragmatic-leaders-ankai-inc",
+    "name": "Pragmatic Leaders (Ankai Inc)",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.63358,
+      "lng": 77.22641
+    },
+    "contactEmail": null,
+    "founders": [
+      "Talvinder Singh",
+      "Meera Khokhani"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/01625408283ee2dab9a638a711a3c4f62c3c964a.png",
+    "ycBatch": "W21",
+    "website": null,
+    "description": "AI-powered Corporate Training: Faster, Smarter, and More Effective",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "swadesi-way",
+    "name": "Swadesi Way",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.58752,
+      "lng": 77.23312
+    },
+    "contactEmail": null,
+    "founders": [
+      "Shubham Bansal",
+      "Divish Gupta"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/18ed953b65acb811cfab977dce40b00b894932f0.png",
+    "ycBatch": "W21",
+    "website": "https://swadesiway.com/",
+    "description": "Healthy organic food that creates a positive impact",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "zingbus",
+    "name": "zingbus",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.611,
+      "lng": 77.25128
+    },
+    "contactEmail": null,
+    "founders": [
+      "Prashant Kumar",
+      "Ravi Verma",
+      "Mratunjay Beniwal"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3de402abb68d1b328b9538b99267bcd826291a99.png",
+    "ycBatch": "W21",
+    "website": "https://www.zingbus.com/",
+    "description": "Platform for bus travel across Indian cities",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "redcliffe-lifetech",
+    "name": "Redcliffe Lifetech",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.61966,
+      "lng": 77.22328
+    },
+    "contactEmail": null,
+    "founders": [
+      "Dheeraj Jain",
+      "Aditya Kandoi"
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b9e3c4bc934297fbdde47eea1cf4c9de32e1a325.png",
+    "ycBatch": "W21",
+    "website": "http://redcliffelabs.com",
+    "description": "Redcliffe Labs is India's Largest Omni-channel Diagnostics platform",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "farmako-healthcare",
+    "name": "Farmako Healthcare",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.65688,
+      "lng": 77.24125
+    },
+    "contactEmail": null,
+    "founders": [
+      "Aman Bhandula"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7b367d28549e4be7a52f8235ec629bfb6869fc48.png",
+    "ycBatch": "S20",
+    "website": "https://farmako.ai",
+    "description": "India's fastest medicine delivery in just 30 minutes",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "statiq",
+    "name": "Statiq.",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.64361,
+      "lng": 77.24059
+    },
+    "contactEmail": null,
+    "founders": [
+      "Akshit Bansal",
+      "Raghav Arora"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/826b10a93d1a290ef6eea0a5ea3d3e6fcc24af06.png",
+    "ycBatch": "S20",
+    "website": "https://statiq.in/",
+    "description": "India's Largest EV charging network",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "kosh",
+    "name": "Kosh",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.64847,
+      "lng": 77.16927
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sahil Bansal",
+      "Aayush Goel"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7b9e26c5c5df6bc807984c5b5ee43986a321d364.png",
+    "ycBatch": "W20",
+    "website": "https://getkosh.com",
+    "description": "Creating Microfinance 2.0.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "bikry",
+    "name": "Bikry",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.61569,
+      "lng": 77.23206
+    },
+    "contactEmail": null,
+    "founders": [
+      "Abhishek Bhayana",
+      "Himanshu Garg"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/478c23ca9c518001d0a97d6c25d98f090893a2eb.png",
+    "ycBatch": "W20",
+    "website": "https://bikry.com/",
+    "description": "Bikry: Helping SMB's in India go online",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "cityfurnish",
+    "name": "Cityfurnish",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.65418,
+      "lng": 77.21257
+    },
+    "contactEmail": null,
+    "founders": [
+      "Neerav Jain",
+      "Saurabh Gupta"
+    ],
+    "yearFounded": 2015,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c2ca1df60e855a6b8cfddd28d710613fb25e77f6.png",
+    "ycBatch": "W19",
+    "website": "https://cityfurnish.com/",
+    "description": "Cityfurnish - Commitment-free furniture rentals for a better you!",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "exly",
+    "name": "Exly",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.57203,
+      "lng": 77.20653
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sidharth Rawat",
+      "Suyash Sinha"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/39f8436e3441b6cfabcfd9df54fba243f4b05d49.png",
+    "ycBatch": "W19",
+    "website": "https://exlyapp.com/",
+    "description": "One stop shop for creators to launch, manage & grow their knowledge…",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "acciojob",
+    "name": "AccioJob",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.61208,
+      "lng": 77.23261
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vishu Bansal",
+      "Harsh Sharma",
+      "Priyanshu Agarwal",
+      "Yashwardhan Burad"
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/58884ed5c9a6258e4e36cfa9be1a2a6b30e41858.png",
+    "ycBatch": "W19",
+    "website": "http://www.acciojob.com",
+    "description": "Upskilling bootcamp for India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "ziffyhomes",
+    "name": "ZiffyHomes",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.58197,
+      "lng": 77.21136
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sanchal Ranjan",
+      "Saurabh Kumar"
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7dd61e2b44bb90e6f9b4169365ff16e3a68009d4.png",
+    "ycBatch": "S18",
+    "website": "https://www.ziffyhomes.com/",
+    "description": "ZiffyHomes is managed corporate housing for white collar employees in…",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "helloverify",
+    "name": "Helloverify",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.62264,
+      "lng": 77.2259
+    },
+    "contactEmail": null,
+    "founders": [
+      "Karan Mirchandani",
+      "Varun Mirchandani"
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f46eb8e86078dd58976b9e441b93909beda32196.png",
+    "ycBatch": "W18",
+    "website": "https://www.helloverify.ae",
+    "description": "Helloverify is a background screening platform (Checkr for India).",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "dost-education",
+    "name": "Dost Education",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.65436,
+      "lng": 77.22353
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sneha Sheth",
+      "Sindhuja Jeyabal"
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f0fa55d20ad45d5a721bbcb283b5883104aecae9.png",
+    "ycBatch": "W17",
+    "website": "http://www.dosteducation.com/",
+    "description": "Getting kids ready for school in India.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "redcarpetup",
+    "name": "RedCarpetUp",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.59394,
+      "lng": 77.17098
+    },
+    "contactEmail": null,
+    "founders": [
+      "Kartik Venkataraman"
+    ],
+    "yearFounded": 2015,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/183f0ec3e40c4ede1e9890d348891e13b1af9608.png",
+    "ycBatch": "S15",
+    "website": "http://redcarpetup.com",
+    "description": "Credit cards for Indians that banks cannot see",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "techbiz",
+    "name": "TechBiz",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.59271,
+      "lng": 77.23654
+    },
+    "contactEmail": null,
+    "founders": [
+      "Pratyush Sharma",
+      "Vikramaditya Patil"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/abadb16d32663d19fb3abcf6c62840b512ae6a63.png",
+    "ycBatch": "W21",
+    "website": "https://www.techbiz.app",
+    "description": "MIS on mobile for SMB's in India",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "bueno-finance",
+    "name": "Bueno Finance",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.63523,
+      "lng": 77.16764
+    },
+    "contactEmail": null,
+    "founders": [
+      "Saurav Gandhi",
+      "Sandeep Arora"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d4c3c418c736bb44e99123a5021d831862cb46f8.png",
+    "ycBatch": "W21",
+    "website": "https://buenofinanceinc.com",
+    "description": "Building Chime for India",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "seawise-capital",
+    "name": "Seawise Capital",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.57231,
+      "lng": 77.19525
+    },
+    "contactEmail": null,
+    "founders": [
+      "Kunal Rajvanshi",
+      "Vidur Jain",
+      "Manish Pal"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8a57aa2997d907d0589203748d7cd45c89c36483.png",
+    "ycBatch": "W19",
+    "website": "https://www.seawisecapital.com",
+    "description": "Trade finance company for Indian exporters",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "innov8",
+    "name": "Innov8",
+    "address": "New Delhi, India",
+    "location": {
+      "lat": 28.65648,
+      "lng": 77.21072
+    },
+    "contactEmail": null,
+    "founders": [
+      "Shailesh Gupta",
+      "Ritesh Malik",
+      "Sumit Ranka"
+    ],
+    "yearFounded": 2015,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/70e85c5b6755f0cbabfe164e07441fcafcfab9de.png",
+    "ycBatch": "S16",
+    "website": "http://www.innov8.work",
+    "description": "We provide co-working offices to startups, freelancers and SMEs in…",
+    "status": "Acquired",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "zepto",
+    "name": "Zepto",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.08427,
+      "lng": 72.87085
+    },
+    "contactEmail": null,
+    "founders": [
+      "Aadit Palicha",
+      "Kaivalya Vohra"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b419835c59c3d3a4db7e0aaf094b54bb5cee0adb.png",
+    "ycBatch": "W21",
+    "website": "https://www.zeptonow.com/",
+    "description": "10-Minute Grocery Delivery in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "craze",
+    "name": "Craze",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.10197,
+      "lng": 72.8469
+    },
+    "contactEmail": null,
+    "founders": [
+      "Kabir Nagral",
+      "Deepit Patil"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b5c0add505f7307410cfab6e36c9a7df97ce8d5d.png",
+    "ycBatch": "S22",
+    "website": "https://www.craze.ai/?utm_source=yc",
+    "description": "The AI Video Maker",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "sculpt",
+    "name": "Sculpt",
+    "address": "Pune, Maharashtra, India",
+    "location": {
+      "lat": 18.4778,
+      "lng": 73.8171
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vidhi Vakharia"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/aecbe7c9746a215c5988fc9a472c03bbcb3fec72.png",
+    "ycBatch": "S22",
+    "website": "https://www.sculptcosting.com/",
+    "description": "Fully automated should-cost analysis for precision manufacturers.",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "inferedge",
+    "name": "InferEdge",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.05317,
+      "lng": 72.88943
+    },
+    "contactEmail": null,
+    "founders": [
+      "Aditya Mehta",
+      "Amal Dani",
+      "Omkar Ghaisas"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9ca294ba99345dad1e7a7357621f3373230c00cf.png",
+    "ycBatch": "W22",
+    "website": "https://www.inferedge.com",
+    "description": "Agentic AI for buy-side firms",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "imt-care",
+    "name": "IMT Care",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.06559,
+      "lng": 72.87099
+    },
+    "contactEmail": null,
+    "founders": [
+      "Rachit Puri",
+      "Kunal Popat"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/936b51144e116571d48d13ab044962f1333b9482.png",
+    "ycBatch": "W22",
+    "website": "https://www.imt.care",
+    "description": "Disrupting Indian Insurance space by empowering distrubutors",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "neodocs",
+    "name": "Neodocs",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.07155,
+      "lng": 72.87498
+    },
+    "contactEmail": null,
+    "founders": [
+      "Nikunj Malpani",
+      "Pratik Lodha",
+      "Anurag Meena"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/957c00265cfe6ded7c38d77ca38c5e42c0cf9128.png",
+    "ycBatch": "S21",
+    "website": "https://www.neodocs.in",
+    "description": "Instant lab tests on your smartphone",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "veera-health",
+    "name": "Veera Health",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.11046,
+      "lng": 72.84305
+    },
+    "contactEmail": null,
+    "founders": [
+      "Shashwata Narain",
+      "Shobhita Narain"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ca91e3fbd25b407f5755068d3680f8a726f79a17.png",
+    "ycBatch": "W21",
+    "website": "https://www.veerahealth.com",
+    "description": "We treat women with Polycystic Ovary Syndrome in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "kodo",
+    "name": "Kodo",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.0526,
+      "lng": 72.87367
+    },
+    "contactEmail": null,
+    "founders": [
+      "Deepti Sanghi"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ac7360082e93204b811c88cc621106bc792d0f80.png",
+    "ycBatch": "W21",
+    "website": "https://www.kodo.com",
+    "description": "Corporate card & spend management platform for Indian startups",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "loop-health",
+    "name": "Loop Health",
+    "address": "Pune, Maharashtra, India",
+    "location": {
+      "lat": 18.5244,
+      "lng": 73.85104
+    },
+    "contactEmail": null,
+    "founders": [
+      "Ryan Singh",
+      "Mayank Kale"
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/901b63dfcc93de4ca2a31330d51a98cc19ed0934.png",
+    "ycBatch": "W20",
+    "website": "http://www.loophealth.com",
+    "description": "Modern & comprehensive health insurance plan for employees in India",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "taali-inc",
+    "name": "Taali Inc",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.06573,
+      "lng": 72.89759
+    },
+    "contactEmail": null,
+    "founders": [
+      "Aditya Kaji",
+      "Aarti Kochhar Kaji"
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3e2c9d691a37a44c2f23d2697fa89342e677bb0a.png",
+    "ycBatch": "W19",
+    "website": "https://www.taalifoods.com/",
+    "description": "Taali is creating popcorn 2.0 from popped water lily seeds",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "algosurg-inc",
+    "name": "AlgoSurg Inc",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.10019,
+      "lng": 72.92011
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vikas Karade",
+      "Amit Maurya"
+    ],
+    "yearFounded": 2018,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4c9c6f9649c3dcfc12e8cb14536660a83da8adcb.png",
+    "ycBatch": "W18",
+    "website": "http://www.algosurg.com",
+    "description": "We make AI technology for Robotic and AR Surgeries",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "bulk-mro-industrial-supply",
+    "name": "Bulk MRO Industrial Supply",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.0464,
+      "lng": 72.91829
+    },
+    "contactEmail": null,
+    "founders": [
+      "Devang Shah",
+      "Gaurang Shah"
+    ],
+    "yearFounded": 2015,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5b4a53cf77d3fc365eb87181638c1077043a6722.png",
+    "ycBatch": "W17",
+    "website": "http://www.bulkmro.com",
+    "description": "Full Stack Fintech and Supply Chain Platform for Global Trade",
+    "status": "Active",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "drip-capital",
+    "name": "Drip Capital",
+    "address": "Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.03979,
+      "lng": 72.90385
+    },
+    "contactEmail": null,
+    "founders": [
+      "Pushkar Mukewar"
+    ],
+    "yearFounded": 2016,
+    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/fd4c1794856699806ba4d2424920a88c78f1f201.png",
+    "ycBatch": "S15",
+    "website": "http://dripcapital.com",
+    "description": "Digital trade finance and B2B commerce company",
+    "status": "Active",
+    "dataConfidence": "approximate"
   }
 ]

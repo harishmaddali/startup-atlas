@@ -14,6 +14,8 @@ export interface Company {
   ycBatch?: string;
   website?: string;
   description?: string;
+  /** YC status at time of data collection, e.g. "Active", "Public", "Acquired" */
+  status?: string;
   /**
    * "verified" = confirmed HQ/office location from primary source (YC profile).
    * "approximate" = city/area-level placement; exact street address not publicly listed.

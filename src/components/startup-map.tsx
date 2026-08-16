@@ -7,7 +7,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { AnimatePresence } from "motion/react";
 import type { Company } from "@/types/company";
-import { HYDERABAD_CENTER } from "@/lib/geo";
+import { INDIA_CENTER, INDIA_DEFAULT_ZOOM } from "@/lib/geo";
 import { CompanySheet } from "@/components/company-sheet";
 import { CompanyList } from "@/components/company-list";
 
@@ -83,8 +83,8 @@ export function StartupMap({ companies }: StartupMapProps) {
 
       <div className="relative flex-1">
         <MapContainer
-          center={[HYDERABAD_CENTER.lat, HYDERABAD_CENTER.lng]}
-          zoom={11.5}
+          center={[INDIA_CENTER.lat, INDIA_CENTER.lng]}
+          zoom={INDIA_DEFAULT_ZOOM}
           scrollWheelZoom
           style={{ width: "100%", height: "100%" }}
           className="z-0"
