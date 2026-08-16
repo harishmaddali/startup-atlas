@@ -82,7 +82,12 @@ export function CompanyList({
                     isActive ? "bg-accent" : "hover:bg-accent/60"
                   )}
                 >
-                  <CompanyLogo name={company.name} logoUrl={company.logoUrl} size={36} />
+                  <CompanyLogo
+                    name={company.name}
+                    logoUrl={company.logoUrl}
+                    size={36}
+                    padded={false}
+                  />
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2">
                       <span className="truncate text-sm font-medium">

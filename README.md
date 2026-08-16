@@ -82,12 +82,26 @@ location pages aren't always literally scoped to one city:
   than shipped with a broken image — that was before company logos got a
   proper initials-avatar fallback (`src/components/company-logo.tsx`), which
   the ~198 later companies with no YC logo now use instead of being dropped.
+- Checked whether T-Hub (Hyderabad's large public-private incubator, 2,000+
+  portfolio companies) had YC-backed startups missing from YC's own
+  Hyderabad listing. It didn't — none of T-Hub's featured startups turned up
+  as YC-backed, and YC's own location page was already the complete set.
 
-Exact office addresses aren't publicly listed anywhere, so `location` is a
-city/neighborhood-level approximation (`dataConfidence: "approximate"` on
-every row) — deterministically jittered around each region's center (with a
-wider spread for sprawling metros like the Bay Area) so markers don't stack,
-not tied to any claimed real address.
+**Address precision is mixed, and this is tracked per row**
+(`dataConfidence: "verified" | "approximate"`). For most of the dataset,
+exact office addresses aren't publicly listed anywhere, so `location` is a
+city/neighborhood-level approximation — deterministically jittered around
+each region's center (with a wider spread for sprawling metros like the Bay
+Area) so markers don't stack, not tied to any claimed real address.
+
+Hyderabad is the exception: 7 of its 10 companies now have a real,
+individually-sourced office address (from each company's own site footer or
+public company-registration filings — not a guess) geocoded to a precise
+pin via OpenStreetMap Nominatim, marked `dataConfidence: "verified"`. The
+remaining 3 (SpadeWorks, AlgoUniversity, Reclaim Protocol) keep the
+neighborhood-level approximation — no reliable real address turned up for
+them (AlgoUniversity's registered address, for one, is actually in Raipur,
+Chhattisgarh, which would be actively misleading to plot as their pin).
 
 The map shows exactly the companies whose markers fall inside the current
 viewport (`src/components/startup-map.tsx`), updating live as you pan/zoom

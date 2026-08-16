@@ -2,10 +2,10 @@
   {
     "id": "landeed",
     "name": "Landeed",
-    "address": "HITEC City, Hyderabad, Telangana, India",
+    "address": "Plot 79 & 80, Navakalasha, Prashanth Hills, Khajaguda, Hyderabad, Telangana 500008, India",
     "location": {
-      "lat": 17.4435,
-      "lng": 78.3772
+      "lat": 17.4172,
+      "lng": 78.3656
     },
     "contactEmail": null,
     "founders": [
@@ -18,15 +18,15 @@
     "ycBatch": "S22",
     "website": "https://www.landeed.com/",
     "description": "AI-native digital infrastructure for property intelligence, verification, and transactions in India.",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "cone",
     "name": "Cone",
-    "address": "Gachibowli, Hyderabad, Telangana, India",
+    "address": "8-7-127/1, Ghori Nagar, Old Bowenpally, Secunderabad, Hyderabad, Telangana 500011, India",
     "location": {
-      "lat": 17.44,
-      "lng": 78.3489
+      "lat": 17.4629,
+      "lng": 78.4712
     },
     "contactEmail": null,
     "founders": [
@@ -38,7 +38,7 @@
     "ycBatch": "S22",
     "website": "https://www.getcone.io",
     "description": "AI-powered work operating system that unifies accounting workflows.",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "spadeworks",
@@ -103,10 +103,10 @@
   {
     "id": "unschool",
     "name": "Unschool",
-    "address": "Kondapur, Hyderabad, Telangana, India",
+    "address": "Triveni Towers, Silicon Valley, HITEC City, Madhapur, Hyderabad, Telangana 500081, India",
     "location": {
-      "lat": 17.4615,
-      "lng": 78.3628
+      "lat": 17.4517,
+      "lng": 78.3855
     },
     "contactEmail": null,
     "founders": [
@@ -117,15 +117,15 @@
     "ycBatch": "W21",
     "website": "https://www.unschool.in/",
     "description": "Marketplace where college students in India learn from expert-created courses.",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "urbankisaan",
     "name": "UrbanKisaan",
-    "address": "Financial District, Hyderabad, Telangana, India",
+    "address": "601, Aditya Trade Centre, Ameerpet, Hyderabad, Telangana 500038, India",
     "location": {
-      "lat": 17.413,
-      "lng": 78.34
+      "lat": 17.4365,
+      "lng": 78.4464
     },
     "contactEmail": null,
     "founders": [
@@ -138,15 +138,15 @@
     "ycBatch": "W20",
     "website": "https://www.urbankisaan.com",
     "description": "AI-for-plant-biology company building foundation models and controlled-environment agriculture.",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "edyst",
     "name": "Edyst",
-    "address": "HITEC City, Hyderabad, Telangana, India",
+    "address": "LVS Arcade, Plot No. 71, HITEC City, Madhapur, Hyderabad, Telangana 500081, India",
     "location": {
-      "lat": 17.44,
-      "lng": 78.38
+      "lat": 17.449,
+      "lng": 78.3831
     },
     "contactEmail": null,
     "founders": [
@@ -157,15 +157,15 @@
     "ycBatch": "W19",
     "website": "https://edyst.com",
     "description": "Online learning and employability platform with 80%+ course completion rates.",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "golorry",
     "name": "GoLorry",
-    "address": "Gachibowli, Hyderabad, Telangana, India",
+    "address": "Highland Park, Financial District, Gachibowli, Hyderabad, Telangana, India",
     "location": {
-      "lat": 17.437,
-      "lng": 78.352
+      "lat": 17.4262,
+      "lng": 78.3389
     },
     "contactEmail": null,
     "founders": [
@@ -178,15 +178,15 @@
     "ycBatch": "W16",
     "website": "http://www.golorry.com",
     "description": "Mobile marketplace for inter-city trucking in India.",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "digi-prex",
     "name": "Digi-Prex",
-    "address": "Madhapur, Hyderabad, Telangana, India",
+    "address": "8-2-326/5, Road No. 3, Banjara Hills, Hyderabad, Telangana 500034, India",
     "location": {
-      "lat": 17.451,
-      "lng": 78.395
+      "lat": 17.4272,
+      "lng": 78.4438
     },
     "contactEmail": null,
     "founders": [
@@ -197,7 +197,7 @@
     "ycBatch": "S19",
     "website": "http://www.digi-prex.com/",
     "description": "Subscription pharmacy for patients with chronic diseases.",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "groww",
