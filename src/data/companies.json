@@ -1,0 +1,202 @@
+[
+  {
+    "id": "landeed",
+    "name": "Landeed",
+    "address": "HITEC City, Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.4435,
+      "lng": 78.3772
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sanjay Mandava",
+      "ZJ Lin",
+      "J Richards"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/8825bb12d7e2eeacce099c49bf4572474f6a888f.png",
+    "ycBatch": "S22",
+    "website": "https://www.landeed.com/",
+    "description": "AI-native digital infrastructure for property intelligence, verification, and transactions in India.",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "cone",
+    "name": "Cone",
+    "address": "Gachibowli, Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.44,
+      "lng": 78.3489
+    },
+    "contactEmail": null,
+    "founders": [
+      "Jahangir Mohammed",
+      "Bharath Kumar Reddy"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/c7f5db4bf134b215837e148267f1899e4bff2a2e.png",
+    "ycBatch": "S22",
+    "website": "https://www.getcone.io",
+    "description": "AI-powered work operating system that unifies accounting workflows.",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "spadeworks",
+    "name": "SpadeWorks",
+    "address": "Madhapur, Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.4483,
+      "lng": 78.3915
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vamsee Koneru"
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/f0ae28ef550d052686f66480ca465dbfa83030df.png",
+    "ycBatch": "W22",
+    "website": "https://www.spadeworks.co",
+    "description": "AI agents that turn every call into revenue for trade contractors.",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "algouniversity",
+    "name": "AlgoUniversity",
+    "address": "Banjara Hills, Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.4156,
+      "lng": 78.4347
+    },
+    "contactEmail": null,
+    "founders": [
+      "Manas Kumar Verma",
+      "Swapnil Daga"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/fe1b78b019afa60ae0edc9b89291b3d039da7926.png",
+    "ycBatch": "S21",
+    "website": "http://algouniversity.com/",
+    "description": "Live teaching infrastructure enabling top educators to coach large numbers of students.",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "reclaim-protocol",
+    "name": "Reclaim Protocol",
+    "address": "Jubilee Hills, Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.4239,
+      "lng": 78.4738
+    },
+    "contactEmail": null,
+    "founders": [
+      "Madhavan Malolan",
+      "Sriharsha Karamchati",
+      "Subhash Karri"
+    ],
+    "yearFounded": 2021,
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/72cfd89c23e4b4db922ff270899c1c9a91a2bb60.png",
+    "ycBatch": "W21",
+    "website": "https://reclaimprotocol.org",
+    "description": "Verification infrastructure for education, employment, and loyalty data with 45%+ conversion.",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "unschool",
+    "name": "Unschool",
+    "address": "Kondapur, Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.4615,
+      "lng": 78.3628
+    },
+    "contactEmail": null,
+    "founders": [
+      "Rahul Varma"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/1f11ac252dee90304da1baed5e61942ec91fbd7a.png",
+    "ycBatch": "W21",
+    "website": "https://www.unschool.in/",
+    "description": "Marketplace where college students in India learn from expert-created courses.",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "urbankisaan",
+    "name": "UrbanKisaan",
+    "address": "Financial District, Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.413,
+      "lng": 78.34
+    },
+    "contactEmail": null,
+    "founders": [
+      "Vihari Kanukollu",
+      "Srinivas Chaganti",
+      "Sairam Reddy Palicherla"
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/3f82642e2bba8b46224bd19fe55487f081887c19.png",
+    "ycBatch": "W20",
+    "website": "https://www.urbankisaan.com",
+    "description": "AI-for-plant-biology company building foundation models and controlled-environment agriculture.",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "edyst",
+    "name": "Edyst",
+    "address": "HITEC City, Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.44,
+      "lng": 78.38
+    },
+    "contactEmail": null,
+    "founders": [
+      "Srinivas Sriramdas"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/29c039566aad25f8cd42461bcfee1f7ca2ea8cf6.png",
+    "ycBatch": "W19",
+    "website": "https://edyst.com",
+    "description": "Online learning and employability platform with 80%+ course completion rates.",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "golorry",
+    "name": "GoLorry",
+    "address": "Gachibowli, Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.437,
+      "lng": 78.352
+    },
+    "contactEmail": null,
+    "founders": [
+      "Sanjay Mandava",
+      "ZJ Lin",
+      "J Richards"
+    ],
+    "yearFounded": 2015,
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/2769e7706ddd01a6b7ae9621dae75b7ba9c9975c.png",
+    "ycBatch": "W16",
+    "website": "http://www.golorry.com",
+    "description": "Mobile marketplace for inter-city trucking in India.",
+    "dataConfidence": "approximate"
+  },
+  {
+    "id": "digi-prex",
+    "name": "Digi-Prex",
+    "address": "Madhapur, Hyderabad, Telangana, India",
+    "location": {
+      "lat": 17.451,
+      "lng": 78.395
+    },
+    "contactEmail": null,
+    "founders": [
+      "Samarth Sindhi"
+    ],
+    "yearFounded": 2019,
+    "logoUrl": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/7d0eca85a18db3bce675458f8b52fd6dca0aec77.png",
+    "ycBatch": "S19",
+    "website": "http://www.digi-prex.com/",
+    "description": "Subscription pharmacy for patients with chronic diseases.",
+    "dataConfidence": "approximate"
+  }
+]
