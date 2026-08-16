@@ -24,8 +24,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Data
 
 Company data lives in [`src/data/companies.json`](src/data/companies.json)
-(3,884 companies, ~2.2MB), shaped by
-[`src/types/company.ts`](src/types/company.ts):
+(~2.2MB), shaped by [`src/types/company.ts`](src/types/company.ts):
 
 ```ts
 {
@@ -121,3 +120,9 @@ server-side and passed to the client as page props on every load — fine for
 now, but if this grows further it'd be worth moving to real pagination /
 viewport-scoped queries once a database is in place (see
 `src/app/actions/companies.ts`).
+
+**The map only shows companies founded 2022 or later.** `companies.json`
+itself keeps every company regardless of founding year — the cutoff is
+applied as a filter inside `getCompanies()` (`src/app/actions/companies.ts`),
+not by deleting anything from the data file. Change `MIN_YEAR_FOUNDED` there
+to adjust the cutoff.
