@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { CompanyLogo } from "@/components/company-logo";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { cn } from "@/lib/utils";
 import type { Company } from "@/types/company";
 
@@ -27,13 +28,16 @@ export function CompanyList({
   const isCapped = totalInView > items.length;
   return (
     <div className="flex h-full min-h-0 flex-col">
-      <div className="border-b px-5 py-4">
-        <h1 className="text-lg font-semibold tracking-tight">
-          Startup Atlas
-        </h1>
-        <p className="text-sm text-muted-foreground">
-          YC-backed startups, mapped
-        </p>
+      <div className="flex items-start justify-between gap-2 border-b px-5 py-4">
+        <div>
+          <h1 className="text-lg font-semibold tracking-tight">
+            Startup Atlas
+          </h1>
+          <p className="text-sm text-muted-foreground">
+            YC-backed startups, mapped
+          </p>
+        </div>
+        <ThemeToggle />
       </div>
 
       <ScrollArea className="min-h-0 flex-1">

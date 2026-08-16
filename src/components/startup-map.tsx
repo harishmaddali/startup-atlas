@@ -9,6 +9,7 @@ import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import { AnimatePresence } from "motion/react";
+import { useTheme } from "next-themes";
 import type { Company } from "@/types/company";
 import { WORLD_CENTER, WORLD_DEFAULT_ZOOM } from "@/lib/geo";
 import { CompanySheet } from "@/components/company-sheet";
@@ -65,12 +66,15 @@ function getMarkerIcon(company: Company, isActive: boolean): L.DivIcon {
   return icon;
 }
 
+// Hardcoded rather than Tailwind's bg-primary/text-white -- those flip in
+// dark mode (--primary becomes near-white), which would leave white text on
+// a near-white bubble. This one look works on both light and dark tiles.
 function clusterIcon(cluster: L.MarkerCluster) {
   const count = cluster.getChildCount();
   const size = count < 25 ? 50 : count < 100 ? 58 : 68;
   return L.divIcon({
     className: "",
-    html: `<span class="flex items-center justify-center rounded-full border-[3px] border-white bg-primary text-white shadow-lg ring-2 ring-primary/30" style="width:${size}px;height:${size}px;font-size:${
+    html: `<span style="display:flex;align-items:center;justify-content:center;width:${size}px;height:${size}px;border-radius:9999px;background:#18181b;color:#fff;border:3px solid #fff;box-shadow:0 0 0 2px rgba(24,24,27,0.3), 0 2px 8px rgba(0,0,0,0.35);font-size:${
       size <= 50 ? 15 : 17
     }px;font-weight:600;">${count}</span>`,
     iconSize: [size, size],
@@ -105,12 +109,16 @@ function MapController({
 }
 
 const LIST_CAP = 200;
+const LIGHT_TILE_URL = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+const DARK_TILE_URL = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
 
 interface StartupMapProps {
   companies: Company[];
 }
 
 export function StartupMap({ companies }: StartupMapProps) {
+  const { resolvedTheme } = useTheme();
+  const tileUrl = resolvedTheme === "dark" ? DARK_TILE_URL : LIGHT_TILE_URL;
   const [bounds, setBounds] = useState<LatLngBounds | null>(null);
   const [selected, setSelected] = useState<Company | null>(null);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
@@ -151,7 +159,7 @@ export function StartupMap({ companies }: StartupMapProps) {
         >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+            url={tileUrl}
           />
 
           <MapController selected={selected} onBoundsChange={setBounds} />
