@@ -2891,30 +2891,6 @@
     "dataConfidence": "verified"
   },
   {
-    "id": "verak",
-    "name": "Verak",
-    "address": "Bengaluru, Karnataka, India",
-    "location": {
-      "lat": 12.95795,
-      "lng": 77.58832
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Rahul Mathur",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2020,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/855c741a332ef96bfff5cdcb2a2907b57709f104.png",
-    "ycBatch": "W21",
-    "website": "http://verak.in",
-    "description": "Better Business Insurance for MSMEs in India",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "functionup-fanplay",
     "name": "FunctionUp (FanPlay)",
     "address": "Bengaluru, Karnataka, India",
@@ -3118,30 +3094,6 @@
     "dataConfidence": "verified"
   },
   {
-    "id": "mypetrolpump",
-    "name": "MyPetrolPump",
-    "address": "No. 580/B, NCR Arcade, 1st Floor, Sector 6, HSR Layout, Bengaluru, Karnataka 560102, India",
-    "location": {
-      "lat": 12.91757,
-      "lng": 77.62729
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nabin Roy",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/873e6a24dc0099a9092da2dab96e2393961c5ecb.png",
-    "ycBatch": "S19",
-    "website": "https://mypetrolpump.com/",
-    "description": "On demand fuel delivery service in India",
-    "status": "Acquired",
-    "dataConfidence": "verified"
-  },
-  {
     "id": "wingman",
     "name": "Wingman",
     "address": "#113, 6th Sector, 10th Main, HSR Layout, Bengaluru, Karnataka 560102, India",
@@ -3232,35 +3184,6 @@
     "description": "Mechanical Turk for enterprises.",
     "status": "Acquired",
     "dataConfidence": "verified"
-  },
-  {
-    "id": "supr-daily",
-    "name": "Supr Daily",
-    "address": "Bengaluru, Karnataka, India",
-    "location": {
-      "lat": 12.93494,
-      "lng": 77.57314
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Puneet Kumar",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Shreyas Nagdawane",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/53a5b6981dc4bc8f36f7592d30196e1a22512852.png",
-    "ycBatch": "W17",
-    "website": "http://www.suprdaily.com/",
-    "description": "Daily grocery delivery service in India",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
   },
   {
     "id": "waybill",
@@ -61857,35 +61780,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "trieve",
-    "name": "Trieve",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.86906,
-      "lng": -122.41423
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nick Khami",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Denzell Ford",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2023,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e020de4d43f09ae8fc176bd79fd704be218893b7.png",
-    "ycBatch": "W24",
-    "website": "https://trieve.ai",
-    "description": "All-in-one API for search, RAG, & recommendations",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "verse-therapy",
     "name": "Verse Therapy",
     "address": "San Francisco",
@@ -61945,30 +61839,6 @@
     "ycBatch": "W24",
     "website": "https://www.lumetric.ai",
     "description": "The AI Analyst For Deal Teams",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "speck",
-    "name": "Speck",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.42075,
-      "lng": -121.99206
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Raghav Pillai",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2023,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/92df358869feb4920733e3073e8f52fec0afe8e8.png",
-    "ycBatch": "W24",
-    "website": "https://speck.sh",
-    "description": "AI Notetaker that automates all your admin work",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -62051,35 +61921,6 @@
     "ycBatch": "W25",
     "website": "https://tryegress.com",
     "description": "Automated revenue cycle management, starting with dentists",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "mocha",
-    "name": "Mocha",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.40661,
-      "lng": -122.01549
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nicholas Charriere",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Ben Reinhart",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2023,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e2e9ab5d9d14600d56cfc241294be2559fffc5f6.png",
-    "ycBatch": "S23",
-    "website": "https://getmocha.com",
-    "description": "Build and publish web apps in minutes. No coding required.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -62278,35 +62119,6 @@
     "ycBatch": "W23",
     "website": "https://www.persana.ai/",
     "description": "Sales Agents with 100+ data sources to close more deals",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "tola",
-    "name": "Tola",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.56788,
-      "lng": -122.12685
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Alen Cvisic",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Guillaume Simard",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2022,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/fbc8c1ee7e52671abb62b7c0735dd822b79fde55.png",
-    "ycBatch": "W22",
-    "website": "https://tolahq.com",
-    "description": "The simple, fast and free tool for businesses to pay and get paid",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -62544,35 +62356,6 @@
     "ycBatch": "W23",
     "website": "https://www.stackai.com",
     "description": "The Enterprise AI Transformation Platform",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "booth-ai",
-    "name": "Booth AI",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.68376,
-      "lng": -122.07713
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nick Locascio",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Ian Baldwin",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2022,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4b3a15112db36cea4190b3079ddeba5278c19f7f.png",
-    "ycBatch": "W23",
-    "website": "https://booth.ai",
-    "description": "Generative AI Photographer for E-Commerce",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -62886,54 +62669,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "neosync",
-    "name": "Neosync",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.84725,
-      "lng": -121.95559
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Evis Drenova",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2023,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0f9b88ea0ac50da754bbb784bc3e860890a742e2.png",
-    "ycBatch": "S22",
-    "website": "https://neosync.dev",
-    "description": "Neosync is an open-source anonymization and synthetic data platform.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "hypahub",
-    "name": "HypaHub",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.37405,
-      "lng": -122.18664
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Hugo Lam",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2019,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5a364403fcd1dfaabe90af51ec8af68eac5364cf.png",
-    "ycBatch": "W22",
-    "website": "https://www.hypahub.com",
-    "description": "A Cloud-Based Bioinformatics and AI Platform",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "satsuma",
     "name": "Satsuma",
     "address": "San Francisco",
@@ -62988,35 +62723,6 @@
     "ycBatch": "W21",
     "website": "https://www.hyperglue.com",
     "description": "Business intelligence on text",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "simplehash",
-    "name": "SimpleHash",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.47838,
-      "lng": -122.32823
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Olly Wilson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Alex Kilkka",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2022,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2ed9dc06a8e2160ef441a0f912e03226a6ba9def.png",
-    "ycBatch": "W22",
-    "website": "https://www.simplehash.com",
-    "description": "Multi-chain token data platform",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -63123,30 +62829,6 @@
     "ycBatch": "W22",
     "website": "https://www.hoai.com",
     "description": "AI agent for community management",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "mutable-ai",
-    "name": "mutable.ai",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.41766,
-      "lng": -122.09842
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Omar Shams",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2021,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5e9d67f4f9b4fe022f90fe7c836e1fa021382d31.png",
-    "ycBatch": "W22",
-    "website": "https://mutable.ai",
-    "description": "Artificially Intelligent Corporations",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -63537,40 +63219,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "nasdisc",
-    "name": "Nasdisc",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.54921,
-      "lng": -122.35691
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Cam Korzecke",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Simeon Goolsby",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Christian White",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2021,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/79994d20b9593a1de0a8c008c0d68ca04c0c1aa1.png",
-    "ycBatch": "S21",
-    "website": "https://www.nasdisc.com",
-    "description": "A marketplace for vinyl, cassettes and cds",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "verano-health",
     "name": "Verano Health",
     "address": "San Francisco",
@@ -63861,59 +63509,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "coral-genomics",
-    "name": "Coral Genomics",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.47082,
-      "lng": -122.22854
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Atray Dixit",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jacob Borrajo",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a6cfcb3e53947ed36f22a2c26c110aeb2434b48f.png",
-    "ycBatch": "S18",
-    "website": "https://www.coralgenomics.com",
-    "description": "New clinical tests for managing autoimmune treatments.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "taofi",
-    "name": "TaoFi",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.58711,
-      "lng": -122.34403
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Sam Forman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2020,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0978b02398d2e208700132e4080e74a5adc8d662.png",
-    "ycBatch": "W21",
-    "website": "https://taofi.com",
-    "description": "The financial layer for decentralized AI",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "furmacy",
     "name": "Furmacy",
     "address": "San Francisco",
@@ -63963,35 +63558,6 @@
     "ycBatch": "W21",
     "website": "https://inbalanceresearch.com",
     "description": "Electricity price forecasts for energy storage, ev charging, etc.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "roin-technologies",
-    "name": "Roin Technologies",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.89662,
-      "lng": -121.98755
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jim Delaney",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Gunner Robinson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2020,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/afbc32810da2502f7867b684a41c0f373e5c9854.png",
-    "ycBatch": "W21",
-    "website": "https://rointech.com",
-    "description": "Building robots to automate commercial concrete construction.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -64054,30 +63620,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "uiflow",
-    "name": "Uiflow",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.43728,
-      "lng": -122.36319
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Sol Eun",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2020,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f68a4b24e2ee28b18236caa367656f8fd63bfb11.png",
-    "ycBatch": "W21",
-    "website": "https://www.ycombinator.com/companies/uiflow",
-    "description": "No-code platform for enterprise software companies",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "enable-us",
     "name": "Enable Us",
     "address": "San Francisco",
@@ -64116,45 +63658,6 @@
     "ycBatch": "W21",
     "website": "https://www.orbillion.com/",
     "description": "Tasty and scalable cultivated meat at price parity",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "pry-financials",
-    "name": "Pry Financials",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.89603,
-      "lng": -122.01072
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Andy Su",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Tiffany Wong",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Hayden Jensen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Alex Sailer",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2019,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/aa9e2b87b2b4d5d15fa0f6f3864444c603335cf6.png",
-    "ycBatch": "W21",
-    "website": "https://www.pry.co",
-    "description": "Finance for Founders (now at prune.com)",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -64474,35 +63977,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "fig",
-    "name": "Fig",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.63035,
-      "lng": -122.1809
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Brendan Falk",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Matt Schrage",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2020,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c3cdca216abc1d1dd5118f6422d7ea91ba9a1b90.png",
-    "ycBatch": "S20",
-    "website": "http://fig.io",
-    "description": "Fig adds visual apps, shortcuts, and autocomplete to your terminal.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "mesh",
     "name": "Mesh",
     "address": "San Francisco",
@@ -64534,35 +64008,6 @@
     "website": "https://mesh.ai/",
     "description": "Performance management platform that fits the way you work",
     "status": "Active",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "okay",
-    "name": "Okay",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.55094,
-      "lng": -122.49743
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Tomas Barreto",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Antoine Boulanger",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2019,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/16bf15fbd2dcfd9b5d7b0fafe67c6d1d252abeba.png",
-    "ycBatch": "W20",
-    "website": "https://www.okayhq.com",
-    "description": "Dashboards and actionable insights for high-performing engineering…",
-    "status": "Acquired",
     "dataConfidence": "approximate"
   },
   {
@@ -64648,35 +64093,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "jemi",
-    "name": "Jemi",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.67498,
-      "lng": -122.14337
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Annie Hwang",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jason Cui",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2020,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/ef211a61b5945e55caf8a30df985cbb8f1919052.png",
-    "ycBatch": "S20",
-    "website": "https://jemi.so",
-    "description": "Jemi helps people build beautiful websites and stores.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "phonic",
     "name": "Phonic",
     "address": "San Francisco",
@@ -64702,35 +64118,6 @@
     "ycBatch": "W20",
     "website": "https://phonic.ai",
     "description": "The best way to collect and analyze voice and video feedback",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "aquarium-learning",
-    "name": "Aquarium Learning",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.69216,
-      "lng": -121.91293
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Peter Gao",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Quinn Johnson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2020,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a1aee7c2b8c6ada91b60405fb42ae026b6093676.png",
-    "ycBatch": "S20",
-    "website": "https://www.aquariumlearning.com/",
-    "description": "We help ML teams improve their models by improving their datasets",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -64901,64 +64288,6 @@
     "website": "https://www.medicarevox.com",
     "description": "Building an AI Health Insurance Agent.",
     "status": "Active",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "flowdash",
-    "name": "Flowdash",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.65216,
-      "lng": -122.21142
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nick Gervasi",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Omar Skalli",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2019,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5a3dafb6a330856d4ad26439ff3d8f51fea13507.png",
-    "ycBatch": "W20",
-    "website": "https://flowdash.com",
-    "description": "Quickly build internal tools for your ops team's manual workflows",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "sayana",
-    "name": "Sayana",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.35134,
-      "lng": -121.96466
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Alex Baranov",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Sergey Fayfer",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4a1513f6481000684cedef65670b98cdb260b85d.png",
-    "ycBatch": "W20",
-    "website": "https://sayana.app/",
-    "description": "Affordable mental self-care for all. Acquired by Headspace Health.",
-    "status": "Acquired",
     "dataConfidence": "approximate"
   },
   {
@@ -65576,35 +64905,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "slapdash",
-    "name": "Slapdash",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.67833,
-      "lng": -122.41073
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ivan Kanevski",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Dmitry Koterov",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2019,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/fa47637327407a3effadf1f13d23e6c75ae0e10e.png",
-    "ycBatch": "W19",
-    "website": "http://slapdash.com",
-    "description": "Work at the speed of thought",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "cocoon",
     "name": "Cocoon",
     "address": "San Francisco",
@@ -65804,35 +65104,6 @@
     "ycBatch": "W19",
     "website": "https://www.convex.com",
     "description": "Software for the commercial services industry.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "windsor",
-    "name": "Windsor",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.73448,
-      "lng": -121.93627
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Pranay Prakash",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Andrew Faust",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e2deab66d220bb8a384a1d51047051ecf3b7e95a.png",
-    "ycBatch": "W19",
-    "website": "https://windsor.io",
-    "description": "AI Powered Personalized Videos",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -66151,117 +65422,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "cspa",
-    "name": "CSPA",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.45957,
-      "lng": -122.33951
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "James Lin",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Angel Poon",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/df269d054283def1701cadd70dbd3e84f8ffa32f.png",
-    "ycBatch": "S18",
-    "website": "https://cspa.io",
-    "description": "The Computer Science Proficiency Assessment (CSPA™) is a…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "berbix",
-    "name": "Berbix",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.78071,
-      "lng": -122.13334
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Eric Levine",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Steve Kirkham",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/338d0bd017de21261fbe5bf2009d4e4e4a4b1ff3.png",
-    "ycBatch": "S18",
-    "website": "https://www.berbix.com",
-    "description": "Convert more verified users. Instantly & accurately validate user IDs.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "onegraph",
-    "name": "OneGraph",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.63241,
-      "lng": -122.42371
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Sean Grove",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Daniel Woelfel",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c737e9605e8441d79e97c3ae6c5b221915e552c9.png",
-    "ycBatch": "S18",
-    "website": "https://www.onegraph.com/",
-    "description": "GraphQL API to connect all of the internet's APIs. Join us at Netlify!",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "lowkey",
-    "name": "Lowkey",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.49404,
-      "lng": -122.07165
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jesse Zhang",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0f83cc7033e3c711891eb500aeff6dc699be4a9f.png",
-    "ycBatch": "S18",
-    "website": "https://lowkey.gg",
-    "description": "Capture, create, & share gaming moments (Acquired by Niantic!)",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "searchlight",
     "name": "Searchlight",
     "address": "San Francisco",
@@ -66287,30 +65447,6 @@
     "ycBatch": "W19",
     "website": "https://www.searchlight.ai/",
     "description": "Talent AI improving quality of hire",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "phiar",
-    "name": "Phiar",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.45998,
-      "lng": -122.10481
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Chen-Ping Yu",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/bb16323014c9e8250a467c58cc43f377d1919cf9.png",
-    "ycBatch": "S18",
-    "website": "https://www.phiar.net",
-    "description": "We are developing a revolutionary AI-powered augmented reality…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -66364,30 +65500,6 @@
     "ycBatch": "W18",
     "website": "https://jidomaps.com/",
     "description": "Turn your data into a deployed computer vision model",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "zyper",
-    "name": "Zyper",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.84508,
-      "lng": -121.91699
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Amber Atherton",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4248c76a3206fa82425c191a7b09f3b905910b5a.png",
-    "ycBatch": "W18",
-    "website": "https://zyper.com/",
-    "description": "Recreating social networks for brands.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -66484,35 +65596,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "edwin",
-    "name": "Edwin",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.44698,
-      "lng": -121.98443
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Dmitry Stavisky",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Dmitry Alekseev",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9acc840c27b5a4171f25ceb9a456d6444003093c.png",
-    "ycBatch": "W18",
-    "website": "https://edwin.ai",
-    "description": "Edwin is virtual English tutor - an AI-powered service for learning…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "sqreen",
     "name": "Sqreen",
     "address": "San Francisco",
@@ -66585,35 +65668,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "sepsis-scout",
-    "name": "Sepsis Scout",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.87258,
-      "lng": -122.22351
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Robert Quinn",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Wei-Jien Tan",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/6e203795c935dfa82049aa5e5236b3db6130851e.png",
-    "ycBatch": "W18",
-    "website": "https://sepsisscout.com",
-    "description": "Wearables and AI to predict and prevent sepsis outside the hospital",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "clearbrain",
     "name": "ClearBrain",
     "address": "San Francisco",
@@ -66643,64 +65697,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "pulse-2",
-    "name": "Pulse",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.42308,
-      "lng": -122.44083
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Mayank Mehta",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Anand Thaker",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/25d86eb03156941574fe6ae1c6503e39212d3030.png",
-    "ycBatch": "W18",
-    "website": "https://www.pulse.qa",
-    "description": "We're crowdsourced Gartner so IT executives can learn directly from…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "mayhem",
-    "name": "Mayhem",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.65813,
-      "lng": -122.03827
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ivan Zhou",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Anhang Zhu",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/738c0b22c64a9eef9858aaca8d4c6c4a0ecd1cd0.png",
-    "ycBatch": "W18",
-    "website": "https://www.mayhem.gg",
-    "description": "Mayhem is the easiest way to play with your gaming community.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "coderwall",
     "name": "CoderWall",
     "address": "San Francisco",
@@ -66726,54 +65722,6 @@
     "ycBatch": "W12",
     "website": "http://assemblymade.com",
     "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "dharma-labs",
-    "name": "Dharma Labs",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.78481,
-      "lng": -122.09498
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nadav Hollander",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0479f1b8e00c94eed03a224baddcff0558ef74df.png",
-    "ycBatch": "S17",
-    "website": "https://dharma.io",
-    "description": "The easiest way to buy 74k+ crypto tokens with USD",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "vida-and-co",
-    "name": "VIDA & Co.",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.73107,
-      "lng": -122.31864
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Umaimah Mendhro",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": null,
-    "ycBatch": "S17",
-    "website": "http://www.shopvida.com",
-    "description": "Platform for unique products produced on-demand at mass-scale",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -67063,53 +66011,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "wildfire",
-    "name": "Wildfire",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.89911,
-      "lng": -122.26648
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Hriday Kemburu",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Vinay A. Ramesh",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/260fba8dd813bf45cecced28e82c66d0a56b180d.png",
-    "ycBatch": "S17",
-    "website": "http://getwildfire.com/",
-    "description": "Social news app",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "escher-reality",
-    "name": "Escher Reality",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.52717,
-      "lng": -122.26474
-    },
-    "contactEmail": null,
-    "founders": [],
-    "yearFounded": 2017,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/bcf9121607fe68feb6169866d774e9a826e684ae.png",
-    "ycBatch": "S17",
-    "website": "http://www.escherreality.com/",
-    "description": "The backend for Augmented Reality.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "enzyme",
     "name": "Enzyme",
     "address": "San Francisco",
@@ -67234,30 +66135,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "breaker",
-    "name": "Breaker",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.35063,
-      "lng": -122.26466
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Leah Culver",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0de1ada3b980a4a08329c7a36f155e659b1b377c.png",
-    "ycBatch": "W17",
-    "website": "https://www.breaker.audio",
-    "description": "A podcast company.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "tetra",
     "name": "Tetra",
     "address": "San Francisco",
@@ -67283,35 +66160,6 @@
     "ycBatch": "W17",
     "website": "https://asktetra.com",
     "description": "AI notetaker for phone calls",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "penny",
-    "name": "Penny",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.31064,
-      "lng": -122.01546
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Mitch Lee",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Alex Quach",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": null,
-    "ycBatch": "W17",
-    "website": "https://www.pennyapp.io",
-    "description": "Penny makes keeping track of your finances as easy as having a…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -67345,64 +66193,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "wavy",
-    "name": "Wavy",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.43656,
-      "lng": -122.45104
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Hammad Bashir",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Sonia Sharma",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": null,
-    "ycBatch": "W17",
-    "website": "http://downloadwavy.com",
-    "description": "Experience music and art in augmented reality",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "scaphold-io",
-    "name": "Scaphold.io",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.78676,
-      "lng": -122.37262
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Michael Paris",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Vince Ning",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": null,
-    "ycBatch": "W17",
-    "website": "https://scaphold.io",
-    "description": "The Universal API",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "volansi",
     "name": "Volansi",
     "address": "San Francisco",
@@ -67423,30 +66213,6 @@
     "ycBatch": "W17",
     "website": "https://flyvoly.com/",
     "description": "Autonomous VTOL delivery solutions.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "lvl5",
-    "name": "lvl5",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.45702,
-      "lng": -122.36173
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "George Tall",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": null,
-    "ycBatch": "W17",
-    "website": "http://www.lvl5.ai",
-    "description": "HD maps for self-driving cars.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -67544,45 +66310,6 @@
     "ycBatch": "S16",
     "website": "https://tonicdev.com",
     "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "starcity",
-    "name": "Starcity",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.30234,
-      "lng": -122.17955
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jon Dishotsky",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Josh Lehman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Mo Sakrani",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jesse Suarez",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/573d2b808f8f09ef46ab8547f94821c886a32647.png",
-    "ycBatch": "S16",
-    "website": "https://starcity.com",
-    "description": "Starcity was one of the largest co-living brands. Exit to Common in…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -67737,54 +66464,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "symple",
-    "name": "Symple",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.36017,
-      "lng": -122.00858
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Steve Abraham",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": null,
-    "ycBatch": "S16",
-    "website": "http://www.getsymple.com",
-    "description": "Last mile logistics for delivery & service teams. We bring real-time…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "pursuit",
-    "name": "Pursuit",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.54777,
-      "lng": -122.31843
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Adam Hueniken",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": null,
-    "ycBatch": "S16",
-    "website": "http://www.revlo.co",
-    "description": "Revlo helps broadcasters on Twitch engage and monetize their fan…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "garten",
     "name": "garten",
     "address": "San Francisco",
@@ -67805,64 +66484,6 @@
     "ycBatch": "S16",
     "website": "https://garten.co/",
     "description": "Creating workplace wellbeing.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "fabric",
-    "name": "Fabric",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.70756,
-      "lng": -122.1888
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Arun Vijayvergiya",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Nikolay Valtchanov",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": null,
-    "ycBatch": "S16",
-    "website": "http://www.fabric.me",
-    "description": "Fabric is a personal location-based journal that catalogs experiences…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "opsolutely",
-    "name": "Opsolutely",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.54196,
-      "lng": -122.34439
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Kate Heddleston",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Rachel Myers",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": null,
-    "ycBatch": "S16",
-    "website": "https://www.opsolutely.com",
-    "description": "Automated deployments for software teams.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -67892,30 +66513,6 @@
     "ycBatch": "S16",
     "website": "https://www.workramp.com",
     "description": "The All-in-One Learning Platform",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "seneca-systems",
-    "name": "Seneca Systems",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.31746,
-      "lng": -122.30672
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nick DeMonner",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": null,
-    "ycBatch": "S16",
-    "website": "https://www.senecagov.com",
-    "description": "Constituent system-of-record and service request management software…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -68094,35 +66691,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "plato",
-    "name": "Plato",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.6202,
-      "lng": -122.03194
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Quang Hoang",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jean-Baptiste Coger",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/fc15418039f776573a0ea610002c9231a2e1a0cb.png",
-    "ycBatch": "W16",
-    "website": "http://www.platohq.com",
-    "description": "Plato is the mentorship platform for engineering leaders",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "able-health",
     "name": "Able Health",
     "address": "San Francisco",
@@ -68172,35 +66740,6 @@
     "ycBatch": "W16",
     "website": "http://www.loopgenomics.com/",
     "description": "Novel long-read DNA sequencing technology",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "stilt",
-    "name": "Stilt",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.65136,
-      "lng": -122.03054
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Rohit Mittal",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Priyank Singh",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9e3bb4303a0c1de02bc9e18aae4dd1307b9df84a.png",
-    "ycBatch": "W16",
-    "website": "http://www.stilt.com",
-    "description": "Financial products for immigrants (acquired by JG Wentworth)",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -68259,35 +66798,6 @@
     "ycBatch": "S15",
     "website": "http://tenantturner.com",
     "description": "We help residential property managers eliminate vacancy.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "platejoy",
-    "name": "PlateJoy",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.33234,
-      "lng": -121.98212
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Christina Bognet",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Daniel Nelson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7c1c96eca021da99c9b0563521d46193e6ba5a91.png",
-    "ycBatch": "S15",
-    "website": "http://platejoy.com",
-    "description": "PlateJoy is building the technology to power disease prevention and…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -68360,35 +66870,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "blitz-esports",
-    "name": "Blitz Esports",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.50437,
-      "lng": -122.14634
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jonathan Lin",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Rick Ling",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": null,
-    "ycBatch": "S15",
-    "website": "http://blitzesports.com",
-    "description": "Blitz breaks down the complex world of esports and offers new…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "her",
     "name": "HER",
     "address": "San Francisco",
@@ -68409,30 +66890,6 @@
     "ycBatch": "S15",
     "website": "http://weareher.com",
     "description": "HER helps lesbian, bisexual and queer people meet each other",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "zpredicta",
-    "name": "zPREDICTA",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.60933,
-      "lng": -122.05705
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Mukti Parikh",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/02c9913df4688a7af8c4ac4519928e3912a7a8d4.png",
-    "ycBatch": "S15",
-    "website": "http://zpredicta.com",
-    "description": "Patient-derived 3D tissue reconstruction models for preclinical…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -68659,30 +67116,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "triplebyte",
-    "name": "Triplebyte",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.60511,
-      "lng": -122.02337
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ammon Bartram",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b2db5bb9d86da1264497210fa121a02814b31acb.png",
-    "ycBatch": "S15",
-    "website": "https://triplebyte.com",
-    "description": "Intelligent technical hiring.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "spire-health",
     "name": "Spire Health",
     "address": "San Francisco",
@@ -68728,83 +67161,6 @@
     "website": "http://nimblerx.com",
     "description": "On-demand prescription delivery.",
     "status": "Active",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "chariot",
-    "name": "Chariot",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.87192,
-      "lng": -122.01191
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Romain Di Vuolo",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3bd3a05afc7a1aab41b19b06d5022dcd6fc20afb.png",
-    "ycBatch": "W15",
-    "website": "http://chariot.com",
-    "description": "The world's first private mass transit service providing a commuting…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "sigopt",
-    "name": "SigOpt",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.53149,
-      "lng": -122.49015
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Scott Clark",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8587155629554384fccbdcf060b0568e458358d4.png",
-    "ycBatch": "W15",
-    "website": "https://sigopt.com",
-    "description": "SigOpt is an Optimization-as-a-Service platform that seamlessly tunes…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "seed",
-    "name": "Seed",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.36193,
-      "lng": -121.97089
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Brian Merritt",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Ryan Hildebrand",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": null,
-    "ycBatch": "W15",
-    "website": "http://seed.co",
-    "description": "Mobile banking for small business.",
-    "status": "Acquired",
     "dataConfidence": "approximate"
   },
   {
@@ -68857,30 +67213,6 @@
     "ycBatch": "W15",
     "website": "https://www.nextravel.com",
     "description": "NexTravel is a centralized travel booking platform that helps…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "yesgraph",
-    "name": "YesGraph",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.38657,
-      "lng": -122.23644
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ivan Kirigin",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/dc6c9e2e62ba10ebe658902fcc0753dfef241bd1.png",
-    "ycBatch": "W15",
-    "website": "http://yesgraph.com",
-    "description": "YesGraph recommends exactly who a user should invite to an app. Our…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -69069,40 +67401,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "smyte",
-    "name": "Smyte",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.47175,
-      "lng": -122.33747
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Pete Hunt",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Julian Tempelsman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Josh Yudaken",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": null,
-    "ycBatch": "W15",
-    "website": "http://smyte.com",
-    "description": "Smyte stops bad actors on social networks and marketplaces.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "pomello",
     "name": "Pomello",
     "address": "San Francisco",
@@ -69132,30 +67430,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "final",
-    "name": "Final",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.38669,
-      "lng": -122.33564
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Matt Rothstein",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a9f9365e5ac7dcefbab5bfab9129637279050427.png",
-    "ycBatch": "W15",
-    "website": "http://getfinal.com",
-    "description": "A credit card that drastically reduces payment fraud and gives…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "unwind-me",
     "name": "Unwind Me",
     "address": "San Francisco",
@@ -69176,35 +67450,6 @@
     "ycBatch": "S14",
     "website": "http://unwind.me",
     "description": "Homejoy for massage",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "sliced-investing",
-    "name": "Sliced Investing",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.75436,
-      "lng": -121.91613
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Mike Furlong",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Akhil Lodha",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": null,
-    "ycBatch": "S14",
-    "website": null,
-    "description": "Crowdfunding for hedge funds",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -69292,40 +67537,6 @@
     "ycBatch": "S14",
     "website": "http://tuletechnologies.com",
     "description": "Help farmers make irrigation decisions with sensors / computer vision",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "payable",
-    "name": "Payable",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.66967,
-      "lng": -121.90029
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Tad Milbourn",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Kyle Kilat",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Peter Terrill",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": null,
-    "ycBatch": "S14",
-    "website": "http://payable.com",
-    "description": "Simple payments and tax compliance for your contract workforce.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -69475,30 +67686,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "kash",
-    "name": "Kash",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.33917,
-      "lng": -122.40033
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Geoff Flarity",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": null,
-    "ycBatch": "S14",
-    "website": "http://withkash.com",
-    "description": "We are fixing how money works.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "persistiq",
     "name": "PersistIQ",
     "address": "San Francisco",
@@ -69553,93 +67740,6 @@
     "ycBatch": "S14",
     "website": "http://claralabs.com",
     "description": "Clara is a human-in-the-loop assistant that helps automate repetitive…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "carlypso",
-    "name": "Carlypso",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.89079,
-      "lng": -122.12228
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nicholas Hinrichsen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Christopher Coleman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": null,
-    "ycBatch": "S14",
-    "website": "http://carlypso.com",
-    "description": "Used car marketplace",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "parenthoods",
-    "name": "Parenthoods",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.82675,
-      "lng": -122.14973
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Siobhan Quinn",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jeni Diaz Axline",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": null,
-    "ycBatch": "S14",
-    "website": "http://parenthoods.co",
-    "description": "Communities for expecting and new parents.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "framed-data",
-    "name": "Framed Data",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.8702,
-      "lng": -122.45324
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Thomson Nguyen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Elliot Block",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d619f8799e732a5c91a6f2c6e4b30d3ce7f23196.png",
-    "ycBatch": "W14",
-    "website": "http://www.framed.io",
-    "description": "Predicted churn for enterprises. (Acquired by Block)",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -69823,35 +67923,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "rickshaw",
-    "name": "Rickshaw",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.86601,
-      "lng": -122.46232
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Divya Bhat",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Gautam Jayaraman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": null,
-    "ycBatch": "W14",
-    "website": "http://gorickshaw.com",
-    "description": "Same day local delivery, via API. Currently operating in SF.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "liftigniter",
     "name": "Liftigniter",
     "address": "San Francisco",
@@ -69906,35 +67977,6 @@
     "ycBatch": "W14",
     "website": "http://theoremlp.com",
     "description": "The mission of Theorem is to make credit safe and available. We use…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "stacklead",
-    "name": "StackLead",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.81972,
-      "lng": -121.91172
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Gordon Wintrob",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Ted Tomlinson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": null,
-    "ycBatch": "W14",
-    "website": "http://stacklead.com",
-    "description": "Lead intelligence as a service. We want to be your personal lead…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -70011,35 +68053,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "cruise",
-    "name": "Cruise",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.89668,
-      "lng": -122.17176
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Kyle Vogt",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Daniel Kan",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b9aae9ad065dcf8b7a07d47b45a0667c6953810b.png",
-    "ycBatch": "W14",
-    "website": "http://getcruise.com",
-    "description": "Self-driving cars.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "chargehound",
     "name": "Chargehound",
     "address": "San Francisco",
@@ -70060,35 +68073,6 @@
     "ycBatch": "W14",
     "website": "https://www.chargehound.com",
     "description": "Automate your chargeback dispute process. (Acquired by PayPal)",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "two-tap",
-    "name": "Two Tap",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.52544,
-      "lng": -121.96015
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Razvan Roman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Radu Spineanu",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "W14",
-    "website": "http://twotap.com",
-    "description": "Two Tap connects retailers to companies that want to sell their…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -70146,30 +68130,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "lumoid",
-    "name": "Lumoid",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.71007,
-      "lng": -122.11241
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Aarthi Ramamurthy",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "S13",
-    "website": "http://lumoid.com",
-    "description": "We are a try before you buy service for consumer electronics.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "statuspage",
     "name": "StatusPage",
     "address": "San Francisco",
@@ -70204,69 +68164,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "bop-fm",
-    "name": "Bop.fm",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.83845,
-      "lng": -122.25002
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Shehzad Daredia",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Stefan Gomez",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "S13",
-    "website": "http://bop.fm",
-    "description": "Canonical permalinks for songs.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "layer-by-layer",
-    "name": "Layer By Layer",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.35763,
-      "lng": -122.22168
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jon Miller Schwartz",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Max Friefeld",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Oliver Ortlieb",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "S13",
-    "website": "http://layerbylayer.com",
-    "description": "Acquired by MakerBot in February 2014. \r\n\r\nA marketplace for 3D…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "casetext",
     "name": "Casetext",
     "address": "San Francisco",
@@ -70291,35 +68188,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "spoonrocket",
-    "name": "SpoonRocket",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.45838,
-      "lng": -121.98294
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Steven Hsiao",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Anson Tsui",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "S13",
-    "website": "http://spoonrocket.com",
-    "description": "Meals Delivered in 10 Minutes",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "coreos",
     "name": "CoreOS",
     "address": "San Francisco",
@@ -70340,103 +68208,6 @@
     "ycBatch": "S13",
     "website": "http://coreos.com",
     "description": "Open source tools of modern distributed systems.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "hackermeter",
-    "name": "Hackermeter",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.83477,
-      "lng": -122.05644
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Lucas Baker",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "frost li",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "S13",
-    "website": "http://hackermeter.com",
-    "description": "Replacing resume screening with code challenges.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "bloomthat",
-    "name": "BloomThat",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.85397,
-      "lng": -122.33216
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Matthew Schwab",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "David Bladow",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Chad Powell",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/db2486e6a903ae23f8d74b345ff08804c8e5f5e8.png",
-    "ycBatch": "S13",
-    "website": "http://bloomthat.com",
-    "description": "Uber for Flowers.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "standard-treasury",
-    "name": "Standard Treasury",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.74965,
-      "lng": -121.94048
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Daniel Kimerling",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Brent Goldman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Zac Townsend",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2abe9dfeaec3ad6a847793b2500465e6c5c2cb14.png",
-    "ycBatch": "S13",
-    "website": "http://standardtreasury.com",
-    "description": "Banking APIs; acquired by Silicon Valley Bank in August 2015",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -70494,30 +68265,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "semantics3",
-    "name": "Semantics3",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.36121,
-      "lng": -122.30791
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Sivamani Varun",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5307a5e46c396120f6ef685a303ed74085ff242c.png",
-    "ycBatch": "W13",
-    "website": "http://www.semantics3.com",
-    "description": "Data and AI platform for Ecommerce & Cross-Border Logistics",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "zenefits",
     "name": "Zenefits",
     "address": "San Francisco",
@@ -70547,35 +68294,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "coin",
-    "name": "Coin",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.72271,
-      "lng": -122.12337
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Kanishk Parashar",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Karthik Balakrishnan",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "W13",
-    "website": "http://onlycoin.com",
-    "description": "A mobile wallet that allows you to pay everywhere credit cards are…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "medxt",
     "name": "MedXT",
     "address": "San Francisco",
@@ -70596,30 +68314,6 @@
     "ycBatch": "W13",
     "website": "http://medxt.com",
     "description": "Radiology in the cloud.  X-rays, CAT scans, MRI's, and…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "meldium",
-    "name": "Meldium",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.32649,
-      "lng": -122.15156
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Anton Vaynshtok",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "W13",
-    "website": "http://meldium.com",
-    "description": "Simple password & identity management for teams. Acquired by LogMeIn…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -70649,54 +68343,6 @@
     "ycBatch": "W13",
     "website": "https://bitnami.com",
     "description": "The App Store for Server Software",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "grepdata",
-    "name": "GrepData",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.5982,
-      "lng": -122.19312
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Viral Bajaria",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "W13",
-    "website": "http://grepdata.com",
-    "description": "Big Data Analytics",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "vaycayhero",
-    "name": "VaycayHero",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.62677,
-      "lng": -122.32228
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Amitav Chakravartty",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a3ed8ebe374e674c6e6ada00d5e688a2f0309455.png",
-    "ycBatch": "W13",
-    "website": "https://www.vaycayhero.com/",
-    "description": "VaycayHero is a marketplace of professionally managed vacation…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -70760,35 +68406,6 @@
     "ycBatch": "S12",
     "website": "http://virool.com",
     "description": "Virool provides native video advertising experience for the biggest…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "voicegem",
-    "name": "VoiceGem",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.30604,
-      "lng": -122.11096
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Arda Kara",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Alexander Blessing",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2b6b42a7337464153721172951e6bf15e6d0b019.png",
-    "ycBatch": "S12",
-    "website": "http://voicegem.com",
-    "description": "Voice messaging platform - Acquired by Palantir in 2013",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -70885,59 +68502,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "easel",
-    "name": "Easel",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.62678,
-      "lng": -122.14997
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Matt Colyer",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Ben Ogle",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": null,
-    "ycBatch": "S12",
-    "website": "http://easel.io",
-    "description": "Easel is a visual design tool built for the web. Since the web is…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "vayable",
-    "name": "Vayable",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.63358,
-      "lng": -122.38551
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jamie Wong",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8f63e349953348633f283cb26cdc0d8b2237b0fe.png",
-    "ycBatch": "S12",
-    "website": "http://vayable.com",
-    "description": "We're building a marketplace for unique travel experiences (it's…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "clever",
     "name": "Clever",
     "address": "San Francisco",
@@ -70963,40 +68527,6 @@
     "ycBatch": "S12",
     "website": "https://clever.com",
     "description": "The platform that powers technology in the classroom.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "streem",
-    "name": "Streem",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.8593,
-      "lng": -122.25998
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ritik Malhotra",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Tanooj Luthra",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Samvit Ramadurgam",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/2049850051a3ec57117c5b9047ec860b912f8bf6.png",
-    "ycBatch": "S12",
-    "website": "https://streem.com",
-    "description": "Acquired by Box in June 2014. We built: (1) a native win/mac…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -71054,69 +68584,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "kamcord",
-    "name": "Kamcord",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.72183,
-      "lng": -122.17567
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Adi Rathnam",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Matt Zitzmann",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Kevin Wang",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": null,
-    "ycBatch": "S12",
-    "website": "http://kamcord.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "boosted",
-    "name": "Boosted",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.63811,
-      "lng": -122.48685
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Matt Tran",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "John Ulmen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": null,
-    "ycBatch": "S12",
-    "website": "http://boostedboards.com",
-    "description": "Simple, fun, and fast electric vehicles.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "knowmia",
     "name": "Knowmia",
     "address": "San Francisco",
@@ -71142,53 +68609,6 @@
     "ycBatch": "S12",
     "website": "http://knowmia.com",
     "description": "Pandora meets Yelp for K-12 educational videos.  We match each…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "pixate",
-    "name": "Pixate",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.71063,
-      "lng": -122.24825
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Paul Colton",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Kevin Lindsey",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a8ce36b7cc090f269ccda83063e61196068ef7a9.png",
-    "ycBatch": "S12",
-    "website": "http://pixate.com",
-    "description": "Mobile application prototyping. Now part of Google.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "parakey",
-    "name": "Parakey",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.34199,
-      "lng": -122.47445
-    },
-    "contactEmail": null,
-    "founders": [],
-    "yearFounded": 2005,
-    "logoUrl": null,
-    "ycBatch": "S05",
-    "website": "http://parakey.com",
-    "description": null,
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -71227,64 +68647,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "clickfacts",
-    "name": "Clickfacts",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.33738,
-      "lng": -121.9483
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Greg Gurevich",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Mikhail Gurevich",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Mikhail Ledvich",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2005,
-    "logoUrl": null,
-    "ycBatch": "S05",
-    "website": "http://clickfacts.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "loopt",
-    "name": "Loopt",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.78272,
-      "lng": -121.91489
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Sam Altman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2005,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/05936fb444740088b7c60ce578e9cfa2b2607070.png",
-    "ycBatch": "S05",
-    "website": "http://loopt.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "clustrix",
     "name": "Clustrix",
     "address": "San Francisco",
@@ -71304,103 +68666,6 @@
     "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/080d82509504fa711e8b698a0b2f1575b1ec8d4e.png",
     "ycBatch": "W06",
     "website": "http://clustrix.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "xobni",
-    "name": "Xobni",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.5429,
-      "lng": -122.40066
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Matt Brezina",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2006,
-    "logoUrl": null,
-    "ycBatch": "S06",
-    "website": "http://xobni.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "heysan",
-    "name": "Heysan",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.58847,
-      "lng": -122.45533
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Gustaf Alstromer",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Marie Brattberg",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Pär Lindhe",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Parham Michael Ossareh",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2007,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/bf698725d330ade4e0d1868371aa09cdbc9aa0c6.png",
-    "ycBatch": "W07",
-    "website": "http://heysan.com",
-    "description": "Free messaging on mobile phones",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "auctomatic",
-    "name": "Auctomatic",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.70778,
-      "lng": -122.15499
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Harj Taggar",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Kulveer Taggar",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Patrick Collison",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2007,
-    "logoUrl": null,
-    "ycBatch": "W07",
-    "website": "http://auctomatic.com",
     "description": null,
     "status": "Acquired",
     "dataConfidence": "approximate"
@@ -71469,59 +68734,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "appjet",
-    "name": "Appjet",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.44912,
-      "lng": -121.99798
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "David Greenspan",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2007,
-    "logoUrl": null,
-    "ycBatch": "S07",
-    "website": "http://appjet.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "zumodrive",
-    "name": "ZumoDrive",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.75017,
-      "lng": -122.25362
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "David Zhao",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Kevin West",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2007,
-    "logoUrl": null,
-    "ycBatch": "S07",
-    "website": "http://zumodrive.com",
-    "description": "Media in the cloud",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "disqus",
     "name": "Disqus",
     "address": "San Francisco",
@@ -71547,40 +68759,6 @@
     "ycBatch": "S07",
     "website": "http://disqus.com",
     "description": "Add comments to your website.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "280-north",
-    "name": "280 North",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.60058,
-      "lng": -122.04956
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ross Boucher",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Tom Robinson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Francisco Tolmasky",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2008,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/98ad9900ef7f6da311cde40df3e919b54084a4ba.png",
-    "ycBatch": "W08",
-    "website": "http://280north.com",
-    "description": null,
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -71615,30 +68793,6 @@
     "ycBatch": "W08",
     "website": "http://heroku.com",
     "description": "Enabling developers to build and run applications in the cloud.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "omnisio",
-    "name": "Omnisio",
-    "address": "Atherton, CA 94027, USA",
-    "location": {
-      "lat": 37.56246,
-      "lng": -122.04705
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Julian Frumar",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2008,
-    "logoUrl": null,
-    "ycBatch": "W08",
-    "website": "http://omnisio.com",
-    "description": "Edit and enhance online video. Acquired by Google in July 2008.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -71706,329 +68860,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "backtype",
-    "name": "BackType",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.52827,
-      "lng": -122.15755
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Christopher Golda",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Mike Montano",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2008,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/0ec00079f2609a11308b0e89a7e2ed64081516db.png",
-    "ycBatch": "S08",
-    "website": "http://backtype.com",
-    "description": "BackType was an analytics company acquired by Twitter in 2011",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "justspotted",
-    "name": "JustSpotted",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.66947,
-      "lng": -122.12157
-    },
-    "contactEmail": null,
-    "founders": [],
-    "yearFounded": 2008,
-    "logoUrl": null,
-    "ycBatch": "S08",
-    "website": "http://justspotted.com",
-    "description": "Acquired by Google in 2011",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "posterous",
-    "name": "Posterous",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.64116,
-      "lng": -122.30819
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Sachin Agarwal",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Brett Gibson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2008,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/5bc0011671097bf05400aa3d979a22a7452d3867.png",
-    "ycBatch": "S08",
-    "website": "http://posterous.com",
-    "description": "Dead simple blogs by email",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "cloudkick",
-    "name": "Cloudkick",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.43727,
-      "lng": -122.46256
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Logan Welliver",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2009,
-    "logoUrl": null,
-    "ycBatch": "W09",
-    "website": "http://cloudkick.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "echodio",
-    "name": "Echodio",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.37053,
-      "lng": -122.06855
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Cormac Driver",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Vincent Glennon",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2009,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/511e33e373ba8cbed610998321772565bd2ea6b2.png",
-    "ycBatch": "W09",
-    "website": "http://echodio.com",
-    "description": "Sync and stream your music across any device. Acquired in 2009.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "divvyshot",
-    "name": "Divvyshot",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.71569,
-      "lng": -122.22454
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Sam Odio",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "John Devor",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2009,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e4dc72b9f11ce7f6ee7142b32a97c4e3e477b6ed.png",
-    "ycBatch": "W09",
-    "website": "http://divvyshot.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "heyzap",
-    "name": "Heyzap",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.56584,
-      "lng": -122.35347
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Immad Akhund",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jude Gomila",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2009,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f23a0e60878f243a227ecdd0b96b41960b5ee37f.png",
-    "ycBatch": "W09",
-    "website": "http://heyzap.com",
-    "description": "Heyzap (acquired by Fyber for $45m in 2016) is one of the largest…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "flightcaster",
-    "name": "Flightcaster",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.71635,
-      "lng": -122.0787
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jason Freedman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Bradford Cross",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Evan Konwiser",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "James Bracy",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jonathan Bracy",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2009,
-    "logoUrl": null,
-    "ycBatch": "S09",
-    "website": null,
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "graffitigeo",
-    "name": "GraffitiGeo",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.68452,
-      "lng": -122.30008
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nikhil Pandit",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jared Tame",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2009,
-    "logoUrl": null,
-    "ycBatch": "S09",
-    "website": "http://graffitigeo.com",
-    "description": "We let you know where to go and what to get once you get there.…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "lockitron",
-    "name": "Lockitron",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.86412,
-      "lng": -122.25419
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Cameron Robertson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Paul Gerhardt",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Robert Witoff",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2009,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7912454bf7df422177986a9aeae9e1f784c88012.png",
-    "ycBatch": "S09",
-    "website": "http://lockitron.com",
-    "description": "Lockitron makes electronic locks you can control locally from your…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "rethinkdb",
-    "name": "RethinkDB",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.33666,
-      "lng": -121.98025
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Michael Glukhovsky",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Slava Akhmechet",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2009,
-    "logoUrl": null,
-    "ycBatch": "S09",
-    "website": "http://rethinkdb.com",
-    "description": "The open source database for the realtime web.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "wepay",
     "name": "WePay",
     "address": "San Francisco",
@@ -72049,185 +68880,6 @@
     "ycBatch": "S09",
     "website": "http://wepay.com",
     "description": "Payments for platform businesses.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "bump",
-    "name": "Bump",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.52609,
-      "lng": -122.13379
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "David Lieb",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Andy Huibers",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2009,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/c7672c258ac0c9f075574a8f3f4556c14bc4bf4a.png",
-    "ycBatch": "S09",
-    "website": "http://bumptechnologies.com",
-    "description": "Bump, Flock, Photoroll (unreleased) => Google Photos",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "dailybooth",
-    "name": "DailyBooth",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.77635,
-      "lng": -122.02232
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ryan Amos",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jon Wheatley",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2009,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/fb35b97ef3e79737cb8796b24e07c68e4df168bf.png",
-    "ycBatch": "S09",
-    "website": "http://dailybooth.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "etacts",
-    "name": "Etacts",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.77295,
-      "lng": -122.18791
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Evan Beard",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Howie Liu",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "W10",
-    "website": "http://etacts.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "movity",
-    "name": "Movity",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.40522,
-      "lng": -122.06933
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Sha Hwang",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Vaughn Koch",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Eric Wu",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "W10",
-    "website": "http://movity.com",
-    "description": "Real estate data visualization.  Sold to Trulia Dec…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "cardpool",
-    "name": "Cardpool",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.88178,
-      "lng": -122.44463
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Tim Wong",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d20cc754c39c70de5bdf4aba61f62ecf62277c75.png",
-    "ycBatch": "W10",
-    "website": "http://cardpool.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "cue",
-    "name": "Cue",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.35057,
-      "lng": -121.9875
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Shai Magzimof",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Daniel Gross",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Robby Walker",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "W10",
-    "website": "http://cueup.com",
-    "description": null,
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -72266,40 +68918,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "nowmov",
-    "name": "Nowmov",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.78088,
-      "lng": -122.15414
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "David Kelso",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Thomas Pun",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "James Felix Black",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "W10",
-    "website": "http://nowmov.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "creative-market",
     "name": "Creative Market",
     "address": "San Francisco",
@@ -72334,74 +68952,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "bitplay",
-    "name": "Bitplay",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.77153,
-      "lng": -122.00281
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Denis Mars",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Arend Naylor",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "W10",
-    "website": "http://meetings.io",
-    "description": "Effortless Video Meetings\r\n- Acquired by Jive Software in 2013",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "crocodoc",
-    "name": "Crocodoc",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.84084,
-      "lng": -122.25528
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ryan Damico",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Peter Lai",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Matt Long",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Bennett Rogers",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2007,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/934b28e2d4367fc33767785a5a2414ea7c0783b5.png",
-    "ycBatch": "W10",
-    "website": "https://crocodoc.com",
-    "description": "Embed PDFs, PowerPoints, and other documents into web and mobile apps",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "500friends",
     "name": "500Friends",
     "address": "San Francisco",
@@ -72422,311 +68972,6 @@
     "ycBatch": "W10",
     "website": "http://500friends.com",
     "description": "the best loyalty and retention marketing partner for CMOs.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "mertado",
-    "name": "Mertado",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.46387,
-      "lng": -122.15175
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Vijay Chittoor",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Mehul Shah",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Rajiv Bhat",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "W10",
-    "website": "http://mertado.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "adgrok",
-    "name": "AdGrok",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.41053,
-      "lng": -122.2697
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Antonio Garcia-Martinez",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Matthew McEachen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Argyrios Zymnis",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "S10",
-    "website": "http://adgrok.com",
-    "description": "Easy SEM software. Acquired by Twitter in 2011.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "whereoscope",
-    "name": "Whereoscope",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.46017,
-      "lng": -122.14809
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Mick Johnson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "James Gregory",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "S10",
-    "website": "http://whereoscope.com",
-    "description": "Location-aware smartphone application that enables parents to keep…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "fridge",
-    "name": "Fridge",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.66143,
-      "lng": -122.28998
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Austin Chang",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Alex Chung",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "S10",
-    "website": "http://frid.ge",
-    "description": "Disposable social networks.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "fanvibe",
-    "name": "Fanvibe",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.60777,
-      "lng": -122.42432
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Vishwas Prabhakara",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Arthur Chang",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Joe Pestro",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "S10",
-    "website": "http://fanvibe.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "futureadvisor",
-    "name": "FutureAdvisor",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.81981,
-      "lng": -122.35388
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Bo Lu",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f9646d12ef702815678b089d1127fdf3de037009.png",
-    "ycBatch": "S10",
-    "website": "http://futureadvisor.com",
-    "description": "The online financial management service for everyone.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "leftronic",
-    "name": "Leftronic",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.44343,
-      "lng": -121.94905
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Rajiv Ghanta",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Lionel Jingles",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jyotindra Vasudeo",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "S10",
-    "website": "http://leftronic.com",
-    "description": "Business dashboards",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "gazehawk",
-    "name": "GazeHawk",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.54781,
-      "lng": -122.11731
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Brian Krausz",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Joe Gershenson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7b6bb6a40cbe23dd398442068cb5d69e8e784f57.png",
-    "ycBatch": "S10",
-    "website": "http://gazehawk.com",
-    "description": "Eyetracking using webcams.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "1000memories",
-    "name": "1000Memories",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.68332,
-      "lng": -122.43055
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Rudy Adler",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jonathan Good",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Brett Huneycutt",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "S10",
-    "website": "http://ancestry.com",
-    "description": "Memorial sites.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "homejoy",
-    "name": "Homejoy",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.58348,
-      "lng": -122.01547
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Aaron Cheung",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b4bfd4c1a906fb877747fe31d713b18c98888876.png",
-    "ycBatch": "S10",
-    "website": "http://homejoy.com",
-    "description": "platform for home service professionals",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -72842,88 +69087,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "hipmunk",
-    "name": "Hipmunk",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.86683,
-      "lng": -122.29347
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Adam Goldstein",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f2f4e2b87686f40b66e32d1353f1f8cd4347557f.png",
-    "ycBatch": "S10",
-    "website": "http://hipmunk.com",
-    "description": "Hipmunk takes the agony out of searching for flights, accommodations,…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "chartio",
-    "name": "Chartio",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.53026,
-      "lng": -122.45852
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Dave Fowler",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/bd01901abf7384be11011b25a6f7e62224dd4f2e.png",
-    "ycBatch": "S10",
-    "website": "https://chartio.com",
-    "description": "Chartio is changing how companies work by building the best…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "talkbin",
-    "name": "TalkBin",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.50139,
-      "lng": -122.19919
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Qasar Younis",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Sunny Dhillon",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Michael Ma",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "W11",
-    "website": "http://talkbin.com",
-    "description": "Consumer to business messaging.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "drchrono",
     "name": "DrChrono",
     "address": "San Francisco",
@@ -72949,64 +69112,6 @@
     "ycBatch": "W11",
     "website": "https://www.drchrono.com",
     "description": "The essential platform for modern medical practices and patients.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "orderahead",
-    "name": "OrderAhead",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.40767,
-      "lng": -122.03522
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jeffrey Byun",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Henry A. Lee",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Ruddick Lawrence",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e334d62bafa0332695cbf9c8cdda90c9f097a691.png",
-    "ycBatch": "W11",
-    "website": "https://www.crunchbase.com/organization/orderahead",
-    "description": "Order ahead for pickup",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "lanyrd",
-    "name": "Lanyrd",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.46795,
-      "lng": -122.45279
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Simon Willison",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "W11",
-    "website": "http://lanyrd.com",
-    "description": "IMDB of conferences.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -73040,24 +69145,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "apportable",
-    "name": "Apportable",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.45572,
-      "lng": -122.34033
-    },
-    "contactEmail": null,
-    "founders": [],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "W11",
-    "website": "http://apportable.com",
-    "description": "iOS porting",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "fivestars",
     "name": "Fivestars",
     "address": "San Francisco",
@@ -73083,30 +69170,6 @@
     "ycBatch": "W11",
     "website": "http://fivestars.com",
     "description": "Customer loyalty and payments platform for small businesses.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "pebble",
-    "name": "Pebble",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.75803,
-      "lng": -121.94722
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Eric Migicovsky",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "W11",
-    "website": "http://getpebble.com",
-    "description": "Watch that helps you get shit done and limit the mayhem of…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -73164,35 +69227,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "hotspots",
-    "name": "Hotspots",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.63445,
-      "lng": -122.36003
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Matt Huang",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Alexander Spicer",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "W11",
-    "website": "http://moki.tv",
-    "description": "Real-time analytics (acq by TWTR, 2012)",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "hellosign",
     "name": "HelloSign",
     "address": "San Francisco",
@@ -73213,35 +69247,6 @@
     "ycBatch": "W11",
     "website": "https://www.hellosign.com",
     "description": "eSignature software for small and mid-market businesses.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "sendoid",
-    "name": "Sendoid",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.54558,
-      "lng": -122.05059
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "John Egan",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Zac Morris",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "W11",
-    "website": "http://sendoid.com",
-    "description": "High speed peer to peer data transport technology for consumers…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -73272,238 +69277,6 @@
     "website": "https://www.singlestore.com",
     "description": "The cloud-native, operational database built for speed and scale.",
     "status": "Active",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "automatic",
-    "name": "Automatic",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.49829,
-      "lng": -122.17045
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jerry J",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "http://automatic.com",
-    "description": "Automatic connects your car to the rest of your digital life.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "zeus",
-    "name": "Zeus",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.50421,
-      "lng": -121.98724
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Kulveer Taggar",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Srini Panguluri",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Joe Wong",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7a77198c0030d747ae9d8cca182ce3d6f4fe59dd.png",
-    "ycBatch": "S11",
-    "website": "https://zeusliving.com/",
-    "description": "Tech-enabled property manager focused on corporate rentals; Acquired…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "parse",
-    "name": "Parse",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.416,
-      "lng": -122.09926
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Kevin Lacker",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "http://parse.com",
-    "description": "Parse is the easiest way to build apps.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "perfect-audience",
-    "name": "Perfect Audience",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.45457,
-      "lng": -122.10377
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Brad Flora",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jordi Buller",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "http://perfectaudience.com",
-    "description": "Self-service display advertising for SaaS and online retail.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "tapengage",
-    "name": "TapEngage",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.37174,
-      "lng": -122.22844
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Matt Holden",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Sean Lynch",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9f8322001e5c21ab69bf80d5c18f9323d677e241.png",
-    "ycBatch": "S11",
-    "website": "http://tapengage.com",
-    "description": "Touch-friendly marketing, acquired by Dropbox",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "glassmap",
-    "name": "GlassMap",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.59898,
-      "lng": -122.08832
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Geoffrey Woo",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jono Chang",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jon Zhang",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "http://ansibletechnologies.com",
-    "description": "Location sharing. Acquired by Groupon in 2013.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "compose",
-    "name": "Compose",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.81592,
-      "lng": -122.37645
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jason McCay",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Ben Wyrosdick",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "http://mongohq.com",
-    "description": "We make it easy to run databases.\r\nPostgreSQL, Redis, MongoDB,…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "launchpad-toys",
-    "name": "Launchpad Toys",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.69931,
-      "lng": -121.99708
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Thushan Amarasiriwardena",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Andy Russell",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "http://launchpadtoys.com",
-    "description": "Creativity at Play.  Tablet toys.   Acquired by Google, 2015.",
-    "status": "Acquired",
     "dataConfidence": "approximate"
   },
   {
@@ -73542,30 +69315,6 @@
     "ycBatch": "S11",
     "website": "http://trycaviar.com",
     "description": "Uber for food.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "embark",
-    "name": "Embark",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.63118,
-      "lng": -122.00342
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Taylor Malloy",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "https://letsembark.com",
-    "description": "Public transit apps. Acquired by Apple in 2013.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -73623,35 +69372,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "pagelever",
-    "name": "Pagelever",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.68991,
-      "lng": -122.11775
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "David Turner",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jeff Widman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "http://pagelever.com",
-    "description": "Facebook analytics. Acquired by Unified in January 2013.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "firebase",
     "name": "Firebase",
     "address": "San Francisco",
@@ -73677,35 +69397,6 @@
     "ycBatch": "S11",
     "website": "http://firebase.com",
     "description": "Build and grow iOS, Android, and Web apps.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "realm",
-    "name": "Realm",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.59538,
-      "lng": -122.4379
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Alexander Stigsen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Bjarne Christiansen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/e7c0efa8c2a26fb6420ba78e65ca6bed2a565d94.png",
-    "ycBatch": "S11",
-    "website": "http://realm.io",
-    "description": "Better data structures = no DB.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -73758,40 +69449,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "cryptoseal",
-    "name": "Cryptoseal",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.7118,
-      "lng": -122.40711
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ryan Lackey",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Erik Berls",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Thomas Sparks",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/f01716372f6f7ee7618920ade7a25141ed7d5274.png",
-    "ycBatch": "S11",
-    "website": "http://cryptoseal.com",
-    "description": "Server key management, VPN as a Service, Privacy VPN.  Sold to…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "science-exchange",
     "name": "Science Exchange",
     "address": "San Francisco",
@@ -73817,59 +69474,6 @@
     "ycBatch": "S11",
     "website": "https://www.scienceexchange.com/",
     "description": "Powering scientific outsourcing",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "stypi",
-    "name": "Stypi",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.68288,
-      "lng": -122.41945
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jason Chen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Byron Milligan",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "https://stypi.com",
-    "description": "Realtime collaborative coding",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "clutch",
-    "name": "Clutch",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.75749,
-      "lng": -122.41966
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Eric Florenzano",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "S11",
-    "website": "http://clutch.io",
-    "description": "An easy to integrate library for native iOS applications designed to…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -73927,35 +69531,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "socialcam",
-    "name": "Socialcam",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.7208,
-      "lng": -121.99604
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Guillaume Luccisano",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Ammon Bartram",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b24ebeb2fc608e0b86263b686bbe051e66769782.png",
-    "ycBatch": "W12",
-    "website": "http://www.socialcam.com",
-    "description": "The easiest way to share videos with friends and family.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "priceonomics",
     "name": "Priceonomics",
     "address": "San Francisco",
@@ -74005,40 +69580,6 @@
     "ycBatch": "W12",
     "website": "http://yourmechanic.com",
     "description": "Car Repairs, Reinvented:a. Mechanic comes to your home or work to fix…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "loom",
-    "name": "Loom",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.58363,
-      "lng": -122.28132
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nicolas Bös",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Daniel Wagner",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Philipp Wein",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/a80fafdfab999a01d1063075c4af81677d42b1dc.png",
-    "ycBatch": "W12",
-    "website": "http://loom.com",
-    "description": "Cloud storage for photos and videos (acquired by Dropbox).",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -74125,35 +69666,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "tilt",
-    "name": "Tilt",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.40339,
-      "lng": -122.44804
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "James Beshara",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Khaled Hussein",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": null,
-    "ycBatch": "W12",
-    "website": "http://tilt.com",
-    "description": "Mobile crowdfunding: The easiest way to collect, fundraise, and sell…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "exec",
     "name": "Exec",
     "address": "San Francisco",
@@ -74184,35 +69696,6 @@
     "ycBatch": "W12",
     "website": "http://iamexec.com/",
     "description": "Exec is a house cleaning service that users can book from their…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "chute",
-    "name": "Chute",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.71293,
-      "lng": -122.0718
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ranvir Gujral",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Gaurav Sharma",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": null,
-    "ycBatch": "W12",
-    "website": "http://getchute.com",
-    "description": "Discover the photos and videos people are taking of your brand or…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -74286,30 +69769,6 @@
     "ycBatch": "W12",
     "website": "https://angel.co/slidepay",
     "description": "Banking and Payment Platform APIs. Exited October 2014.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "hackpad",
-    "name": "HackPad",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.48332,
-      "lng": -122.46724
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Igor Kofman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": null,
-    "ycBatch": "W12",
-    "website": "http://hackpad.com",
-    "description": "A realtime wiki for getting things done.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -74420,40 +69879,6 @@
     "ycBatch": "W12",
     "website": "http://plangrid.com",
     "description": "Mobile applications for the construction industry.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "42floors",
-    "name": "42Floors",
-    "address": "San Francisco",
-    "location": {
-      "lat": 37.65468,
-      "lng": -122.29238
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jason Freedman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "James Bracy",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jonathan Bracy",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2011,
-    "logoUrl": null,
-    "ycBatch": "W12",
-    "website": "http://42floors.com",
-    "description": "We make it easy to search for office space.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -89399,30 +84824,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "gander",
-    "name": "Gander",
-    "address": "New York City",
-    "location": {
-      "lat": 40.81165,
-      "lng": -74.02553
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Arjan Guglani",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2024,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/103e5e968261b6e0f5f380738a8663b4974fa3c8.png",
-    "ycBatch": "F24",
-    "website": "https://usegander.com",
-    "description": "Automation System for Global Aviation",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "cobblestone",
     "name": "Cobblestone",
     "address": "New York City",
@@ -89747,35 +85148,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "viddy",
-    "name": "Viddy",
-    "address": "New York City",
-    "location": {
-      "lat": 40.70465,
-      "lng": -73.93139
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Harris Gani",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Nihar Patil",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2022,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/1dfe2f7acf5297dd4c70e312a5b1f29fe5205ad7.png",
-    "ycBatch": "W23",
-    "website": "https://www.viddyapp.io/",
-    "description": "A new way to create landing pages that is video-native.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "powerx",
     "name": "PowerX",
     "address": "New York City",
@@ -89854,35 +85226,6 @@
     "ycBatch": "W22",
     "website": "http://www.tryskylink.com",
     "description": "Travel Management Meets AI",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "alfie",
-    "name": "Alfie",
-    "address": "New York City",
-    "location": {
-      "lat": 40.66357,
-      "lng": -74.00657
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Alexander Singh",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Hasan Syed",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2022,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/69c2a28dd13b2ddea9fea7539263cbbff612ddc6.png",
-    "ycBatch": "W22",
-    "website": "http://www.joinalfie.com",
-    "description": "Democratizing access to precision weight loss medications",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -90659,64 +86002,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "sable",
-    "name": "Sable",
-    "address": "New York City",
-    "location": {
-      "lat": 40.77518,
-      "lng": -74.05583
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Naveen Qureshi",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Joseph Finlayson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Towers Wilen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2019,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/682ae8359f3196bfbd0f33bad112a609474463e1.png",
-    "ycBatch": "S19",
-    "website": "http://www.sablecard.com",
-    "description": "Mobile bank for credit-worthy, new-to-America internationals offering…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "actiondesk",
-    "name": "Actiondesk",
-    "address": "New York City",
-    "location": {
-      "lat": 40.79499,
-      "lng": -73.99145
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jonathan Parisot",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2019,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8171503f94fc45c98131f13274f03eda1037db64.png",
-    "ycBatch": "S19",
-    "website": "https://www.actiondesk.io/",
-    "description": "Access all your live data in one place",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "catch",
     "name": "Catch",
     "address": "New York City",
@@ -90795,30 +86080,6 @@
     "ycBatch": "W19",
     "website": "http://coursedog.com",
     "description": "Higher Ed's Best Friend - integrated academic operations software.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "optic",
-    "name": "Optic",
-    "address": "New York City",
-    "location": {
-      "lat": 40.65567,
-      "lng": -73.94859
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Aidan Cunniffe",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/13e79085ad4efb3abef387683d79f4d78e55bb43.png",
-    "ycBatch": "S18",
-    "website": "http://useoptic.com/",
-    "description": "Making APIs Developer-friendly",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -90925,30 +86186,6 @@
     "ycBatch": "S17",
     "website": "http://www.ribbonhealth.com",
     "description": "Health enterprise API for data on doctors, insurance, costs, & quality",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "feather",
-    "name": "Feather",
-    "address": "New York City",
-    "location": {
-      "lat": 40.75431,
-      "lng": -74.03941
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jay Reno",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2017,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/78565f991ce79dae3926441dab3992eb71f84d76.png",
-    "ycBatch": "S17",
-    "website": "http://livefeather.com",
-    "description": "Furniture rental for consumers and businesses.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -91099,35 +86336,6 @@
     "ycBatch": "W17",
     "website": "https://hivyapp.com",
     "description": "An end-to-end platform for office management. We enable office…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "arthena",
-    "name": "Arthena",
-    "address": "New York City",
-    "location": {
-      "lat": 40.64199,
-      "lng": -73.95176
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Madelaine D'Angelo",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Michael DAngelo",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/9d4656eb8a75c7b4647f36ee77604160755543cd.png",
-    "ycBatch": "W17",
-    "website": "https://www.arthena.com",
-    "description": "Quantitative Investment in Art Assets",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -91431,30 +86639,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "bluesmart",
-    "name": "Bluesmart",
-    "address": "New York City",
-    "location": {
-      "lat": 40.72468,
-      "lng": -73.97312
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Alejo Verlini",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": null,
-    "ycBatch": "W15",
-    "website": "http://bluesmart.com",
-    "description": "Bluesmart makes smart luggage powered by an app to empower people to…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "ravti",
     "name": "Ravti",
     "address": "New York City",
@@ -91533,30 +86717,6 @@
     "ycBatch": "S14",
     "website": "https://www.aptible.com",
     "description": "The No Infrastructure Platform as a Service",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "vidpresso",
-    "name": "Vidpresso",
-    "address": "New York City",
-    "location": {
-      "lat": 40.61961,
-      "lng": -74.03188
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Randall Bennett",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/d29bf58956a62cac907d5bfab6e8858458173060.png",
-    "ycBatch": "W14",
-    "website": "http://facebook.com/live/producer",
-    "description": "Help media companies make quality live video. [Acquired by Facebook]",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -91700,30 +86860,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "urx",
-    "name": "URX",
-    "address": "New York City",
-    "location": {
-      "lat": 40.63347,
-      "lng": -73.91961
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Nate Smith",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "S13",
-    "website": "http://urx.com",
-    "description": "Mobile ads that users like. Acquired by Pinterest in May 2016.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "fullstack-academy",
     "name": "Fullstack Academy",
     "address": "New York City",
@@ -91749,30 +86885,6 @@
     "ycBatch": "S12",
     "website": "http://fullstackacademy.com",
     "description": "Pioneer in immersive code education. Acquired by Zovio (NASDAQ: ZVO)…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "omgpop",
-    "name": "OMGPop",
-    "address": "New York City",
-    "location": {
-      "lat": 40.61701,
-      "lng": -74.00691
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Charles Forman",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2006,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/559672d261ba77a0c9e1d4b44d65ac758988d804.png",
-    "ycBatch": "S06",
-    "website": "https://omgpop.com",
-    "description": "An independent flash game studio.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -95744,35 +90856,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "altro",
-    "name": "Altro",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 34.20467,
-      "lng": -118.11367
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Michael Broughton",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Ayush Jain",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2019,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/58847e130c30f297f7cee19998c6a99931a8c35d.png",
-    "ycBatch": "S20",
-    "website": "https://altro.io",
-    "description": "Build Credit With Your Subscriptions",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "talyn-air",
     "name": "Talyn Air",
     "address": "Los Angeles",
@@ -95798,30 +90881,6 @@
     "ycBatch": "W20",
     "website": "http://www.talyn.com",
     "description": "Long range, battery electric vertical take-off and landing aircraft.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "zelos",
-    "name": "Eternal",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 34.08033,
-      "lng": -118.1649
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jeffrey Tong",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2020,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/60c3c3b42c38c13f3980a72fe13dfdc9fe91c5fc.png",
-    "ycBatch": "W20",
-    "website": "https://eternal.gg/",
-    "description": "Own the best moments in streaming",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -95947,69 +91006,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "demeanor-co",
-    "name": "Demeanor.co",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 34.14735,
-      "lng": -118.40055
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Drake Rehfeld",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Alex Pareto",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Zac Denham",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/69a52a6127670bd5b12777ee62f92927bd18f31c.png",
-    "ycBatch": "S18",
-    "website": "https://www.demeanor.co",
-    "description": "Now part of thentwrk.com",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "audm",
-    "name": "Audm",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 34.19344,
-      "lng": -118.08938
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Christian Brink",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Ryan Wegner",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/08af81b6a3d390826e292425721b229750993e4c.png",
-    "ycBatch": "S17",
-    "website": "https://www.audm.com",
-    "description": "Audm is a subscription service providing mini-audiobooks —…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "scopeai",
     "name": "ScopeAI",
     "address": "Los Angeles",
@@ -96126,141 +91122,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "lumi",
-    "name": "Lumi",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 34.24517,
-      "lng": -118.16269
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jesse Genet",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Steph Ango",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/cb1688bb9b23736439a735b81f27fec6b88a2ebd.png",
-    "ycBatch": "W15",
-    "website": "https://www.lumi.com",
-    "description": "Packaging for online brands.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "open-listings",
-    "name": "Open Listings",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 33.95736,
-      "lng": -118.11614
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Judd Schoenholtz",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Peter Sugihara",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/3cb771450cbbd7b08b3bb5a55835dc2448963273.png",
-    "ycBatch": "W15",
-    "website": "https://www.openlistings.com",
-    "description": "A better way to buy a home",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "blockspring",
-    "name": "Blockspring",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 33.90047,
-      "lng": -118.3839
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Don Pinkus",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jason Tokoph",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/54adc77913df8208ff5542365ce1fa003567f7c8.png",
-    "ycBatch": "S14",
-    "website": "http://blockspring.com",
-    "description": "Automate data collection for spreadsheets and productivity tools.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "pipelinedb",
-    "name": "PipelineDB",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 34.15969,
-      "lng": -118.35237
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Derek Nelson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": null,
-    "ycBatch": "W14",
-    "website": "http://www.pipelinedb.com",
-    "description": "Open-source time-series data analytics extension for PostgreSQL",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "kimono-labs",
-    "name": "Kimono Labs",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 34.00315,
-      "lng": -118.08244
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ryan Rowe",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2014,
-    "logoUrl": null,
-    "ycBatch": "W14",
-    "website": "http://kimonolabs.com",
-    "description": "Create APIs where they don't exist. With kimono you can quickly…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "simplelegal",
     "name": "SimpleLegal",
     "address": "Los Angeles",
@@ -96349,93 +91210,6 @@
     "ycBatch": "W06",
     "website": "http://projectwedding.com",
     "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "all-screen",
-    "name": "All Screen",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 34.10764,
-      "lng": -118.06096
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jason Wilk",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "W10",
-    "website": "http://140fire.com",
-    "description": "Connecting users with engaging video content across the web.…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "earbits",
-    "name": "Earbits",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 34.2384,
-      "lng": -118.24768
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Joey Flores",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Benjamin Bryant",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Yotam Rosenbaum",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7c80ed0df2139f0c86b3495949b5e539365d8a02.png",
-    "ycBatch": "W11",
-    "website": "http://earbits.com",
-    "description": "Google AdWords for music.  Allowing bands and labels to bid for…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "flutter",
-    "name": "Flutter",
-    "address": "Los Angeles",
-    "location": {
-      "lat": 34.14919,
-      "lng": -118.427
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Navneet Dalal",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Mehul Nariyawala",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2012,
-    "logoUrl": null,
-    "ycBatch": "W12",
-    "website": "http://flutterapp.com",
-    "description": "Flutter combined computer vision technology with the built-in webcams…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -98686,35 +93460,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "kiko",
-    "name": "Kiko",
-    "address": "Boston",
-    "location": {
-      "lat": 42.4106,
-      "lng": -71.01885
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Justin Kan",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Emmett Shear",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2005,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/8645d994cd671af0ca1acfe8cde27021183de17e.png",
-    "ycBatch": "S05",
-    "website": "http://kiko.com",
-    "description": "We're the best online calendar solution to ever exist. Period.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "cloudant",
     "name": "Cloudant",
     "address": "Boston",
@@ -100481,40 +95226,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "worksphere",
-    "name": "Worksphere",
-    "address": "Seattle",
-    "location": {
-      "lat": 47.57749,
-      "lng": -122.38761
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Aakhil Fardeen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Theresa Klaassen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Mark Piper",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2020,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/44becbcafc8276380e50b52564490352395e9f3f.png",
-    "ycBatch": "W21",
-    "website": "https://www.worksphere.com",
-    "description": "Manage your hybrid workplace",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "promoted",
     "name": "Promoted.ai",
     "address": "Seattle",
@@ -100634,35 +95345,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "datarank",
-    "name": "Datarank",
-    "address": "Seattle",
-    "location": {
-      "lat": 47.65889,
-      "lng": -122.38299
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ryan Frazier",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Kenny Cason",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2013,
-    "logoUrl": null,
-    "ycBatch": "S13",
-    "website": "http://www.datarank.com",
-    "description": "Making sense of social data. \r\n(Acquired by SimplyMeasured.)",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "heap",
     "name": "Heap",
     "address": "Seattle",
@@ -100683,54 +95365,6 @@
     "ycBatch": "W13",
     "website": "https://heap.io/",
     "description": "Captures user interactions with no code to generate analytics.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "textpayme",
-    "name": "TextPayMe",
-    "address": "Seattle",
-    "location": {
-      "lat": 47.58919,
-      "lng": -122.30072
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Phil Yuen",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2005,
-    "logoUrl": null,
-    "ycBatch": "S05",
-    "website": "http://textpayme.com",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "tapzilla",
-    "name": "Tapzilla",
-    "address": "Seattle",
-    "location": {
-      "lat": 47.62964,
-      "lng": -122.32188
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Edmond Yue",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2010,
-    "logoUrl": null,
-    "ycBatch": "S10",
-    "website": "http://tapzilla.com",
-    "description": "Woot for iOS apps.",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -102132,69 +96766,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "cardinal",
-    "name": "Cardinal",
-    "address": "Austin, TX, USA",
-    "location": {
-      "lat": 30.2269,
-      "lng": -97.78984
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Wiz 👋🏻",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Mor Sela",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2023,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/b5d014c36052bdd4a69088606fa34d3acd89ab7a.png",
-    "ycBatch": "W23",
-    "website": "http://cardinalapp.io",
-    "description": "Your AI product backlog",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "hoss",
-    "name": "Hoss",
-    "address": "Austin, TX, USA",
-    "location": {
-      "lat": 30.26809,
-      "lng": -97.6936
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Cameron Cooper",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Trung Vu",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Matt Hawkins",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2019,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/7d30265114aa37a7614a3decc8911468482645ff.png",
-    "ycBatch": "W20",
-    "website": "https://hoss.com",
-    "description": "The developer experience platform",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "pullrequest",
     "name": "PullRequest",
     "address": "Austin, TX, USA",
@@ -102215,40 +96786,6 @@
     "ycBatch": "S17",
     "website": "http://www.pullrequest.com",
     "description": "Code review as a service - combining automation with a network of…",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "goodybag",
-    "name": "Goodybag",
-    "address": "Austin, TX, USA",
-    "location": {
-      "lat": 30.29464,
-      "lng": -97.73776
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Jay Panchal",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Om Panchal",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Jag Santha",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2016,
-    "logoUrl": null,
-    "ycBatch": "W16",
-    "website": "http://goodybag.com",
-    "description": "An online tool for companies to order food from restaurants and…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -102278,40 +96815,6 @@
     "ycBatch": "W16",
     "website": "https://mineralsoft.com",
     "description": "Data management platform for oil & gas assets",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "interviewed",
-    "name": "Interviewed",
-    "address": "Austin, TX, USA",
-    "location": {
-      "lat": 30.31524,
-      "lng": -97.75749
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Chris Bakke",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Darren Nix",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Daniel O'Shea",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/34109dc6ab458d2caa1cccf55b6ec7163db8c41d.png",
-    "ycBatch": "S15",
-    "website": "http://interviewed.com",
-    "description": "Job simulations and assessments.  See candidates in action doing the…",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -107083,35 +101586,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "vizzly",
-    "name": "Vizzly",
-    "address": "London",
-    "location": {
-      "lat": 51.4384,
-      "lng": -0.10057
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Matt Williamson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "James Bowers",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2022,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/22e8f105fb29e8957dec4db2a7b28a0c24a20539.png",
-    "ycBatch": "S22",
-    "website": "https://vizzly.co/",
-    "description": "Customer-Facing Analytics for Modern SaaS.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "tranch",
     "name": "Tranch",
     "address": "London",
@@ -107310,35 +101784,6 @@
     "dataConfidence": "approximate"
   },
   {
-    "id": "look-after-my-bills",
-    "name": "Look After My Bills",
-    "address": "Westminster, London, UK",
-    "location": {
-      "lat": 51.55478,
-      "lng": -0.1402
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Will Hodson",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Henry de Zoete",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2018,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/67feedac703051e2ac7e071240d7e52a5d06db78.png",
-    "ycBatch": "W18",
-    "website": "http://www.lookaftermybills.com",
-    "description": "Personal fintech - we optimise your bills, every year, automatically.",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
     "id": "dataform",
     "name": "Dataform",
     "address": "London",
@@ -107480,54 +101925,6 @@
     "ycBatch": "W17",
     "website": "https://shipamax.com",
     "description": "Simple, end-to-end automation for logistics orgs",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "sphere-secure-workspace",
-    "name": "Sphere Secure Workspace",
-    "address": "London",
-    "location": {
-      "lat": 51.55551,
-      "lng": -0.11334
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Dominik Thalmann",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2015,
-    "logoUrl": null,
-    "ycBatch": "S15",
-    "website": "http://sphere.works",
-    "description": null,
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "clickpass",
-    "name": "Clickpass",
-    "address": "London",
-    "location": {
-      "lat": 51.57259,
-      "lng": -0.08763
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Peter Nixey",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2007,
-    "logoUrl": null,
-    "ycBatch": "S07",
-    "website": "http://clickpass.com",
-    "description": null,
     "status": "Acquired",
     "dataConfidence": "approximate"
   },
@@ -108715,35 +103112,6 @@
     "ycBatch": "W21",
     "website": "https://www.usefriz.com",
     "description": "AI Social Media Manager",
-    "status": "Acquired",
-    "dataConfidence": "approximate"
-  },
-  {
-    "id": "octifi",
-    "name": "OctiFi",
-    "address": "20 Pioneer Cres, Singapore 628555",
-    "location": {
-      "lat": 1.36368,
-      "lng": 103.85509
-    },
-    "contactEmail": null,
-    "founders": [
-      {
-        "name": "Ed Chin",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      },
-      {
-        "name": "Amit Kumar",
-        "linkedinUrl": null,
-        "twitterUrl": null
-      }
-    ],
-    "yearFounded": 2019,
-    "logoUrl": "https://bookface-images.s3.amazonaws.com/small_logos/4746c5eaff6f6c81f7f11e51cb6414a60b07956d.png",
-    "ycBatch": "W21",
-    "website": "https://www.octifi.com",
-    "description": "Buy Now Pay Later for Southeast Asia",
     "status": "Acquired",
     "dataConfidence": "approximate"
   },

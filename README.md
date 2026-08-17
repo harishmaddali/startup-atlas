@@ -24,7 +24,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Data
 
 Company data lives in [`src/data/companies.json`](src/data/companies.json)
-(~2.8MB), shaped by [`src/types/company.ts`](src/types/company.ts):
+(~2.6MB), shaped by [`src/types/company.ts`](src/types/company.ts):
 
 ```ts
 {
@@ -44,20 +44,20 @@ or web-search-summarized.
 
 | Region | Companies |
 | --- | --- |
-| San Francisco Bay Area | 2,473 |
-| New York | 620 |
-| London | 184 |
-| Los Angeles | 167 |
-| Bengaluru | 125 |
-| Boston | 81 |
+| San Francisco Bay Area | 2,301 |
+| New York | 593 |
+| London | 174 |
+| Los Angeles | 140 |
+| Bengaluru | 122 |
+| Boston | 80 |
+| Seattle | 62 |
+| Austin | 56 |
+| Singapore | 45 |
 | Gurugram | 21 |
 | Delhi / New Delhi | 19 |
 | Mumbai | 18 |
-| Singapore | 46 |
-| Seattle | 66 |
-| Austin | 60 |
-| Hyderabad | 14 |
 | Dubai | 15 |
+| Hyderabad | 14 |
 | Sydney | 11 |
 | Noida | 2 |
 | Pune | 2 |
@@ -69,6 +69,9 @@ or web-search-summarized.
 | Lucknow | 1 |
 | Surat | 1 |
 | Melbourne | 1 |
+
+(Smaller US/UK metros like Philadelphia, Oxford, and Cambridge also have a
+handful of companies each, not broken out as their own rows here.)
 
 India is sourced from YC's own India HQ list (`/companies/location/india`
 plus each company's profile `city` / `country=IN`) — **209 companies**,
@@ -137,7 +140,7 @@ capped at 200 (of however many are in view) purely for render performance;
 the map itself still clusters and shows all of them via
 `react-leaflet-cluster`.
 
-**Known tradeoff:** the full dataset (~2.8MB of JSON) is currently fetched
+**Known tradeoff:** the full dataset (~2.6MB of JSON) is currently fetched
 server-side and passed to the client as page props on every load — fine for
 now, but if this grows further it'd be worth moving to real pagination /
 viewport-scoped queries once a database is in place (see
@@ -149,3 +152,28 @@ Indian cities aren't hidden by the recency cutoff. `companies.json` itself
 keeps every company regardless of founding year; both rules are applied
 inside `getCompanies()` (`src/app/actions/companies.ts`). Change
 `MIN_YEAR_FOUNDED` there to adjust the worldwide cutoff.
+
+**Companies that have actually shut down are removed from the dataset
+entirely** (not just filtered from the map) — this one genuinely deletes
+rows from `companies.json`, unlike the year cutoff above. Two passes:
+
+- The 4 companies YC itself tags `"Inactive"` from its earliest (2005-2008)
+  batches — Infogami, Slinkset, Picwing, Hungry Labs — cross-checked via web
+  search (e.g. Infogami's founder, Aaron Swartz, went on to co-found Reddit
+  after Infogami ceased operating in 2005).
+- Of the 648 companies YC tags `"Acquired"` — which does *not* mean shut
+  down; most acquisitions are successful exits whose product keeps running
+  under new ownership — each one was individually researched (site check +
+  web search, defaulting to keep on ambiguous evidence) rather than removed
+  by tag alone. **199 of 648** turned out to be genuinely discontinued
+  post-acquisition (e.g. Parse, Posterous, Hipmunk, Homejoy, RethinkDB,
+  Pebble); the other 449 are kept since their product/tech demonstrably
+  continues (e.g. Heroku, Twitch, Disqus, HelloSign→Dropbox Sign).
+
+One caution that came out of this: a *separate* batch of companies also
+tagged `"Inactive"` by YC (newer, non-2005-era ones, mostly from the India
+expansion) turned out to be unreliable — a spot check found 3 of 4 checked
+(Synapsica Healthcare, PropReturns, Drivezy) are confirmably still
+operating in 2026 despite the tag. So `"Inactive"` alone is **not** treated
+as sufficient evidence for removal outside that first, verified batch of 4
+— it gets the same individual-research treatment as `"Acquired"`.
