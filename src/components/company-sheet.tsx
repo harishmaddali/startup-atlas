@@ -18,7 +18,7 @@ export function CompanySheet({ company, onOpenChange }: CompanySheetProps) {
       animate={{ opacity: 1, y: 0, scale: 1 }}
       exit={{ opacity: 0, y: 24, scale: 0.98 }}
       transition={{ type: "spring", stiffness: 300, damping: 28 }}
-      className="absolute bottom-4 left-4 right-4 z-20 mx-auto max-w-md rounded-xl border bg-background/95 p-5 shadow-xl backdrop-blur md:left-auto md:right-4"
+      className="absolute bottom-16 left-4 right-4 z-20 mx-auto max-w-md rounded-xl border bg-background/95 p-5 shadow-xl backdrop-blur md:left-auto md:right-4"
     >
       <button
         type="button"
