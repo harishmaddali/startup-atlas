@@ -170,10 +170,15 @@ rows from `companies.json`, unlike the year cutoff above. Two passes:
   Pebble); the other 449 are kept since their product/tech demonstrably
   continues (e.g. Heroku, Twitch, Disqus, HelloSign→Dropbox Sign).
 
-One caution that came out of this: a *separate* batch of companies also
+One caution that came out of this: a *separate* batch of 39 companies also
 tagged `"Inactive"` by YC (newer, non-2005-era ones, mostly from the India
 expansion) turned out to be unreliable — a spot check found 3 of 4 checked
 (Synapsica Healthcare, PropReturns, Drivezy) are confirmably still
-operating in 2026 despite the tag. So `"Inactive"` alone is **not** treated
-as sufficient evidence for removal outside that first, verified batch of 4
-— it gets the same individual-research treatment as `"Acquired"`.
+operating in 2026 despite the tag. So `"Inactive"` alone was **not**
+treated as sufficient evidence for removal outside that first, verified
+batch of 4 — it got the same individual-research treatment as `"Acquired"`
+instead. Result: **21 of 39** were confirmed genuinely shut down (dead
+domains, explicit shutdown announcements, founders confirmed moved on) and
+removed; the other **18** have independent evidence of still operating
+(recent funding, active hiring, live product) and were kept despite the
+stale tag.
