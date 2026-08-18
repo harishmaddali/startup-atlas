@@ -65,10 +65,10 @@
   {
     "id": "spadeworks",
     "name": "SpadeWorks",
-    "address": "Madhapur, Hyderabad, Telangana, India",
+    "address": "iLabs Centre, Level 2, Oval Building, Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
     "location": {
-      "lat": 17.4483,
-      "lng": 78.3915
+      "lat": 17.4324363,
+      "lng": 78.3872856
     },
     "contactEmail": null,
     "founders": [
@@ -83,16 +83,16 @@
     "ycBatch": "W22",
     "website": "https://www.spadeworks.co",
     "description": "AI agents that turn every call into revenue for trade contractors.",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Active"
   },
   {
     "id": "algouniversity",
     "name": "AlgoUniversity",
-    "address": "Banjara Hills, Hyderabad, Telangana, India",
+    "address": "Vindhya C4, 3rd Floor, AIC-IIITH Foundation, IIIT-H Campus, Survey No. 25, Gachibowli, Hyderabad, Telangana 500032, India",
     "location": {
-      "lat": 17.4156,
-      "lng": 78.4347
+      "lat": 17.445725,
+      "lng": 78.349253
     },
     "contactEmail": null,
     "founders": [
@@ -112,16 +112,16 @@
     "ycBatch": "S21",
     "website": "http://algouniversity.com/",
     "description": "Live teaching infrastructure enabling top educators to coach large numbers of students.",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Active"
   },
   {
     "id": "reclaim-protocol",
     "name": "Reclaim Protocol",
-    "address": "Jubilee Hills, Hyderabad, Telangana, India",
+    "address": "Flat 6003, Block C, Luxor Apartments, Kondapur, Hyderabad, Telangana 500084, India",
     "location": {
-      "lat": 17.4239,
-      "lng": 78.4738
+      "lat": 17.470148,
+      "lng": 78.3444776
     },
     "contactEmail": null,
     "founders": [
@@ -146,7 +146,7 @@
     "ycBatch": "W21",
     "website": "https://reclaimprotocol.org",
     "description": "Verification infrastructure for education, employment, and loyalty data with 45%+ conversion.",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Active"
   },
   {
@@ -505,10 +505,10 @@
   {
     "id": "bolna-ai",
     "name": "Bolna AI",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "2gethr@ORR, 1st Floor, Tower B, Mantri Commercio, Outer Ring Road, Bellandur, Bengaluru, Karnataka 560103, India",
     "location": {
-      "lat": 12.94822,
-      "lng": 77.57309
+      "lat": 12.93269,
+      "lng": 77.68369
     },
     "contactEmail": null,
     "founders": [
@@ -529,7 +529,7 @@
     "website": "https://bolna.ai",
     "description": "Voice AI to enable India's next billion",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "truffle-ai",
@@ -800,10 +800,10 @@
   {
     "id": "superkalam",
     "name": "SuperKalam",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Koramangala 4th Block, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 12.94519,
-      "lng": 77.56393
+      "lat": 12.9327778,
+      "lng": 77.6294052
     },
     "contactEmail": null,
     "founders": [
@@ -1250,10 +1250,10 @@
   {
     "id": "recordbook",
     "name": "RecordBook",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Whitefield, Bengaluru, Karnataka, India",
     "location": {
-      "lat": 12.92945,
-      "lng": 77.59716
+      "lat": 12.9696365,
+      "lng": 77.7497448
     },
     "contactEmail": null,
     "founders": [
@@ -1356,10 +1356,10 @@
   {
     "id": "rehook-ai",
     "name": "Rehook.ai",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "IMG Tower, 18, 80 Feet Road, ST Bed, Koramangala 4th Block, Bengaluru, Karnataka 560034, India",
     "location": {
-      "lat": 12.99307,
-      "lng": 77.55341
+      "lat": 12.9328847,
+      "lng": 77.631664
     },
     "contactEmail": null,
     "founders": [
@@ -1390,7 +1390,7 @@
     "website": "https://rehook.ai/",
     "description": "Run, Track and manage any and all user incentive campaigns.",
     "status": "Active",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "streak-2",
@@ -1458,10 +1458,10 @@
   {
     "id": "salarybook",
     "name": "SalaryBook",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Sector 2, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.99504,
-      "lng": 77.5681
+      "lat": 12.9075602,
+      "lng": 77.6471359
     },
     "contactEmail": null,
     "founders": [
@@ -2893,10 +2893,10 @@
   {
     "id": "functionup-fanplay",
     "name": "FunctionUp (FanPlay)",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "Building 1084, 1st and 5th Floors, 17th Cross Road, Sector 3, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.95095,
-      "lng": 77.59462
+      "lat": 12.9118205,
+      "lng": 77.6387934
     },
     "contactEmail": null,
     "founders": [
@@ -2917,15 +2917,15 @@
     "website": "https://www.functionup.org/",
     "description": "A skill-tech platform that runs placement bootcamps",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "dyte",
     "name": "Dyte",
-    "address": "Bengaluru, Karnataka, India",
+    "address": "3rd Floor, No. 249, Hanto K2, 14th Main Road, Sector 7, HSR Layout, Bengaluru, Karnataka 560102, India",
     "location": {
-      "lat": 12.95456,
-      "lng": 77.5609
+      "lat": 12.909966,
+      "lng": 77.6378373
     },
     "contactEmail": null,
     "founders": [
@@ -2946,7 +2946,7 @@
     "website": "https://dyte.io",
     "description": "Real-time audio & video SDKs, ready to launch 🚀",
     "status": "Acquired",
-    "dataConfidence": "approximate"
+    "dataConfidence": "verified"
   },
   {
     "id": "chaos-genius",
@@ -104131,10 +104131,10 @@
   {
     "id": "nonu",
     "name": "Nonu",
-    "address": "Hyderabad, Telangana, India",
+    "address": "3-3-1/1, Anand Nagar, Ramanthapur, Amberpet, Hyderabad, Telangana 500013, India",
     "location": {
-      "lat": 17.35929,
-      "lng": 78.46033
+      "lat": 17.3929293,
+      "lng": 78.5359988
     },
     "contactEmail": null,
     "founders": [
@@ -104586,10 +104586,10 @@
   {
     "id": "swipe-2",
     "name": "Swipe",
-    "address": "Hyderabad, Telangana, India",
+    "address": "201, Swipe Park View, Gachibowli, Hyderabad, Telangana 500032, India",
     "location": {
-      "lat": 17.3657,
-      "lng": 78.48469
+      "lat": 17.4350588,
+      "lng": 78.3660155
     },
     "contactEmail": null,
     "founders": [
@@ -104609,7 +104609,7 @@
     "ycBatch": "S21",
     "website": "https://getswipe.in",
     "description": "Super AI Accountant for SMBs",
-    "dataConfidence": "approximate",
+    "dataConfidence": "verified",
     "status": "Active"
   },
   {

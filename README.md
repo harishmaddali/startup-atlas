@@ -115,21 +115,22 @@ city/neighborhood-level approximation — deterministically jittered around
 each city's center (with a wider spread for sprawling metros like the Bay
 Area) so markers don't stack, not tied to any claimed real address.
 
-Indian companies with a real, individually-sourced office address (from
-each company's own site footer, legal pages, or public MCA filings — not
-a guess) are geocoded via OpenStreetMap Nominatim and marked
-`dataConfidence: "verified"`:
+Indian companies with a real, individually sourced office address (from
+each company's own site footer, legal pages, public MCA filings, or an
+equivalent primary record — not a guess) are geocoded with reputable map
+data, primarily OpenStreetMap Nominatim. They are marked
+`dataConfidence: "verified"` only when the building-level point is clear:
 
-- **Bengaluru:** 92 of 125 companies now have a street-level pin. The
-  remaining 33 keep the city-level approximation — no trustworthy
-  Bengaluru street address turned up (several are registered in another
-  city, early-stage with no public office, or acquired/defunct with only
-  a vague "Bangalore" listing). Plotting those as a specific building
-  would be actively misleading.
-- **Hyderabad:** 7 of the original 10, plus Pulse Active Stations
-  Network. SpadeWorks, AlgoUniversity, and Reclaim Protocol stay
-  approximate (AlgoUniversity's registered address is in Raipur,
-  Chhattisgarh).
+- **Bengaluru:** Bolna AI, Rehook.ai, FunctionUp (FanPlay), and Dyte now
+  have street-level pins. SuperKalam, SalaryBook, and RecordBook were moved
+  to their publicly listed neighborhoods, but remain `approximate` because
+  no trustworthy street address is public. Other city-only records remain
+  approximate rather than being assigned a guessed building.
+- **Hyderabad:** All five previously approximate records were improved.
+  SpadeWorks, AlgoUniversity, Reclaim Protocol, and Swipe now have verified
+  street-level pins. Nonu uses its public street address and the matching
+  Anand Nagar road point, but remains `approximate` because its exact
+  property does not resolve reliably in public map data.
 - **Elsewhere in India:** HelpNow (Mumbai), TagMango (Kolkata), and
   GimBooks (Raipur).
 
