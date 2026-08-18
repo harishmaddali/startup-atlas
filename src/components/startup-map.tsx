@@ -1,7 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { MapContainer, TileLayer, Marker, useMapEvents } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  useMap,
+  useMapEvents,
+} from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import type { LatLngBounds } from "leaflet";
 import L from "leaflet";
@@ -11,7 +17,16 @@ import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import { AnimatePresence } from "motion/react";
 import { useTheme } from "next-themes";
 import type { Company } from "@/types/company";
-import { WORLD_CENTER, WORLD_DEFAULT_ZOOM } from "@/lib/geo";
+import {
+  WORLD_CENTER,
+  WORLD_DEFAULT_ZOOM,
+  USER_LOCATION_ZOOM,
+} from "@/lib/geo";
+import {
+  fetchApproximateUserLocation,
+  hasInitialMapView,
+  markInitialMapViewSet,
+} from "@/lib/user-location";
 import { CompanySheet } from "@/components/company-sheet";
 import { CompanyList } from "@/components/company-list";
 
@@ -73,6 +88,35 @@ function clusterIcon(cluster: L.MarkerCluster) {
     }px;font-weight:600;">${count}</span>`,
     iconSize: [size, size],
   });
+}
+
+function InitialViewController() {
+  const map = useMap();
+
+  useEffect(() => {
+    if (hasInitialMapView()) return;
+
+    let cancelled = false;
+
+    void (async () => {
+      const location = await fetchApproximateUserLocation();
+      if (cancelled) return;
+
+      if (location) {
+        map.flyTo([location.lat, location.lng], USER_LOCATION_ZOOM, {
+          duration: 1.2,
+        });
+      }
+
+      markInitialMapViewSet();
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [map]);
+
+  return null;
 }
 
 function MapController({
@@ -156,6 +200,7 @@ export function StartupMap({ companies }: StartupMapProps) {
             url={tileUrl}
           />
 
+          <InitialViewController />
           <MapController selected={selected} onBoundsChange={setBounds} />
 
           <MarkerClusterGroup
