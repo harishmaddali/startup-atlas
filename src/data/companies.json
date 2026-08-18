@@ -106869,5 +106869,165 @@
     "description": "Finance on a Click",
     "dataConfidence": "approximate",
     "status": "Active"
+  },
+  {
+    "id": "beato",
+    "name": "BeatO",
+    "address": "Health Arx Technologies Pvt. Ltd., A-9, Ground & First Floor, FIEE Complex, Okhla Industrial Area, Phase II, New Delhi, India",
+    "location": {
+      "lat": 28.565,
+      "lng": 77.276
+    },
+    "contactEmail": "contact@beatoapp.com",
+    "founders": [
+      {
+        "name": "Gautam Chopra",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Yash Sehgal",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Kunal Kinalekar",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2015,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=beatoapp.com&sz=128",
+    "website": "https://beatoapp.com",
+    "description": "Diabetes-care platform serving 1M+ patients; raised a total $49M in equity, including a Series B in 16 Nov 2022.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "nakad",
+    "name": "NAKAD",
+    "address": "Alphastar Technologies Private Limited, Plot No. 27, 3rd Floor, Community Centre, Naraina Vihar, Phase-I, New Delhi, India",
+    "location": {
+      "lat": 28.619,
+      "lng": 77.142
+    },
+    "contactEmail": "support@nakad.co",
+    "founders": [
+      {
+        "name": "Ujwal Kalra",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Avinash Uttav",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Sambhav Jain",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=nakad.co&sz=128",
+    "website": "https://www.nakad.co",
+    "description": "Reconciliation-as-a-Service fintech startup; total funding of $7M, last funded on 25 May 2022.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "absolute",
+    "name": "Absolute",
+    "address": "Absolute India, 2nd Floor, Okhla Industrial Area, New Delhi, India",
+    "location": {
+      "lat": 28.535,
+      "lng": 77.281
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Agam Khare",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2015,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=absolute.ag&sz=128",
+    "website": "https://absolute.ag",
+    "description": "Agritech startup with $112M raised across 5 rounds; most recent funding on 6 Sep 2023.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "rozana",
+    "name": "Rozana",
+    "address": "Green Park Main Market, New Delhi, India",
+    "location": {
+      "lat": 28.564,
+      "lng": 77.205
+    },
+    "contactEmail": "customercare@rozana.in",
+    "founders": [
+      {
+        "name": "Adwait Vikram Singh",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Ankur Dahiya",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Mukesh Christopher",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Prithvi Pal Singh",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rozana.in&sz=128",
+    "website": "https://www.rozana.in",
+    "description": "Rural-first ecommerce startup with $58.1M funding; most recent round on 6 Mar 2026.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "traqcheck",
+    "name": "TraqCheck",
+    "address": "C-01, E-14, LGF Defence Colony, New Delhi, India",
+    "location": {
+      "lat": 28.578,
+      "lng": 77.236
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Rishabh Jain",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Armaan Mehta",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Jaibir Nihal Singh",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=traqcheck.com&sz=128",
+    "website": "https://www.traqcheck.com",
+    "description": "AI-based background verification platform; total funding of $8M, latest Series A round announced 14 Apr 2026.",
+    "dataConfidence": "verified",
+    "status": "Active"
   }
 ]
