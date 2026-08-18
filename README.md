@@ -150,12 +150,11 @@ now, but if this grows further it'd be worth moving to real pagination /
 viewport-scoped queries once a database is in place (see
 `src/app/actions/companies.ts`).
 
-**The map shows companies founded 2022 or later, plus every India-HQ
-company regardless of year** — so Kolkata, Chandigarh, Chennai, and other
-Indian cities aren't hidden by the recency cutoff. `companies.json` itself
-keeps every company regardless of founding year; both rules are applied
-inside `getCompanies()` (`src/app/actions/companies.ts`). Change
-`MIN_YEAR_FOUNDED` there to adjust the worldwide cutoff.
+**The map shows companies founded in 2022 or later in every country.**
+`companies.json` itself keeps companies regardless of founding year; the
+display rule is applied inside `getCompanies()`
+(`src/app/actions/companies.ts`). Change `MIN_YEAR_FOUNDED` there to adjust
+the worldwide cutoff.
 
 **Companies that have actually shut down are removed from the dataset
 entirely** (not just filtered from the map) — this one genuinely deletes
