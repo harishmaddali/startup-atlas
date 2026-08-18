@@ -17,14 +17,14 @@ export interface Company {
   founders: Founder[];
   yearFounded: number;
   logoUrl: string | null;
-  /** YC batch label, e.g. "S22" */
+  /** YC batch label when applicable, e.g. "S22". */
   ycBatch?: string;
   website?: string;
   description?: string;
-  /** YC status at time of data collection, e.g. "Active", "Public", "Acquired" */
+  /** Company status at time of data collection, e.g. "Active", "Public", "Acquired". */
   status?: string;
   /**
-   * "verified" = confirmed HQ/office location from primary source (YC profile).
+   * "verified" = confirmed HQ/office from a primary or authoritative source.
    * "approximate" = city/area-level placement; exact street address not publicly listed.
    */
   dataConfidence: "verified" | "approximate";

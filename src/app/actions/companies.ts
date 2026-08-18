@@ -4,9 +4,9 @@ import companiesData from "@/data/companies.json";
 import type { Company } from "@/types/company";
 
 // Worldwide, the map only shows recent startups. India is the exception:
-// every YC company headquartered there is shown, so cities without a
-// dedicated YC location page (Chennai, Kolkata, Surat, etc.) still appear.
-// companies.json keeps the full historical dataset regardless.
+// the historical YC set (after verified shutdown removals) and independently
+// verified ecosystem additions are shown, so cities without a dedicated YC
+// location page still appear. companies.json retains companies of all years.
 const MIN_YEAR_FOUNDED = 2022;
 
 function isIndiaCompany(company: Company): boolean {

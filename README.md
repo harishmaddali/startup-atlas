@@ -1,6 +1,7 @@
 # Startup Atlas
 
-A map of YC-backed startups worldwide. Inspired by
+A map of recent startups worldwide, with broad YC coverage and independently
+verified ecosystem additions across India. Inspired by
 [bangalorestartupmap.com](https://bangalorestartupmap.com/).
 
 Built with [UNO.engineering](https://uno.engineering?ref=startup-atlas-readme).
@@ -30,15 +31,15 @@ Company data lives in [`src/data/companies.json`](src/data/companies.json)
 {
   id, name, address, location: { lat, lng },
   contactEmail, founders: { name, linkedinUrl?, twitterUrl? }[],
-  yearFounded, logoUrl, ycBatch, website, description, status, dataConfidence
+  yearFounded, logoUrl, ycBatch?, website, description, status, dataConfidence
 }
 ```
 
-Sourced directly from Y Combinator's own company directory — per-city
-location pages plus the India HQ list (`/companies/location/india`) and
-each company's profile payload — name, founders, batch, year founded,
-website, city, and status all come straight from YC, not inferred, guessed,
-or web-search-summarized.
+The core dataset is sourced directly from Y Combinator's company directory —
+per-city location pages, the India HQ list (`/companies/location/india`),
+and individual company profiles. Selected ecosystem additions are verified
+independently from company websites, team pages, legal/public records, and
+current map listings. Non-YC companies omit the optional `ycBatch` field.
 
 **Coverage by region:**
 
@@ -57,7 +58,7 @@ or web-search-summarized.
 | Delhi / New Delhi | 19 |
 | Mumbai | 18 |
 | Dubai | 15 |
-| Hyderabad | 14 |
+| Hyderabad | 20 |
 | Sydney | 11 |
 | Noida | 2 |
 | Pune | 2 |
@@ -73,12 +74,14 @@ or web-search-summarized.
 (Smaller US/UK metros like Philadelphia, Oxford, and Cambridge also have a
 handful of companies each, not broken out as their own rows here.)
 
-India is sourced from YC's own India HQ list (`/companies/location/india`
-plus each company's profile `city` / `country=IN`) — **209 companies**,
-not just the metros that have a dedicated YC city page. Cities that were
-previously missing (Chennai, Kolkata, Chandigarh, Coimbatore, Raipur,
-Lucknow, Surat) and NCR suburbs that were collapsed into New Delhi
-(Gurugram, Noida) are now pinned at their actual YC city.
+India's YC core was sourced from the **209-company** India HQ list
+(`/companies/location/india` plus each company's profile `city` /
+`country=IN`), not just the metros that have a dedicated YC city page. After
+confirmed shutdowns were removed and seven independently verified Hyderabad
+startups were added, the current dataset contains **192 India companies**.
+Cities that were previously missing (Chennai, Kolkata, Chandigarh,
+Coimbatore, Raipur, Lucknow, Surat) and NCR suburbs that were collapsed into
+New Delhi (Gurugram, Noida) are pinned at their actual city.
 
 A few notes on how the India pass shook out:
 
@@ -97,16 +100,13 @@ A few notes on how the India pass shook out:
   (acquired) had no stable logo URL and now uses the initials-avatar
   fallback (`src/components/company-logo.tsx`), same as other companies
   with no YC logo.
-- Checked whether T-Hub (Hyderabad's large public-private incubator, 2,000+
-  portfolio companies) had YC-backed startups missing from YC's own
-  Hyderabad listing. The ~8 startups T-Hub features on its homepage weren't
-  YC-backed, and their own `/startups-directory` page (which should list
-  the full portfolio) rendered empty when checked — not something to
-  exhaustively cross-reference by hand either way. YC's own India HQ list
-  remains the source of truth here.
-- Founder `linkedinUrl`/`twitterUrl` come from YC profiles for Hyderabad
-  companies and for newly added India companies; most older records still
-  only have founder `name`.
+- The Hyderabad expansion adds seven active startups founded in 2022 or
+  later outside YC: Altmin, Equal, Liquidnitro Games, Plane, TakeMe2Space,
+  Xbattery, and XDLINX Space Labs. Founders and founding years were checked
+  against official company/team pages; offices were cross-checked against
+  company contact or legal records and current map listings.
+- Founder `linkedinUrl`/`twitterUrl` come from YC profiles where available.
+  Independently added companies currently keep verified founder names only.
 
 **Address precision is mixed, and this is tracked per row**
 (`dataConfidence: "verified" | "approximate"`). For most of the dataset,
@@ -126,11 +126,14 @@ data, primarily OpenStreetMap Nominatim. They are marked
   to their publicly listed neighborhoods, but remain `approximate` because
   no trustworthy street address is public. Other city-only records remain
   approximate rather than being assigned a guessed building.
-- **Hyderabad:** All five previously approximate records were improved.
-  SpadeWorks, AlgoUniversity, Reclaim Protocol, and Swipe now have verified
+- **Hyderabad:** All five previously approximate YC records were improved.
+  SpadeWorks, AlgoUniversity, Reclaim Protocol, and Swipe have verified
   street-level pins. Nonu uses its public street address and the matching
   Anand Nagar road point, but remains `approximate` because its exact
-  property does not resolve reliably in public map data.
+  property does not resolve reliably in public map data. Six of the seven
+  recent non-YC additions have building-level verified pins; Plane remains
+  `approximate` at its publicly listed HITEC City road location because no
+  trustworthy street address is public.
 - **Elsewhere in India:** HelpNow (Mumbai), TagMango (Kolkata), and
   GimBooks (Raipur).
 

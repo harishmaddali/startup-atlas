@@ -1,5 +1,185 @@
 [
   {
+    "id": "xbattery",
+    "name": "Xbattery",
+    "address": "Sy No. 154, H.No. 7-107, Main Road, Narsingi, Gandipet Mandal, Hyderabad, Telangana 500075, India",
+    "location": {
+      "lat": 17.3846136,
+      "lng": 78.329237
+    },
+    "contactEmail": "sales@xbattery.energy",
+    "founders": [
+      {
+        "name": "Satish Reddy"
+      },
+      {
+        "name": "Sonu Mishra"
+      },
+      {
+        "name": "Varshith Veeramaneni"
+      }
+    ],
+    "yearFounded": 2024,
+    "logoUrl": null,
+    "website": "https://xbattery.energy",
+    "description": "Battery-management electronics for electric vehicles and energy-storage systems.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "altmin",
+    "name": "Altmin",
+    "address": "5th Floor, K Komplex, 1st Left, 100 Feet Road, Madhapur, Shaikpet, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4508736,
+      "lng": 78.3947679
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Anjani Mourya"
+      },
+      {
+        "name": "Kiriti Varma"
+      },
+      {
+        "name": "Ankit Jain"
+      }
+    ],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": "https://www.altmin.in",
+    "description": "Sustainable battery materials, mineral supply chains, and cell engineering.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "liquidnitro-games",
+    "name": "Liquidnitro Games",
+    "address": "5th Floor, The District, Myscape Road, Financial District, Nanakramguda, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4128827,
+      "lng": 78.3351166
+    },
+    "contactEmail": "contact@liquidnitrogames.com",
+    "founders": [
+      {
+        "name": "Sandeep Kowdley"
+      },
+      {
+        "name": "Krishna Dhanekula"
+      },
+      {
+        "name": "Arun Kunchala"
+      },
+      {
+        "name": "Suresh Manthena"
+      }
+    ],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": "https://liquidnitro.games",
+    "description": "Live-services game production studio for global publishers and developers.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "takeme2space",
+    "name": "TakeMe2Space",
+    "address": "C4 Vindhya, IIIT Hyderabad, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4460314,
+      "lng": 78.3501129
+    },
+    "contactEmail": "info@tm2.space",
+    "founders": [
+      {
+        "name": "Ronak Kumar Samantray"
+      }
+    ],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": "https://www.tm2.space",
+    "description": "Orbital computing infrastructure and AI-capable satellites accessible through OrbitLab.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "equal",
+    "name": "Equal",
+    "address": "3rd Floor, The Loft, Tower 40, RMZ Nexity, Hyderabad Knowledge City, Raidurg, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4322715,
+      "lng": 78.3823876
+    },
+    "contactEmail": "support@equal.in",
+    "founders": [
+      {
+        "name": "Keshav Reddy"
+      },
+      {
+        "name": "Rajeev Ranjan"
+      },
+      {
+        "name": "Krishna Prasad Atluri"
+      }
+    ],
+    "yearFounded": 2022,
+    "logoUrl": null,
+    "website": "https://www.equal.in",
+    "description": "Consent-based identity verification and data-sharing infrastructure.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "plane-work-management",
+    "name": "Plane",
+    "address": "HITEC City Main Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.437109126337,
+      "lng": 78.393031974937
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Vamsi Kurama"
+      },
+      {
+        "name": "Vihar Kurama"
+      }
+    ],
+    "yearFounded": 2022,
+    "logoUrl": null,
+    "website": "https://plane.so",
+    "description": "Open-source work management for projects, knowledge, and service workflows.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "xdlinx-space-labs",
+    "name": "XDLINX Space Labs",
+    "address": "Plot No. 19/2, Sector III, HMDA Techno Enclave, Near Raidurg Metro Station, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4415822,
+      "lng": 78.3754448
+    },
+    "contactEmail": "info@xdlinx.space",
+    "founders": [
+      {
+        "name": "Rupesh Gandupalli"
+      },
+      {
+        "name": "Karthik Govindhasamy"
+      }
+    ],
+    "yearFounded": 2022,
+    "logoUrl": null,
+    "website": "https://xdlinx.space",
+    "description": "Nano- and microsatellite platforms and end-to-end mission systems.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
     "id": "landeed",
     "name": "Landeed",
     "address": "Plot 79 & 80, Navakalasha, Prashanth Hills, Khajaguda, Hyderabad, Telangana 500008, India",

@@ -34,7 +34,7 @@ export function CompanyList({
             Startup Atlas
           </h1>
           <p className="text-sm text-muted-foreground">
-            YC-backed startups founded 2022+, mapped
+            Recent startups worldwide, expanded across India
           </p>
         </div>
         <ThemeToggle />
