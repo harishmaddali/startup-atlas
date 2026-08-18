@@ -185,3 +185,7 @@ domains, explicit shutdown announcements, founders confirmed moved on) and
 removed; the other **18** have independent evidence of still operating
 (recent funding, active hiring, live product) and were kept despite the
 stale tag.
+
+## Box Uno end-to-end verification
+
+Verification marker: `BOX-UI-PR-1787044029984`
