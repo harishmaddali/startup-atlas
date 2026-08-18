@@ -20,7 +20,7 @@
       }
     ],
     "yearFounded": 2024,
-    "logoUrl": null,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=xbattery.energy&sz=128",
     "website": "https://xbattery.energy",
     "description": "Battery-management electronics for electric vehicles and energy-storage systems.",
     "dataConfidence": "verified",
@@ -47,7 +47,7 @@
       }
     ],
     "yearFounded": 2023,
-    "logoUrl": null,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=altmin.in&sz=128",
     "website": "https://www.altmin.in",
     "description": "Sustainable battery materials, mineral supply chains, and cell engineering.",
     "dataConfidence": "verified",
@@ -77,7 +77,7 @@
       }
     ],
     "yearFounded": 2023,
-    "logoUrl": null,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=liquidnitro.games&sz=128",
     "website": "https://liquidnitro.games",
     "description": "Live-services game production studio for global publishers and developers.",
     "dataConfidence": "verified",
@@ -98,7 +98,7 @@
       }
     ],
     "yearFounded": 2023,
-    "logoUrl": null,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tm2.space&sz=128",
     "website": "https://www.tm2.space",
     "description": "Orbital computing infrastructure and AI-capable satellites accessible through OrbitLab.",
     "dataConfidence": "verified",
@@ -125,10 +125,40 @@
       }
     ],
     "yearFounded": 2022,
-    "logoUrl": null,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=equal.in&sz=128",
     "website": "https://www.equal.in",
     "description": "Consent-based identity verification and data-sharing infrastructure.",
     "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "keus",
+    "name": "Keus",
+    "address": "H. No. 8-2-3093A, 4th Floor, Road No. 14, Banjara Hills, Hyderabad, Telangana 500034, India",
+    "location": {
+      "lat": 17.4272,
+      "lng": 78.4438
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Brijesh Chandwani"
+      },
+      {
+        "name": "Ashwik Reddy"
+      },
+      {
+        "name": "Dhruv Bansal"
+      },
+      {
+        "name": "Manish Kumar"
+      }
+    ],
+    "yearFounded": 2017,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=keus.in&sz=128",
+    "website": "https://keus.in",
+    "description": "Smart home automation and IoT-driven premium home systems.",
+    "dataConfidence": "approximate",
     "status": "Active"
   },
   {
@@ -149,7 +179,7 @@
       }
     ],
     "yearFounded": 2022,
-    "logoUrl": null,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=plane.so&sz=128",
     "website": "https://plane.so",
     "description": "Open-source work management for projects, knowledge, and service workflows.",
     "dataConfidence": "approximate",
@@ -173,7 +203,7 @@
       }
     ],
     "yearFounded": 2022,
-    "logoUrl": null,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=xdlinx.space&sz=128",
     "website": "https://xdlinx.space",
     "description": "Nano- and microsatellite platforms and end-to-end mission systems.",
     "dataConfidence": "verified",
@@ -592,7 +622,7 @@
       }
     ],
     "yearFounded": 2015,
-    "logoUrl": null,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=darwinbox.com&sz=128",
     "website": "https://darwinbox.com",
     "description": "AI-native human capital management platform for global enterprises.",
     "dataConfidence": "verified",
@@ -1845,7 +1875,7 @@
     "description": "RBI-approved NBFC offering digital personal lines of credit and lending products.",
     "dataConfidence": "verified",
     "status": "Active",
-    "logoUrl": null
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vivifin.com&sz=128"
   },
   {
     "id": "callhealth",
