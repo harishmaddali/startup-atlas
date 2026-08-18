@@ -470,6 +470,748 @@
     "status": "Active"
   },
   {
+    "id": "jeh-aerospace",
+    "name": "Jeh Aerospace",
+    "address": "Survey No. 139(P), 140(P), 141, 145, Kothur Industrial Park, TSIIC Industrial Development Area, Kothur Village, Ranga Reddy District, Hyderabad, Telangana 509228, India",
+    "location": {
+      "lat": 16.7011811,
+      "lng": 78.0949855
+    },
+    "contactEmail": "info@jeh.aero",
+    "founders": [
+      {
+        "name": "Vishal Sanghavi"
+      },
+      {
+        "name": "Venkatesh Mudragalla"
+      }
+    ],
+    "yearFounded": 2022,
+    "logoUrl": null,
+    "website": "https://jeh.aero",
+    "description": "Software-defined aerospace manufacturing for mission-critical engine components and tooling.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "perceptyne",
+    "name": "Perceptyne",
+    "address": "Botanical Garden Road, Kadiris Apurupa Urban, Kondapur, Hyderabad, Telangana 500084, India",
+    "location": {
+      "lat": 17.4556985,
+      "lng": 78.362218
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Raviteja Chivukula"
+      },
+      {
+        "name": "Jagga Raju Nadimpalli"
+      },
+      {
+        "name": "Mrutyunjaya Nadiminti"
+      }
+    ],
+    "yearFounded": 2021,
+    "logoUrl": null,
+    "website": "https://perceptyne.com",
+    "description": "AI-driven semi-humanoid robots for industrial assembly and packaging automation.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "bluecopa",
+    "name": "Bluecopa",
+    "address": "3rd Floor, T-Hub 2.0, 20 Inorbit Mall Road, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Satya Prakash Buddhavarapu"
+      },
+      {
+        "name": "Raghavendra Reddy"
+      },
+      {
+        "name": "Nilotpal Chanda"
+      }
+    ],
+    "yearFounded": 2021,
+    "logoUrl": null,
+    "website": "https://www.bluecopa.com",
+    "description": "AI-powered finance operations automation platform for enterprise finance teams.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "skyroot-aerospace",
+    "name": "Skyroot Aerospace",
+    "address": "GMR Aerospace and Industrial Park, Mamidipally, Rangareddy, Hyderabad, Telangana 500108, India",
+    "location": {
+      "lat": 17.239558,
+      "lng": 78.458296
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Pawan Kumar Chandana"
+      },
+      {
+        "name": "Naga Bharath Daka"
+      }
+    ],
+    "yearFounded": 2018,
+    "logoUrl": null,
+    "website": "https://www.skyroot.in",
+    "description": "Private launch vehicle manufacturer and commercial space launch services.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "darwinbox",
+    "name": "Darwinbox",
+    "address": "Block C, RMZ Futura, 3rd Floor, Plot No. 14 and 15, Phase 2, HITEC City, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4436,
+      "lng": 78.3779
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Chaitanya Peddi"
+      },
+      {
+        "name": "Rohit Chennamaneni"
+      },
+      {
+        "name": "Jayant Paleti"
+      }
+    ],
+    "yearFounded": 2015,
+    "logoUrl": null,
+    "website": "https://darwinbox.com",
+    "description": "AI-native human capital management platform for global enterprises.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "zenoti",
+    "name": "Zenoti",
+    "address": "RMZ Futura, Block A, Plot No. 14 and 15, Hitech City Phase 2, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4436,
+      "lng": 78.3779
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sudheer Koneru"
+      },
+      {
+        "name": "Dheeraj Koneru"
+      }
+    ],
+    "yearFounded": 2010,
+    "logoUrl": null,
+    "website": "https://www.zenoti.com",
+    "description": "Cloud-based management software for salons, spas, and medspas.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "keka-hr",
+    "name": "Keka",
+    "address": "Plot No. 283/A, Incor 9, 3rd Floor, Kavuri Hills, Hyderabad, Telangana 500033, India",
+    "location": {
+      "lat": 17.4323,
+      "lng": 78.3947
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Vijay Yalamanchili"
+      }
+    ],
+    "yearFounded": 2015,
+    "logoUrl": null,
+    "website": "https://www.keka.com",
+    "description": "HR, payroll, and professional services automation platform for growing businesses.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "recykal",
+    "name": "Recykal",
+    "address": "134/2, Platinum Street, Hi-Tech City, Kondapur, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4588,
+      "lng": 78.368
+    },
+    "contactEmail": "support@recykal.com",
+    "founders": [
+      {
+        "name": "Abhay Deshpande"
+      },
+      {
+        "name": "Abhishek Deshpande"
+      }
+    ],
+    "yearFounded": 2016,
+    "logoUrl": null,
+    "website": "https://www.recykal.com",
+    "description": "Digital waste management and circular economy platform for enterprises and recyclers.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "stanplus",
+    "name": "StanPlus",
+    "address": "6th Floor, Block B, iLabs Centre, 18 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4324363,
+      "lng": 78.3872856
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Prabhdeep Singh"
+      },
+      {
+        "name": "Antoine Poirson"
+      }
+    ],
+    "yearFounded": 2016,
+    "logoUrl": null,
+    "website": "https://www.stanplus.com",
+    "description": "Emergency medical response and ambulance services platform for hospitals.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "enmovil",
+    "name": "Enmovil",
+    "address": "Jyothi Pinnacle, 1st Floor, Hitech City Road, Kondapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4588,
+      "lng": 78.368
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ravi Bulusu"
+      },
+      {
+        "name": "Nanda Kishore"
+      },
+      {
+        "name": "Venkat Moganty"
+      }
+    ],
+    "yearFounded": 2015,
+    "logoUrl": null,
+    "website": "https://www.enmovil.com",
+    "description": "AI-driven supply chain platform with demand forecasting and real-time logistics visibility.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "brightchamps",
+    "name": "BrightChamps",
+    "address": "D-Labs, ISB Main Entrance Road, Gachibowli, Hyderabad, Telangana 500111, India",
+    "location": {
+      "lat": 17.4369,
+      "lng": 78.3241
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ravi Bhushan Kumar"
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": null,
+    "website": "https://brightchamps.com",
+    "description": "Live online classes teaching coding, robotics, and financial literacy to children.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "dhruva-space",
+    "name": "Dhruva Space",
+    "address": "#702, 6-3-1192/1/1, Block I, White House, Begumpet, Hyderabad, Telangana 500016, India",
+    "location": {
+      "lat": 17.4441,
+      "lng": 78.4612
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sanjay Nekkanti"
+      }
+    ],
+    "yearFounded": 2012,
+    "logoUrl": null,
+    "website": "https://www.dhruvaspace.com",
+    "description": "Full-stack space engineering company building satellites, launch deployers, and ground stations.",
+    "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "zaggle",
+    "name": "Zaggle",
+    "address": "15th Floor, Western Block, Vamsiram Suvarna Durga Tech Park, Nanakramguda, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4172,
+      "lng": 78.3488
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Raj P Narayanam"
+      }
+    ],
+    "yearFounded": 2011,
+    "logoUrl": null,
+    "website": "https://www.zaggle.in",
+    "description": "Business spend management and employee benefits platform.",
+    "dataConfidence": "verified",
+    "status": "Public"
+  },
+  {
+    "id": "logy-ai",
+    "name": "Logy.AI",
+    "address": "D Labs Incubator, ISB Campus, Gachibowli, Hyderabad, Telangana 500111, India",
+    "location": {
+      "lat": 17.4369,
+      "lng": 78.3241
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Anirudh Kulkarni"
+      },
+      {
+        "name": "Priyanjit Ghosh"
+      }
+    ],
+    "yearFounded": 2019,
+    "logoUrl": null,
+    "website": "https://logy.ai",
+    "description": "AI-powered oral health diagnostics using smartphone camera images.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "nextmeet",
+    "name": "NextMeet",
+    "address": "CIE IIIT Hyderabad, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4457222,
+      "lng": 78.3488216
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Pushpak Kypa"
+      },
+      {
+        "name": "Prashant Chandra"
+      },
+      {
+        "name": "Linda Nubai"
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": null,
+    "website": "https://nextmeet.live",
+    "description": "Metaverse collaboration platform for virtual events and 3D experiential meetings.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "bluesemi",
+    "name": "BlueSemi",
+    "address": "CIE IIIT Hyderabad, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4457222,
+      "lng": 78.3488216
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sunil Kumar Maddikatla"
+      }
+    ],
+    "yearFounded": 2017,
+    "logoUrl": null,
+    "website": "https://www.bluesemi.com",
+    "description": "Consumer healthtech devices including contactless thermal sensing products.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "vaave",
+    "name": "Vaave",
+    "address": "CIE IIIT Hyderabad, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4457222,
+      "lng": 78.3488216
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Paresh Gupta"
+      }
+    ],
+    "yearFounded": 2012,
+    "logoUrl": null,
+    "website": "https://www.vaave.com",
+    "description": "Alumni engagement and networking platform for educational institutions.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "ekincare",
+    "name": "ekincare",
+    "address": "4th Floor, Block 3, DLF Cyber City, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4326,
+      "lng": 78.3548
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Kiran Kalakuntla"
+      },
+      {
+        "name": "Dinesh Koka"
+      }
+    ],
+    "yearFounded": 2014,
+    "logoUrl": null,
+    "website": "https://www.ekincare.com",
+    "description": "Corporate health benefits and employee wellness platform.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "qapita",
+    "name": "Qapita",
+    "address": "WeWork Rajapushpa Summit, Nanakramguda, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4172,
+      "lng": 78.3488
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ravi Arjun"
+      },
+      {
+        "name": "Vikram Sandhu"
+      }
+    ],
+    "yearFounded": 2019,
+    "logoUrl": null,
+    "website": "https://www.qapita.com",
+    "description": "Cap table and equity management SaaS for startups and private companies.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "kritsnam",
+    "name": "Kritsnam",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sai Kumar"
+      }
+    ],
+    "yearFounded": 2015,
+    "logoUrl": null,
+    "website": "https://kritsnam.com",
+    "description": "IoT-based water management and hydrological monitoring systems.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "artusai",
+    "name": "ArtusAI",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ashray Iyengar"
+      },
+      {
+        "name": "Yash Vahi"
+      }
+    ],
+    "yearFounded": 2024,
+    "logoUrl": null,
+    "website": null,
+    "description": "Deep-tech AI startup in T-Hub Blueprint fellowship cohort.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "litemed",
+    "name": "Litemed",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sri Velliyur"
+      }
+    ],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": null,
+    "description": "MedTech startup in T-Hub Blueprint deep-tech fellowship cohort.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "zodhya",
+    "name": "Zodhya",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Rohith Pallerla"
+      }
+    ],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": null,
+    "description": "Energy and climate-tech startup in T-Hub Blueprint fellowship.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "arkle-energy",
+    "name": "Arkle Energy",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": null,
+    "description": "Energy storage startup in T-Hub Blueprint deep-tech fellowship.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "sensehealth",
+    "name": "Sensehealth",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Amit Acharyya"
+      }
+    ],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": null,
+    "description": "HealthTech startup in T-Hub Blueprint fellowship cohort.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "vahn",
+    "name": "Vahn",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": null,
+    "description": "Mobility startup in T-Hub Blueprint deep-tech fellowship.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "buildwright",
+    "name": "Buildwright",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Srikanth Gaddam"
+      },
+      {
+        "name": "Pochadri Ariga"
+      }
+    ],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": null,
+    "description": "Construction-tech startup in T-Hub Blueprint fellowship.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "sanyark-space",
+    "name": "Sanyark Space",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": null,
+    "description": "Space-tech startup in T-Hub Blueprint deep-tech fellowship.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "semex-ai",
+    "name": "Semex AI",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": null,
+    "description": "Semiconductor and AI startup in T-Hub Blueprint fellowship.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "pavakah-energy",
+    "name": "Pavakah Energy",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [],
+    "yearFounded": 2023,
+    "logoUrl": null,
+    "website": null,
+    "description": "Clean energy startup in T-Hub Blueprint fellowship cohort.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "vecros",
+    "name": "Vecros",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Besta Prem Sai"
+      },
+      {
+        "name": "Rajeshree Deotalu"
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": null,
+    "website": "https://vecros.com",
+    "description": "Autonomous drones and spatial AI systems for enterprise operations.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "portl",
+    "name": "Portl",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Indraneel Gupta"
+      },
+      {
+        "name": "Ravikanth Mantha"
+      },
+      {
+        "name": "Vishal Chandapeta"
+      }
+    ],
+    "yearFounded": 2021,
+    "logoUrl": null,
+    "website": "https://portl.io",
+    "description": "AI-powered smart home gym mirror and fitness platform.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "storyvord",
+    "name": "Storyvord",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Aditya Vuchi"
+      }
+    ],
+    "yearFounded": 2020,
+    "logoUrl": null,
+    "website": "https://storyvord.com",
+    "description": "Media production and content platform in T-Hub Blueprint fellowship.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
     "id": "groww",
     "name": "Groww",
     "address": "Vaishnavi Tech Park, South Tower, 3rd Floor, Survey No. 16/1 and 17/2, Ambalipura Village, Varthur Hobli, Bellandur, Bengaluru, Karnataka 560103, India",
