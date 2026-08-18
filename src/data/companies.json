@@ -1212,6 +1212,564 @@
     "status": "Active"
   },
   {
+    "id": "turbohire",
+    "name": "TurboHire",
+    "address": "HITEC City, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.448,
+      "lng": 78.392
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Deepak Agrawal"
+      },
+      {
+        "name": "Gaurav Kumar"
+      },
+      {
+        "name": "Rakesh Ranjan Nayak"
+      }
+    ],
+    "yearFounded": 2019,
+    "website": "https://turbohire.co",
+    "description": "AI-powered recruitment automation and applicant tracking platform for enterprises.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "nextbillion-ai",
+    "name": "NextBillion.ai",
+    "address": "7A-124, WeWork RMZ Spire, Silpa Gram Craft Village, HITEC City, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.443,
+      "lng": 78.378
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ajay Bulusu"
+      },
+      {
+        "name": "Gaurav Bubna"
+      },
+      {
+        "name": "Shaolin Zheng"
+      }
+    ],
+    "yearFounded": 2017,
+    "website": "https://nextbillion.ai",
+    "description": "Enterprise routing, mapping, and location intelligence APIs for logistics and mobility.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "adonmo",
+    "name": "AdOnMo",
+    "address": "5th Floor, Plot No. 4, Mata Bhuvaneshwari Society, Khanamet, Madhapur, Hyderabad, Telangana 500084, India",
+    "location": {
+      "lat": 17.4588,
+      "lng": 78.368
+    },
+    "contactEmail": "ask@adonmo.com",
+    "founders": [
+      {
+        "name": "Sandeep Bommireddi"
+      },
+      {
+        "name": "Sravanth Gajula"
+      }
+    ],
+    "yearFounded": 2016,
+    "website": "https://www.adonmo.com",
+    "description": "Digital out-of-home advertising network with hyperlocal screen targeting.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "pi-datacenters",
+    "name": "Pi Datacenters",
+    "address": "12th Floor, Vijaya Krishna Towers, Financial District, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4326,
+      "lng": 78.3548
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Kalyan Muppaneni"
+      }
+    ],
+    "yearFounded": 2014,
+    "website": "https://pidatacenters.com",
+    "description": "Tier IV certified hyperscale data centers and indigenous enterprise cloud platform.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "pure-ev",
+    "name": "Pure EV",
+    "address": "PUR Energy Ltd, Survey No. 424/AA3, Beside Arya College of Pharmacy, Near IIT Hyderabad, Kandi Village, Sangareddy, Hyderabad, Telangana 502285, India",
+    "location": {
+      "lat": 17.594,
+      "lng": 78.124
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Nishanth Dongari"
+      },
+      {
+        "name": "Rohit Vadera"
+      }
+    ],
+    "yearFounded": 2015,
+    "website": "https://www.pureev.in",
+    "description": "Electric two-wheelers and lithium battery technology backed by IIT Hyderabad research.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "hala-mobility",
+    "name": "Hala Mobility",
+    "address": "First Floor, Plot No. 32, Survey No. 135, Brundavan Colony, Gandipet Main Road, Narsingi, Hyderabad, Telangana 500075, India",
+    "location": {
+      "lat": 17.3846,
+      "lng": 78.3292
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Srikanth Reddy Kalakonda"
+      },
+      {
+        "name": "Snehith Reddy Meda"
+      }
+    ],
+    "yearFounded": 2017,
+    "website": "https://www.hala.bike",
+    "description": "EV-as-a-service platform for last-mile delivery and gig worker mobility.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "qualizeal",
+    "name": "Qualizeal",
+    "address": "Door No. 1-61/21/GG/A/3F/5, Khaja Guda, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4326,
+      "lng": 78.3548
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Srinivas Rao"
+      }
+    ],
+    "yearFounded": 2017,
+    "website": "https://qualizeal.com",
+    "description": "Digital engineering, QA automation, and cloud services for global enterprises.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "gradious-technologies",
+    "name": "Gradious Technologies",
+    "address": "3-5-141/A/1/2/2, Eden Garden Road, Ramkote, Hyderabad, Telangana 500001, India",
+    "location": {
+      "lat": 17.385,
+      "lng": 78.472
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Lokesh Kumar"
+      }
+    ],
+    "yearFounded": 2016,
+    "website": "https://gradious.com",
+    "description": "Software development, cloud engineering, and digital transformation services.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "bhanzu",
+    "name": "Bhanzu",
+    "address": "H.No. 13-1-229, 2nd Floor, BSP Colony, Moti Nagar, Hyderabad, Telangana 500018, India",
+    "location": {
+      "lat": 17.385,
+      "lng": 78.445
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Neelakantha Bhanu"
+      }
+    ],
+    "yearFounded": 2020,
+    "website": "https://www.bhanzu.com",
+    "description": "Math learning platform using AI-assisted pedagogy for K-12 students.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "red-health",
+    "name": "RED.Health",
+    "address": "B-Block, 6th Floor, Plot 18, iLabs Centre, Opposite Inorbit Mall, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4324363,
+      "lng": 78.3872856
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Prabhdeep Singh"
+      }
+    ],
+    "yearFounded": 2016,
+    "website": "https://www.red.health",
+    "description": "Emergency medical transportation and healthcare infrastructure platform.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "xeeed-io",
+    "name": "Xeeed IO",
+    "address": "T-Hub Foundation, Knowledge City, Sy. No. 83/1, Raidurg, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ravi Tej Varanasi"
+      },
+      {
+        "name": "Kanishka Shah"
+      }
+    ],
+    "yearFounded": 2021,
+    "website": "https://xeeed.io",
+    "description": "IoT dashboards, sensors, and edge AI for industrial fleet and asset monitoring.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "highradius",
+    "name": "HighRadius",
+    "address": "Floor 1, Building No. 12C, Raheja Mindspace, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.441,
+      "lng": 78.382
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sashi Narahari"
+      }
+    ],
+    "yearFounded": 2007,
+    "website": "https://www.highradius.com",
+    "description": "Autonomous finance and order-to-cash software for global enterprises.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "marut-drones",
+    "name": "Marut Drones",
+    "address": "102, The Peak Pride, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.448,
+      "lng": 78.392
+    },
+    "contactEmail": "enquiries@marutdrones.com",
+    "founders": [
+      {
+        "name": "Prem Kumar Vislawath"
+      },
+      {
+        "name": "Sai Kumar Chinthala"
+      },
+      {
+        "name": "Suraj Peddi"
+      }
+    ],
+    "yearFounded": 2019,
+    "website": "https://marutdrones.com",
+    "description": "DGCA-certified agricultural and multi-utility drone technology company.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "freyr-energy",
+    "name": "Freyr Energy",
+    "address": "301, 3rd Floor, KKR Square, Kavuri Hills, Phase I, Road No. 36, Hyderabad, Telangana 500033, India",
+    "location": {
+      "lat": 17.4323,
+      "lng": 78.3947
+    },
+    "contactEmail": "info@freyrenergy.com",
+    "founders": [
+      {
+        "name": "Radhika Choudary"
+      },
+      {
+        "name": "Saurabh Marda"
+      }
+    ],
+    "yearFounded": 2014,
+    "website": "https://freyrenergy.com",
+    "description": "Rooftop solar installation and financing for homes and businesses.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "jarsh-safety",
+    "name": "Jarsh Safety",
+    "address": "4th Floor, Plot No. 29, Panchavati Colony, Bowenpally, Hyderabad, Telangana 500009, India",
+    "location": {
+      "lat": 17.468,
+      "lng": 78.478
+    },
+    "contactEmail": "info@jarshsafety.com",
+    "founders": [
+      {
+        "name": "Kausthub Kaundinya"
+      },
+      {
+        "name": "Sreekanth Kommula"
+      },
+      {
+        "name": "Anand Kumar Donda"
+      }
+    ],
+    "yearFounded": 2016,
+    "website": "https://jarshsafety.com",
+    "description": "IoT-enabled smart wearables for industrial worker safety and heat stress prevention.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "whistledrive",
+    "name": "WhistleDrive",
+    "address": "4A, 4th Floor, Trendz Junior, Plot No. 23 and 24, Gafoor Nagar, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.448,
+      "lng": 78.392
+    },
+    "contactEmail": "hello@whistledrive.com",
+    "founders": [
+      {
+        "name": "Prashanth Mamidanna"
+      },
+      {
+        "name": "Rakesh Munnanooru"
+      }
+    ],
+    "yearFounded": 2016,
+    "website": "https://www.whistledrive.com",
+    "description": "Corporate employee transportation and fleet management platform.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "beacon-li",
+    "name": "Beacon.li",
+    "address": "202, Divine Hive Space, Ramalayam Road, Laxmi Cyber City, Whitefields, Kondapur, Hyderabad, Telangana 500084, India",
+    "location": {
+      "lat": 17.4588,
+      "lng": 78.368
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Srikanth Sundararajan"
+      }
+    ],
+    "yearFounded": 2023,
+    "website": "https://www.beacon.li",
+    "description": "Enterprise AI implementation orchestration platform for product teams.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "blaize",
+    "name": "Blaize",
+    "address": "4th Floor, Plot No. 129 to 132, Block 2, DLF Cyber City, APHB Colony, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4326,
+      "lng": 78.3548
+    },
+    "contactEmail": "info@blaize.com",
+    "founders": [
+      {
+        "name": "Dinakar Munagala"
+      }
+    ],
+    "yearFounded": 2010,
+    "website": "https://www.blaize.com",
+    "description": "Edge AI computing platforms and processors for automotive and IoT.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "zenwork",
+    "name": "Zenwork",
+    "address": "Hill Ridge Springs, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4326,
+      "lng": 78.3548
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Rekha Singh"
+      }
+    ],
+    "yearFounded": 2011,
+    "website": "https://www.zenwork.com",
+    "description": "Tax compliance and payroll software for US businesses and accounting firms.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "cusmat",
+    "name": "Cusmat",
+    "address": "501, Sree Krishna Height, Muppas Panchavati Colony, Manikonda, Hyderabad, Telangana 500089, India",
+    "location": {
+      "lat": 17.406,
+      "lng": 78.336
+    },
+    "contactEmail": "hello@cusmat.com",
+    "founders": [
+      {
+        "name": "Abhinav Ayan"
+      },
+      {
+        "name": "Anirban Jyoti Chakravorty"
+      },
+      {
+        "name": "Soumyaranjan Harichandan"
+      }
+    ],
+    "yearFounded": 2020,
+    "website": "https://cusmat.com",
+    "description": "AR/VR and metaverse-based industrial skills training simulations.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "svaya-robotics",
+    "name": "Svaya Robotics",
+    "address": "203, 2nd Floor, Pavani Annexe, Road No. 2, Banjara Hills, Hyderabad, Telangana 500034, India",
+    "location": {
+      "lat": 17.423,
+      "lng": 78.448
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Vijay Seelam"
+      }
+    ],
+    "yearFounded": 2017,
+    "website": "https://www.svayarobotics.com",
+    "description": "Collaborative robots and automation solutions for manufacturing.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "neerovel",
+    "name": "Neerovel",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": "h2o@neerovel.com",
+    "founders": [
+      {
+        "name": "Amarnath Jan"
+      }
+    ],
+    "yearFounded": 2020,
+    "website": "https://neerovel.in",
+    "description": "IoT and AI-based smart water management and conservation systems.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "credright",
+    "name": "CredRight",
+    "address": "6th Floor, Tower 1, Vasavi Sky City, Gachibowli Circle, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.425,
+      "lng": 78.35
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Neeraj Bansal"
+      },
+      {
+        "name": "Vineet Jawa"
+      },
+      {
+        "name": "Vamsi Krishna"
+      }
+    ],
+    "yearFounded": 2016,
+    "website": "https://www.credright.com",
+    "description": "Fintech lending platform for small and medium enterprises.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "neemans",
+    "name": "Neemans",
+    "address": "H.No. 6-3-885/7/B/5, First Floor, VV Mansion, Somajiguda Circle, Hyderabad, Telangana 500082, India",
+    "location": {
+      "lat": 17.424,
+      "lng": 78.458
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Amar Preet Singh"
+      }
+    ],
+    "yearFounded": 2018,
+    "website": "https://www.neemans.com",
+    "description": "Sustainable footwear brand using renewable and recyclable materials.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
     "id": "groww",
     "name": "Groww",
     "address": "Vaishnavi Tech Park, South Tower, 3rd Floor, Survey No. 16/1 and 17/2, Ambalipura Village, Varthur Hobli, Bellandur, Bengaluru, Karnataka 560103, India",
