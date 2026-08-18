@@ -1770,6 +1770,575 @@
     "logoUrl": null
   },
   {
+    "id": "fourth-partner-energy",
+    "name": "Fourth Partner Energy",
+    "address": "Plot No. N46, H.No. 4-9-10, HMT Nagar, Hyderabad, Telangana 500076, India",
+    "location": {
+      "lat": 17.451,
+      "lng": 78.533
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Vivek Subramanian"
+      },
+      {
+        "name": "Saif Dhorajiwala"
+      },
+      {
+        "name": "Vikas Saluguti"
+      }
+    ],
+    "yearFounded": 2010,
+    "website": "https://fourthpartner.co",
+    "description": "Turnkey rooftop solar and renewable energy solutions for commercial and industrial customers.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "nephroplus",
+    "name": "NephroPlus",
+    "address": "5th Floor, D Block, iLabs Centre, Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4324363,
+      "lng": 78.3872856
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Vikram Vuppala"
+      },
+      {
+        "name": "Sandeep Gudibanda"
+      },
+      {
+        "name": "Kamal Shah"
+      }
+    ],
+    "yearFounded": 2010,
+    "website": "https://www.nephroplus.com",
+    "description": "Chain of dialysis centres providing affordable kidney care across India.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "vivifi-india",
+    "name": "Vivifi India",
+    "address": "Unit A, 9th Floor, MJR Magnifique, Survey No 75 & 76, Khajaguda, Hyderabad, Telangana 500008, India",
+    "location": {
+      "lat": 17.408,
+      "lng": 78.365
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Anil Kumar Pinapala"
+      },
+      {
+        "name": "Srinath Kompella"
+      }
+    ],
+    "yearFounded": 2016,
+    "website": "https://www.vivifin.com",
+    "description": "RBI-approved NBFC offering digital personal lines of credit and lending products.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "callhealth",
+    "name": "CallHealth",
+    "address": "Ramky Grandiose, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.425,
+      "lng": 78.35
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sandhya Raju"
+      }
+    ],
+    "yearFounded": 2013,
+    "website": "https://www.callhealth.com",
+    "description": "Healthcare services aggregator bringing diagnostics, doctors, and home care to patients.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "smartron",
+    "name": "Smartron",
+    "address": "Vaishnavi Cynosure, Unit No. 9C & 9D, 9th Floor, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.425,
+      "lng": 78.35
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Mahesh Lingareddy"
+      },
+      {
+        "name": "Narsi Reddy Posham"
+      },
+      {
+        "name": "Rohit Rathi"
+      }
+    ],
+    "yearFounded": 2014,
+    "website": "https://smartron.com",
+    "description": "IoT and AIoT company building smart devices, electric mobility, and the tronX platform.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "vibrant-energy",
+    "name": "Vibrant Energy",
+    "address": "Level 9, MyHome Twitza, Raidurg, Knowledge City, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.441,
+      "lng": 78.385
+    },
+    "contactEmail": null,
+    "founders": [],
+    "yearFounded": 2015,
+    "website": "https://vibrantenergy.in",
+    "description": "Corporate renewables platform developing solar power for commercial and industrial clients.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "nowfloats",
+    "name": "NowFloats",
+    "address": "1246, Level 1, Vamsirams Jubilee Casa, Road No. 62, Jubilee Hills, Hyderabad, Telangana 500033, India",
+    "location": {
+      "lat": 17.426,
+      "lng": 78.42
+    },
+    "contactEmail": "grievance@nowfloats.com",
+    "founders": [
+      {
+        "name": "Jasminder Singh Gulati"
+      },
+      {
+        "name": "Neeraj Sabharwal"
+      },
+      {
+        "name": "Nitin Jain"
+      },
+      {
+        "name": "Ronak Kumar Samantray"
+      }
+    ],
+    "yearFounded": 2012,
+    "website": "https://www.nowfloats.com",
+    "description": "SaaS platform helping SMEs create and manage websites with automated local SEO.",
+    "dataConfidence": "verified",
+    "status": "Acquired",
+    "logoUrl": null
+  },
+  {
+    "id": "creditvidya",
+    "name": "CreditVidya",
+    "address": "2nd Floor, Block 2, My Home Hub, Hitech City Road, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.447,
+      "lng": 78.381
+    },
+    "contactEmail": "info@creditvidya.com",
+    "founders": [
+      {
+        "name": "Abhishek Agarwal"
+      },
+      {
+        "name": "Rajiv Raj"
+      }
+    ],
+    "yearFounded": 2012,
+    "website": "https://www.creditvidya.com",
+    "description": "Alternative credit scoring and lending-as-a-service platform using AI and alternative data.",
+    "dataConfidence": "verified",
+    "status": "Acquired",
+    "logoUrl": null
+  },
+  {
+    "id": "univariety",
+    "name": "Univariety",
+    "address": "Suite 301B, Sri Durga Towers, Road No. 10, Banjara Hills, Hyderabad, Telangana 500034, India",
+    "location": {
+      "lat": 17.4272,
+      "lng": 78.4438
+    },
+    "contactEmail": "contactus@univariety.com",
+    "founders": [
+      {
+        "name": "Jaideep Gupta"
+      },
+      {
+        "name": "Nitin Barman"
+      }
+    ],
+    "yearFounded": 2011,
+    "website": "https://www.univariety.com",
+    "description": "Edtech platform for career counselling, college admissions, and alumni engagement.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "healthsignz",
+    "name": "HealthSignz",
+    "address": "Plot 177, Road No. 13, Jubilee Hills, Hyderabad, Telangana 500033, India",
+    "location": {
+      "lat": 17.426,
+      "lng": 78.42
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "RampapaRao Ambati"
+      }
+    ],
+    "yearFounded": 2014,
+    "website": "https://www.healthsignz.com",
+    "description": "Healthcare technology platform improving clinical outcomes and care coordination.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "nxtwave",
+    "name": "NxtWave",
+    "address": "Brigade Towers, Financial District, Nanakramguda, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4128827,
+      "lng": 78.3478
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Rahul Attuluri"
+      },
+      {
+        "name": "Sashank Gujjula"
+      },
+      {
+        "name": "Anupam Pedarla"
+      }
+    ],
+    "yearFounded": 2020,
+    "website": "https://www.ccbp.in",
+    "description": "Tech upskilling platform offering vernacular, cohort-based Industry 4.0 career programs.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "bytexl",
+    "name": "byteXL",
+    "address": "Level 5, Block A & B, iLabs Centre, Plot 18, Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4324363,
+      "lng": 78.3872856
+    },
+    "contactEmail": "sales@bytexl.in",
+    "founders": [
+      {
+        "name": "Karun Tadepalli"
+      },
+      {
+        "name": "Sricharan Tadepalli"
+      }
+    ],
+    "yearFounded": 2020,
+    "website": "https://www.bytexl.com",
+    "description": "B2B edtech platform upskilling engineering students in IT and programming skills.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "wehouse",
+    "name": "WeHouse",
+    "address": "Plot 243/A, Road No. 12, MLA Colony, Banjara Hills, Hyderabad, Telangana 500034, India",
+    "location": {
+      "lat": 17.4272,
+      "lng": 78.4438
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sripad Nandiraj"
+      },
+      {
+        "name": "Rohan Vinayak Reddy"
+      }
+    ],
+    "yearFounded": 2017,
+    "website": "https://www.wehouse.in",
+    "description": "Prop-tech platform offering end-to-end home construction and renovation services.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "hitwicket",
+    "name": "Hitwicket",
+    "address": "8-2-334/39, Road No. 3, Banjara Hills, Hyderabad, Telangana 500034, India",
+    "location": {
+      "lat": 17.4272,
+      "lng": 78.4438
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Kashyap Reddy"
+      },
+      {
+        "name": "Keerti Singh"
+      },
+      {
+        "name": "Rishav Rastogi"
+      }
+    ],
+    "yearFounded": 2012,
+    "website": "https://www.hitwicket.com",
+    "description": "Mobile cricket strategy game and sports simulation studio.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "donatekart",
+    "name": "Donatekart",
+    "address": "T-Hub 2.0, Plot No 1/C, Sy No 83/1, Raidurgam Panmaktha, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": "info@donatekart.com",
+    "founders": [
+      {
+        "name": "Anil Kumar Reddy"
+      },
+      {
+        "name": "Sandeep Sharma"
+      },
+      {
+        "name": "Sarang Bobade"
+      }
+    ],
+    "yearFounded": 2016,
+    "website": "https://www.donatekart.com",
+    "description": "Crowdfunding platform enabling in-kind donations of supplies to NGOs and relief campaigns.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "runo",
+    "name": "Runo",
+    "address": "Module A3, Quadrant 1, 1st Floor, Cyber Towers, HITEC City, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4504,
+      "lng": 78.3808
+    },
+    "contactEmail": "care@runo.ai",
+    "founders": [
+      {
+        "name": "Raj Sekhar Pattnaik"
+      },
+      {
+        "name": "Venkata Sai Vamsi Penupothu"
+      }
+    ],
+    "yearFounded": 2019,
+    "website": "https://runo.ai",
+    "description": "SIM-based call management CRM and sales automation for field teams.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "indrajaal",
+    "name": "Indrajaal",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Kiran Raju Penmatcha"
+      },
+      {
+        "name": "Mallela Venkata Narasimha Sai"
+      },
+      {
+        "name": "Vamsi Vellanki"
+      }
+    ],
+    "yearFounded": 2023,
+    "website": "https://indrajaal.in",
+    "description": "Defence-tech startup building autonomous counter-drone and airspace security systems.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "cosmoserve-space",
+    "name": "Cosmoserve Space",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Chiranjeevi Phanindra Banala"
+      }
+    ],
+    "yearFounded": 2025,
+    "website": "https://cosmoserve.space",
+    "description": "Space-tech startup developing autonomous robotic spacecraft for orbital debris mitigation.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "altiushub",
+    "name": "AltiusHub",
+    "address": "Vesella Villas, Kondapur, Hyderabad, Telangana 500084, India",
+    "location": {
+      "lat": 17.4615,
+      "lng": 78.367
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Abiram Vijayakumar"
+      },
+      {
+        "name": "Siddharth Reddy"
+      }
+    ],
+    "yearFounded": 2023,
+    "website": "https://www.altiushub.com",
+    "description": "SaaS platform for pharmaceutical supply chain traceability and compliance.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "3rdflix",
+    "name": "3rdFlix",
+    "address": "2nd Floor, Signature Towers, Kondapur, Hyderabad, Telangana 500084, India",
+    "location": {
+      "lat": 17.4615,
+      "lng": 78.367
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Subbarao Siddabattula"
+      },
+      {
+        "name": "Ilangovel Thulasimani"
+      },
+      {
+        "name": "Charu Noheria"
+      }
+    ],
+    "yearFounded": 2018,
+    "website": "https://3rdflix.com",
+    "description": "Immersive edtech company behind Practically, using AR/VR and 3D content for STEM learning.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "hylenr",
+    "name": "Hylenr",
+    "address": "T-Hub 2.0, 20 Inorbit Mall Road, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ram Ramaseshan"
+      },
+      {
+        "name": "Siddhartha Durairajan"
+      },
+      {
+        "name": "Dr. Shree Varaprasad N S"
+      }
+    ],
+    "yearFounded": 2024,
+    "website": "https://hylenr.com",
+    "description": "Clean energy startup developing low energy nuclear reaction systems for industrial heat and power.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "windo",
+    "name": "Windo",
+    "address": "501, Trinity Residency, Kondapur, Hyderabad, Telangana 500084, India",
+    "location": {
+      "lat": 17.4615,
+      "lng": 78.367
+    },
+    "contactEmail": "team@mywindo.shop",
+    "founders": [
+      {
+        "name": "Silus Reddy"
+      },
+      {
+        "name": "Rakesh Vaddadi"
+      }
+    ],
+    "yearFounded": 2020,
+    "website": "https://getwindo.shop",
+    "description": "Instagram commerce platform helping creators and small businesses launch online stores.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "gamepoint",
+    "name": "Gamepoint",
+    "address": "Survey No. 11/33 Part, Khanamet Village, Serilingampally Mandal, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.44,
+      "lng": 78.39
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Siddharth Reddy"
+      },
+      {
+        "name": "Aditya Reddy"
+      }
+    ],
+    "yearFounded": 2016,
+    "website": "https://gamepointindia.com",
+    "description": "Multi-sport coaching centres offering badminton, cricket, swimming, and other sports facilities.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
     "id": "groww",
     "name": "Groww",
     "address": "Vaishnavi Tech Park, South Tower, 3rd Floor, Survey No. 16/1 and 17/2, Ambalipura Village, Varthur Hobli, Bellandur, Bengaluru, Karnataka 560103, India",
