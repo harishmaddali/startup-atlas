@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
+  AttributionControl,
   MapContainer,
   TileLayer,
   Marker,
@@ -192,6 +193,7 @@ export function StartupMap({ companies }: StartupMapProps) {
           center={[WORLD_CENTER.lat, WORLD_CENTER.lng]}
           zoom={WORLD_DEFAULT_ZOOM}
           scrollWheelZoom
+          attributionControl={false}
           style={{ width: "100%", height: "100%" }}
           className="z-0"
         >
@@ -199,6 +201,7 @@ export function StartupMap({ companies }: StartupMapProps) {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
             url={tileUrl}
           />
+          <AttributionControl position="bottomleft" />
 
           <InitialViewController />
           <MapController selected={selected} onBoundsChange={setBounds} />
