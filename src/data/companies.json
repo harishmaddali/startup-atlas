@@ -2369,6 +2369,405 @@
     "logoUrl": null
   },
   {
+    "id": "quixy",
+    "name": "Quixy",
+    "address": "3rd Floor, Zone-1, Myscape Weave, Survey No. 322, Nanakramguda, Financial District, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4128827,
+      "lng": 78.3478
+    },
+    "contactEmail": "info@quixy.com",
+    "founders": [
+      {
+        "name": "Gautam Nimmagadda"
+      }
+    ],
+    "yearFounded": 2019,
+    "website": "https://quixy.com",
+    "description": "No-code enterprise application development platform for workflow automation.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "monitra-health",
+    "name": "Monitra Health",
+    "address": "T-Hub 2.0, 3rd Floor, Plot No 1/C, Sy No 83/1, Raidurgam Panmaktha, Hyderabad Knowledge City, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ravi Bhogu"
+      }
+    ],
+    "yearFounded": 2015,
+    "website": "https://www.monitrahealth.com",
+    "description": "Remote cardiac monitoring platform with the upBeat Holter and telemetry devices.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "subtl-ai",
+    "name": "Subtl.ai",
+    "address": "IIIT Hyderabad Campus, Survey No. 25, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.445,
+      "lng": 78.349
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Vishnu Ramesh"
+      },
+      {
+        "name": "Sarath Chandra"
+      },
+      {
+        "name": "Manish Shrivastava"
+      }
+    ],
+    "yearFounded": 2020,
+    "website": "https://www.subtl.ai",
+    "description": "AI-powered contextual search and document automation for enterprises.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "zenerative-minds",
+    "name": "Zenerative Minds",
+    "address": "Vindhya C4, 2nd Floor, IIIT Hyderabad Campus, Survey No. 25, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.445,
+      "lng": 78.349
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Phani Raju Venkata Bhimaraju"
+      },
+      {
+        "name": "Vikash Sharma"
+      }
+    ],
+    "yearFounded": 2023,
+    "website": "https://www.zenerativeminds.com",
+    "description": "Sovereign generative AI and agentic decision systems for defence and enterprise.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "avinya-neurotech",
+    "name": "Avinya NeuroTech",
+    "address": "IIIT Hyderabad Campus, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.445,
+      "lng": 78.349
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Aniket Kumar"
+      },
+      {
+        "name": "Sowmya Darapaneni"
+      }
+    ],
+    "yearFounded": 2023,
+    "website": "https://avinyaneurotech.com",
+    "description": "AI-powered neuromonitoring systems for critical care and neurosurgery.",
+    "dataConfidence": "approximate",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "frontlines-edutech",
+    "name": "Frontlines EduTech",
+    "address": "1st Floor, Central Plaza, Durga Nagar Colony, Somajiguda, Hyderabad, Telangana 500082, India",
+    "location": {
+      "lat": 17.423,
+      "lng": 78.459
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Krishna Mantravadi"
+      },
+      {
+        "name": "Upendra Gulipilli"
+      }
+    ],
+    "yearFounded": 2021,
+    "website": "https://www.frontlinesedutech.com",
+    "description": "Telugu-language edtech platform offering AI-powered IT career training and upskilling.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "coschool",
+    "name": "Coschool",
+    "address": "Plot No. 99, Road No. 72, Jubilee Hills, Hyderabad, Telangana 500033, India",
+    "location": {
+      "lat": 17.426,
+      "lng": 78.42
+    },
+    "contactEmail": "paritosh.sankhla@coschool.ai",
+    "founders": [
+      {
+        "name": "Naga Tummala"
+      },
+      {
+        "name": "Raj Yarlagadda"
+      }
+    ],
+    "yearFounded": 2021,
+    "website": "https://www.coschool.ai",
+    "description": "AI-powered SchoolAi platform personalizing K-12 learning for students, teachers, and parents.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "vizen-life-sciences",
+    "name": "Vizen Life Sciences",
+    "address": "Kapil Towers, 10th Floor, Survey No. 115/1, ISB Road, Financial District, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4128827,
+      "lng": 78.3478
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Laxmi Sairam Kumar Ambati"
+      },
+      {
+        "name": "Shanmukhapriya Ambati"
+      },
+      {
+        "name": "Padmaja Ambati"
+      }
+    ],
+    "yearFounded": 2021,
+    "website": "https://www.vizenlifesciences.com",
+    "description": "Life sciences company developing pharmaceutical and biotech products.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "deepgrid-semi",
+    "name": "Deepgrid Semi",
+    "address": "Cabin No. 52, 7th Floor, T-Hub 2.0, Hyderabad Knowledge City, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.4342304,
+      "lng": 78.3792847
+    },
+    "contactEmail": "aravind@deepgrid.in",
+    "founders": [
+      {
+        "name": "Aravind Govardhan Prasad"
+      },
+      {
+        "name": "Goverdhan Muralidhar Naidu"
+      }
+    ],
+    "yearFounded": 2024,
+    "website": "https://deepgrid.in",
+    "description": "Semiconductor startup building next-generation chip and compute solutions.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "makers-hive",
+    "name": "Makers Hive",
+    "address": "2nd Floor, Yashshree Tech Park, Plot 11, HUDA Techno Enclave, Hitech City, Madhapur, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.441,
+      "lng": 78.385
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Pranav Vempati"
+      },
+      {
+        "name": "Harsha Reddy Ponguleti"
+      },
+      {
+        "name": "Suren Marumamula"
+      }
+    ],
+    "yearFounded": 2018,
+    "website": "https://makershive.io",
+    "description": "Assistive technology company building affordable bionic arms and prosthetic solutions.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "beable-health",
+    "name": "BeAble Health",
+    "address": "4B, 4th Floor, Yeturu Towers, A.C. Guards, Hyderabad, Telangana 500004, India",
+    "location": {
+      "lat": 17.395,
+      "lng": 78.468
+    },
+    "contactEmail": "contact@beablehealth.com",
+    "founders": [
+      {
+        "name": "Habib Ali"
+      },
+      {
+        "name": "Sreehari K.G"
+      }
+    ],
+    "yearFounded": 2017,
+    "website": "https://www.beablehealth.com",
+    "description": "Medtech startup building ArmAble robotic rehabilitation devices for stroke recovery.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "achala-health",
+    "name": "Achala Health",
+    "address": "Floor 3, Plot 342 and 343, Road 7, Kakateeya Hills, Hyderabad, Telangana 500081, India",
+    "location": {
+      "lat": 17.44,
+      "lng": 78.395
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Rajesh Raju"
+      },
+      {
+        "name": "Jyotish Varma"
+      },
+      {
+        "name": "Giridhar Apparusu"
+      },
+      {
+        "name": "Suresh Raju"
+      },
+      {
+        "name": "Vikram Vuppala"
+      }
+    ],
+    "yearFounded": 2021,
+    "website": "https://www.achalahealth.com",
+    "description": "AI-powered integrated healthcare platform for patient-centric care delivery.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "bikayi",
+    "name": "Bikayi",
+    "address": "901, Block 10, Hill Ridge Springs, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.418,
+      "lng": 78.345
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Ashutosh Singla"
+      },
+      {
+        "name": "Sonakshi Nathani"
+      }
+    ],
+    "yearFounded": 2018,
+    "website": "https://www.bikayi.com",
+    "description": "E-commerce platform helping social businesses and Instagram sellers launch online stores.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "gtm-buddy",
+    "name": "GTM Buddy",
+    "address": "Flat B-602, Nagarjuna Residency, Telecom Nagar, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.425,
+      "lng": 78.35
+    },
+    "contactEmail": "sp@gtmbuddy.ai",
+    "founders": [
+      {
+        "name": "Sreedhar Peddineni"
+      },
+      {
+        "name": "Chandramani Tiwary"
+      },
+      {
+        "name": "Santa Thounaojam"
+      }
+    ],
+    "yearFounded": 2020,
+    "website": "https://gtmbuddy.ai",
+    "description": "AI-powered sales enablement and revenue activation platform for B2B teams.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "ambiator",
+    "name": "Ambiator",
+    "address": "8-2-293/82/J/A/3/101, Survey No. 403, Road No. 70, Journalist Colony, Jubilee Hills, Hyderabad, Telangana 500033, India",
+    "location": {
+      "lat": 17.426,
+      "lng": 78.42
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Tiger Sukhdarshan Aster"
+      },
+      {
+        "name": "Jeeten Anil Desai"
+      }
+    ],
+    "yearFounded": 2022,
+    "website": "https://ambiator.com",
+    "description": "Climate-appropriate evaporative cooling systems as a sustainable alternative to AC.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
+    "id": "whizzy",
+    "name": "Whizzy",
+    "address": "10th Floor, Survey No. 115/1, ISB Road, Kapil Towers, Financial District, Gachibowli, Hyderabad, Telangana 500032, India",
+    "location": {
+      "lat": 17.4128827,
+      "lng": 78.3478
+    },
+    "contactEmail": "info@whizzy.in",
+    "founders": [
+      {
+        "name": "Ravi Chander Reddy Bathi"
+      },
+      {
+        "name": "Abhishek Reddy Kankanala"
+      }
+    ],
+    "yearFounded": 2017,
+    "website": "https://whizzy.in",
+    "description": "Quick-commerce logistics platform using EV fleets and hyper-local fulfillment hubs.",
+    "dataConfidence": "verified",
+    "status": "Active",
+    "logoUrl": null
+  },
+  {
     "id": "groww",
     "name": "Groww",
     "address": "Vaishnavi Tech Park, South Tower, 3rd Floor, Survey No. 16/1 and 17/2, Ambalipura Village, Varthur Hobli, Bellandur, Bengaluru, Karnataka 560103, India",
@@ -107028,6 +107427,141 @@
     "website": "https://www.traqcheck.com",
     "description": "AI-based background verification platform; total funding of $8M, latest Series A round announced 14 Apr 2026.",
     "dataConfidence": "verified",
+    "status": "Active"
+  },
+  {
+    "id": "virgio",
+    "name": "Virgio",
+    "address": "HSR Layout, Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.917,
+      "lng": 77.632
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Amar Nagaram",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=virgio.com&sz=128",
+    "website": "https://virgio.com/",
+    "description": "Fashion-tech company that raised $37M in Series A funding in late 2022.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "swish-food-delivery",
+    "name": "Swish",
+    "address": "HSR Layout, Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.928,
+      "lng": 77.637
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Aniket Shah",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Saran S",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Ujjwal Sukheja",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2024,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=swish.in&sz=128",
+    "website": "https://swish.in/",
+    "description": "10-minute grocery and food startup; raised $2M in seed funding from Accel in 2024.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "sarvam-ai",
+    "name": "Sarvam AI",
+    "address": "Koramangala, Bengaluru, Karnataka, India",
+    "location": {
+      "lat": 12.931,
+      "lng": 77.61
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Vivek Raghavan",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Pratyush Kumar",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2023,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=sarvam.ai&sz=128",
+    "website": "https://sarvam.ai/",
+    "description": "Bengaluru-headquartered AI language-model startup; raised a combined ~$41M seed/Series A in 2023.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "pepul",
+    "name": "Pepul",
+    "address": "T. Nagar, Chennai, Tamil Nadu, India",
+    "location": {
+      "lat": 13.044,
+      "lng": 80.25
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "G Suresh Kumar",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2022,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pepul.com&sz=128",
+    "website": "https://pepul.com/",
+    "description": "Social networking startup that raised ₹10 crore in seed funding in 2022.",
+    "dataConfidence": "approximate",
+    "status": "Active"
+  },
+  {
+    "id": "neysa",
+    "name": "Neysa",
+    "address": "Lower Parel, Mumbai, Maharashtra, India",
+    "location": {
+      "lat": 19.019,
+      "lng": 72.846
+    },
+    "contactEmail": null,
+    "founders": [
+      {
+        "name": "Sharad Sanghi",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      },
+      {
+        "name": "Anindya Das",
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    ],
+    "yearFounded": 2023,
+    "logoUrl": "https://www.google.com/s2/favicons?domain=neysa.ai&sz=128",
+    "website": "https://neysa.ai/",
+    "description": "Enterprise AI startup headquartered in Mumbai; total funding of $50M across 2024 seed and growth rounds.",
+    "dataConfidence": "approximate",
     "status": "Active"
   }
 ]
