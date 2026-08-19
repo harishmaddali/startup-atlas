@@ -193,6 +193,7 @@ export function StartupMap({ companies }: StartupMapProps) {
           center={[WORLD_CENTER.lat, WORLD_CENTER.lng]}
           zoom={WORLD_DEFAULT_ZOOM}
           scrollWheelZoom
+          zoomControl={false}
           attributionControl={false}
           style={{ width: "100%", height: "100%" }}
           className="z-0"
