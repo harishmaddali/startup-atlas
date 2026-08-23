@@ -1,0 +1,70 @@
+import { describe, expect, it } from "vitest";
+import {
+  DEFAULT_MAP_FILTERS,
+  entityKey,
+  matchesMapFilters,
+  uniqueEntities,
+} from "@/lib/map-filtering";
+import type { MapItem } from "@/types/ecosystem";
+
+const item: MapItem = {
+  key: "program:sample:location",
+  entityId: "sample",
+  entityKind: "program",
+  layers: ["program"],
+  subtypes: ["accelerator_cohort"],
+  name: "Sample Climate Cohort",
+  aliases: ["SCC"],
+  description: "A sample founder program.",
+  logoUrl: null,
+  pin: {
+    locationId: "location",
+    label: "Campus",
+    lat: 12.9,
+    lng: 77.6,
+    precision: "building",
+    city: "Bengaluru",
+    state: "Karnataka",
+  },
+  indiaWide: true,
+  sectors: ["climate"],
+  stages: ["seed"],
+  capabilities: ["market_access"],
+  chequeBand: "50l_2cr",
+  deliveryModes: ["hybrid"],
+  programStatus: "open",
+  searchText: "sample climate cohort scc bengaluru",
+  lastVerifiedAt: "2026-08-24",
+};
+
+describe("map filtering", () => {
+  it("combines text, layer, geography, fit, delivery, and status facets", () => {
+    expect(
+      matchesMapFilters(item, {
+        ...DEFAULT_MAP_FILTERS,
+        query: "SCC",
+        layers: ["program"],
+        city: "Bengaluru",
+        state: "Karnataka",
+        sector: "climate",
+        stage: "seed",
+        subtype: "accelerator_cohort",
+        capability: "market_access",
+        chequeBand: "50l_2cr",
+        deliveryMode: "hybrid",
+        programStatus: "open",
+      })
+    ).toBe(true);
+  });
+
+  it("rejects a mismatch in any active facet", () => {
+    expect(matchesMapFilters(item, { ...DEFAULT_MAP_FILTERS, city: "Mumbai" })).toBe(false);
+    expect(matchesMapFilters(item, { ...DEFAULT_MAP_FILTERS, programStatus: "upcoming" })).toBe(false);
+  });
+
+  it("deduplicates multiple pins into one profile card", () => {
+    const secondPin = { ...item, key: "program:sample:second-location" };
+    expect(uniqueEntities([item, secondPin])).toEqual([item]);
+    expect(entityKey(item)).toBe("program:sample");
+  });
+});

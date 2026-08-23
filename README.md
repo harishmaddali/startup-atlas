@@ -1,19 +1,18 @@
 # Startup Atlas
 
-A map of recent startups worldwide, with broad YC coverage and independently
-verified ecosystem additions across India. Inspired by
-[bangalorestartupmap.com](https://bangalorestartupmap.com/).
+Startup Atlas maps startups worldwide and source-backed capital and support available to founders in India. The ecosystem directory covers investors, accelerators, incubators, venture studios, active angels, and live or upcoming programs while keeping approximate and India-wide records honest about their location precision.
 
 Built with [UNO.engineering](https://uno.engineering?ref=startup-atlas-readme).
 
 ## Stack
 
-- Next.js (App Router) + TypeScript
-- Tailwind CSS + shadcn/ui
-- Leaflet via `react-leaflet` + `react-leaflet-cluster`, tiles from CARTO/OpenStreetMap (no API key needed)
-- [motion](https://motion.dev) for animations
+- Next.js App Router and TypeScript
+- Tailwind CSS and shadcn/ui
+- Leaflet, CARTO, and OpenStreetMap tiles
+- Zod-validated JSON as the only persistence layer
+- Vitest, Testing Library, and Playwright
 
-## Getting started
+## Local development
 
 ```bash
 pnpm install
@@ -22,164 +21,53 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Data
+Before publishing a data or product change, run:
 
-Company data lives in [`src/data/companies.json`](src/data/companies.json)
-(~2.6MB), shaped by [`src/types/company.ts`](src/types/company.ts):
-
-```ts
-{
-  id, name, address, location: { lat, lng },
-  contactEmail, founders: { name, linkedinUrl?, twitterUrl? }[],
-  yearFounded, logoUrl, ycBatch?, website, description, status, dataConfidence
-}
+```bash
+pnpm data:validate
+pnpm data:coverage
+pnpm data:check-freshness
+pnpm test
+pnpm lint
+pnpm build
+pnpm test:e2e
 ```
 
-The core dataset is sourced directly from Y Combinator's company directory —
-per-city location pages, the India HQ list (`/companies/location/india`),
-and individual company profiles. Selected ecosystem additions are verified
-independently from company websites, team pages, legal/public records, and
-current map listings. Non-YC companies omit the optional `ycBatch` field.
+The production build uses Next.js's supported Webpack builder so it does not depend on Turbopack's local worker-port behavior. The app itself remains fully compatible with Vercel's Next.js runtime.
 
-**Coverage by region:**
+## Data architecture
 
-| Region | Companies |
-| --- | --- |
-| San Francisco Bay Area | 2,301 |
-| New York | 593 |
-| London | 174 |
-| Los Angeles | 140 |
-| Bengaluru | 122 |
-| Boston | 80 |
-| Seattle | 62 |
-| Austin | 56 |
-| Singapore | 45 |
-| Gurugram | 21 |
-| Delhi / New Delhi | 19 |
-| Mumbai | 18 |
-| Dubai | 15 |
-| Hyderabad | 20 |
-| Sydney | 11 |
-| Noida | 2 |
-| Pune | 2 |
-| Chennai | 2 |
-| Kolkata | 1 |
-| Chandigarh | 1 |
-| Coimbatore | 1 |
-| Raipur | 1 |
-| Lucknow | 1 |
-| Surat | 1 |
-| Melbourne | 1 |
+The repository is the source of truth. There is no database, public submission workflow, or runtime write path.
 
-(Smaller US/UK metros like Philadelphia, Oxford, and Cambridge also have a
-handful of companies each, not broken out as their own rows here.)
+- `src/data/companies.json`: published startups.
+- `src/data/research-queue.json`: startup records held back because their location could not be published honestly.
+- `src/data/ecosystem/organizations.json`: VC firms, angel networks, accelerators, incubators, venture studios, agencies, and university centres.
+- `src/data/ecosystem/people.json`: recently active individual angels using public professional information only.
+- `src/data/ecosystem/programs.json`: open, rolling, upcoming, and archived opportunities.
+- `src/data/ecosystem/coverage.json`: city-by-city source sweeps, unresolved leads, counts, and review dates.
 
-India's YC core was sourced from the **209-company** India HQ list
-(`/companies/location/india` plus each company's profile `city` /
-`country=IN`), not just the metros that have a dedicated YC city page. After
-confirmed shutdowns were removed and seven independently verified Hyderabad
-startups were added, the current dataset contains **192 India companies**.
-Cities that were previously missing (Chennai, Kolkata, Chandigarh,
-Coimbatore, Raipur, Lucknow, Surat) and NCR suburbs that were collapsed into
-New Delhi (Gurugram, Noida) are pinned at their actual city.
+The canonical terminology is defined in [`CONTEXT.md`](CONTEXT.md). Runtime schemas and TypeScript types live in `src/types/company-schema.ts` and `src/types/ecosystem.ts`.
 
-A few notes on how the India pass shook out:
+Legal fund vehicles are recorded under the recognizable organization that manages them. Multiple public offices become multiple pins but one directory profile. Pan-India and remote actors without a verified public location appear in the separate India-wide results section and are never given an invented map point.
 
-- YC's directory `all_locations` is often state-level (`MH, India`) even
-  when the company profile has a city. Each company is placed by its
-  profile `city` field first. The 18 companies YC only labels `MH, India`
-  / `India` were assigned Mumbai or Pune from their own profiles (or, for
-  newly added ones, from the company's own site / Crunchbase HQ). Kalam
-  Labs (YC location: India) is in Lucknow per its own site; Pulse Active
-  Stations Network is in Hyderabad per its contact page.
-- Delhi NCR is no longer lumped under `"New Delhi, India"`. Gurugram (21)
-  and Noida (2) sit at their own city centers; Delhi and New Delhi stay
-  distinct.
-- One Bengaluru company (Betterhalf) had no founders listed on its YC
-  profile; filled in from its own public funding announcements. Scribe
-  (acquired) had no stable logo URL and now uses the initials-avatar
-  fallback (`src/components/company-logo.tsx`), same as other companies
-  with no YC logo.
-- The Hyderabad expansion adds seven active startups founded in 2022 or
-  later outside YC: Altmin, Equal, Liquidnitro Games, Plane, TakeMe2Space,
-  Xbattery, and XDLINX Space Labs. Founders and founding years were checked
-  against official company/team pages; offices were cross-checked against
-  company contact or legal records and current map listings.
-- Founder `linkedinUrl`/`twitterUrl` come from YC profiles where available.
-  Independently added companies currently keep verified founder names only.
+## Freshness and live programs
 
-**Address precision is mixed, and this is tracked per row**
-(`dataConfidence: "verified" | "approximate"`). For most of the dataset,
-exact office addresses aren't publicly listed anywhere, so `location` is a
-city/neighborhood-level approximation — deterministically jittered around
-each city's center (with a wider spread for sprawling metros like the Bay
-Area) so markers don't stack, not tied to any claimed real address.
+Programs are included in the live layer only when they are open, rolling, or open within 90 days. Deadline evaluation happens on every page request, so a past deadline disappears from the live layer without a commit. Live programs must be checked within 14 days; published organizations and angels must be checked within 120 days.
 
-Indian companies with a real, individually sourced office address (from
-each company's own site footer, legal pages, public MCA filings, or an
-equivalent primary record — not a guess) are geocoded with reputable map
-data, primarily OpenStreetMap Nominatim. They are marked
-`dataConfidence: "verified"` only when the building-level point is clear:
+Every ecosystem record includes source evidence, verification dates, and location precision. Individual angels additionally require publicly disclosed Indian startup activity within the preceding 24 months. Date-only research deadlines are normalized to 23:59 in `Asia/Kolkata` before being committed as ISO timestamps.
 
-- **Bengaluru:** Bolna AI, Rehook.ai, FunctionUp (FanPlay), and Dyte now
-  have street-level pins. SuperKalam, SalaryBook, and RecordBook were moved
-  to their publicly listed neighborhoods, but remain `approximate` because
-  no trustworthy street address is public. Other city-only records remain
-  approximate rather than being assigned a guessed building.
-- **Hyderabad:** All five previously approximate YC records were improved.
-  SpadeWorks, AlgoUniversity, Reclaim Protocol, and Swipe have verified
-  street-level pins. Nonu uses its public street address and the matching
-  Anand Nagar road point, but remains `approximate` because its exact
-  property does not resolve reliably in public map data. Six of the seven
-  recent non-YC additions have building-level verified pins; Plane remains
-  `approximate` at its publicly listed HITEC City road location because no
-  trustworthy street address is public.
-- **Elsewhere in India:** HelpNow (Mumbai), TagMango (Kolkata), and
-  GimBooks (Raipur).
+## Map delivery
 
-The map shows exactly the companies whose markers fall inside the current
-viewport (`src/components/startup-map.tsx`), updating live as you pan/zoom
-— not a fixed radius or proximity ranking. At world zoom the sidebar list is
-capped at 200 (of however many are in view) purely for render performance;
-the map itself still clusters and shows all of them via
-`react-leaflet-cluster`.
+The initial page sends compact `MapItem` summaries for client-side filtering and clustering. Full records load only after selection through the internal read-only route:
 
-**Known tradeoff:** the full dataset (~2.6MB of JSON) is currently fetched
-server-side and passed to the client as page props on every load — fine for
-now, but if this grows further it'd be worth moving to real pagination /
-viewport-scoped queries once a database is in place (see
-`src/app/actions/companies.ts`).
+```text
+GET /api/map-entities/[kind]/[id]
+```
 
-**The map shows every company in `companies.json`.** `getCompanies()`
-(`src/app/actions/companies.ts`) currently returns the full dataset with no
-founding-year filter.
+The current summary is about 243 KB gzip-compressed, below the 1 MB release ceiling. URL parameters preserve search, layers, geography, sector, stage, type, cheque band, support, delivery mode, application status, and the selected profile.
 
-**Companies that have actually shut down are removed from the dataset
-entirely** (not just filtered from the map) — this one genuinely deletes
-rows from `companies.json`, unlike the year cutoff above. Two passes:
+## Coverage status
 
-- The 4 companies YC itself tags `"Inactive"` from its earliest (2005-2008)
-  batches — Infogami, Slinkset, Picwing, Hungry Labs — cross-checked via web
-  search (e.g. Infogami's founder, Aaron Swartz, went on to co-found Reddit
-  after Infogami ceased operating in 2005).
-- Of the 648 companies YC tags `"Acquired"` — which does *not* mean shut
-  down; most acquisitions are successful exits whose product keeps running
-  under new ownership — each one was individually researched (site check +
-  web search, defaulting to keep on ambiguous evidence) rather than removed
-  by tag alone. **199 of 648** turned out to be genuinely discontinued
-  post-acquisition (e.g. Parse, Posterous, Hipmunk, Homejoy, RethinkDB,
-  Pebble); the other 449 are kept since their product/tech demonstrably
-  continues (e.g. Heroku, Twitch, Disqus, HelloSign→Dropbox Sign).
+Nationwide coverage is being completed city by city. The first six metro clusters are explicitly marked `researching` in `coverage.json`; their unresolved leads prevent them from being presented as complete. The product exposes that status and each profile's evidence so “comprehensive” always has a stated, auditable boundary.
 
-One caution that came out of this: a *separate* batch of 39 companies also
-tagged `"Inactive"` by YC (newer, non-2005-era ones, mostly from the India
-expansion) turned out to be unreliable — a spot check found 3 of 4 checked
-(Synapsica Healthcare, PropReturns, Drivezy) are confirmably still
-operating in 2026 despite the tag. So `"Inactive"` alone was **not**
-treated as sufficient evidence for removal outside that first, verified
-batch of 4 — it got the same individual-research treatment as `"Acquired"`
-instead. Result: **21 of 39** were confirmed genuinely shut down (dead
-domains, explicit shutdown announcements, founders confirmed moved on) and
-removed; the other **18** have independent evidence of still operating
-(recent funding, active hiring, live product) and were kept despite the
-stale tag.
+The pre-existing startup dataset was runtime-validated before the ecosystem layer was enabled. Of 39 records that conflicted with the declared company shape, 12 received defensible city-level locations and 27 were moved to the research queue rather than receiving invented pins. The published startup layer currently contains 3,835 records.

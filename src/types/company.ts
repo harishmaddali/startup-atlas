@@ -19,8 +19,10 @@ export interface Company {
   logoUrl: string | null;
   /** YC batch label when applicable, e.g. "S22". */
   ycBatch?: string;
-  website?: string;
-  description?: string;
+  website?: string | null;
+  description?: string | null;
+  /** Normalized sector label when independently sourced. */
+  sector?: string;
   /** Company status at time of data collection, e.g. "Active", "Public", "Acquired". */
   status?: string;
   /**

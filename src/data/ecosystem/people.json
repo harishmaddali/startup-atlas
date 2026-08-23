@@ -1,0 +1,161 @@
+[
+  {
+    "id": "kunal-bahl",
+    "kind": "person",
+    "role": "angel",
+    "name": "Kunal Bahl",
+    "aliases": [],
+    "description": "Technology entrepreneur and investor who has backed more than 250 startups personally and through Titan Capital.",
+    "publicationState": "published",
+    "professionalLocation": {
+      "id": "kunal-bahl-new-delhi",
+      "role": "office",
+      "label": "Public professional city",
+      "address": null,
+      "city": "New Delhi",
+      "district": "New Delhi",
+      "state": "Delhi",
+      "postalCode": null,
+      "countryCode": "IN",
+      "coordinates": { "lat": 28.6139, "lng": 77.209 },
+      "precision": "city",
+      "evidenceUrl": "https://www.titancapital.vc/kunal-bahl/",
+      "verifiedAt": "2026-08-24"
+    },
+    "indiaServiceMode": "hybrid",
+    "sectors": ["consumer", "healthtech", "fintech", "saas", "b2b"],
+    "stages": ["pre_seed", "seed"],
+    "investmentRange": null,
+    "notableInvestments": ["Urban Company", "Razorpay", "Mamaearth", "Ola", "OfBusiness"],
+    "organizationIds": [],
+    "website": "https://www.titancapital.vc/kunal-bahl/",
+    "linkedinUrl": "https://www.linkedin.com/in/kunalbahl/",
+    "lastInvestmentActivityAt": "2025-11-19",
+    "evidence": [
+      {
+        "url": "https://www.titancapital.vc/kunal-bahl/",
+        "title": "Kunal Bahl — Co-founder",
+        "publisher": "Titan Capital",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": ["professional identity", "investment activity", "portfolio"]
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=M5SRwdWHb5g",
+        "title": "Kunal Bahl on the India startup playbook",
+        "publisher": "Angel One",
+        "sourceClass": "official_announcement",
+        "checkedAt": "2026-08-24",
+        "supports": ["2025 investment activity", "investment strategy"]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-12-22"
+  },
+  {
+    "id": "namita-thapar",
+    "kind": "person",
+    "role": "angel",
+    "name": "Namita Thapar",
+    "aliases": [],
+    "description": "Executive Director of Emcure Pharmaceuticals and an active angel investor through Shark Tank India.",
+    "publicationState": "published",
+    "professionalLocation": {
+      "id": "namita-thapar-pune",
+      "role": "office",
+      "label": "Public professional city",
+      "address": null,
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postalCode": null,
+      "countryCode": "IN",
+      "coordinates": { "lat": 18.5204, "lng": 73.8567 },
+      "precision": "city",
+      "evidenceUrl": "https://www.emcure.com/leadership/",
+      "verifiedAt": "2026-08-24"
+    },
+    "indiaServiceMode": "hybrid",
+    "sectors": ["healthcare", "consumer", "technology"],
+    "stages": ["pre_seed", "seed", "series_a"],
+    "investmentRange": null,
+    "notableInvestments": ["The Bear House", "Janitri", "NeoSapien"],
+    "organizationIds": [],
+    "website": "https://www.emcure.com/leadership/",
+    "linkedinUrl": "https://www.linkedin.com/in/namita-thapar/",
+    "lastInvestmentActivityAt": "2026-03-01",
+    "evidence": [
+      {
+        "url": "https://www.emcure.com/leadership/",
+        "title": "Emcure leadership",
+        "publisher": "Emcure Pharmaceuticals",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": ["professional identity", "Pune professional affiliation"]
+      },
+      {
+        "url": "https://indianexpress.com/article/entertainment/television/shark-tank-india-namita-thapar-best-investments-bear-house-arata-janitri-valuation-10559094/",
+        "title": "Namita Thapar reviews her active startup investments",
+        "publisher": "The Indian Express",
+        "sourceClass": "reputable_news",
+        "checkedAt": "2026-08-24",
+        "supports": ["2026 investment activity", "notable investments"]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-12-22"
+  },
+  {
+    "id": "rajan-anandan",
+    "kind": "person",
+    "role": "angel",
+    "name": "Rajan Anandan",
+    "aliases": [],
+    "description": "Investor and technology executive with a long-running personal angel portfolio and leadership role at Peak XV Partners.",
+    "publicationState": "published",
+    "professionalLocation": {
+      "id": "rajan-anandan-bengaluru",
+      "role": "office",
+      "label": "Public professional city",
+      "address": null,
+      "city": "Bengaluru",
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "postalCode": null,
+      "countryCode": "IN",
+      "coordinates": { "lat": 12.9716, "lng": 77.5946 },
+      "precision": "city",
+      "evidenceUrl": "https://www.peakxv.com/people/rajan-anandan/",
+      "verifiedAt": "2026-08-24"
+    },
+    "indiaServiceMode": "hybrid",
+    "sectors": ["deeptech", "saas", "consumer", "technology"],
+    "stages": ["pre_seed", "seed", "series_a"],
+    "investmentRange": null,
+    "notableInvestments": ["WebEngage", "Uniphore", "Druva"],
+    "organizationIds": [],
+    "website": "https://www.peakxv.com/people/rajan-anandan/",
+    "linkedinUrl": "https://www.linkedin.com/in/rajan-anandan/",
+    "lastInvestmentActivityAt": "2025-04-03",
+    "evidence": [
+      {
+        "url": "https://www.peakxv.com/people/rajan-anandan/",
+        "title": "Rajan Anandan profile",
+        "publisher": "Peak XV Partners",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": ["professional identity", "investment role"]
+      },
+      {
+        "url": "https://yourstory.com/2025/04/best-time-angel-investor-says-peak-xvs-rajan-anandan-indias-deep-tech-boom",
+        "title": "Rajan Anandan on angel investing and deeptech",
+        "publisher": "YourStory",
+        "sourceClass": "reputable_news",
+        "checkedAt": "2026-08-24",
+        "supports": ["2025 angel activity", "deeptech focus"]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-12-22"
+  }
+]

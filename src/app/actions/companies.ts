@@ -2,10 +2,12 @@
 
 import companiesData from "@/data/companies.json";
 import type { Company } from "@/types/company";
+import { companiesSchema } from "@/types/company-schema";
+
+const companies = companiesSchema.parse(companiesData);
 
 export async function getCompanies(): Promise<Company[]> {
-  // TODO: swap this for a database query (e.g. Prisma) once persistence is added.
-  // TODO: read the session (e.g. via next/headers) and filter/authorize here
-  // once accounts exist, instead of returning the full dataset to everyone.
-  return companiesData as Company[];
+  // Compatibility accessor for server code that still needs the startup-only layer.
+  // The schema-validated repository JSON remains the sole source of truth.
+  return companies satisfies Company[];
 }
