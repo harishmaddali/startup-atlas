@@ -11,25 +11,25 @@ export const metadata: Metadata = {
   ),
   title: "Startup Atlas",
   description:
-    "Explore startups worldwide and source-backed investors, angels, incubators, accelerators, and live founder programs across India.",
+    "Explore startups worldwide and source-backed investors, angels, incubators, accelerators, and live founder programs across eight startup markets.",
   openGraph: {
     title: "Startup Atlas",
-    description: "India's source-backed startup capital and support map.",
+    description: "A source-backed global startup capital and support map.",
     type: "website",
     images: [
       {
-        url: "/startup-atlas-og.png",
-        width: 1729,
-        height: 910,
-        alt: "Startup Atlas — India's capital and support map",
+        url: "/startup-atlas-global-og.png",
+        width: 1731,
+        height: 909,
+        alt: "Startup Atlas — source-backed capital and support",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Startup Atlas",
-    description: "India's source-backed startup capital and support map.",
-    images: ["/startup-atlas-og.png"],
+    description: "A source-backed global startup capital and support map.",
+    images: ["/startup-atlas-global-og.png"],
   },
 };
 

@@ -24,6 +24,7 @@ jobs:
       - run: pnpm data:validate
       - run: pnpm data:coverage
       - run: pnpm data:check-freshness
+      - run: pnpm data:check-payload
       - run: pnpm test
       - run: pnpm lint
       - run: pnpm build

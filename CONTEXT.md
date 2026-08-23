@@ -24,9 +24,15 @@ _Avoid_: Organization, event
 A publicly documented office, campus, or incubation facility associated with an organization, angel, or program. A service area is not a location.
 _Avoid_: Coverage, geography
 
-**India-wide**:
-An organization, angel, or program that demonstrably serves Indian startups but has no public India location appropriate for a map pin.
-_Avoid_: Remote location, India pin
+**Market**:
+A country-level startup ecosystem, or Dubai when the requested ecosystem boundary is the emirate rather than the whole United Arab Emirates.
+_Avoid_: Country, region, geography
+
+The current target Markets are India (`IN`), United States (`US`), United Kingdom (`GB`), Dubai (`AE-DU`), Singapore (`SG`), Australia (`AU`), New Zealand (`NZ`), and Israel (`IL`). Physical locations retain ISO country codes, so Dubai locations use `AE` while their Market code remains `AE-DU`.
+
+**Market-wide**:
+An organization, angel, or program that demonstrably serves a Market but has no public location in that Market appropriate for a map pin.
+_Avoid_: Remote location, central pin, country-wide pin
 
 **Live Program**:
 A program accepting applications, explicitly accepting rolling interest, or scheduled to open within 90 days.
@@ -41,5 +47,9 @@ The geographic specificity of a map point: building, street, neighborhood, city,
 _Avoid_: Data confidence, verification status
 
 **Coverage Area**:
-A city, metro cluster, or region whose ecosystem sources and unresolved leads are tracked as one research unit.
+A city, metro cluster, emirate, or national cluster whose ecosystem sources and unresolved leads are tracked as one research unit within a Market.
 _Avoid_: Location, service area
+
+**Lead Batch**:
+An auditable group of records imported or reviewed from one discovery source, with discovered, included, excluded, and deferred totals. Deferred totals are the unresolved lead count for a Coverage Area.
+_Avoid_: Published profile, source evidence

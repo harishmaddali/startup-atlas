@@ -25,12 +25,14 @@ const item: MapItem = {
     precision: "building",
     city: "Bengaluru",
     state: "Karnataka",
+    marketCode: "IN",
+    countryCode: "IN",
   },
-  indiaWide: true,
+  marketWideCodes: ["IN"],
   sectors: ["climate"],
   stages: ["seed"],
   capabilities: ["market_access"],
-  chequeBand: "50l_2cr",
+  chequeBand: "50k_250k_usd",
   deliveryModes: ["hybrid"],
   programStatus: "open",
   searchText: "sample climate cohort scc bengaluru",
@@ -44,13 +46,14 @@ describe("map filtering", () => {
         ...DEFAULT_MAP_FILTERS,
         query: "SCC",
         layers: ["program"],
+        market: "IN",
         city: "Bengaluru",
         state: "Karnataka",
         sector: "climate",
         stage: "seed",
         subtype: "accelerator_cohort",
         capability: "market_access",
-        chequeBand: "50l_2cr",
+        chequeBand: "50k_250k_usd",
         deliveryMode: "hybrid",
         programStatus: "open",
       })
@@ -59,6 +62,7 @@ describe("map filtering", () => {
 
   it("rejects a mismatch in any active facet", () => {
     expect(matchesMapFilters(item, { ...DEFAULT_MAP_FILTERS, city: "Mumbai" })).toBe(false);
+    expect(matchesMapFilters(item, { ...DEFAULT_MAP_FILTERS, market: "US" })).toBe(false);
     expect(matchesMapFilters(item, { ...DEFAULT_MAP_FILTERS, programStatus: "upcoming" })).toBe(false);
   });
 

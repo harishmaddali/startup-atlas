@@ -4,6 +4,24 @@ const dateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const dateTimeSchema = z.string().datetime({ offset: true });
 const nullableUrlSchema = z.string().url().nullable().optional();
 
+export const marketCodeSchema = z.enum([
+  "IN",
+  "US",
+  "GB",
+  "AE-DU",
+  "SG",
+  "AU",
+  "NZ",
+  "IL",
+]);
+
+export const countryCodeSchema = z.string().regex(/^[A-Z]{2}$/);
+
+export const serviceMarketSchema = z.object({
+  marketCode: marketCodeSchema,
+  serviceMode: z.enum(["physical", "hybrid", "remote"]),
+}).strict();
+
 export const sourceClassSchema = z.enum([
   "regulator",
   "government_registry",
@@ -39,10 +57,11 @@ export const mapLocationSchema = z.object({
   district: z.string().min(2).nullable().optional(),
   state: z.string().min(2),
   postalCode: z.string().min(3).nullable().optional(),
-  countryCode: z.literal("IN"),
+  marketCode: marketCodeSchema,
+  countryCode: countryCodeSchema,
   coordinates: z.object({
-    lat: z.number().min(6).max(38),
-    lng: z.number().min(68).max(98),
+    lat: z.number().min(-90).max(90),
+    lng: z.number().min(-180).max(180),
   }),
   precision: locationPrecisionSchema.exclude(["none"]),
   evidenceUrl: z.string().url(),
@@ -92,8 +111,8 @@ export const investmentRangeSchema = z.object({
   max: z.number().positive().nullable(),
   currency: z.string().length(3),
   asStated: z.string().min(2),
-  approximateMinInr: z.number().nonnegative().nullable().optional(),
-  approximateMaxInr: z.number().positive().nullable().optional(),
+  approximateMinUsd: z.number().nonnegative().nullable().optional(),
+  approximateMaxUsd: z.number().positive().nullable().optional(),
   fxAsOf: dateSchema.nullable().optional(),
 }).strict();
 
@@ -109,7 +128,7 @@ export const ecosystemOrganizationSchema = z.object({
   website: z.string().url(),
   logoUrl: nullableUrlSchema,
   foundedYear: z.number().int().min(1900).max(2100).nullable().optional(),
-  indiaServiceMode: z.enum(["physical", "hybrid", "remote"]),
+  serviceMarkets: z.array(serviceMarketSchema).min(1),
   sectors: z.array(z.string().min(2)).default([]),
   stages: z.array(startupStageSchema).default([]),
   supportCapabilities: z.array(supportCapabilitySchema).default([]),
@@ -146,7 +165,7 @@ export const ecosystemPersonSchema = z.object({
   description: z.string().min(20),
   publicationState: z.enum(["published", "archived", "research"]),
   professionalLocation: mapLocationSchema.nullable(),
-  indiaServiceMode: z.enum(["physical", "hybrid", "remote"]),
+  serviceMarkets: z.array(serviceMarketSchema).min(1),
   sectors: z.array(z.string().min(2)).default([]),
   stages: z.array(startupStageSchema).default([]),
   investmentRange: investmentRangeSchema.nullable().optional(),
@@ -182,7 +201,8 @@ export const ecosystemProgramSchema = z
     publicationState: z.enum(["published", "archived", "research"]),
     deliveryMode: z.enum(["onsite", "hybrid", "remote"]),
     locationIds: z.array(z.string().min(2)).default([]),
-    panIndia: z.boolean(),
+    eligibleMarketCodes: z.array(marketCodeSchema).min(1),
+    marketWideCodes: z.array(marketCodeSchema).default([]),
     sectors: z.array(z.string().min(2)).default([]),
     stages: z.array(startupStageSchema).default([]),
     eligibility: z.string().min(10),
@@ -192,6 +212,7 @@ export const ecosystemProgramSchema = z
     applicationUrl: z.string().url(),
     opensAt: dateTimeSchema.nullable().optional(),
     applicationCloseAt: dateTimeSchema.nullable().optional(),
+    applicationsOpenAsOf: dateSchema.nullable().optional(),
     cohortStartsAt: dateTimeSchema.nullable().optional(),
     cohortEndsAt: dateTimeSchema.nullable().optional(),
     rolling: z.boolean(),
@@ -200,11 +221,17 @@ export const ecosystemProgramSchema = z
     nextReviewAt: dateSchema,
   }).strict()
   .superRefine((program, context) => {
-    if (!program.rolling && !program.opensAt && !program.applicationCloseAt) {
+    if (
+      !program.rolling &&
+      !program.opensAt &&
+      !program.applicationCloseAt &&
+      !program.applicationsOpenAsOf
+    ) {
       context.addIssue({
         code: "custom",
         path: ["applicationCloseAt"],
-        message: "A non-rolling program needs an opening or closing date",
+        message:
+          "A non-rolling program needs an opening date, closing date, or recently observed open status",
       });
     }
     if (program.rolling && program.applicationCloseAt) {
@@ -214,16 +241,47 @@ export const ecosystemProgramSchema = z
         message: "A rolling program cannot also have a fixed application deadline",
       });
     }
+    if (
+      program.applicationsOpenAsOf &&
+      (program.rolling || program.opensAt || program.applicationCloseAt)
+    ) {
+      context.addIssue({
+        code: "custom",
+        path: ["applicationsOpenAsOf"],
+        message:
+          "A source-observed open status cannot be combined with rolling or fixed application dates",
+      });
+    }
+    for (const marketCode of program.marketWideCodes) {
+      if (!program.eligibleMarketCodes.includes(marketCode)) {
+        context.addIssue({
+          code: "custom",
+          path: ["marketWideCodes"],
+          message: `${marketCode} cannot be market-wide without being eligible`,
+        });
+      }
+    }
   });
 
 export const coverageAreaSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
+  marketCode: marketCodeSchema,
   name: z.string().min(2),
+  scope: z.enum(["city", "metro", "emirate", "national_cluster"]),
   wave: z.number().int().min(1).max(4),
   sequence: z.number().int().positive(),
   includedDistricts: z.array(z.string().min(2)).min(1),
   status: z.enum(["planned", "researching", "review", "published"]),
   sourcesSwept: z.array(z.string().url()).default([]),
+  leadBatches: z.array(z.object({
+    label: z.string().min(2),
+    sourceUrl: z.string().url(),
+    discoveredCount: z.number().int().nonnegative(),
+    includedCount: z.number().int().nonnegative(),
+    excludedCount: z.number().int().nonnegative(),
+    deferredCount: z.number().int().nonnegative(),
+    notes: z.string().min(2).nullable().optional(),
+  }).strict()).default([]),
   unresolvedLeads: z.number().int().nonnegative(),
   counts: z.object({
     organizations: z.number().int().nonnegative(),
@@ -241,6 +299,7 @@ export const ecosystemProgramsSchema = z.array(ecosystemProgramSchema);
 export const coverageAreasSchema = z.array(coverageAreaSchema);
 
 export type SourceEvidence = z.infer<typeof sourceEvidenceSchema>;
+export type MarketCode = z.infer<typeof marketCodeSchema>;
 export type MapLocation = z.infer<typeof mapLocationSchema>;
 export type StartupStage = z.infer<typeof startupStageSchema>;
 export type OrganizationCategory = z.infer<typeof organizationCategorySchema>;
@@ -272,12 +331,19 @@ export interface MapItem {
     precision: z.infer<typeof locationPrecisionSchema>;
     city: string;
     state: string;
+    marketCode: MarketCode | null;
+    countryCode: string | null;
   } | null;
-  indiaWide: boolean;
+  marketWideCodes: MarketCode[];
   sectors: string[];
   stages: StartupStage[];
   capabilities: string[];
-  chequeBand: "under_50l" | "50l_2cr" | "2cr_10cr" | "10cr_plus" | null;
+  chequeBand:
+    | "under_50k_usd"
+    | "50k_250k_usd"
+    | "250k_1m_usd"
+    | "1m_plus_usd"
+    | null;
   deliveryModes: Array<"onsite" | "hybrid" | "remote">;
   programStatus: "upcoming" | "open" | "rolling" | null;
   searchText: string;
@@ -286,7 +352,9 @@ export interface MapItem {
 
 export interface CoverageSummary {
   id: string;
+  marketCode: MarketCode;
   name: string;
+  scope: CoverageArea["scope"];
   status: CoverageArea["status"];
   unresolvedLeads: number;
   lastSweepAt: string | null;

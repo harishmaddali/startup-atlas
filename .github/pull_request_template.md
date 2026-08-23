@@ -8,13 +8,14 @@
 
 ## Coverage impact
 
-<!-- Paste changed city/category counts and unresolved-lead changes from pnpm data:coverage. -->
+<!-- Paste changed market/city/category counts and unresolved-lead changes from pnpm data:coverage. -->
 
 ## Release checks
 
 - [ ] `pnpm data:validate`
 - [ ] `pnpm data:coverage`
 - [ ] `pnpm data:check-freshness`
+- [ ] `pnpm data:check-payload`
 - [ ] `pnpm test`
 - [ ] `pnpm lint`
 - [ ] `pnpm build`

@@ -31,23 +31,23 @@ import {
   type MapFilters,
 } from "@/lib/map-filtering";
 import {
-  INDIA_CENTER,
-  INDIA_DEFAULT_ZOOM,
   USER_LOCATION_ZOOM,
   WORLD_CENTER,
   WORLD_DEFAULT_ZOOM,
 } from "@/lib/geo";
+import { MARKETS, MARKET_BY_CODE } from "@/lib/markets";
 import {
   fetchApproximateUserLocation,
   hasInitialMapView,
   markInitialMapViewSet,
 } from "@/lib/user-location";
-import type { CoverageSummary, MapItem, MapLayer, StartupStage } from "@/types/ecosystem";
+import type { CoverageSummary, MapItem, MapLayer, MarketCode, StartupStage } from "@/types/ecosystem";
 
 const LIST_CAP = 200;
 const LIGHT_TILE_URL = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
 const DARK_TILE_URL = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
-const VALID_CHEQUE_BANDS = ["under_50l", "50l_2cr", "2cr_10cr", "10cr_plus"] as const;
+const VALID_CHEQUE_BANDS = ["under_50k_usd", "50k_250k_usd", "250k_1m_usd", "1m_plus_usd"] as const;
+const VALID_MARKETS = MARKETS.map((market) => market.code);
 const VALID_STAGES: StartupStage[] = [
   "idea",
   "pre_seed",
@@ -62,7 +62,7 @@ const markerPresentation: Record<
   { color: string; radius: string; glyph: string }
 > = {
   startup: { color: "#2563eb", radius: "9999px", glyph: "S" },
-  investor: { color: "#7c3aed", radius: "7px", glyph: "₹" },
+  investor: { color: "#7c3aed", radius: "7px", glyph: "$" },
   support: { color: "#0f766e", radius: "2px", glyph: "+" },
   angel: { color: "#d97706", radius: "9999px", glyph: "A" },
   program: { color: "#059669", radius: "9px 2px 9px 2px", glyph: "P" },
@@ -137,11 +137,11 @@ function InitialViewController() {
 
 function MapController({
   selected,
-  indiaZoomRequest,
+  marketZoomRequest,
   onBoundsChange,
 }: {
   selected: MapItem | null;
-  indiaZoomRequest: number;
+  marketZoomRequest: { sequence: number; marketCode: MarketCode };
   onBoundsChange: (bounds: LatLngBounds) => void;
 }) {
   const map = useMapEvents({ moveend: () => onBoundsChange(map.getBounds()) });
@@ -157,11 +157,13 @@ function MapController({
   }, [map, selected]);
 
   useEffect(() => {
-    if (indiaZoomRequest === 0) return;
-    map.flyTo([INDIA_CENTER.lat, INDIA_CENTER.lng], INDIA_DEFAULT_ZOOM, {
+    if (marketZoomRequest.sequence === 0) return;
+    const market = MARKET_BY_CODE.get(marketZoomRequest.marketCode);
+    if (!market) return;
+    map.flyTo([market.center.lat, market.center.lng], market.zoom, {
       duration: 0.9,
     });
-  }, [indiaZoomRequest, map]);
+  }, [marketZoomRequest, map]);
 
   return null;
 }
@@ -174,10 +176,14 @@ function initialFilters(): MapFilters {
     .filter((layer): layer is MapLayer => ALL_LAYERS.includes(layer as MapLayer));
   const requestedStage = params.get("stage") ?? "";
   const requestedChequeBand = params.get("cheque") ?? "";
+  const requestedMarket = params.get("market") ?? "";
 
   return {
     query: params.get("search") ?? "",
     layers: requestedLayers.length > 0 ? requestedLayers : ALL_LAYERS,
+    market: VALID_MARKETS.includes(requestedMarket as MarketCode)
+      ? (requestedMarket as MarketCode)
+      : "",
     sector: params.get("sector") ?? "",
     stage: VALID_STAGES.includes(requestedStage as StartupStage)
       ? (requestedStage as StartupStage)
@@ -216,6 +222,7 @@ function syncUrl(filters: MapFilters, selected: MapItem | null) {
   const params = new URLSearchParams();
   if (filters.query) params.set("search", filters.query);
   if (filters.layers.length !== ALL_LAYERS.length) params.set("layers", filters.layers.join(","));
+  if (filters.market) params.set("market", filters.market);
   if (filters.sector) params.set("sector", filters.sector);
   if (filters.stage) params.set("stage", filters.stage);
   if (filters.city) params.set("city", filters.city);
@@ -244,7 +251,10 @@ export function StartupMap({
   const [selected, setSelected] = useState<MapItem | null>(() => selectedFromUrl(items));
   const [hoveredEntityKey, setHoveredEntityKey] = useState<string | null>(null);
   const [mobileDirectoryOpen, setMobileDirectoryOpen] = useState(false);
-  const [indiaZoomRequest, setIndiaZoomRequest] = useState(0);
+  const [marketZoomRequest, setMarketZoomRequest] = useState<{
+    sequence: number;
+    marketCode: MarketCode;
+  }>({ sequence: 0, marketCode: "IN" });
 
   useEffect(() => {
     syncUrl(filters, selected);
@@ -267,14 +277,17 @@ export function StartupMap({
   );
   const visible = useMemo(() => uniqueEntities(inView).slice(0, LIST_CAP), [inView]);
   const visibleEntityKeys = useMemo(() => new Set(visible.map(entityKey)), [visible]);
-  const indiaWideItems = useMemo(
+  const marketWideItems = useMemo(
     () =>
       uniqueEntities(
         matching.filter(
-          (item) => item.indiaWide && !visibleEntityKeys.has(entityKey(item))
+          (item) =>
+            item.marketWideCodes.length > 0 &&
+            (!filters.market || item.marketWideCodes.includes(filters.market)) &&
+            !visibleEntityKeys.has(entityKey(item))
         )
       ).slice(0, LIST_CAP),
-    [matching, visibleEntityKeys]
+    [filters.market, matching, visibleEntityKeys]
   );
 
   const selectItem = useCallback((item: MapItem) => {
@@ -288,7 +301,7 @@ export function StartupMap({
     allItems: items,
     coverage,
     items: visible,
-    indiaWideItems,
+    marketWideItems,
     totalMatchingPins: matchingPins.length,
     filters,
     selectedEntityKey: selected ? entityKey(selected) : null,
@@ -296,7 +309,11 @@ export function StartupMap({
     onFiltersChange: setFilters,
     onSelect: selectItem,
     onHover: setHoveredEntityKey,
-    onIndiaZoom: () => setIndiaZoomRequest((request) => request + 1),
+    onMarketZoom: (marketCode: MarketCode) =>
+      setMarketZoomRequest((request) => ({
+        sequence: request.sequence + 1,
+        marketCode,
+      })),
   };
 
   return (
@@ -323,7 +340,7 @@ export function StartupMap({
           <InitialViewController />
           <MapController
             selected={selected}
-            indiaZoomRequest={indiaZoomRequest}
+            marketZoomRequest={marketZoomRequest}
             onBoundsChange={setMapBounds}
           />
           <MarkerClusterGroup
@@ -363,8 +380,13 @@ export function StartupMap({
             variant="outline"
             size="icon"
             className="size-11 rounded-xl bg-background shadow-lg"
-            onClick={() => setIndiaZoomRequest((request) => request + 1)}
-            aria-label="Zoom map to India"
+            onClick={() =>
+              setMarketZoomRequest((request) => ({
+                sequence: request.sequence + 1,
+                marketCode: filters.market || "IN",
+              }))
+            }
+            aria-label={`Zoom map to ${MARKET_BY_CODE.get(filters.market || "IN")?.label}`}
           >
             <MapPinned />
           </Button>

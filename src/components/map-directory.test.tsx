@@ -5,7 +5,7 @@ import { DEFAULT_MAP_FILTERS } from "@/lib/map-filtering";
 import type { MapItem } from "@/types/ecosystem";
 
 const program: MapItem = {
-  key: "program:founder-program:india-wide",
+  key: "program:founder-program:market-wide",
   entityId: "founder-program",
   entityKind: "program",
   layers: ["program"],
@@ -15,7 +15,7 @@ const program: MapItem = {
   description: "A source-backed accelerator opportunity.",
   logoUrl: null,
   pin: null,
-  indiaWide: true,
+  marketWideCodes: ["IN"],
   sectors: ["healthcare"],
   stages: ["seed"],
   capabilities: ["mentorship"],
@@ -27,7 +27,7 @@ const program: MapItem = {
 };
 
 describe("MapDirectory", () => {
-  it("shows layers, counts, India-wide results, and emits search/filter changes", () => {
+  it("shows layers, counts, market-wide results, and emits search/filter changes", () => {
     const onFiltersChange = vi.fn();
     const onSelect = vi.fn();
     render(
@@ -35,7 +35,7 @@ describe("MapDirectory", () => {
         allItems={[program]}
         coverage={[]}
         items={[]}
-        indiaWideItems={[program]}
+        marketWideItems={[program]}
         totalMatchingPins={0}
         filters={DEFAULT_MAP_FILTERS}
         selectedEntityKey={null}
@@ -43,11 +43,11 @@ describe("MapDirectory", () => {
         onFiltersChange={onFiltersChange}
         onSelect={onSelect}
         onHover={() => undefined}
-        onIndiaZoom={() => undefined}
+        onMarketZoom={() => undefined}
       />
     );
 
-    expect(screen.getByText("Available India-wide")).toBeInTheDocument();
+    expect(screen.getByText("Available market-wide")).toBeInTheDocument();
     expect(screen.getByText("Founder Program")).toBeInTheDocument();
     expect(screen.getByText("0 matching pins")).toBeInTheDocument();
 

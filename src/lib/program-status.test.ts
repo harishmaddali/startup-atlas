@@ -38,6 +38,22 @@ describe("program status", () => {
     expect(isLiveProgram(subject)).toBe(true);
   });
 
+  it("expires a source-observed open call after its 14-day verification window", () => {
+    const subject = program({
+      rolling: false,
+      opensAt: null,
+      applicationCloseAt: null,
+      applicationsOpenAsOf: "2026-08-24",
+    });
+
+    expect(getProgramStatus(subject, new Date("2026-09-07T23:59:59.999Z"))).toBe(
+      "open"
+    );
+    expect(getProgramStatus(subject, new Date("2026-09-08T00:00:00Z"))).toBe(
+      "closed"
+    );
+  });
+
   it("does not expose archived records", () => {
     expect(getProgramStatus(program({ publicationState: "archived", rolling: true }))).toBe("closed");
   });

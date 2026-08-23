@@ -9,6 +9,7 @@ import { CompanyLogo } from "@/components/company-logo";
 import { Separator } from "@/components/ui/separator";
 import { getProgramStatus } from "@/lib/program-status";
 import { humanize } from "@/lib/map-filtering";
+import { marketLabel } from "@/lib/markets";
 import type { MapEntity, MapItem, SourceEvidence } from "@/types/ecosystem";
 
 export function EntitySheet({ item, onClose }: { item: MapItem; onClose: () => void }) {
@@ -136,7 +137,13 @@ function EntityDetails({ entity, item }: { entity: MapEntity; item: MapItem }) {
           <DetailGrid rows={[["Published cheque", organization.investmentRange.asStated], ["Preference", organization.investmentPreference ? humanize(organization.investmentPreference) : "Not stated"]]} />
         )}
         <TagSection title="Organization types" values={organization.categories} />
-        <TextSection title="India locations">
+        <TagSection
+          title="Markets served"
+          values={organization.serviceMarkets.map(
+            (market) => `${marketLabel(market.marketCode)} · ${humanize(market.serviceMode)}`
+          )}
+        />
+        <TextSection title="Public locations">
           <ul className="grid gap-1.5">
             {organization.locations.map((location) => (
               <li
@@ -197,7 +204,7 @@ function EntityDetails({ entity, item }: { entity: MapEntity; item: MapItem }) {
         <TagSection title="Sectors" values={person.sectors} />
         <TagSection title="Stages" values={person.stages} />
         <TextSection title="Selected disclosed investments">{person.notableInvestments.join(", ")}</TextSection>
-        <DetailGrid rows={[["Recent activity", person.lastInvestmentActivityAt], ["Professional location", person.professionalLocation ? `${person.professionalLocation.city}, ${person.professionalLocation.state}` : "India-wide"], ["Published cheque", person.investmentRange?.asStated ?? "Not stated"], ["Affiliations", entity.organizations.map((organization) => organization.name).join(", ") || "Not listed"]]} />
+        <DetailGrid rows={[["Recent activity", person.lastInvestmentActivityAt], ["Professional location", person.professionalLocation ? `${person.professionalLocation.city}, ${person.professionalLocation.state}` : `${person.serviceMarkets.map((market) => marketLabel(market.marketCode)).join(", ")}-wide`], ["Published cheque", person.investmentRange?.asStated ?? "Not stated"], ["Affiliations", entity.organizations.map((organization) => organization.name).join(", ") || "Not listed"]]} />
         <div className="flex flex-wrap gap-2">
           {person.website && <PrimaryLink href={person.website}>Professional profile</PrimaryLink>}
           {person.linkedinUrl && <SecondaryLink href={person.linkedinUrl}>LinkedIn</SecondaryLink>}
@@ -275,5 +282,5 @@ function PrecisionNotice({ children }: { children: React.ReactNode }) {
 }
 
 function formatDate(value: string) {
-  return new Intl.DateTimeFormat("en-IN", { dateStyle: "medium", timeZone: "Asia/Kolkata" }).format(new Date(value));
+  return new Intl.DateTimeFormat("en", { dateStyle: "medium", timeStyle: "short" }).format(new Date(value));
 }

@@ -11,7 +11,8 @@
     "test:e2e": "playwright test",
     "data:validate": "node --import tsx scripts/data-validate.ts",
     "data:coverage": "node --import tsx scripts/data-coverage.ts",
-    "data:check-freshness": "node --import tsx scripts/data-check-freshness.ts"
+    "data:check-freshness": "node --import tsx scripts/data-check-freshness.ts",
+    "data:check-payload": "node --import tsx scripts/data-check-payload.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

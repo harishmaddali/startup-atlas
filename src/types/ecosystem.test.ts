@@ -12,14 +12,18 @@ import {
 
 describe("ecosystem schemas", () => {
   it("accepts every committed organization, angel, and program", () => {
-    expect(ecosystemOrganizationsSchema.parse(organizationsJson)).toHaveLength(14);
-    expect(ecosystemPeopleSchema.parse(peopleJson)).toHaveLength(3);
-    expect(ecosystemProgramsSchema.parse(programsJson)).toHaveLength(6);
+    expect(ecosystemOrganizationsSchema.parse(organizationsJson)).toHaveLength(
+      organizationsJson.length
+    );
+    expect(ecosystemPeopleSchema.parse(peopleJson)).toHaveLength(peopleJson.length);
+    expect(ecosystemProgramsSchema.parse(programsJson)).toHaveLength(programsJson.length);
   });
 
-  it("rejects out-of-India coordinates and missing evidence", () => {
-    const organization = structuredClone(organizationsJson[0]);
-    organization.locations[0].coordinates.lat = 51.5;
+  it("rejects out-of-range coordinates and missing evidence", () => {
+    const organization = structuredClone(
+      ecosystemOrganizationSchema.parse(organizationsJson[0])
+    );
+    organization.locations[0].coordinates.lat = 95;
     organization.evidence = [];
     expect(ecosystemOrganizationSchema.safeParse(organization).success).toBe(false);
   });
@@ -32,5 +36,16 @@ describe("ecosystem schemas", () => {
   it("rejects rolling programs that also publish a fixed deadline", () => {
     const program = { ...structuredClone(programsJson[0]), rolling: true };
     expect(ecosystemProgramSchema.safeParse(program).success).toBe(false);
+  });
+
+  it("accepts a recently observed open call without mislabeling it as rolling", () => {
+    const program = {
+      ...structuredClone(programsJson[0]),
+      rolling: false,
+      opensAt: null,
+      applicationCloseAt: null,
+      applicationsOpenAsOf: "2026-08-24",
+    };
+    expect(ecosystemProgramSchema.safeParse(program).success).toBe(true);
   });
 });

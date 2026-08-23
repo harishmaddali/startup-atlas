@@ -17,16 +17,34 @@
       "state": "Delhi",
       "postalCode": null,
       "countryCode": "IN",
-      "coordinates": { "lat": 28.6139, "lng": 77.209 },
+      "coordinates": {
+        "lat": 28.6139,
+        "lng": 77.209
+      },
       "precision": "city",
       "evidenceUrl": "https://www.titancapital.vc/kunal-bahl/",
-      "verifiedAt": "2026-08-24"
+      "verifiedAt": "2026-08-24",
+      "marketCode": "IN"
     },
-    "indiaServiceMode": "hybrid",
-    "sectors": ["consumer", "healthtech", "fintech", "saas", "b2b"],
-    "stages": ["pre_seed", "seed"],
+    "sectors": [
+      "consumer",
+      "healthtech",
+      "fintech",
+      "saas",
+      "b2b"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
     "investmentRange": null,
-    "notableInvestments": ["Urban Company", "Razorpay", "Mamaearth", "Ola", "OfBusiness"],
+    "notableInvestments": [
+      "Urban Company",
+      "Razorpay",
+      "Mamaearth",
+      "Ola",
+      "OfBusiness"
+    ],
     "organizationIds": [],
     "website": "https://www.titancapital.vc/kunal-bahl/",
     "linkedinUrl": "https://www.linkedin.com/in/kunalbahl/",
@@ -38,7 +56,11 @@
         "publisher": "Titan Capital",
         "sourceClass": "official_website",
         "checkedAt": "2026-08-24",
-        "supports": ["professional identity", "investment activity", "portfolio"]
+        "supports": [
+          "professional identity",
+          "investment activity",
+          "portfolio"
+        ]
       },
       {
         "url": "https://www.youtube.com/watch?v=M5SRwdWHb5g",
@@ -46,11 +68,20 @@
         "publisher": "Angel One",
         "sourceClass": "official_announcement",
         "checkedAt": "2026-08-24",
-        "supports": ["2025 investment activity", "investment strategy"]
+        "supports": [
+          "2025 investment activity",
+          "investment strategy"
+        ]
       }
     ],
     "lastVerifiedAt": "2026-08-24",
-    "nextReviewAt": "2026-12-22"
+    "nextReviewAt": "2026-12-22",
+    "serviceMarkets": [
+      {
+        "marketCode": "IN",
+        "serviceMode": "hybrid"
+      }
+    ]
   },
   {
     "id": "namita-thapar",
@@ -70,16 +101,31 @@
       "state": "Maharashtra",
       "postalCode": null,
       "countryCode": "IN",
-      "coordinates": { "lat": 18.5204, "lng": 73.8567 },
+      "coordinates": {
+        "lat": 18.5204,
+        "lng": 73.8567
+      },
       "precision": "city",
       "evidenceUrl": "https://www.emcure.com/leadership/",
-      "verifiedAt": "2026-08-24"
+      "verifiedAt": "2026-08-24",
+      "marketCode": "IN"
     },
-    "indiaServiceMode": "hybrid",
-    "sectors": ["healthcare", "consumer", "technology"],
-    "stages": ["pre_seed", "seed", "series_a"],
+    "sectors": [
+      "healthcare",
+      "consumer",
+      "technology"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
     "investmentRange": null,
-    "notableInvestments": ["The Bear House", "Janitri", "NeoSapien"],
+    "notableInvestments": [
+      "The Bear House",
+      "Janitri",
+      "NeoSapien"
+    ],
     "organizationIds": [],
     "website": "https://www.emcure.com/leadership/",
     "linkedinUrl": "https://www.linkedin.com/in/namita-thapar/",
@@ -91,7 +137,10 @@
         "publisher": "Emcure Pharmaceuticals",
         "sourceClass": "official_website",
         "checkedAt": "2026-08-24",
-        "supports": ["professional identity", "Pune professional affiliation"]
+        "supports": [
+          "professional identity",
+          "Pune professional affiliation"
+        ]
       },
       {
         "url": "https://indianexpress.com/article/entertainment/television/shark-tank-india-namita-thapar-best-investments-bear-house-arata-janitri-valuation-10559094/",
@@ -99,11 +148,20 @@
         "publisher": "The Indian Express",
         "sourceClass": "reputable_news",
         "checkedAt": "2026-08-24",
-        "supports": ["2026 investment activity", "notable investments"]
+        "supports": [
+          "2026 investment activity",
+          "notable investments"
+        ]
       }
     ],
     "lastVerifiedAt": "2026-08-24",
-    "nextReviewAt": "2026-12-22"
+    "nextReviewAt": "2026-12-22",
+    "serviceMarkets": [
+      {
+        "marketCode": "IN",
+        "serviceMode": "hybrid"
+      }
+    ]
   },
   {
     "id": "rajan-anandan",
@@ -123,16 +181,32 @@
       "state": "Karnataka",
       "postalCode": null,
       "countryCode": "IN",
-      "coordinates": { "lat": 12.9716, "lng": 77.5946 },
+      "coordinates": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
       "precision": "city",
       "evidenceUrl": "https://www.peakxv.com/people/rajan-anandan/",
-      "verifiedAt": "2026-08-24"
+      "verifiedAt": "2026-08-24",
+      "marketCode": "IN"
     },
-    "indiaServiceMode": "hybrid",
-    "sectors": ["deeptech", "saas", "consumer", "technology"],
-    "stages": ["pre_seed", "seed", "series_a"],
+    "sectors": [
+      "deeptech",
+      "saas",
+      "consumer",
+      "technology"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
     "investmentRange": null,
-    "notableInvestments": ["WebEngage", "Uniphore", "Druva"],
+    "notableInvestments": [
+      "WebEngage",
+      "Uniphore",
+      "Druva"
+    ],
     "organizationIds": [],
     "website": "https://www.peakxv.com/people/rajan-anandan/",
     "linkedinUrl": "https://www.linkedin.com/in/rajan-anandan/",
@@ -144,7 +218,10 @@
         "publisher": "Peak XV Partners",
         "sourceClass": "official_website",
         "checkedAt": "2026-08-24",
-        "supports": ["professional identity", "investment role"]
+        "supports": [
+          "professional identity",
+          "investment role"
+        ]
       },
       {
         "url": "https://yourstory.com/2025/04/best-time-angel-investor-says-peak-xvs-rajan-anandan-indias-deep-tech-boom",
@@ -152,7 +229,570 @@
         "publisher": "YourStory",
         "sourceClass": "reputable_news",
         "checkedAt": "2026-08-24",
-        "supports": ["2025 angel activity", "deeptech focus"]
+        "supports": [
+          "2025 angel activity",
+          "deeptech focus"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-12-22",
+    "serviceMarkets": [
+      {
+        "marketCode": "IN",
+        "serviceMode": "hybrid"
+      }
+    ]
+  },
+  {
+    "id": "mark-cuban",
+    "kind": "person",
+    "role": "angel",
+    "name": "Mark Cuban",
+    "aliases": [],
+    "description": "US entrepreneur and active personal investor whose public portfolio spans technology, healthcare, consumer products, media, and other startup categories.",
+    "publicationState": "published",
+    "professionalLocation": null,
+    "serviceMarkets": [
+      {
+        "marketCode": "US",
+        "serviceMode": "remote"
+      }
+    ],
+    "sectors": [
+      "technology",
+      "healthcare",
+      "consumer",
+      "media",
+      "artificial_intelligence"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "investmentRange": null,
+    "notableInvestments": [
+      "Clipbook",
+      "Mark Cuban Cost Plus Drug Company",
+      "PadSplit",
+      "Synthesia"
+    ],
+    "organizationIds": [],
+    "website": "https://markcubancompanies.com/companies/",
+    "linkedinUrl": "https://www.linkedin.com/in/mark-cuban-06a0755b/",
+    "lastInvestmentActivityAt": "2025-12-01",
+    "evidence": [
+      {
+        "url": "https://markcubancompanies.com/companies/clipbook/",
+        "title": "Clipbook portfolio profile",
+        "publisher": "Mark Cuban Companies",
+        "sourceClass": "official_portfolio",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "professional identity",
+          "portfolio",
+          "Clipbook investment"
+        ]
+      },
+      {
+        "url": "https://techcrunch.com/2025/12/01/how-ai-pr-startup-clipbook-won-mark-cubans-investment-from-a-cold-email/",
+        "title": "How AI PR startup Clipbook won Mark Cuban's investment",
+        "publisher": "TechCrunch",
+        "sourceClass": "reputable_news",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "2025 personal investment activity",
+          "Clipbook seed round"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-12-22"
+  },
+  {
+    "id": "tom-blomfield",
+    "kind": "person",
+    "role": "angel",
+    "name": "Tom Blomfield",
+    "aliases": [],
+    "description": "Monzo and GoCardless co-founder, Y Combinator partner, and prolific early-stage angel with disclosed investments in UK and US startups.",
+    "publicationState": "published",
+    "professionalLocation": {
+      "id": "tom-blomfield-san-francisco",
+      "role": "office",
+      "label": "Public professional city",
+      "address": null,
+      "city": "San Francisco",
+      "district": null,
+      "state": "California",
+      "postalCode": null,
+      "marketCode": "US",
+      "countryCode": "US",
+      "coordinates": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "precision": "city",
+      "evidenceUrl": "https://tomblomfield.com/",
+      "verifiedAt": "2026-08-24"
+    },
+    "serviceMarkets": [
+      {
+        "marketCode": "US",
+        "serviceMode": "physical"
+      },
+      {
+        "marketCode": "GB",
+        "serviceMode": "remote"
+      }
+    ],
+    "sectors": [
+      "fintech",
+      "saas",
+      "artificial_intelligence",
+      "technology"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "investmentRange": null,
+    "notableInvestments": [
+      "Valla",
+      "Gradient Labs",
+      "Sona",
+      "Pento"
+    ],
+    "organizationIds": [
+      "y-combinator"
+    ],
+    "website": "https://tomblomfield.com/",
+    "linkedinUrl": "https://www.linkedin.com/in/tomblomfield/",
+    "lastInvestmentActivityAt": "2025-06-02",
+    "evidence": [
+      {
+        "url": "https://www.ycombinator.com/people/tom-blomfield",
+        "title": "Tom Blomfield — YC Partner",
+        "publisher": "Y Combinator",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "professional identity",
+          "current investing role",
+          "founder background"
+        ]
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/tom-blomfield",
+        "title": "Tom Blomfield investments",
+        "publisher": "CB Insights",
+        "sourceClass": "reputable_news",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "2025 personal investment activity",
+          "Valla investment",
+          "angel portfolio"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-12-22"
+  },
+  {
+    "id": "murali-kulala",
+    "kind": "person",
+    "role": "angel",
+    "name": "Murali Kulala",
+    "aliases": [],
+    "description": "Technology executive and angel investor who participated personally in the 2025 financing of Dubai-based tokenization startup Byzanlink.",
+    "publicationState": "published",
+    "professionalLocation": {
+      "id": "murali-kulala-somerset",
+      "role": "office",
+      "label": "Public professional city",
+      "address": null,
+      "city": "Somerset",
+      "district": null,
+      "state": "New Jersey",
+      "postalCode": null,
+      "marketCode": "US",
+      "countryCode": "US",
+      "coordinates": {
+        "lat": 40.4976,
+        "lng": -74.4885
+      },
+      "precision": "city",
+      "evidenceUrl": "https://smartitframe.com/about/",
+      "verifiedAt": "2026-08-24"
+    },
+    "serviceMarkets": [
+      {
+        "marketCode": "US",
+        "serviceMode": "physical"
+      },
+      {
+        "marketCode": "AE-DU",
+        "serviceMode": "remote"
+      }
+    ],
+    "sectors": [
+      "fintech",
+      "blockchain",
+      "artificial_intelligence",
+      "enterprise_software"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "investmentRange": null,
+    "notableInvestments": [
+      "Byzanlink"
+    ],
+    "organizationIds": [],
+    "website": "https://smartitframe.com/about/",
+    "linkedinUrl": "https://www.linkedin.com/in/murali-kulala",
+    "lastInvestmentActivityAt": "2025-06-26",
+    "evidence": [
+      {
+        "url": "https://smartitframe.com/about/",
+        "title": "Smart IT Frame leadership",
+        "publisher": "Smart IT Frame",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "professional identity",
+          "chief executive role",
+          "public professional location"
+        ]
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2025/06/26/3106064/0/en/byzanlink-secures-1m-in-private-investment-to-build-next-gen-infrastructure-for-tokenized-finance.html",
+        "title": "Byzanlink secures $1M in private investment",
+        "publisher": "Byzanlink",
+        "sourceClass": "official_announcement",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "2025 personal investment activity",
+          "Dubai startup activity",
+          "Byzanlink investment"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-12-22"
+  },
+  {
+    "id": "steve-melhuish",
+    "kind": "person",
+    "role": "angel",
+    "name": "Steve Melhuish",
+    "aliases": [],
+    "description": "PropertyGuru co-founder, climate-tech investor, and active angel who has backed more than 25 startups and funds across Asia and beyond.",
+    "publicationState": "published",
+    "professionalLocation": null,
+    "serviceMarkets": [
+      {
+        "marketCode": "SG",
+        "serviceMode": "remote"
+      }
+    ],
+    "sectors": [
+      "climate_tech",
+      "agritech",
+      "proptech",
+      "impact"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "investmentRange": null,
+    "notableInvestments": [
+      "Agros",
+      "Lhoopa",
+      "TablePointer"
+    ],
+    "organizationIds": [],
+    "website": "https://wavemakerimpact.com/team/",
+    "linkedinUrl": "https://www.linkedin.com/in/stevemelhuish/",
+    "lastInvestmentActivityAt": "2025-03-11",
+    "evidence": [
+      {
+        "url": "https://wavemakerimpact.com/team/",
+        "title": "Steve Melhuish — Founding Partner",
+        "publisher": "Wavemaker Impact",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "professional identity",
+          "angel role",
+          "climate-tech portfolio"
+        ]
+      },
+      {
+        "url": "https://www.agrosglobal.com/files/Agros-Series-A-Press-Release.pdf",
+        "title": "Agros closes US$4.25M Series A",
+        "publisher": "Agros",
+        "sourceClass": "official_announcement",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "2025 personal investment activity",
+          "Singapore startup activity",
+          "Agros investment"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-12-22"
+  },
+  {
+    "id": "cheryl-mack",
+    "kind": "person",
+    "role": "angel",
+    "name": "Cheryl Mack",
+    "aliases": [],
+    "description": "Sydney-based angel, syndicate lead, and early-stage ecosystem operator with more than 30 disclosed startup investments.",
+    "publicationState": "published",
+    "professionalLocation": {
+      "id": "cheryl-mack-sydney",
+      "role": "office",
+      "label": "Public professional city",
+      "address": null,
+      "city": "Sydney",
+      "district": null,
+      "state": "New South Wales",
+      "postalCode": null,
+      "marketCode": "AU",
+      "countryCode": "AU",
+      "coordinates": {
+        "lat": -33.8688,
+        "lng": 151.2093
+      },
+      "precision": "city",
+      "evidenceUrl": "https://www.linkedin.com/in/cherylmack",
+      "verifiedAt": "2026-08-24"
+    },
+    "serviceMarkets": [
+      {
+        "marketCode": "AU",
+        "serviceMode": "hybrid"
+      }
+    ],
+    "sectors": [
+      "b2b",
+      "fintech",
+      "martech",
+      "hrtech"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "investmentRange": {
+      "min": 1000,
+      "max": 25000,
+      "currency": "USD",
+      "asStated": "US$1,000–US$25,000 published range",
+      "approximateMinUsd": 1000,
+      "approximateMaxUsd": 25000,
+      "fxAsOf": null
+    },
+    "notableInvestments": [
+      "Cake Equity",
+      "Upflowy",
+      "Tiliter",
+      "Bridge"
+    ],
+    "organizationIds": [],
+    "website": "https://www.ventari.com/about",
+    "linkedinUrl": "https://www.linkedin.com/in/cherylmack",
+    "lastInvestmentActivityAt": "2024-12-05",
+    "evidence": [
+      {
+        "url": "https://www.ventari.com/about",
+        "title": "Cheryl Mack — Co-Founder and CEO",
+        "publisher": "Ventari",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "professional identity",
+          "active angel role",
+          "investment count",
+          "syndicate activity"
+        ]
+      },
+      {
+        "url": "https://www.airtree.vc/open-source-vc/the-halo-effect-cheryl-mack",
+        "title": "The Halo Effect — Cheryl Mack",
+        "publisher": "Airtree Ventures",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "recent angel activity",
+          "investment focus",
+          "portfolio"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-12-22"
+  },
+  {
+    "id": "janine-grainger",
+    "kind": "person",
+    "role": "angel",
+    "name": "Janine Grainger",
+    "aliases": [],
+    "description": "New Zealand fintech founder, director, startup mentor, and disclosed early-stage investor in Wellington-based family administration startup PAM.",
+    "publicationState": "published",
+    "professionalLocation": {
+      "id": "janine-grainger-auckland",
+      "role": "office",
+      "label": "Public professional city",
+      "address": null,
+      "city": "Auckland",
+      "district": null,
+      "state": "Auckland",
+      "postalCode": null,
+      "marketCode": "NZ",
+      "countryCode": "NZ",
+      "coordinates": {
+        "lat": -36.8509,
+        "lng": 174.7645
+      },
+      "precision": "city",
+      "evidenceUrl": "https://www.callaghaninnovation.govt.nz/about-us/sir-paul-callaghan-100-report/all-companies/easycrypto/",
+      "verifiedAt": "2026-08-24"
+    },
+    "serviceMarkets": [
+      {
+        "marketCode": "NZ",
+        "serviceMode": "hybrid"
+      }
+    ],
+    "sectors": [
+      "fintech",
+      "consumer",
+      "web3",
+      "software"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "investmentRange": null,
+    "notableInvestments": [
+      "PAM"
+    ],
+    "organizationIds": [],
+    "website": "https://www.fintechhui.nz/janine-grainger/",
+    "linkedinUrl": "https://www.linkedin.com/in/janine-grainger/",
+    "lastInvestmentActivityAt": "2025-10-07",
+    "evidence": [
+      {
+        "url": "https://www.callaghaninnovation.govt.nz/about-us/sir-paul-callaghan-100-report/all-companies/easycrypto/",
+        "title": "Easy Crypto founder profile",
+        "publisher": "Callaghan Innovation",
+        "sourceClass": "government_registry",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "professional identity",
+          "Auckland professional location",
+          "founder background"
+        ]
+      },
+      {
+        "url": "https://m.scoop.co.nz/stories/BU2510/S00110/nz-app-pam-attracts-570k-investment-to-tack-the-mental-load-of-parenthood.htm",
+        "title": "NZ app PAM attracts NZ$570k investment",
+        "publisher": "PAM Personal Admin Manager",
+        "sourceClass": "official_announcement",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "2025 personal investment activity",
+          "PAM investment",
+          "board appointment"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-12-22"
+  },
+  {
+    "id": "gigi-levy-weiss",
+    "kind": "person",
+    "role": "angel",
+    "name": "Gigi Levy-Weiss",
+    "aliases": [
+      "Gigi Levy"
+    ],
+    "description": "Israeli founder, NFX partner, and prolific angel whose disclosed personal portfolio spans gaming, marketplaces, fintech, SaaS, and consumer technology.",
+    "publicationState": "published",
+    "professionalLocation": null,
+    "serviceMarkets": [
+      {
+        "marketCode": "IL",
+        "serviceMode": "hybrid"
+      }
+    ],
+    "sectors": [
+      "gaming",
+      "marketplaces",
+      "fintech",
+      "saas",
+      "consumer"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "investmentRange": {
+      "min": 50000,
+      "max": 250000,
+      "currency": "USD",
+      "asStated": "US$50,000–US$250,000 published angel range",
+      "approximateMinUsd": 50000,
+      "approximateMaxUsd": 250000,
+      "fxAsOf": null
+    },
+    "notableInvestments": [
+      "Faireez",
+      "Similarweb",
+      "Marqeta",
+      "Plarium"
+    ],
+    "organizationIds": [],
+    "website": "https://www.nfx.com/team/gigi-levy-weiss",
+    "linkedinUrl": "https://www.linkedin.com/in/gigilevy/",
+    "lastInvestmentActivityAt": "2025-03-06",
+    "evidence": [
+      {
+        "url": "https://www.nfx.com/team/gigi-levy-weiss",
+        "title": "Gigi Levy-Weiss — General Partner",
+        "publisher": "NFX",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "professional identity",
+          "Israel investing role",
+          "angel portfolio",
+          "sector focus"
+        ]
+      },
+      {
+        "url": "https://finder.startupnationcentral.org/investor_page/gigi-levy-weiss",
+        "title": "Gigi Levy-Weiss investor profile",
+        "publisher": "Startup Nation Central",
+        "sourceClass": "official_portfolio",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "2025 personal investment activity",
+          "Faireez investment",
+          "angel portfolio"
+        ]
       }
     ],
     "lastVerifiedAt": "2026-08-24",

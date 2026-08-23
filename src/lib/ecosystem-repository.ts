@@ -18,6 +18,7 @@ import {
   type OrganizationCategory,
 } from "@/types/ecosystem";
 import { getProgramStatus, isLiveProgram } from "@/lib/program-status";
+import { marketFromStartupAddress } from "@/lib/markets";
 
 const investorCategories = new Set<OrganizationCategory>([
   "vc_firm",
@@ -64,51 +65,52 @@ function searchText(parts: Array<string | string[] | null | undefined>) {
   return parts
     .flatMap((part) => (Array.isArray(part) ? part : part ? [part] : []))
     .join(" ")
-    .toLocaleLowerCase("en-IN");
+    .toLocaleLowerCase("en");
 }
 
-function getChequeBand(maximumInr: number | null | undefined): MapItem["chequeBand"] {
-  if (maximumInr == null) return null;
-  if (maximumInr < 5_000_000) return "under_50l";
-  if (maximumInr < 20_000_000) return "50l_2cr";
-  if (maximumInr < 100_000_000) return "2cr_10cr";
-  return "10cr_plus";
+function getChequeBand(maximumUsd: number | null | undefined): MapItem["chequeBand"] {
+  if (maximumUsd == null) return null;
+  if (maximumUsd < 50_000) return "under_50k_usd";
+  if (maximumUsd < 250_000) return "50k_250k_usd";
+  if (maximumUsd < 1_000_000) return "250k_1m_usd";
+  return "1m_plus_usd";
 }
 
 function startupMapItems(): MapItem[] {
-  return companies.map((company) => ({
-    key: `startup:${company.id}:primary`,
-    entityId: company.id,
-    entityKind: "startup",
-    layers: ["startup"],
-    subtypes: company.ycBatch ? ["yc_startup"] : ["startup"],
-    name: company.name,
-    aliases: [],
-    description: null,
-    logoUrl: company.logoUrl,
-    pin: {
-      locationId: "primary",
-      label: company.address,
-      lat: company.location.lat,
-      lng: company.location.lng,
-      precision: company.dataConfidence === "verified" ? "building" : "city",
-      city: company.address,
-      state: "",
-    },
-    indiaWide: false,
-    sectors: company.sector ? [company.sector.toLocaleLowerCase("en-IN")] : [],
-    stages: [],
-    capabilities: [],
-    chequeBand: null,
-    deliveryModes: [],
-    programStatus: null,
-    searchText: searchText([
-      company.name,
-      company.address,
-      company.sector,
-    ]),
-    lastVerifiedAt: null,
-  }));
+  return companies.map((company) => {
+    const market = marketFromStartupAddress(company.address);
+    return {
+      key: `startup:${company.id}:primary`,
+      entityId: company.id,
+      entityKind: "startup",
+      layers: ["startup"],
+      subtypes: company.ycBatch ? ["yc_startup"] : ["startup"],
+      name: company.name,
+      aliases: [],
+      description: null,
+      logoUrl: company.logoUrl,
+      pin: {
+        locationId: "primary",
+        label: company.address,
+        lat: company.location.lat,
+        lng: company.location.lng,
+        precision: company.dataConfidence === "verified" ? "building" : "city",
+        city: company.address,
+        state: "",
+        marketCode: market.marketCode,
+        countryCode: market.countryCode,
+      },
+      marketWideCodes: [],
+      sectors: company.sector ? [company.sector.toLocaleLowerCase("en")] : [],
+      stages: [],
+      capabilities: [],
+      chequeBand: null,
+      deliveryModes: [],
+      programStatus: null,
+      searchText: searchText([company.name, company.address, company.sector]),
+      lastVerifiedAt: null,
+    } satisfies MapItem;
+  });
 }
 
 function organizationMapItems(): MapItem[] {
@@ -118,6 +120,14 @@ function organizationMapItems(): MapItem[] {
     )
     .flatMap((organization): MapItem[] => {
       const layers = getOrganizationLayers(organization);
+      const marketWideCodes = organization.serviceMarkets
+        .filter(
+          (service) =>
+            !organization.locations.some(
+              (location) => location.marketCode === service.marketCode
+            )
+        )
+        .map((service) => service.marketCode);
       const base: Omit<MapItem, "key" | "pin"> = {
         entityId: organization.id,
         entityKind: "organization" as const,
@@ -127,11 +137,11 @@ function organizationMapItems(): MapItem[] {
         aliases: organization.aliases,
         description: organization.description,
         logoUrl: organization.logoUrl ?? null,
-        indiaWide: organization.locations.length === 0,
+        marketWideCodes,
         sectors: organization.sectors,
         stages: organization.stages,
         capabilities: organization.supportCapabilities,
-        chequeBand: getChequeBand(organization.investmentRange?.approximateMaxInr),
+        chequeBand: getChequeBand(organization.investmentRange?.approximateMaxUsd),
         deliveryModes: [],
         programStatus: null,
         searchText: searchText([
@@ -148,7 +158,7 @@ function organizationMapItems(): MapItem[] {
       };
 
       if (organization.locations.length === 0) {
-        return [{ ...base, key: `organization:${organization.id}:india-wide`, pin: null }];
+        return [{ ...base, key: `organization:${organization.id}:market-wide`, pin: null }];
       }
 
       return organization.locations.map((location) => ({
@@ -162,6 +172,8 @@ function organizationMapItems(): MapItem[] {
           precision: location.precision,
           city: location.city,
           state: location.state,
+          marketCode: location.marketCode,
+          countryCode: location.countryCode,
         },
       }));
     });
@@ -171,7 +183,7 @@ function peopleMapItems(): MapItem[] {
   return people
     .filter((person) => person.publicationState === "published")
     .map((person) => ({
-      key: `person:${person.id}:${person.professionalLocation?.id ?? "india-wide"}`,
+      key: `person:${person.id}:${person.professionalLocation?.id ?? "market-wide"}`,
       entityId: person.id,
       entityKind: "person" as const,
       layers: ["angel" as const],
@@ -189,13 +201,19 @@ function peopleMapItems(): MapItem[] {
             precision: person.professionalLocation.precision,
             city: person.professionalLocation.city,
             state: person.professionalLocation.state,
+            marketCode: person.professionalLocation.marketCode,
+            countryCode: person.professionalLocation.countryCode,
           }
         : null,
-      indiaWide: !person.professionalLocation,
+      marketWideCodes: person.serviceMarkets
+        .filter(
+          (service) => service.marketCode !== person.professionalLocation?.marketCode
+        )
+        .map((service) => service.marketCode),
       sectors: person.sectors,
       stages: person.stages,
       capabilities: [],
-      chequeBand: getChequeBand(person.investmentRange?.approximateMaxInr),
+      chequeBand: getChequeBand(person.investmentRange?.approximateMaxUsd),
       deliveryModes: [],
       programStatus: null,
       searchText: searchText([
@@ -234,11 +252,11 @@ function programMapItems(now = new Date()): MapItem[] {
       aliases: program.aliases,
       description: program.description,
       logoUrl: organizerLogo ?? null,
-      indiaWide: program.panIndia,
+      marketWideCodes: program.marketWideCodes,
       sectors: program.sectors,
       stages: program.stages,
       capabilities: program.benefits,
-      chequeBand: getChequeBand(program.funding?.approximateMaxInr),
+      chequeBand: getChequeBand(program.funding?.approximateMaxUsd),
       deliveryModes: [program.deliveryMode],
       programStatus: getProgramStatus(program, now) as "upcoming" | "open" | "rolling",
       searchText: searchText([
@@ -258,7 +276,7 @@ function programMapItems(now = new Date()): MapItem[] {
       .filter((location): location is MapLocation => Boolean(location));
 
     if (pins.length === 0) {
-      return [{ ...base, key: `program:${program.id}:india-wide`, pin: null }];
+      return [{ ...base, key: `program:${program.id}:market-wide`, pin: null }];
     }
 
     return pins.map((location) => ({
@@ -272,6 +290,8 @@ function programMapItems(now = new Date()): MapItem[] {
         precision: location.precision,
         city: location.city,
         state: location.state,
+        marketCode: location.marketCode,
+        countryCode: location.countryCode,
       },
     }));
   });
@@ -289,7 +309,9 @@ export function getMapItems(now = new Date()): MapItem[] {
 export function getCoverageSummaries(): CoverageSummary[] {
   return coverageAreas.map((area) => ({
     id: area.id,
+    marketCode: area.marketCode,
     name: area.name,
+    scope: area.scope,
     status: area.status,
     unresolvedLeads: area.unresolvedLeads,
     lastSweepAt: area.lastSweepAt,

@@ -4,83 +4,559 @@
     "name": "Bengaluru",
     "wave": 1,
     "sequence": 1,
-    "includedDistricts": ["Bengaluru Urban", "Bengaluru Rural"],
+    "includedDistricts": [
+      "Bengaluru Urban",
+      "Bengaluru Rural"
+    ],
     "status": "researching",
-    "sourcesSwept": ["https://aim.gov.in/pdf/AIC_List_data.pdf", "https://birac.nic.in/bionest.php", "https://msh.meity.gov.in/tide/incubatorslist"],
+    "sourcesSwept": [
+      "https://aim.gov.in/pdf/AIC_List_data.pdf",
+      "https://birac.nic.in/bionest.php",
+      "https://msh.meity.gov.in/tide/incubatorslist"
+    ],
     "unresolvedLeads": 24,
-    "counts": { "organizations": 4, "angels": 1, "livePrograms": 1 },
+    "counts": {
+      "organizations": 4,
+      "angels": 1,
+      "livePrograms": 1
+    },
     "lastSweepAt": "2026-08-24",
     "nextReviewAt": "2026-09-07",
-    "notes": "Initial verified seed; private capital and accelerator sweep remains in progress."
+    "notes": "Initial verified seed; private capital and accelerator sweep remains in progress.",
+    "marketCode": "IN",
+    "scope": "city"
   },
   {
     "id": "delhi-ncr",
     "name": "Delhi NCR",
     "wave": 1,
     "sequence": 2,
-    "includedDistricts": ["Delhi", "New Delhi", "Gurugram", "Gautam Buddha Nagar", "Ghaziabad", "Faridabad"],
+    "includedDistricts": [
+      "Delhi",
+      "New Delhi",
+      "Gurugram",
+      "Gautam Buddha Nagar",
+      "Ghaziabad",
+      "Faridabad"
+    ],
     "status": "researching",
-    "sourcesSwept": ["https://aim.gov.in/pdf/AIC_List_data.pdf", "https://msh.meity.gov.in/tide/incubatorslist"],
+    "sourcesSwept": [
+      "https://aim.gov.in/pdf/AIC_List_data.pdf",
+      "https://msh.meity.gov.in/tide/incubatorslist"
+    ],
     "unresolvedLeads": 31,
-    "counts": { "organizations": 2, "angels": 1, "livePrograms": 0 },
+    "counts": {
+      "organizations": 2,
+      "angels": 1,
+      "livePrograms": 0
+    },
     "lastSweepAt": "2026-08-24",
     "nextReviewAt": "2026-09-07",
-    "notes": "Municipalities remain distinct even though research is tracked as one metro ecosystem."
+    "notes": "Municipalities remain distinct even though research is tracked as one metro ecosystem.",
+    "marketCode": "IN",
+    "scope": "metro"
   },
   {
     "id": "mumbai",
     "name": "Mumbai metropolitan region",
     "wave": 1,
     "sequence": 3,
-    "includedDistricts": ["Mumbai City", "Mumbai Suburban", "Thane", "Raigad"],
+    "includedDistricts": [
+      "Mumbai City",
+      "Mumbai Suburban",
+      "Thane",
+      "Raigad"
+    ],
     "status": "researching",
-    "sourcesSwept": ["https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=16", "https://www.sidbivcf.in/en/funds/ffs"],
+    "sourcesSwept": [
+      "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=16",
+      "https://www.sidbivcf.in/en/funds/ffs"
+    ],
     "unresolvedLeads": 42,
-    "counts": { "organizations": 2, "angels": 0, "livePrograms": 0 },
+    "counts": {
+      "organizations": 2,
+      "angels": 0,
+      "livePrograms": 0
+    },
     "lastSweepAt": "2026-08-24",
     "nextReviewAt": "2026-09-07",
-    "notes": "Fund-manager deduplication is in progress; legal vehicles are not published as separate profiles."
+    "notes": "Fund-manager deduplication is in progress; legal vehicles are not published as separate profiles.",
+    "marketCode": "IN",
+    "scope": "city"
   },
   {
     "id": "hyderabad",
     "name": "Hyderabad",
     "wave": 1,
     "sequence": 4,
-    "includedDistricts": ["Hyderabad", "Ranga Reddy", "Medchal-Malkajgiri"],
+    "includedDistricts": [
+      "Hyderabad",
+      "Ranga Reddy",
+      "Medchal-Malkajgiri"
+    ],
     "status": "researching",
-    "sourcesSwept": ["https://aim.gov.in/pdf/AIC_List_data.pdf", "https://birac.nic.in/bionest.php", "https://msh.meity.gov.in/tide/incubatorslist"],
+    "sourcesSwept": [
+      "https://aim.gov.in/pdf/AIC_List_data.pdf",
+      "https://birac.nic.in/bionest.php",
+      "https://msh.meity.gov.in/tide/incubatorslist"
+    ],
     "unresolvedLeads": 18,
-    "counts": { "organizations": 3, "angels": 0, "livePrograms": 3 },
+    "counts": {
+      "organizations": 3,
+      "angels": 0,
+      "livePrograms": 3
+    },
     "lastSweepAt": "2026-08-24",
     "nextReviewAt": "2026-09-07",
-    "notes": "Live-program review has started with T-Hub and WE Hub."
+    "notes": "Live-program review has started with T-Hub and WE Hub.",
+    "marketCode": "IN",
+    "scope": "city"
   },
   {
     "id": "chennai",
     "name": "Chennai",
     "wave": 1,
     "sequence": 5,
-    "includedDistricts": ["Chennai", "Chengalpattu", "Tiruvallur", "Kanchipuram"],
+    "includedDistricts": [
+      "Chennai",
+      "Chengalpattu",
+      "Tiruvallur",
+      "Kanchipuram"
+    ],
     "status": "researching",
-    "sourcesSwept": ["https://msh.meity.gov.in/tide/incubatorslist", "https://nidhi.dst.gov.in/document-category/programme-wise-tbi-lists/"],
+    "sourcesSwept": [
+      "https://msh.meity.gov.in/tide/incubatorslist",
+      "https://nidhi.dst.gov.in/document-category/programme-wise-tbi-lists/"
+    ],
     "unresolvedLeads": 17,
-    "counts": { "organizations": 2, "angels": 0, "livePrograms": 0 },
+    "counts": {
+      "organizations": 2,
+      "angels": 0,
+      "livePrograms": 0
+    },
     "lastSweepAt": "2026-08-24",
     "nextReviewAt": "2026-09-07",
-    "notes": "University and private deeptech capital sweep is in progress."
+    "notes": "University and private deeptech capital sweep is in progress.",
+    "marketCode": "IN",
+    "scope": "city"
   },
   {
     "id": "pune",
     "name": "Pune",
     "wave": 1,
     "sequence": 6,
-    "includedDistricts": ["Pune"],
+    "includedDistricts": [
+      "Pune"
+    ],
     "status": "researching",
-    "sourcesSwept": ["https://aim.gov.in/pdf/AIC_List_data.pdf", "https://nidhi.dst.gov.in/document-category/programme-wise-tbi-lists/", "https://msh.meity.gov.in/tide/incubatorslist"],
+    "sourcesSwept": [
+      "https://aim.gov.in/pdf/AIC_List_data.pdf",
+      "https://nidhi.dst.gov.in/document-category/programme-wise-tbi-lists/",
+      "https://msh.meity.gov.in/tide/incubatorslist"
+    ],
     "unresolvedLeads": 15,
-    "counts": { "organizations": 2, "angels": 1, "livePrograms": 2 },
+    "counts": {
+      "organizations": 2,
+      "angels": 1,
+      "livePrograms": 2
+    },
     "lastSweepAt": "2026-08-24",
     "nextReviewAt": "2026-09-07",
-    "notes": "Science and technology incubation sources seeded; private capital sweep remains."
+    "notes": "Science and technology incubation sources seeded; private capital sweep remains.",
+    "marketCode": "IN",
+    "scope": "city"
+  },
+  {
+    "id": "us-national",
+    "marketCode": "US",
+    "name": "United States national backbone",
+    "scope": "national_cluster",
+    "wave": 1,
+    "sequence": 1,
+    "includedDistricts": ["All 50 states and the District of Columbia"],
+    "status": "published",
+    "sourcesSwept": [
+      "https://nvca.org/nvca-members/",
+      "https://www.inbia.org/inbia-members",
+      "https://www.sba.gov/funding-programs/investment-capital/sbic-directory"
+    ],
+    "leadBatches": [
+      {
+        "label": "NVCA member firms",
+        "sourceUrl": "https://nvca.org/nvca-members/",
+        "discoveredCount": 397,
+        "includedCount": 397,
+        "excludedCount": 0,
+        "deferredCount": 0,
+        "notes": "All 397 current member rows were resolved to a unique operating organization and official website. Public US office cities are mapped at city precision using the directory location and GeoNames; 500 Global was already published and 396 profiles were added."
+      },
+      {
+        "label": "SBA-licensed SBIC vehicles",
+        "sourceUrl": "https://www.sba.gov/funding-programs/investment-capital/sbic-directory",
+        "discoveredCount": 397,
+        "includedCount": 33,
+        "excludedCount": 364,
+        "deferredCount": 0,
+        "notes": "The official CSV was resolved at legal-vehicle level. Thirty-three vehicles marked as making new investments with Venture or Growth Equity fund styles were grouped beneath 28 operating managers; inactive vehicles and buyout, general-credit, mezzanine, fund-of-funds, or otherwise out-of-scope vehicles were excluded."
+      },
+      {
+        "label": "Public InBIA member directory",
+        "sourceUrl": "https://www.inbia.org/inbia-members",
+        "discoveredCount": 15,
+        "includedCount": 10,
+        "excludedCount": 5,
+        "deferredCount": 0,
+        "notes": "Ten US founder-support operators were resolved to current official programs and facilities. Two non-US organizations, two consulting/network entries without a direct founder opportunity, and one lead without a verifiable current operating profile were excluded."
+      }
+    ],
+    "unresolvedLeads": 0,
+    "counts": {"organizations": 435, "angels": 3, "livePrograms": 4},
+    "lastSweepAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07",
+    "notes": "The national NVCA venture, SBA SBIC, and public InBIA support backbones are fully adjudicated. Coverage is a source-backed national snapshot as of 2026-08-24; newly discovered leads enter a new unresolved batch before the next review."
+  },
+  {
+    "id": "uk-national",
+    "marketCode": "GB",
+    "name": "United Kingdom national backbone",
+    "scope": "national_cluster",
+    "wave": 1,
+    "sequence": 1,
+    "includedDistricts": ["England", "Scotland", "Wales", "Northern Ireland"],
+    "status": "published",
+    "sourcesSwept": [
+      "https://www.british-business-bank.co.uk/our-partners",
+      "https://www.british-business-bank.co.uk/finance-options/equity-finance/enterprise-capital-funds/funds-we-have-invested-in",
+      "https://catapult.org.uk/"
+    ],
+    "leadBatches": [
+      {
+        "label": "British Business Bank finance partners",
+        "sourceUrl": "https://www.british-business-bank.co.uk/our-partners",
+        "discoveredCount": 298,
+        "includedCount": 110,
+        "excludedCount": 188,
+        "deferredCount": 0,
+        "notes": "All 298 current directory rows were adjudicated. One hundred ten rows were consolidated beneath 108 operating organizations participating in founder-relevant equity, patient-capital, angel, or venture-debt programmes; general lenders, recipient companies, private-equity-only managers, fund-of-funds, and other out-of-scope rows were excluded."
+      },
+      {
+        "label": "Catapult centres",
+        "sourceUrl": "https://catapult.org.uk/",
+        "discoveredCount": 9,
+        "includedCount": 9,
+        "excludedCount": 0,
+        "deferredCount": 0,
+        "notes": "All nine operating Catapult centres have distinct profiles. Public municipalities named by the official centre directory are mapped at city precision; generic regions are not converted into invented pins."
+      }
+    ],
+    "unresolvedLeads": 0,
+    "counts": {"organizations": 119, "angels": 1, "livePrograms": 2},
+    "lastSweepAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07",
+    "notes": "The national British Business Bank finance-partner and Catapult support-centre backbones are fully adjudicated as of 2026-08-24. Cross-market firms remain one deduplicated organization, and each new discovery will enter a new unresolved batch before the next review."
+  },
+  {
+    "id": "dubai-emirate",
+    "marketCode": "AE-DU",
+    "name": "Dubai",
+    "scope": "emirate",
+    "wave": 1,
+    "sequence": 1,
+    "includedDistricts": ["Emirate of Dubai"],
+    "status": "published",
+    "sourcesSwept": [
+      "https://www.difc.com/ecosystem/innovation-hub",
+      "https://www.dubaifuture.ae/initiatives/future-design-and-acceleration/dubai-future-accelerators/",
+      "https://www.difc.com/ecosystem",
+      "https://www.innovationhub.difc.ae/accelerators/startup-programs/entrepreneur-programmes/du-business",
+      "https://www.innovationhub.difc.ae/accelerators/startup-programs/virtual-xrpl-accelerator---launch-programme",
+      "https://www.dubaichamberdigital.com/documents/184026/0/Dubai%2BStartup%2BGuide%2B2025.pdf/5231bb44-c69f-7d8e-8885-06c656140da2?t=1762936611291",
+      "https://www.dubaichambers.com/documents/20119/0/the-entrepreneurs-guide-2023%2B%281%29.pdf/f259198f-23fd-edf4-5714-7fd1e968c213?t=1722947398189",
+      "https://www.dubaifuture.ae/dubai-future-district-fund/",
+      "https://www.global.vc/",
+      "https://www.becocapital.com/",
+      "https://wamdacapital.com/",
+      "https://www.shorooq.com/locations/dubai",
+      "https://www.dfsa.ae/public-register/firms/nuwa-capital-limited",
+      "https://oraseyacapital.com/",
+      "https://www.dubaiangelinvestors.me/companies",
+      "https://infive.ae/about-us/",
+      "https://www.dubaifoundershq.com/en/",
+      "https://www.sandboxaccelerator.com/",
+      "https://www.dubaifoundershq.com/en/run-and-grow-your-business/dubai-traders"
+    ],
+    "leadBatches": [
+      {
+        "label": "Named DIFC Innovation Hub programs",
+        "sourceUrl": "https://www.difc.com/ecosystem/innovation-hub",
+        "discoveredCount": 3,
+        "includedCount": 1,
+        "excludedCount": 2,
+        "deferredCount": 0,
+        "notes": "Transguard is published. XRPL Launch closed on 1 December 2024, and the du series exposes only past dated sessions, so neither qualifies for the live-program layer."
+      },
+      {
+        "label": "Dubai private capital and support organizations — first official-guide sweep",
+        "sourceUrl": "https://www.dubaichamberdigital.com/documents/184026/0/Dubai%2BStartup%2BGuide%2B2025.pdf/5231bb44-c69f-7d8e-8885-06c656140da2?t=1762936611291",
+        "discoveredCount": 10,
+        "includedCount": 10,
+        "excludedCount": 0,
+        "deferredCount": 0,
+        "notes": "Ten operating firms, networks, incubators, or government-backed ecosystem organizations were resolved to current official profiles and public Dubai locations; legal vehicles remain grouped beneath their recognizable operating organization."
+      },
+      {
+        "label": "Open Dubai support-program intake sweep",
+        "sourceUrl": "https://www.dubaifoundershq.com/en/",
+        "discoveredCount": 3,
+        "includedCount": 3,
+        "excludedCount": 0,
+        "deferredCount": 0,
+        "notes": "in5's online intake and Dubai Traders are explicitly rolling; SANDBOX publishes a September 2026 application-close month and is rechecked weekly."
+      },
+      {
+        "label": "Dubai Chamber funding-ecosystem investor matrix",
+        "sourceUrl": "https://www.dubaichambers.com/documents/20119/0/the-entrepreneurs-guide-2023%2B%281%29.pdf/f259198f-23fd-edf4-5714-7fd1e968c213?t=1722947398189",
+        "discoveredCount": 48,
+        "includedCount": 36,
+        "excludedCount": 12,
+        "deferredCount": 0,
+        "notes": "Every unique logo in the official pre-seed-to-growth matrix was adjudicated against a current official site. Thirty-six active startup investors or support operators are published and merged by operating brand; four bank, allocator, or private-equity-growth-only entries and eight dead, unresolved, or timed-out official domains are excluded. The matrix stage columns are retained as filter facets."
+      }
+    ],
+    "unresolvedLeads": 0,
+    "counts": {"organizations": 41, "angels": 1, "livePrograms": 7},
+    "lastSweepAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07",
+    "notes": "The emirate-wide Dubai Chamber investor matrix and 2025 guide sweep cover public startup institutions, operating venture firms, a public angel network, multi-site incubation, and every verified open opportunity found in the adjudicated batches. Global or regional firms without a source-backed public Dubai coordinate remain Dubai-wide instead of receiving an invented office pin."
+  },
+  {
+    "id": "singapore-national",
+    "marketCode": "SG",
+    "name": "Singapore",
+    "scope": "national_cluster",
+    "wave": 1,
+    "sequence": 1,
+    "includedDistricts": ["Singapore"],
+    "status": "published",
+    "sourcesSwept": [
+      "https://www.startupsg.gov.sg/programmes",
+      "https://www.startupsg.gov.sg/directory/investors/",
+      "https://www.startupsg.gov.sg/directory/incubators/",
+      "https://eservices.mas.gov.sg/fid/institution?term=fund",
+      "https://enterprise.nus.edu.sg/supporting-entrepreneurs/block71-global-incubation/block71-programmes/"
+    ],
+    "leadBatches": [
+      {
+        "label": "Startup SG named founder programs",
+        "sourceUrl": "https://www.startupsg.gov.sg/programmes",
+        "discoveredCount": 12,
+        "includedCount": 10,
+        "excludedCount": 2,
+        "deferredCount": 0,
+        "notes": "Founder, Tech, EntrePass, GTTA, Tech@SG, T-Up, GIA Acceleration, GIA Co-Innovation, Helix, and PowerX have live direct application or ongoing intake paths and are published. Startup SG Infrastructure is a place/network rather than a discrete application opportunity, while the general Startup SG Accelerator summary exposed no current direct intake; both are resolved as excluded from the live-program layer."
+      },
+      {
+        "label": "Initial MAS venture-manager leads",
+        "sourceUrl": "https://eservices.mas.gov.sg/fid/institution?term=fund",
+        "discoveredCount": 2,
+        "includedCount": 2,
+        "excludedCount": 0,
+        "deferredCount": 0,
+        "notes": "Temasek Life Sciences Accelerator and TRIVE were resolved to their operating brands, official current activity, founder paths, and public professional Singapore locations. TRIVE's current MAS licence is recorded without turning the legal vehicle into a duplicate map entity."
+      },
+      {
+        "label": "Startup SG organization-investor directory",
+        "sourceUrl": "https://www.startupsg.gov.sg/directory/investors/",
+        "discoveredCount": 243,
+        "includedCount": 140,
+        "excludedCount": 103,
+        "deferredCount": 0,
+        "notes": "All organization profiles were adjudicated. Published entries have a public Singapore profile, an included startup-capital category, and a reachable non-social official website; private-equity-only, crowdfunding-only, incomplete, and dead-site profiles were excluded. Multiple fund or support profiles resolving to one operating brand are deduplicated."
+      },
+      {
+        "label": "Startup SG incubator and accelerator directory",
+        "sourceUrl": "https://www.startupsg.gov.sg/directory/incubators/",
+        "discoveredCount": 254,
+        "includedCount": 71,
+        "excludedCount": 183,
+        "deferredCount": 0,
+        "notes": "Published entries explicitly report a program, a public Singapore presence, and a reachable official website. Service providers, corporate innovation pages without an operator intake, missing-site profiles, and dead links were excluded."
+      },
+      {
+        "label": "Startup SG individual investor profiles",
+        "sourceUrl": "https://www.startupsg.gov.sg/directory/investors/",
+        "discoveredCount": 279,
+        "includedCount": 0,
+        "excludedCount": 279,
+        "deferredCount": 0,
+        "notes": "Directory self-identification alone does not satisfy the map's individual-angel rule. None of this batch was promoted without a separately disclosed Indian or local startup investment, syndicate, or portfolio update inside the preceding 24 months; the independently verified Singapore angel already published is outside this directory batch."
+      }
+    ],
+    "unresolvedLeads": 0,
+    "counts": {"organizations": 201, "angels": 1, "livePrograms": 12},
+    "lastSweepAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07",
+    "notes": "The national Startup SG investor, incubator, accelerator, program, and initial MAS backbones are fully adjudicated as of 2026-08-24. Source-directory profiles are published only after category, public professional presence, and official-site checks; self-listed angels still require separate recent-investment evidence."
+  },
+  {
+    "id": "australia-national",
+    "marketCode": "AU",
+    "name": "Australia national backbone",
+    "scope": "national_cluster",
+    "wave": 1,
+    "sequence": 1,
+    "includedDistricts": ["All states and territories"],
+    "status": "published",
+    "sourcesSwept": [
+      "https://business.gov.au/grants-and-programs",
+      "https://business.gov.au/grants-and-programs/venture-capital",
+      "https://business.gov.au/grants-and-programs/early-stage-venture-capital-limited-partnerships/list-of-early-stage-venture-capital-limited-partnerships",
+      "https://business.gov.au/Grants-and-Programs/Venture-Capital-Limited-Partnerships/List-of-Venture-Capital-Partnerships",
+      "https://business.gov.au/grants-and-programs/australian-venture-capital-fund-of-funds/list-of-australian-venture-capital-fund-of-funds",
+      "https://www.investmentcouncil.com.au/site/about/about.aspx"
+    ],
+    "leadBatches": [
+      {
+        "label": "Initial open government program leads",
+        "sourceUrl": "https://business.gov.au/grants-and-programs",
+        "discoveredCount": 4,
+        "includedCount": 4,
+        "excludedCount": 0,
+        "deferredCount": 0,
+        "notes": "All four named opportunities were reviewed on their official Australian Government pages and are open, rolling, or have a current application batch. Each is published with its actual eligibility, funding, and deadline behavior."
+      },
+      {
+        "label": "Innovation and Science Australia ESVCLP register",
+        "sourceUrl": "https://business.gov.au/grants-and-programs/early-stage-venture-capital-limited-partnerships/list-of-early-stage-venture-capital-limited-partnerships",
+        "discoveredCount": 166,
+        "includedCount": 140,
+        "excludedCount": 26,
+        "deferredCount": 0,
+        "notes": "All registered and conditional early-stage vehicles were adjudicated. Registered vehicles with capital, an identifiable non-personal operating-manager domain, and a reachable current official site resolve to a deduplicated manager profile; conditional vehicles and missing, generic-email, parked, or dead-site managers are excluded until active."
+      },
+      {
+        "label": "Innovation and Science Australia VCLP register",
+        "sourceUrl": "https://business.gov.au/Grants-and-Programs/Venture-Capital-Limited-Partnerships/List-of-Venture-Capital-Partnerships",
+        "discoveredCount": 139,
+        "includedCount": 39,
+        "excludedCount": 100,
+        "deferredCount": 0,
+        "notes": "Registered managers with an explicit startup, early-stage, seed, innovation, or technology thesis and a reachable official site are published. Conditional vehicles, private-equity-only and buyout-only theses, generic personal-email contacts, and dead or parked sites are excluded."
+      },
+      {
+        "label": "Australian Venture Capital Fund of Funds register",
+        "sourceUrl": "https://business.gov.au/grants-and-programs/australian-venture-capital-fund-of-funds/list-of-australian-venture-capital-fund-of-funds",
+        "discoveredCount": 13,
+        "includedCount": 5,
+        "excludedCount": 8,
+        "deferredCount": 0,
+        "notes": "Fund-of-funds vehicles are included only as managed-vehicle details when their operating manager already qualifies through a direct ESVCLP or startup-focused VCLP record. They never create a duplicate map organization or imply a direct founder application path."
+      }
+    ],
+    "unresolvedLeads": 0,
+    "counts": {"organizations": 106, "angels": 1, "livePrograms": 6},
+    "lastSweepAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07",
+    "notes": "The national Innovation and Science Australia early-stage and startup-focused venture registers plus the official open-program backbone are fully adjudicated as of 2026-08-24. Legal vehicles are consolidated under 106 operating organizations; metro pins are city-level and only assigned when the public register postcode falls inside a verified capital-city metro range."
+  },
+  {
+    "id": "new-zealand-national",
+    "marketCode": "NZ",
+    "name": "New Zealand national backbone",
+    "scope": "national_cluster",
+    "wave": 1,
+    "sequence": 1,
+    "includedDistricts": ["All regions of Aotearoa New Zealand"],
+    "status": "published",
+    "sourcesSwept": [
+      "https://www.nzgcp.co.nz/funding/elevate-venture-fund",
+      "https://www.nzgcp.co.nz/start-up-resources/start-up-investors",
+      "https://www.nzgcp.co.nz/start-up-resources/overview",
+      "https://www.angelassociation.co.nz/"
+    ],
+    "leadBatches": [
+      {
+        "label": "Elevate underlying fund managers",
+        "sourceUrl": "https://www.nzgcp.co.nz/funding/elevate-venture-fund",
+        "discoveredCount": 8,
+        "includedCount": 7,
+        "excludedCount": 1,
+        "deferredCount": 0,
+        "notes": "The official page's seven named current managers are all published: Blackbird plus Pacific Channel, Movac, Finistere Ventures, GD1, Nuance, and Hillfarrance. Its separate aggregate headline says eight managers but does not identify an eighth operating manager in the current-investments list, so that non-entity aggregate discrepancy is resolved as excluded rather than inventing a profile."
+      },
+      {
+        "label": "NZGCP national start-up investor directory",
+        "sourceUrl": "https://www.nzgcp.co.nz/start-up-resources/start-up-investors",
+        "discoveredCount": 31,
+        "includedCount": 22,
+        "excludedCount": 9,
+        "deferredCount": 0,
+        "notes": "Every current directory card was resolved. Twenty-two venture, impact, angel-network, public-support, and incubator leads had a reachable operating website and were merged to 22 operating organizations; private-equity-only, generic migrant-network, secondary-profile-only, missing-link, and dead-site leads were excluded. Duplicate program cards for Callaghan Innovation and AANZ resolve to one organization each."
+      }
+    ],
+    "unresolvedLeads": 0,
+    "counts": {"organizations": 24, "angels": 1, "livePrograms": 2},
+    "lastSweepAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07",
+    "notes": "The national NZGCP start-up investor directory, Elevate manager backbone, direct government seed pathway, angel association, and initial live-program set are fully adjudicated as of 2026-08-24. Unpinned organizations are intentionally presented as New Zealand-wide when the source does not provide a verified public office coordinate."
+  },
+  {
+    "id": "israel-national",
+    "marketCode": "IL",
+    "name": "Israel national backbone",
+    "scope": "national_cluster",
+    "wave": 1,
+    "sequence": 1,
+    "includedDistricts": ["Jerusalem", "Tel Aviv and Central", "Haifa and North", "South"],
+    "status": "published",
+    "sourcesSwept": [
+      "https://innovationisrael.org.il/incubators-list/?nowprocket=1",
+      "https://innovationisrael.org.il/en/innovation-centers-data/",
+      "https://innovationisrael.org.il/en/calls_for_proposal/",
+      "https://iati.co.il/members-category/investment-entities/"
+    ],
+    "leadBatches": [
+      {
+        "label": "Israel Innovation Authority incubators",
+        "sourceUrl": "https://innovationisrael.org.il/incubators-list/?nowprocket=1",
+        "discoveredCount": 10,
+        "includedCount": 10,
+        "excludedCount": 0,
+        "deferredCount": 0,
+        "notes": "All ten named current incubators are published as operating organizations. Each of the eight new profiles was verified against its official site and mapped only to the public municipality or facility locality stated by the Authority."
+      },
+      {
+        "label": "Israel Innovation Authority regional innovation centers",
+        "sourceUrl": "https://innovationisrael.org.il/en/innovation-centers-data/",
+        "discoveredCount": 13,
+        "includedCount": 13,
+        "excludedCount": 0,
+        "deferredCount": 0,
+        "notes": "All thirteen named regional centers were resolved to current operating profiles, official startup-support activity, and public professional locations. Approximate pins remain explicitly city-level."
+      },
+      {
+        "label": "Open programme sweep across adjudicated innovation centres",
+        "sourceUrl": "https://innovationisrael.org.il/en/innovation-centers-data/",
+        "discoveredCount": 6,
+        "includedCount": 6,
+        "excludedCount": 0,
+        "deferredCount": 0,
+        "notes": "Six opportunities with explicit apply-now, applications-open, accepting-applications, or registration-open language on current official centre sites are in the live layer. Calls without a published close date are checked weekly and are removed as soon as the official application path closes."
+      },
+      {
+        "label": "IATI current investment-entity member directory",
+        "sourceUrl": "https://iati.co.il/members-category/investment-entities/",
+        "discoveredCount": 55,
+        "includedCount": 45,
+        "excludedCount": 10,
+        "deferredCount": 0,
+        "notes": "All six pages of the current IATI investment-entity archive were adjudicated. Members are published only when both the current IATI profile and a non-social official operating site resolve; PSG, Blackstone, and Hamilton Lane were excluded as growth/private-equity or allocator-only actors, while seven missing, invalid-certificate, timed-out, or dead official domains were excluded. Existing incubator and global-firm profiles are merged rather than duplicated."
+      }
+    ],
+    "unresolvedLeads": 0,
+    "counts": {"organizations": 68, "angels": 1, "livePrograms": 9},
+    "lastSweepAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07",
+    "notes": "The national IATI investment-entity, Israel Innovation Authority technological-incubator, and regional innovation-centre backbones are fully adjudicated as of 2026-08-24. IATI profiles without verified public office coordinates remain Israel-wide instead of receiving an invented Tel Aviv pin; live centre calls remain on the weekly freshness schedule."
   }
 ]

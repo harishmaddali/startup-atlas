@@ -25,7 +25,7 @@ export function loadData() {
 
 export function daysBetween(earlier: string, later = new Date()) {
   const date = /^\d{4}-\d{2}-\d{2}$/.test(earlier)
-    ? new Date(`${earlier}T23:59:59+05:30`)
+    ? new Date(`${earlier}T23:59:59Z`)
     : new Date(earlier);
   return Math.floor((later.getTime() - date.getTime()) / 86_400_000);
 }

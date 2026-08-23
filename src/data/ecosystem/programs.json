@@ -3,18 +3,37 @@
     "id": "t-hub-healthcare-cohort-6",
     "kind": "program",
     "name": "AIC T-Hub Healthcare Program — Cohort 6",
-    "aliases": ["T-Hub Healthcare Cohort 6"],
+    "aliases": [
+      "T-Hub Healthcare Cohort 6"
+    ],
     "programType": "accelerator_cohort",
-    "organizerIds": ["t-hub"],
+    "organizerIds": [
+      "t-hub"
+    ],
     "description": "A commercialization accelerator for Indian healthcare and life-sciences startups building with deep technology.",
     "publicationState": "published",
     "deliveryMode": "hybrid",
-    "locationIds": ["t-hub-hyderabad"],
-    "panIndia": true,
-    "sectors": ["healthcare", "life_sciences", "deeptech", "ai", "iot"],
-    "stages": ["seed", "series_a"],
+    "locationIds": [
+      "t-hub-hyderabad"
+    ],
+    "sectors": [
+      "healthcare",
+      "life_sciences",
+      "deeptech",
+      "ai",
+      "iot"
+    ],
+    "stages": [
+      "seed",
+      "series_a"
+    ],
     "eligibility": "India-operating healthcare and life-sciences startups with an MVP at product-commercialization stage.",
-    "benefits": ["Global mentors", "Investor access", "Commercialization planning", "Industry experts"],
+    "benefits": [
+      "Global mentors",
+      "Investor access",
+      "Commercialization planning",
+      "Industry experts"
+    ],
     "funding": null,
     "equityTerms": null,
     "applicationUrl": "https://www.t-hub.co/healthcare",
@@ -30,44 +49,413 @@
         "publisher": "T-Hub",
         "sourceClass": "official_website",
         "checkedAt": "2026-08-24",
-        "supports": ["applications open", "cohort date", "eligibility", "benefits"]
+        "supports": [
+          "applications open",
+          "cohort date",
+          "eligibility",
+          "benefits"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31",
+    "eligibleMarketCodes": [
+      "IN"
+    ],
+    "marketWideCodes": [
+      "IN"
+    ]
+  },
+  {
+    "id": "antler-australia-february-2027",
+    "kind": "program",
+    "name": "Antler Australia Residency — February 2027",
+    "aliases": [
+      "Antler Australia Residency"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "antler"
+    ],
+    "description": "An eight-week Australia founder residency currently accepting inception-stage applicants for a February 2027 start in Sydney, Melbourne, or Brisbane.",
+    "publicationState": "published",
+    "deliveryMode": "onsite",
+    "locationIds": [
+      "antler-sydney",
+      "antler-melbourne",
+      "antler-brisbane"
+    ],
+    "eligibleMarketCodes": [
+      "AU"
+    ],
+    "marketWideCodes": [
+      "AU"
+    ],
+    "sectors": [
+      "sector_agnostic",
+      "technology",
+      "ai"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed"
+    ],
+    "eligibility": "Australian inception-stage founders, including people who may still be seeking a cofounder or validating an initial idea.",
+    "benefits": [
+      "Eight-week residency",
+      "Cofounder matching",
+      "Partner coaching",
+      "Pre-seed investment consideration"
+    ],
+    "funding": {
+      "min": 260000,
+      "max": 260000,
+      "currency": "AUD",
+      "asStated": "A$260,000 investment pathway"
+    },
+    "equityTerms": null,
+    "applicationUrl": "https://www.antler.co/location/australia",
+    "opensAt": null,
+    "applicationCloseAt": null,
+    "cohortStartsAt": "2027-02-08T09:00:00+11:00",
+    "cohortEndsAt": null,
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.antler.co/location/australia",
+        "title": "Antler in Australia",
+        "publisher": "Antler",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "applications open",
+          "residency structure",
+          "Australian cities"
+        ]
+      },
+      {
+        "url": "https://www.antler.co/cohort-start-dates",
+        "title": "Antler cohort start dates",
+        "publisher": "Antler",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "February 2027 start",
+          "Sydney Melbourne Brisbane"
+        ]
       }
     ],
     "lastVerifiedAt": "2026-08-24",
     "nextReviewAt": "2026-08-31"
   },
   {
-    "id": "google-for-startups-hub-hyderabad",
+    "id": "antler-dubai-october-2026",
     "kind": "program",
-    "name": "Google for Startups Hub Hyderabad",
-    "aliases": ["GFS Hub Hyderabad"],
-    "programType": "incubation_intake",
-    "organizerIds": ["t-hub"],
-    "description": "A six-month physical hub pass and curated community for AI-first founders operated by Google for Startups and T-Hub.",
+    "name": "Antler Dubai Residency — October 2026",
+    "aliases": [
+      "Antler UAE Residency"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "antler"
+    ],
+    "description": "An Antler inception-stage founder residency in Dubai beginning in October 2026, with applications currently invited.",
     "publicationState": "published",
     "deliveryMode": "onsite",
-    "locationIds": ["t-hub-hyderabad"],
-    "panIndia": true,
-    "sectors": ["ai", "deeptech"],
-    "stages": ["pre_seed", "seed", "series_a", "growth"],
-    "eligibility": "Founder or co-founder of an India-registered AI-native or AI-enabled startup with a working product or clear product direction.",
-    "benefits": ["Six-month hub pass", "Workspace", "Founder community", "Google and T-Hub ecosystem access"],
+    "locationIds": [
+      "antler-dubai"
+    ],
+    "eligibleMarketCodes": [
+      "AE-DU"
+    ],
+    "marketWideCodes": [
+      "AE-DU"
+    ],
+    "sectors": [
+      "sector_agnostic",
+      "technology"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed"
+    ],
+    "eligibility": "Inception-stage founders able to participate in the Dubai residency beginning in October 2026.",
+    "benefits": [
+      "Company formation support",
+      "Partner coaching",
+      "Pre-seed investment pathway",
+      "Global founder network"
+    ],
     "funding": null,
-    "equityTerms": "No equity disclosed",
-    "applicationUrl": "https://www.t-hub.co/google-for-startups-hub",
+    "equityTerms": null,
+    "applicationUrl": "https://www.antler.co/cohort-start-dates",
     "opensAt": null,
     "applicationCloseAt": null,
-    "cohortStartsAt": null,
+    "cohortStartsAt": "2026-10-11T09:00:00+04:00",
     "cohortEndsAt": null,
     "rolling": true,
     "evidence": [
       {
-        "url": "https://www.t-hub.co/google-for-startups-hub",
-        "title": "Google for Startups Hub Hyderabad",
-        "publisher": "T-Hub",
+        "url": "https://www.antler.co/cohort-start-dates",
+        "title": "Antler cohort start dates",
+        "publisher": "Antler",
         "sourceClass": "official_website",
         "checkedAt": "2026-08-24",
-        "supports": ["waitlist open", "eligibility", "duration", "benefits"]
+        "supports": [
+          "applications",
+          "Dubai location",
+          "October 2026 start"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "antler-singapore-october-2026",
+    "kind": "program",
+    "name": "Antler Singapore Residency — October 2026",
+    "aliases": [
+      "Antler Singapore Residency"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "antler"
+    ],
+    "description": "An Antler inception-stage founder residency in Singapore beginning in October 2026, with applications currently invited.",
+    "publicationState": "published",
+    "deliveryMode": "onsite",
+    "locationIds": [
+      "antler-singapore"
+    ],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [
+      "SG"
+    ],
+    "sectors": [
+      "sector_agnostic",
+      "technology"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed"
+    ],
+    "eligibility": "Inception-stage founders able to participate in the Singapore residency beginning in October 2026.",
+    "benefits": [
+      "Company formation support",
+      "Partner coaching",
+      "Pre-seed investment pathway",
+      "Global founder network"
+    ],
+    "funding": null,
+    "equityTerms": null,
+    "applicationUrl": "https://www.antler.co/cohort-start-dates",
+    "opensAt": null,
+    "applicationCloseAt": null,
+    "cohortStartsAt": "2026-10-05T09:00:00+08:00",
+    "cohortEndsAt": null,
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.antler.co/cohort-start-dates",
+        "title": "Antler cohort start dates",
+        "publisher": "Antler",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "applications",
+          "Singapore location",
+          "October 2026 start"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "antler-uk-september-2026",
+    "kind": "program",
+    "name": "Antler UK Residency — September 2026",
+    "aliases": [
+      "Antler London Residency"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "antler"
+    ],
+    "description": "An in-person London founder residency beginning in September 2026 for people building companies at inception stage.",
+    "publicationState": "published",
+    "deliveryMode": "onsite",
+    "locationIds": [
+      "antler-london"
+    ],
+    "eligibleMarketCodes": [
+      "GB"
+    ],
+    "marketWideCodes": [
+      "GB"
+    ],
+    "sectors": [
+      "sector_agnostic",
+      "technology"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed"
+    ],
+    "eligibility": "Inception-stage founders able to participate in the London residency beginning in September 2026.",
+    "benefits": [
+      "Cofounder and company formation support",
+      "Partner coaching",
+      "Pre-seed investment pathway",
+      "Global network"
+    ],
+    "funding": null,
+    "equityTerms": null,
+    "applicationUrl": "https://www.antler.co/cohort-start-dates",
+    "opensAt": null,
+    "applicationCloseAt": null,
+    "cohortStartsAt": "2026-09-22T09:00:00+01:00",
+    "cohortEndsAt": null,
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.antler.co/cohort-start-dates",
+        "title": "Antler cohort start dates",
+        "publisher": "Antler",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "applications",
+          "London location",
+          "September 2026 start"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "antler-us-rolling-intake",
+    "kind": "program",
+    "name": "Antler US Rolling Intake",
+    "aliases": [
+      "Antler US Residency"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "antler"
+    ],
+    "description": "Antler's year-round US intake for inception-stage founders and teams in San Francisco, Austin, and New York City.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "antler-san-francisco"
+    ],
+    "eligibleMarketCodes": [
+      "US"
+    ],
+    "marketWideCodes": [
+      "US"
+    ],
+    "sectors": [
+      "sector_agnostic",
+      "technology"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed"
+    ],
+    "eligibility": "Inception-stage founders and teams able to participate in Antler's US founder and investment process.",
+    "benefits": [
+      "Company formation support",
+      "Partner coaching",
+      "Pre-seed investment pathway",
+      "Global founder network"
+    ],
+    "funding": null,
+    "equityTerms": null,
+    "applicationUrl": "https://www.antler.co/cohort-start-dates",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.antler.co/cohort-start-dates",
+        "title": "Antler cohort start dates",
+        "publisher": "Antler",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "rolling US intake",
+          "US cities",
+          "application path"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "aspire-nz-seed-fund",
+    "kind": "program",
+    "name": "Aspire NZ Seed Fund — Startup Applications",
+    "aliases": [
+      "Aspire funding"
+    ],
+    "programType": "government_scheme",
+    "organizerIds": [
+      "nzgcp"
+    ],
+    "description": "A rolling direct-investment application pathway for high-growth New Zealand technology startups from proof of concept through early expansion.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "NZ"
+    ],
+    "marketWideCodes": [
+      "NZ"
+    ],
+    "sectors": [
+      "technology",
+      "deeptech",
+      "agritech",
+      "foodtech",
+      "climate",
+      "life_sciences",
+      "space",
+      "ai"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "eligibility": "High-growth technology-based Kiwi startups seeking an initial proof-of-concept, seed, or early-expansion investment alongside private capital.",
+    "benefits": [
+      "Direct co-investment",
+      "Due diligence collaboration",
+      "Follow-on investment potential",
+      "Investor introductions"
+    ],
+    "funding": null,
+    "equityTerms": "Commercial investment alongside matching private capital; terms are determined through the fund's investment process.",
+    "applicationUrl": "https://www.nzgcp.co.nz/funding/aspire-seed-fund",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.nzgcp.co.nz/funding/aspire-seed-fund",
+        "title": "Aspire NZ Seed Fund",
+        "publisher": "New Zealand Growth Capital Partners",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "apply-now pathway",
+          "eligibility",
+          "stages",
+          "investment process"
+        ]
       }
     ],
     "lastVerifiedAt": "2026-08-24",
@@ -77,18 +465,38 @@
     "id": "ccamp-bio-incubation",
     "kind": "program",
     "name": "C-CAMP Bio-incubation",
-    "aliases": ["C-CAMP BioNEST Incubation"],
+    "aliases": [
+      "C-CAMP BioNEST Incubation"
+    ],
     "programType": "incubation_intake",
-    "organizerIds": ["ccamp"],
+    "organizerIds": [
+      "ccamp"
+    ],
     "description": "Rolling resident bio-incubation with plug-and-play laboratories, technology platforms, mentorship, and ecosystem access.",
     "publicationState": "published",
     "deliveryMode": "onsite",
-    "locationIds": ["ccamp-bengaluru"],
-    "panIndia": true,
-    "sectors": ["biotechnology", "healthcare", "agritech", "climate"],
-    "stages": ["idea", "pre_seed", "seed"],
+    "locationIds": [
+      "ccamp-bengaluru"
+    ],
+    "sectors": [
+      "biotechnology",
+      "healthcare",
+      "agritech",
+      "climate"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed"
+    ],
     "eligibility": "Science and biotechnology innovators or startups needing laboratory incubation and commercialization support.",
-    "benefits": ["Dedicated laboratory space", "Technology platforms", "Mentorship", "Networking", "Clean-room and biosafety access"],
+    "benefits": [
+      "Dedicated laboratory space",
+      "Technology platforms",
+      "Mentorship",
+      "Networking",
+      "Clean-room and biosafety access"
+    ],
     "funding": null,
     "equityTerms": null,
     "applicationUrl": "https://www.ccamp.res.in/node/171",
@@ -104,31 +512,484 @@
         "publisher": "C-CAMP",
         "sourceClass": "official_website",
         "checkedAt": "2026-08-24",
-        "supports": ["rolling contact", "facilities", "eligibility", "benefits"]
+        "supports": [
+          "rolling contact",
+          "facilities",
+          "eligibility",
+          "benefits"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31",
+    "eligibleMarketCodes": [
+      "IN"
+    ],
+    "marketWideCodes": [
+      "IN"
+    ]
+  },
+  {
+    "id": "civiclabs-program",
+    "kind": "program",
+    "name": "CivicLabs Program",
+    "aliases": [],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "civiclabs-israel"
+    ],
+    "description": "An open built-environment accelerator for early-stage startups and entrepreneurs combining mentorship, R&D and field access, business support, pilots, investor exposure, and possible funding.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "civiclabs-israel-location"
+    ],
+    "eligibleMarketCodes": [
+      "IL"
+    ],
+    "marketWideCodes": [
+      "IL"
+    ],
+    "sectors": [
+      "built environment",
+      "construction",
+      "infrastructure",
+      "climate"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "Early-stage founders and startups developing technology for construction, real estate, infrastructure, municipal services, utilities, or the wider built environment.",
+    "benefits": [
+      "Mentorship and business guidance",
+      "R&D, laboratory, and field access",
+      "Pilot and corporate connections",
+      "Investor network and funding consideration"
+    ],
+    "equityTerms": "Not disclosed",
+    "applicationUrl": "https://www.civic-labs.com/program",
+    "applicationsOpenAsOf": "2026-08-24",
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://www.civic-labs.com/program",
+        "title": "CivicLabs — Program",
+        "publisher": "CivicLabs",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "applications open",
+          "startup eligibility",
+          "program stages",
+          "benefits"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "darom-boostcamp",
+    "kind": "program",
+    "name": "DAROM Boostcamp",
+    "aliases": [],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "darom-innovation-center"
+    ],
+    "description": "A currently accepting Eastern Negev bootcamp for validating early-stage solutions and preparing ventures for market readiness, pilots, industry collaboration, and further acceleration.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "darom-innovation-center-location"
+    ],
+    "eligibleMarketCodes": [
+      "IL"
+    ],
+    "marketWideCodes": [
+      "IL"
+    ],
+    "sectors": [
+      "climate",
+      "energy",
+      "manufacturing",
+      "robotics",
+      "artificial intelligence"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "Early-stage founders and ventures developing solutions aligned with green industry, energy, climate resilience, industrial AI, advanced manufacturing, or ground robotics.",
+    "benefits": [
+      "Solution validation",
+      "Mentoring and R&D support",
+      "Testing-site and industry access",
+      "Pilot and acceleration preparation"
+    ],
+    "equityTerms": "Not disclosed",
+    "applicationUrl": "https://darom.life/",
+    "applicationsOpenAsOf": "2026-08-24",
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://darom.life/",
+        "title": "DAROM Innovation Center — Boostcamp",
+        "publisher": "DAROM Innovation Center",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "registration open",
+          "bootcamp activity",
+          "focus areas",
+          "program support"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "defence-industry-development-grants",
+    "kind": "program",
+    "name": "Defence Industry Development Grants Program",
+    "aliases": [
+      "DIDG"
+    ],
+    "programType": "grant",
+    "organizerIds": [
+      "australian-business-grants-hub"
+    ],
+    "description": "Four grant streams supporting Australian defence-industry SMEs with sovereign capability, exports, security, and workforce skilling projects.",
+    "publicationState": "published",
+    "deliveryMode": "remote",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "AU"
+    ],
+    "marketWideCodes": [
+      "AU"
+    ],
+    "sectors": [
+      "defence",
+      "manufacturing",
+      "cybersecurity"
+    ],
+    "stages": [
+      "seed",
+      "series_a",
+      "series_b_plus",
+      "growth"
+    ],
+    "eligibility": "Australian incorporated, GST-registered SMEs with fewer than 200 employees and an eligible Australian defence-industry project; the Skilling stream also accepts eligible defence industry associations.",
+    "benefits": [
+      "Grants from AUD 5,000 to AUD 1,000,000 depending on stream",
+      "Up to 50% of eligible expenditure"
+    ],
+    "funding": {
+      "min": 5000,
+      "max": 1000000,
+      "currency": "AUD",
+      "asStated": "AUD 5,000–1,000,000 depending on stream; up to 50% of eligible expenditure"
+    },
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://business.gov.au/grants-and-programs/defence-industry-development-grants-program",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://business.gov.au/grants-and-programs/defence-industry-development-grants-program",
+        "title": "Defence Industry Development Grants Program",
+        "publisher": "Australian Government",
+        "sourceClass": "government_registry",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "open status",
+          "batched rolling applications",
+          "stream deadlines",
+          "funding",
+          "eligibility"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "dubai-future-accelerators-open-challenges",
+    "kind": "program",
+    "name": "Dubai Future Accelerators — Open Challenges",
+    "aliases": [
+      "DFA Open Challenges"
+    ],
+    "programType": "corporate_pilot",
+    "organizerIds": [
+      "dubai-future-foundation"
+    ],
+    "description": "An open challenge pathway connecting startups with Dubai public and private entities to co-create, test, and deploy solutions against defined future needs.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "dff-emirates-towers"
+    ],
+    "eligibleMarketCodes": [
+      "AE-DU"
+    ],
+    "marketWideCodes": [
+      "AE-DU"
+    ],
+    "sectors": [
+      "future_technology",
+      "government_technology",
+      "mobility",
+      "ai"
+    ],
+    "stages": [
+      "seed",
+      "series_a",
+      "growth"
+    ],
+    "eligibility": "Startups with deployable technology that fits a currently listed challenge from a Dubai public- or private-sector partner.",
+    "benefits": [
+      "Government and corporate collaboration",
+      "Pilot opportunities",
+      "Dubai market access",
+      "Challenge-owner support"
+    ],
+    "funding": null,
+    "equityTerms": null,
+    "applicationUrl": "https://www.dubaifuture.ae/initiatives/future-design-and-acceleration/dubai-future-accelerators/",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.dubaifuture.ae/initiatives/future-design-and-acceleration/dubai-future-accelerators/",
+        "title": "Dubai Future Accelerators",
+        "publisher": "Dubai Future Foundation",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "open challenges",
+          "application path",
+          "program model"
+        ]
       }
     ],
     "lastVerifiedAt": "2026-08-24",
     "nextReviewAt": "2026-08-31"
   },
   {
-    "id": "venture-center-incubation",
+    "id": "dubai-traders",
     "kind": "program",
-    "name": "Venture Center Incubation Support",
-    "aliases": ["Venture Center Resident Incubation", "Venture Center Virtual Incubation"],
-    "programType": "incubation_intake",
-    "organizerIds": ["venture-center"],
-    "description": "Rolling resident or virtual incubation for science-led companies requiring facilities, expert networks, mentoring, and funding access.",
+    "name": "Dubai Traders",
+    "aliases": [
+      "Dubai Traders Programme"
+    ],
+    "programType": "government_scheme",
+    "organizerIds": [
+      "dubai-founders-hq"
+    ],
+    "description": "A Dubai Founders HQ growth program connecting locally based e-commerce businesses with selected digital-platform partners and practical routes to grow in Dubai's digital economy.",
     "publicationState": "published",
     "deliveryMode": "hybrid",
-    "locationIds": ["venture-center-pune"],
-    "panIndia": true,
-    "sectors": ["deeptech", "biotechnology", "healthcare", "materials", "chemicals", "engineering"],
-    "stages": ["idea", "pre_seed", "seed"],
-    "eligibility": "Science and technology projects or startups seeking resident, virtual, or pre-incubation support.",
-    "benefits": ["Resident or virtual incubation", "Laboratories", "Mentorship", "Funding opportunities", "IP and regulatory support"],
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "AE-DU"
+    ],
+    "marketWideCodes": [
+      "AE-DU"
+    ],
+    "sectors": [
+      "ecommerce",
+      "digital_economy",
+      "consumer"
+    ],
+    "stages": [
+      "seed",
+      "series_a",
+      "growth"
+    ],
+    "eligibility": "Dubai startups and SMEs seeking to grow through the program's participating digital-commerce and enablement partners; each partner applies its own onboarding criteria.",
+    "benefits": [
+      "Partner onboarding pathways",
+      "Digital-commerce growth support",
+      "Platform and service offers",
+      "Dubai founder ecosystem access"
+    ],
     "funding": null,
     "equityTerms": null,
-    "applicationUrl": "https://www.venturecenter.co.in/incubation-support",
+    "applicationUrl": "https://www.dubaifoundershq.com/en/run-and-grow-your-business/dubai-traders",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.dubaifoundershq.com/en/run-and-grow-your-business/dubai-traders",
+        "title": "Dubai Traders",
+        "publisher": "Dubai Founders HQ",
+        "sourceClass": "government_registry",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "signup availability",
+          "program purpose",
+          "partner-led delivery"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "emerging-gamemakers-fund-2026",
+    "kind": "program",
+    "name": "Emerging Gamemakers Fund 2026",
+    "aliases": [],
+    "programType": "grant",
+    "organizerIds": [
+      "screen-australia"
+    ],
+    "description": "Funding for Australian independent gamemakers to create or complete an original micro-scale game at ideation or pre-production stage.",
+    "publicationState": "published",
+    "deliveryMode": "remote",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "AU"
+    ],
+    "marketWideCodes": [
+      "AU"
+    ],
+    "sectors": [
+      "gaming",
+      "creative industries"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed"
+    ],
+    "eligibility": "Australian citizens, permanent residents, or incorporated Australian companies developing an eligible original game with a budget up to AUD 500,000.",
+    "benefits": [
+      "Up to AUD 30,000 in project funding"
+    ],
+    "funding": {
+      "min": 0,
+      "max": 30000,
+      "currency": "AUD",
+      "asStated": "Funding up to AUD 30,000"
+    },
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://business.gov.au/grants-and-programs/emerging-gamemakers-fund",
+    "applicationCloseAt": "2026-08-27T23:59:59+10:00",
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://business.gov.au/grants-and-programs/emerging-gamemakers-fund",
+        "title": "Emerging Gamemakers Fund",
+        "publisher": "Australian Government",
+        "sourceClass": "government_registry",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "open status",
+          "27 August 2026 deadline",
+          "funding",
+          "eligibility"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "entrepass-singapore",
+    "kind": "program",
+    "name": "EntrePass",
+    "aliases": [],
+    "programType": "government_scheme",
+    "organizerIds": [
+      "enterprise-singapore"
+    ],
+    "description": "Singapore's continuously available work-pass route for eligible foreign founders establishing and operating a venture-backed or innovative technology business.",
+    "publicationState": "published",
+    "deliveryMode": "remote",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [
+      "SG"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "Foreign founders of a Singapore private limited company that is venture-backed or owns innovative technologies and who meet at least one published entrepreneur, innovator, or investor criterion.",
+    "benefits": [
+      "Permission to start and operate an eligible Singapore business",
+      "Access to Singapore's startup community"
+    ],
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://www.mom.gov.sg/passes-and-permits/entrepass/apply-for-a-pass",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.mom.gov.sg/passes-and-permits/entrepass/apply-for-a-pass",
+        "title": "Apply for an EntrePass",
+        "publisher": "Singapore Ministry of Manpower",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "online application available",
+          "fees",
+          "processing time"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "ef-us-funding-fellowships",
+    "kind": "program",
+    "name": "Entrepreneurs First US Funding & Fellowships",
+    "aliases": [
+      "EF US Residencies"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "entrepreneurs-first"
+    ],
+    "description": "Rolling San Francisco residencies for people ready to build or explore a startup before a complete team, product, or company exists.",
+    "publicationState": "published",
+    "deliveryMode": "onsite",
+    "locationIds": [
+      "ef-san-francisco"
+    ],
+    "eligibleMarketCodes": [
+      "US"
+    ],
+    "marketWideCodes": [
+      "US"
+    ],
+    "sectors": [
+      "sector_agnostic",
+      "technology"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed"
+    ],
+    "eligibility": "Exceptional prospective founders who can participate in a full-time San Francisco residency; an existing startup is not required.",
+    "benefits": [
+      "Cofounder matching",
+      "Company formation support",
+      "Founder community",
+      "Funding pathway"
+    ],
+    "funding": null,
+    "equityTerms": null,
+    "applicationUrl": "https://apply.joinef.com/",
     "opensAt": null,
     "applicationCloseAt": null,
     "cohortStartsAt": null,
@@ -136,33 +997,1145 @@
     "rolling": true,
     "evidence": [
       {
-        "url": "https://www.venturecenter.co.in/incubation-support",
-        "title": "Incubation Support",
-        "publisher": "Venture Center",
+        "url": "https://apply.joinef.com/",
+        "title": "Entrepreneurs First application hub",
+        "publisher": "Entrepreneurs First",
         "sourceClass": "official_website",
         "checkedAt": "2026-08-24",
-        "supports": ["active intake", "incubation modes", "benefits", "contact"]
+        "supports": [
+          "rolling applications",
+          "San Francisco residency",
+          "eligibility"
+        ]
       }
     ],
     "lastVerifiedAt": "2026-08-24",
     "nextReviewAt": "2026-08-31"
   },
   {
+    "id": "israel-fast-track-funding-2026",
+    "kind": "program",
+    "name": "Fast-Track Funding Program — R&D Fund 2026",
+    "aliases": [
+      "Israel Fast-Track Grant"
+    ],
+    "programType": "grant",
+    "organizerIds": [
+      "israel-innovation-authority"
+    ],
+    "description": "A time-limited Israel Innovation Authority grant program supporting technology companies with strong technological assets and shortened financial runway.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "IL"
+    ],
+    "marketWideCodes": [
+      "IL"
+    ],
+    "sectors": [
+      "technology",
+      "research_and_development"
+    ],
+    "stages": [
+      "seed",
+      "series_a",
+      "growth"
+    ],
+    "eligibility": "Israeli technology companies meeting the current R&D Fund fast-track criteria and application guidance.",
+    "benefits": [
+      "Accelerated grant review",
+      "R&D funding support",
+      "Runway support"
+    ],
+    "funding": null,
+    "equityTerms": null,
+    "applicationUrl": "https://innovationisrael.org.il/en/programs/",
+    "opensAt": "2026-07-29T09:00:00+03:00",
+    "applicationCloseAt": "2026-11-19T23:59:59+02:00",
+    "cohortStartsAt": null,
+    "cohortEndsAt": null,
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://innovationisrael.org.il/en/programs/",
+        "title": "Israel Innovation Authority programs",
+        "publisher": "Israel Innovation Authority",
+        "sourceClass": "government_registry",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "open window",
+          "program purpose",
+          "deadline"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "gia-acceleration-programmes",
+    "kind": "program",
+    "name": "GIA Acceleration Programmes",
+    "aliases": [
+      "Global Innovation Alliance Acceleration Programmes"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "enterprise-singapore"
+    ],
+    "description": "A portfolio of international market-entry accelerators offering workshops, mentorship, and connections with potential customers and partners in major innovation hubs.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [
+      "SG"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "stages": [
+      "seed",
+      "series_a",
+      "series_b_plus",
+      "growth"
+    ],
+    "eligibility": "Singapore-based startups and technology SMEs seeking overseas market entry, subject to the requirements of an open destination programme.",
+    "benefits": [
+      "Market-entry workshops",
+      "Mentorship",
+      "Customer and partner introductions"
+    ],
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/market-access-and-networks/global-innovation-alliance/acceleration-programmes",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/market-access-and-networks/global-innovation-alliance/acceleration-programmes",
+        "title": "GIA Acceleration Programmes",
+        "publisher": "Enterprise Singapore",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "ongoing destination programmes",
+          "program benefits",
+          "application links"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "gia-co-innovation-programmes",
+    "kind": "program",
+    "name": "GIA Co-Innovation Programmes",
+    "aliases": [
+      "Global Innovation Alliance Co-Innovation Programmes"
+    ],
+    "programType": "grant",
+    "organizerIds": [
+      "enterprise-singapore"
+    ],
+    "description": "A continuously refreshed portfolio of bilateral and multilateral calls funding Singapore companies and overseas partners to co-develop market-oriented R&D products and solutions.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [
+      "SG"
+    ],
+    "sectors": [
+      "research and development",
+      "technology"
+    ],
+    "stages": [
+      "seed",
+      "series_a",
+      "series_b_plus",
+      "growth"
+    ],
+    "eligibility": "A financially viable Singapore-registered lead company with at least 30% local ownership and an eligible overseas project partner for a currently open call.",
+    "benefits": [
+      "Up to 70% support for qualifying costs on eligible calls",
+      "International R&D partner collaboration"
+    ],
+    "funding": {
+      "min": 0,
+      "max": null,
+      "currency": "SGD",
+      "asStated": "Up to 70% of qualifying costs; limits vary by call"
+    },
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/market-access-and-networks/global-innovation-alliance/cip-programmes",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/market-access-and-networks/global-innovation-alliance/cip-programmes",
+        "title": "Co-Innovation Programmes",
+        "publisher": "Enterprise Singapore",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "ongoing and open calls",
+          "eligibility",
+          "up to 70% support",
+          "application process"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "global-tech-talent-alliance",
+    "kind": "program",
+    "name": "Global Tech Talent Alliance",
+    "aliases": [
+      "GTTA"
+    ],
+    "programType": "government_scheme",
+    "organizerIds": [
+      "enterprise-singapore"
+    ],
+    "description": "An ongoing Enterprise Singapore pathway giving Singapore-based companies access to vetted tech-talent service providers and preferential rates in India and Vietnam.",
+    "publicationState": "published",
+    "deliveryMode": "remote",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [
+      "SG"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a",
+      "series_b_plus",
+      "growth"
+    ],
+    "eligibility": "Singapore-based companies seeking to build technology teams in India or Vietnam.",
+    "benefits": [
+      "Curated talent-provider panel",
+      "Preferential recruitment and team-building rates",
+      "International market-entry support"
+    ],
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/innovation-talent/global-tech-talent-alliance",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/innovation-talent/global-tech-talent-alliance",
+        "title": "Global Tech Talent Alliance",
+        "publisher": "Enterprise Singapore",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "current provider list",
+          "eligibility",
+          "how to apply"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "google-for-startups-hub-hyderabad",
+    "kind": "program",
+    "name": "Google for Startups Hub Hyderabad",
+    "aliases": [
+      "GFS Hub Hyderabad"
+    ],
+    "programType": "incubation_intake",
+    "organizerIds": [
+      "t-hub"
+    ],
+    "description": "A six-month physical hub pass and curated community for AI-first founders operated by Google for Startups and T-Hub.",
+    "publicationState": "published",
+    "deliveryMode": "onsite",
+    "locationIds": [
+      "t-hub-hyderabad"
+    ],
+    "sectors": [
+      "ai",
+      "deeptech"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a",
+      "growth"
+    ],
+    "eligibility": "Founder or co-founder of an India-registered AI-native or AI-enabled startup with a working product or clear product direction.",
+    "benefits": [
+      "Six-month hub pass",
+      "Workspace",
+      "Founder community",
+      "Google and T-Hub ecosystem access"
+    ],
+    "funding": null,
+    "equityTerms": "No equity disclosed",
+    "applicationUrl": "https://www.t-hub.co/google-for-startups-hub",
+    "opensAt": null,
+    "applicationCloseAt": null,
+    "cohortStartsAt": null,
+    "cohortEndsAt": null,
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.t-hub.co/google-for-startups-hub",
+        "title": "Google for Startups Hub Hyderabad",
+        "publisher": "T-Hub",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "waitlist open",
+          "eligibility",
+          "duration",
+          "benefits"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31",
+    "eligibleMarketCodes": [
+      "IN"
+    ],
+    "marketWideCodes": [
+      "IN"
+    ]
+  },
+  {
+    "id": "creative-hq-govtech-activate-2026",
+    "kind": "program",
+    "name": "GovTech Activate 2026",
+    "aliases": [
+      "GovTech Activate"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "creative-hq"
+    ],
+    "description": "A hybrid pre-accelerator for New Zealand founders building technology that solves public problems and can serve government as a customer.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "creative-hq-wellington"
+    ],
+    "eligibleMarketCodes": [
+      "NZ"
+    ],
+    "marketWideCodes": [
+      "NZ"
+    ],
+    "sectors": [
+      "government_technology",
+      "ai",
+      "enterprise_technology"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "Founders anywhere in Aotearoa building technology that addresses a public-sector problem and can commit to the October–November program.",
+    "benefits": [
+      "Public-sector market insight",
+      "Hybrid founder support",
+      "Solution development",
+      "Final presentation to government stakeholders"
+    ],
+    "funding": null,
+    "equityTerms": null,
+    "applicationUrl": "https://creativehq.co.nz/build-for-founders/govtech-activate/",
+    "opensAt": null,
+    "applicationCloseAt": "2026-09-02T23:59:59+12:00",
+    "cohortStartsAt": "2026-10-01T09:00:00+13:00",
+    "cohortEndsAt": "2026-11-30T17:00:00+13:00",
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://creativehq.co.nz/build-for-founders/govtech-activate/",
+        "title": "GovTech Activate",
+        "publisher": "Creative HQ",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "applications close date",
+          "program dates",
+          "eligibility",
+          "hybrid delivery"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "hamitbah-buildtech-call",
+    "kind": "program",
+    "name": "Hamitbah BuildTech Call for Startups",
+    "aliases": [],
+    "programType": "corporate_pilot",
+    "organizerIds": [
+      "hamitbah-western-negev"
+    ],
+    "description": "An open Western Negev call for construction-technology startups seeking pilots, industry validation, strategic partnerships, mentors, and tailored funding pathways.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "hamitbah-western-negev-location"
+    ],
+    "eligibleMarketCodes": [
+      "IL"
+    ],
+    "marketWideCodes": [
+      "IL"
+    ],
+    "sectors": [
+      "construction",
+      "built environment",
+      "robotics"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
+    "eligibility": "Startups with a technology that can improve construction or the built environment and can participate in a Western Negev pilot or industry partnership.",
+    "benefits": [
+      "Real-world pilot opportunities",
+      "Industry and municipal connections",
+      "Mentorship",
+      "Investor and Innovation Authority pathways"
+    ],
+    "equityTerms": "Not disclosed",
+    "applicationUrl": "https://hamitbah.com/en/",
+    "applicationsOpenAsOf": "2026-08-24",
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://hamitbah.com/en/",
+        "title": "Hamitbah — BuildTech Call for Startups",
+        "publisher": "Hamitbah",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "applications open",
+          "startup call",
+          "pilot support",
+          "program benefits"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "hamitbah-connectivity-startup-call",
+    "kind": "program",
+    "name": "Hamitbah Connectivity Startup Call",
+    "aliases": [],
+    "programType": "corporate_pilot",
+    "organizerIds": [
+      "hamitbah-western-negev"
+    ],
+    "description": "An open call for startups developing connectivity and communications infrastructure solutions that can be piloted against real operational needs in the Western Negev.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "hamitbah-western-negev-location"
+    ],
+    "eligibleMarketCodes": [
+      "IL"
+    ],
+    "marketWideCodes": [
+      "IL"
+    ],
+    "sectors": [
+      "telecommunications",
+      "internet of things",
+      "cybersecurity",
+      "space"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
+    "eligibility": "Technology startups with connectivity, communication infrastructure, satellite, IoT, edge, or related solutions suitable for a real-world regional pilot.",
+    "benefits": [
+      "Real-world pilot opportunities",
+      "Industry and public-sector partners",
+      "Mentorship",
+      "Funding and investor connections"
+    ],
+    "equityTerms": "Not disclosed",
+    "applicationUrl": "https://hamitbah.com/en/",
+    "applicationsOpenAsOf": "2026-08-24",
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://hamitbah.com/en/",
+        "title": "Hamitbah — Connectivity Startup Call",
+        "publisher": "Hamitbah",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "applications open",
+          "startup call",
+          "program sectors",
+          "pilot and partner access"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "helix-immersion-programme",
+    "kind": "program",
+    "name": "Helix Immersion Programme",
+    "aliases": [
+      "HIP"
+    ],
+    "programType": "fellowship",
+    "organizerIds": [
+      "sginnovate"
+    ],
+    "description": "A one-year, full-time biomedical industry fellowship placing qualified Singapore research professionals into fast-growing biotech and medtech companies.",
+    "publicationState": "published",
+    "deliveryMode": "onsite",
+    "locationIds": [
+      "sginnovate-singapore"
+    ],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [],
+    "sectors": [
+      "biotech",
+      "healthcare",
+      "medtech"
+    ],
+    "stages": [
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
+    "eligibility": "Singapore citizens or permanent residents with an eligible MSc or PhD and relevant biomedical research or laboratory experience.",
+    "benefits": [
+      "Twelve-month industry fellowship",
+      "Mentorship",
+      "Monthly stipend up to SGD 7,000"
+    ],
+    "funding": {
+      "min": 0,
+      "max": 7000,
+      "currency": "SGD",
+      "asStated": "Monthly stipend up to SGD 7,000"
+    },
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://www.sginnovate.com/apprenticeship/helix-programme",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.sginnovate.com/apprenticeship/helix-programme",
+        "title": "Helix Immersion Programme",
+        "publisher": "SGInnovate",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "applications open",
+          "eligibility",
+          "twelve-month fellowship",
+          "stipend"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "in5-incubation",
+    "kind": "program",
+    "name": "in5 Startup Incubation",
+    "aliases": [
+      "in5 Programme"
+    ],
+    "programType": "incubation_intake",
+    "organizerIds": [
+      "in5-dubai"
+    ],
+    "description": "A rolling, equity-free Dubai incubation intake spanning technology, media, design, and science, with subsidized business setup, facilities, mentorship, and investor access.",
+    "publicationState": "published",
+    "deliveryMode": "onsite",
+    "locationIds": [
+      "in5-tech",
+      "in5-media",
+      "in5-design",
+      "in5-science"
+    ],
+    "eligibleMarketCodes": [
+      "AE-DU"
+    ],
+    "marketWideCodes": [],
+    "sectors": [
+      "technology",
+      "media",
+      "design",
+      "science"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "Innovative founders of any nationality who can establish or operate their accepted startup through an in5 centre in Dubai; applications are assessed by the relevant steering committee.",
+    "benefits": [
+      "Subsidized business setup",
+      "Specialized workspace and facilities",
+      "Mentorship and workshops",
+      "Investor introductions",
+      "Community and showcase access"
+    ],
+    "funding": null,
+    "equityTerms": "in5 states that it does not take an equity stake; any investor funding is negotiated separately.",
+    "applicationUrl": "https://infive.ae/about-us/",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://infive.ae/about-us/",
+        "title": "About us and how to apply",
+        "publisher": "in5",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "online application",
+          "selection steps",
+          "centres",
+          "benefits"
+        ]
+      },
+      {
+        "url": "https://infive.ae/faqs/",
+        "title": "in5 FAQs",
+        "publisher": "in5",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "equity-free terms",
+          "nationality eligibility",
+          "pricing",
+          "facilities",
+          "online submissions"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "innovate-to-grow-australia",
+    "kind": "program",
+    "name": "Innovate to Grow",
+    "aliases": [],
+    "programType": "incubation_intake",
+    "organizerIds": [
+      "csiro"
+    ],
+    "description": "A free eight-week, sector-specific program helping Australian SMEs refine R&D opportunities, validate innovation challenges, and prepare a stronger research and funding case.",
+    "publicationState": "published",
+    "deliveryMode": "remote",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "AU"
+    ],
+    "marketWideCodes": [
+      "AU"
+    ],
+    "sectors": [
+      "research and development",
+      "deeptech"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed",
+      "series_a",
+      "growth"
+    ],
+    "eligibility": "Australian registered and operating SMEs with fewer than 200 employees that are exploring R&D opportunities in the sector advertised for an open intake.",
+    "benefits": [
+      "Free eight-week R&D support",
+      "R&D coaching and confidential feedback",
+      "Networking and funding-application preparation"
+    ],
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://business.gov.au/grants-and-programs/innovate-to-grow",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://business.gov.au/grants-and-programs/innovate-to-grow",
+        "title": "Innovate to Grow",
+        "publisher": "Australian Government",
+        "sourceClass": "government_registry",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "open status",
+          "monthly sector intakes",
+          "program benefits",
+          "eligibility"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "israel-startup-fund",
+    "kind": "program",
+    "name": "Israel Innovation Authority Startup Fund",
+    "aliases": [
+      "Startup Fund Israel"
+    ],
+    "programType": "government_scheme",
+    "organizerIds": [
+      "israel-innovation-authority"
+    ],
+    "description": "A year-round non-dilutive matching-investment program for Israeli R&D-intensive startups raising pre-seed, seed, or Series A rounds.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "IL"
+    ],
+    "marketWideCodes": [
+      "IL"
+    ],
+    "sectors": [
+      "technology",
+      "deeptech",
+      "research_and_development"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "eligibility": "Israeli-incorporated startups carrying out primarily industrial R&D and meeting the program's stage-specific fundraising and revenue limits.",
+    "benefits": [
+      "Non-dilutive matching investment",
+      "Pre-seed support",
+      "Seed support",
+      "Series A support"
+    ],
+    "funding": {
+      "min": 2000000,
+      "max": 15000000,
+      "currency": "ILS",
+      "asStated": "Up to NIS 2M pre-seed, NIS 6M seed, or NIS 15M Series A"
+    },
+    "equityTerms": "Non-dilutive grant requiring matching private investment.",
+    "applicationUrl": "https://innovationisrael.org.il/en/programs/startup-fund/",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://innovationisrael.org.il/en/programs/startup-fund/",
+        "title": "Startup Fund",
+        "publisher": "Israel Innovation Authority",
+        "sourceClass": "government_registry",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "year-round status",
+          "eligibility",
+          "stage limits",
+          "grant amounts"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "jinnovate-advanced-incubation-2026",
+    "kind": "program",
+    "name": "Jinnovate Advanced Incubation Program 2026",
+    "aliases": [],
+    "programType": "incubation_intake",
+    "organizerIds": [
+      "jinnovate"
+    ],
+    "description": "A currently accepting Jerusalem health-tech incubation pathway supporting founders from ideation through company growth with clinical, technology, AI, mentoring, and investor preparation resources.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "jinnovate-location"
+    ],
+    "eligibleMarketCodes": [
+      "IL"
+    ],
+    "marketWideCodes": [
+      "IL"
+    ],
+    "sectors": [
+      "healthcare",
+      "medtech",
+      "artificial intelligence"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "Aspiring or established entrepreneurs developing health-tech, medical-device, life-science, digital-health, or healthcare AI ventures.",
+    "benefits": [
+      "Incubation and mentoring",
+      "Clinical and technology partnerships",
+      "Pitch and investor preparation",
+      "Demo days and international connections"
+    ],
+    "equityTerms": "See participation agreement",
+    "applicationUrl": "https://jinnovate.tech/",
+    "applicationsOpenAsOf": "2026-08-24",
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://jinnovate.tech/",
+        "title": "Jinnovate — Advanced Incubation Program 2026",
+        "publisher": "Jinnovate",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "apply-now path",
+          "2026 program",
+          "eligibility",
+          "program services"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "netzero-labs4minerals-2026",
+    "kind": "program",
+    "name": "Labs4Minerals Global Competition 2026",
+    "aliases": [
+      "Labs4Minerals"
+    ],
+    "programType": "challenge",
+    "organizerIds": [
+      "netzero-tech-ventures"
+    ],
+    "description": "A global critical-minerals and rare-earths competition for early ventures and academic technologies, with industry access and a potential Israel-based investment pathway.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "netzero-ramat-gan"
+    ],
+    "eligibleMarketCodes": [
+      "US",
+      "GB",
+      "AE-DU",
+      "SG",
+      "AU",
+      "IL"
+    ],
+    "marketWideCodes": [
+      "US",
+      "GB",
+      "AE-DU",
+      "SG",
+      "AU",
+      "IL"
+    ],
+    "sectors": [
+      "critical_minerals",
+      "advanced_materials",
+      "deeptech",
+      "climate",
+      "energy"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed"
+    ],
+    "eligibility": "Academic researchers or early-stage ventures at TRL 2–5; the investment pathway requires most initial R&D to be conducted in Israel.",
+    "benefits": [
+      "Industry partner feedback",
+      "Global visibility",
+      "Hybrid finalist pitch",
+      "Potential investment up to US$2M"
+    ],
+    "funding": {
+      "min": null,
+      "max": 2000000,
+      "currency": "USD",
+      "asStated": "Potential investment up to US$2 million",
+      "approximateMaxUsd": 2000000
+    },
+    "equityTerms": "Investment offer subject to competition terms and Israel Innovation Authority incubator approval; applicants may waive investment consideration.",
+    "applicationUrl": "https://net-zero.vc/labs4minerals/",
+    "opensAt": "2026-07-13T09:00:00+03:00",
+    "applicationCloseAt": "2026-10-05T23:59:59+03:00",
+    "cohortStartsAt": null,
+    "cohortEndsAt": null,
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://net-zero.vc/labs4minerals/",
+        "title": "Labs4Minerals",
+        "publisher": "NetZero Tech Ventures",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "applications open",
+          "deadline",
+          "eligibility",
+          "investment opportunity",
+          "target countries"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "northpreneur-iii",
+    "kind": "program",
+    "name": "NorthPreneur III",
+    "aliases": [
+      "NorthPreneur"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "northmed-innovation-center"
+    ],
+    "description": "NorthMed's currently accepting entrepreneurship program for northern founders, combining health-technology and entrepreneurship learning, expert mentoring, clinical connections, and venture guidance.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "northmed-innovation-center-location"
+    ],
+    "eligibleMarketCodes": [
+      "IL"
+    ],
+    "marketWideCodes": [
+      "IL"
+    ],
+    "sectors": [
+      "healthcare",
+      "medtech",
+      "digital health"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "Entrepreneurs and early-stage founders seeking to develop a healthcare or technology venture with support from the northern Israel ecosystem.",
+    "benefits": [
+      "Expert health-tech and entrepreneurship sessions",
+      "Mentoring",
+      "Industry and clinical ecosystem access",
+      "Founder community"
+    ],
+    "equityTerms": "Not disclosed",
+    "applicationUrl": "https://northmed.tech/",
+    "applicationsOpenAsOf": "2026-08-24",
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://northmed.tech/",
+        "title": "NorthMed — NorthPreneur III",
+        "publisher": "NorthMed",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "accepting applications",
+          "program focus",
+          "mentoring",
+          "founder support"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "powering-regions-safeguard-transformation-round-2",
+    "kind": "program",
+    "name": "Powering the Regions Fund — Safeguard Transformation Stream Round 2",
+    "aliases": [
+      "PRF STS Round 2"
+    ],
+    "programType": "grant",
+    "organizerIds": [
+      "australian-business-grants-hub"
+    ],
+    "description": "Competitive funding for eligible Australian trade-exposed Safeguard facilities to reduce emissions through equipment, process, and workforce-transformation projects.",
+    "publicationState": "published",
+    "deliveryMode": "remote",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "AU"
+    ],
+    "marketWideCodes": [
+      "AU"
+    ],
+    "sectors": [
+      "climate",
+      "energy",
+      "industrial decarbonization"
+    ],
+    "stages": [
+      "growth"
+    ],
+    "eligibility": "Owners or operators of eligible Australian trade-exposed Safeguard Mechanism facilities, excluding new or expanded coal or gas production facilities.",
+    "benefits": [
+      "AUD 500,000–50,000,000 grant",
+      "Up to 50% of eligible project expenditure"
+    ],
+    "funding": {
+      "min": 500000,
+      "max": 50000000,
+      "currency": "AUD",
+      "asStated": "AUD 500,000–50,000,000; up to 50% of eligible expenditure"
+    },
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://business.gov.au/grants-and-programs/powering-the-regions-fund-safeguard-transformation-stream-round-2",
+    "applicationCloseAt": "2026-11-05T17:00:00+10:00",
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://business.gov.au/grants-and-programs/powering-the-regions-fund-safeguard-transformation-stream-round-2",
+        "title": "Powering the Regions Fund — Safeguard Transformation Stream Round 2",
+        "publisher": "Australian Government",
+        "sourceClass": "government_registry",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "open status",
+          "5 November 2026 batch deadline",
+          "funding",
+          "eligibility"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "powerx-singapore",
+    "kind": "program",
+    "name": "PowerX",
+    "aliases": [],
+    "programType": "fellowship",
+    "organizerIds": [
+      "sginnovate"
+    ],
+    "description": "A twelve-month deep-tech traineeship combining structured development, on-the-job experience, mentorship, and possible employment with a participating Singapore company.",
+    "publicationState": "published",
+    "deliveryMode": "onsite",
+    "locationIds": [
+      "sginnovate-singapore"
+    ],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [],
+    "sectors": [
+      "deeptech",
+      "artificial intelligence",
+      "cybersecurity",
+      "robotics",
+      "climate"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
+    "eligibility": "Singapore citizens or permanent residents with a diploma or university degree, preferably in STEM, basic programming skills, and at least one year of full-time work experience.",
+    "benefits": [
+      "Twelve-month training and company placement",
+      "Mentorship",
+      "Monthly training and stipend support up to SGD 5,000"
+    ],
+    "funding": {
+      "min": 0,
+      "max": 5000,
+      "currency": "SGD",
+      "asStated": "Monthly training and stipend support up to SGD 5,000"
+    },
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://www.sginnovate.com/power-x-talent",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.sginnovate.com/power-x-talent",
+        "title": "PowerX Talent",
+        "publisher": "SGInnovate",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "apply-now path",
+          "eligibility",
+          "twelve-month traineeship",
+          "stipend"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
     "id": "rk-lagu-fellowship",
     "kind": "program",
     "name": "R.K. Lagu Fellowship for Technology Immersion",
-    "aliases": ["Rajendra Lagu Fellowship"],
+    "aliases": [
+      "Rajendra Lagu Fellowship"
+    ],
     "programType": "fellowship",
-    "organizerIds": ["venture-center"],
+    "organizerIds": [
+      "venture-center"
+    ],
     "description": "A technology immersion fellowship pairing engineering students or recent graduates with commercialization projects in Venture Center's ecosystem.",
     "publicationState": "published",
     "deliveryMode": "onsite",
-    "locationIds": ["venture-center-pune"],
-    "panIndia": true,
-    "sectors": ["engineering", "deeptech", "commercialization"],
-    "stages": ["idea", "pre_seed"],
+    "locationIds": [
+      "venture-center-pune"
+    ],
+    "sectors": [
+      "engineering",
+      "deeptech",
+      "commercialization"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed"
+    ],
     "eligibility": "Current or recent engineering and technology students able to undertake a project of at least two months.",
-    "benefits": ["Subsistence stipend", "Technology commercialization training", "Startup project", "Hot desk", "Completion certificate"],
+    "benefits": [
+      "Subsistence stipend",
+      "Technology commercialization training",
+      "Startup project",
+      "Hot desk",
+      "Completion certificate"
+    ],
     "funding": null,
     "equityTerms": "Not applicable",
     "applicationUrl": "https://www.venturecenter.co.in/jobs/details/6/support-us",
@@ -178,28 +2151,511 @@
         "publisher": "Venture Center",
         "sourceClass": "official_website",
         "checkedAt": "2026-08-24",
-        "supports": ["application deadline", "eligibility", "benefits", "location"]
+        "supports": [
+          "application deadline",
+          "eligibility",
+          "benefits",
+          "location"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31",
+    "eligibleMarketCodes": [
+      "IN"
+    ],
+    "marketWideCodes": [
+      "IN"
+    ]
+  },
+  {
+    "id": "oraseya-sandbox-2026",
+    "kind": "program",
+    "name": "SANDBOX 2026 Intake",
+    "aliases": [
+      "Oraseya SANDBOX",
+      "SANDBOX Accelerator"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "oraseya-capital"
+    ],
+    "description": "Oraseya Capital's five-month Dubai investment accelerator for MVP-to-seed technology startups with a UAE base, scalable model, and MENA market opportunity.",
+    "publicationState": "published",
+    "deliveryMode": "onsite",
+    "locationIds": [
+      "oraseya-dubai"
+    ],
+    "eligibleMarketCodes": [
+      "AE-DU"
+    ],
+    "marketWideCodes": [],
+    "sectors": [
+      "technology"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "UAE-based, technology-driven startups from MVP through seed stage with a scalable model, a MENA market opportunity connected to Dubai, and founders preparing to raise within 12 months.",
+    "benefits": [
+      "US$150,000 SAFE investment",
+      "Five-month accelerator",
+      "One-to-one mentoring",
+      "Dubai coworking space",
+      "Partner credits",
+      "Investor-readiness support"
+    ],
+    "funding": {
+      "min": 150000,
+      "max": 150000,
+      "currency": "USD",
+      "asStated": "US$150,000 via SAFE: US$110,000 cash plus a US$40,000 program fee",
+      "approximateMinUsd": 150000,
+      "approximateMaxUsd": 150000,
+      "fxAsOf": "2026-08-24"
+    },
+    "equityTerms": "US$150,000 investment via SAFE Note Agreement, comprising US$110,000 cash and a US$40,000 program fee; the public page does not state the SAFE valuation terms.",
+    "applicationUrl": "https://www.sandboxaccelerator.com/rolling-application",
+    "opensAt": null,
+    "applicationCloseAt": "2026-09-30T23:59:59+04:00",
+    "cohortStartsAt": null,
+    "cohortEndsAt": null,
+    "rolling": false,
+    "evidence": [
+      {
+        "url": "https://www.sandboxaccelerator.com/",
+        "title": "SANDBOX startup investment program",
+        "publisher": "SANDBOX by Oraseya Capital",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "applications close September 2026",
+          "Q3 2026 start",
+          "investment terms",
+          "program duration",
+          "benefits"
+        ]
+      },
+      {
+        "url": "https://www.sandboxaccelerator.com/rolling-application",
+        "title": "SANDBOX rolling application",
+        "publisher": "SANDBOX by Oraseya Capital",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "application status",
+          "selection process",
+          "eligibility"
+        ]
       }
     ],
     "lastVerifiedAt": "2026-08-24",
     "nextReviewAt": "2026-08-31"
   },
   {
+    "id": "startup-sg-founder",
+    "kind": "program",
+    "name": "Startup SG Founder",
+    "aliases": [
+      "SSGF"
+    ],
+    "programType": "government_scheme",
+    "organizerIds": [
+      "enterprise-singapore"
+    ],
+    "description": "A Singapore government program providing first-time founders with accredited mentorship and matched startup grant support.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "enterprise-sg-bugis"
+    ],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [
+      "SG"
+    ],
+    "sectors": [
+      "sector_agnostic",
+      "innovation"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed"
+    ],
+    "eligibility": "First-time entrepreneurs who meet the scheme requirements and obtain a letter of recommendation from an Accredited Mentor Partner.",
+    "benefits": [
+      "Accredited mentorship",
+      "Pitch training",
+      "Investor and corporate networking",
+      "Startup grant"
+    ],
+    "funding": {
+      "min": 20000,
+      "max": 50000,
+      "currency": "SGD",
+      "asStated": "S$20,000 to S$50,000 grant on a 1:1 support ratio"
+    },
+    "equityTerms": null,
+    "applicationUrl": "https://www.startupsg.gov.sg/programmes/4894/startup-sg-founder",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.startupsg.gov.sg/programmes/4894/startup-sg-founder",
+        "title": "Startup SG Founder",
+        "publisher": "Enterprise Singapore",
+        "sourceClass": "government_registry",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "application pathway",
+          "eligibility",
+          "grant amount",
+          "benefits"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "startup-sg-tech",
+    "kind": "program",
+    "name": "Startup SG Tech",
+    "aliases": [
+      "SSG Tech"
+    ],
+    "programType": "grant",
+    "organizerIds": [
+      "enterprise-singapore"
+    ],
+    "description": "A competitive Singapore grant supporting proof-of-concept and proof-of-value work for proprietary technology with a scalable commercial model.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "enterprise-sg-bugis"
+    ],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [
+      "SG"
+    ],
+    "sectors": [
+      "deeptech",
+      "proprietary_technology",
+      "research_and_development"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "Singapore startups commercializing proprietary technology through proof-of-concept or proof-of-value milestones and meeting the current scheme criteria.",
+    "benefits": [
+      "Proof-of-concept grant",
+      "Proof-of-value grant",
+      "Milestone-based commercialization support"
+    ],
+    "funding": null,
+    "equityTerms": "Enterprise Singapore retains share-subscription rights under the scheme's disclosed equity component.",
+    "applicationUrl": "https://www.startupsg.gov.sg/programmes/4897/startup-sg-tech",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.startupsg.gov.sg/programmes/4897/startup-sg-tech",
+        "title": "Startup SG Tech",
+        "publisher": "Enterprise Singapore",
+        "sourceClass": "government_registry",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "application process",
+          "eligibility",
+          "grant structure",
+          "equity component"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "tech-at-sg",
+    "kind": "program",
+    "name": "Tech@SG",
+    "aliases": [],
+    "programType": "government_scheme",
+    "organizerIds": [
+      "enterprise-singapore"
+    ],
+    "description": "An ongoing endorsement scheme helping qualifying fast-growing Singapore technology companies secure Employment Passes for critical international core-team hires.",
+    "publicationState": "published",
+    "deliveryMode": "remote",
+    "locationIds": [],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [
+      "SG"
+    ],
+    "sectors": [
+      "technology",
+      "deeptech"
+    ],
+    "stages": [
+      "series_a",
+      "series_b_plus",
+      "growth"
+    ],
+    "eligibility": "Qualifying Singapore-incorporated technology companies funded by a programme-recognised investment firm and meeting the published ownership, funding, and employee criteria.",
+    "benefits": [
+      "Government endorsement for up to ten new Employment Passes over two years"
+    ],
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/innovation-talent/tech-at-sg",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/innovation-talent/tech-at-sg",
+        "title": "Tech@SG",
+        "publisher": "Enterprise Singapore",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "apply-now path",
+          "eligibility",
+          "Employment Pass benefit"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "t-up-singapore",
+    "kind": "program",
+    "name": "Technology for Enterprise Capability Upgrading (T-Up)",
+    "aliases": [
+      "T-Up"
+    ],
+    "programType": "government_scheme",
+    "organizerIds": [
+      "astar-singapore",
+      "enterprise-singapore"
+    ],
+    "description": "An ongoing program that seconds A*STAR scientists and engineers into eligible Singapore companies for up to two years to deliver R&D and product-development projects.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "astar-singapore-singapore"
+    ],
+    "eligibleMarketCodes": [
+      "SG"
+    ],
+    "marketWideCodes": [
+      "SG"
+    ],
+    "sectors": [
+      "research and development",
+      "deeptech",
+      "manufacturing"
+    ],
+    "stages": [
+      "seed",
+      "series_a",
+      "series_b_plus",
+      "growth"
+    ],
+    "eligibility": "Eligible local SMEs or larger local enterprises able to finance and complete an approved R&D or innovation project and meeting the published size and ownership requirements.",
+    "benefits": [
+      "A*STAR scientist or engineer secondment for up to two years",
+      "Up to 70% grant support for qualifying costs"
+    ],
+    "equityTerms": "No equity stated",
+    "applicationUrl": "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/innovation-talent/technology-for-enterprise-capability-upgrading",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.enterprisesg.gov.sg/grow-your-business/innovate-with-us/innovation-talent/technology-for-enterprise-capability-upgrading",
+        "title": "Technology for Enterprise Capability Upgrading",
+        "publisher": "Enterprise Singapore",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "registration path",
+          "eligibility",
+          "secondment benefit"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-07"
+  },
+  {
+    "id": "difc-transguard-early-stage-accelerator",
+    "kind": "program",
+    "name": "Transguard Early-Stage Accelerator Programme",
+    "aliases": [
+      "DIFC Transguard Accelerator"
+    ],
+    "programType": "corporate_pilot",
+    "organizerIds": [
+      "difc-innovation-hub"
+    ],
+    "description": "A DIFC Innovation Hub program for global startups developing AI, energy optimization, and smart facility-management solutions with pilot potential.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "difc-innovation-hub-dubai"
+    ],
+    "eligibleMarketCodes": [
+      "AE-DU"
+    ],
+    "marketWideCodes": [
+      "AE-DU"
+    ],
+    "sectors": [
+      "ai",
+      "energy",
+      "facility_management",
+      "enterprise_technology"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "eligibility": "Early-stage global startups with solutions in AI, energy optimization, or smart facility management and an interest in Dubai pilots.",
+    "benefits": [
+      "Mentorship",
+      "Pilot opportunities",
+      "Industry partnerships",
+      "DIFC Innovation Hub access"
+    ],
+    "funding": null,
+    "equityTerms": null,
+    "applicationUrl": "https://www.difc.com/ecosystem/innovation-hub",
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.difc.com/ecosystem/innovation-hub",
+        "title": "DIFC Innovation Hub programmes",
+        "publisher": "DIFC",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "apply-now status",
+          "focus areas",
+          "benefits"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31"
+  },
+  {
+    "id": "venture-center-incubation",
+    "kind": "program",
+    "name": "Venture Center Incubation Support",
+    "aliases": [
+      "Venture Center Resident Incubation",
+      "Venture Center Virtual Incubation"
+    ],
+    "programType": "incubation_intake",
+    "organizerIds": [
+      "venture-center"
+    ],
+    "description": "Rolling resident or virtual incubation for science-led companies requiring facilities, expert networks, mentoring, and funding access.",
+    "publicationState": "published",
+    "deliveryMode": "hybrid",
+    "locationIds": [
+      "venture-center-pune"
+    ],
+    "sectors": [
+      "deeptech",
+      "biotechnology",
+      "healthcare",
+      "materials",
+      "chemicals",
+      "engineering"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "Science and technology projects or startups seeking resident, virtual, or pre-incubation support.",
+    "benefits": [
+      "Resident or virtual incubation",
+      "Laboratories",
+      "Mentorship",
+      "Funding opportunities",
+      "IP and regulatory support"
+    ],
+    "funding": null,
+    "equityTerms": null,
+    "applicationUrl": "https://www.venturecenter.co.in/incubation-support",
+    "opensAt": null,
+    "applicationCloseAt": null,
+    "cohortStartsAt": null,
+    "cohortEndsAt": null,
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.venturecenter.co.in/incubation-support",
+        "title": "Incubation Support",
+        "publisher": "Venture Center",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "active intake",
+          "incubation modes",
+          "benefits",
+          "contact"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31",
+    "eligibleMarketCodes": [
+      "IN"
+    ],
+    "marketWideCodes": [
+      "IN"
+    ]
+  },
+  {
     "id": "we-found-her",
     "kind": "program",
     "name": "WE Found Her",
-    "aliases": ["WeFoundHer"],
+    "aliases": [
+      "WeFoundHer"
+    ],
     "programType": "accelerator_cohort",
-    "organizerIds": ["we-hub"],
+    "organizerIds": [
+      "we-hub"
+    ],
     "description": "A WE Hub application pathway for women-led businesses seeking structured growth, funding readiness, and market support.",
     "publicationState": "published",
     "deliveryMode": "hybrid",
-    "locationIds": ["we-hub-hyderabad"],
-    "panIndia": true,
-    "sectors": ["sector_agnostic", "women_led"],
-    "stages": ["seed", "series_a", "growth"],
+    "locationIds": [
+      "we-hub-hyderabad"
+    ],
+    "sectors": [
+      "sector_agnostic",
+      "women_led"
+    ],
+    "stages": [
+      "seed",
+      "series_a",
+      "growth"
+    ],
     "eligibility": "Women-led registered businesses from early revenue through scaling stages.",
-    "benefits": ["Mentorship", "Funding readiness", "Market access", "WE Hub ecosystem access"],
+    "benefits": [
+      "Mentorship",
+      "Funding readiness",
+      "Market access",
+      "WE Hub ecosystem access"
+    ],
     "funding": null,
     "equityTerms": null,
     "applicationUrl": "https://wehub.telangana.gov.in/wefoundher-application/",
@@ -215,7 +2671,89 @@
         "publisher": "WE Hub",
         "sourceClass": "official_website",
         "checkedAt": "2026-08-24",
-        "supports": ["application form active", "eligibility", "funding needs"]
+        "supports": [
+          "application form active",
+          "eligibility",
+          "funding needs"
+        ]
+      }
+    ],
+    "lastVerifiedAt": "2026-08-24",
+    "nextReviewAt": "2026-08-31",
+    "eligibleMarketCodes": [
+      "IN"
+    ],
+    "marketWideCodes": [
+      "IN"
+    ]
+  },
+  {
+    "id": "yc-fall-2026-late-applications",
+    "kind": "program",
+    "name": "Y Combinator Fall 2026 — Late Applications",
+    "aliases": [
+      "YC Fall 2026"
+    ],
+    "programType": "accelerator_cohort",
+    "organizerIds": [
+      "y-combinator"
+    ],
+    "description": "Y Combinator's in-person Fall 2026 funding batch in San Francisco, with late applications still under consideration after the on-time deadline.",
+    "publicationState": "published",
+    "deliveryMode": "onsite",
+    "locationIds": [
+      "yc-san-francisco"
+    ],
+    "eligibleMarketCodes": [
+      "US"
+    ],
+    "marketWideCodes": [
+      "US"
+    ],
+    "sectors": [
+      "sector_agnostic",
+      "technology"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed"
+    ],
+    "eligibility": "Any startup, anywhere in the world, whose founders can participate in the in-person San Francisco batch.",
+    "benefits": [
+      "US$500,000 investment",
+      "Partner office hours",
+      "Founder community",
+      "Demo Day and investor access"
+    ],
+    "funding": {
+      "min": 500000,
+      "max": 500000,
+      "currency": "USD",
+      "asStated": "US$500,000",
+      "approximateMinUsd": 500000,
+      "approximateMaxUsd": 500000,
+      "fxAsOf": null
+    },
+    "equityTerms": "US$125,000 for 7% plus US$375,000 on an uncapped MFN SAFE",
+    "applicationUrl": "https://www.ycombinator.com/apply",
+    "opensAt": null,
+    "applicationCloseAt": null,
+    "cohortStartsAt": null,
+    "cohortEndsAt": null,
+    "rolling": true,
+    "evidence": [
+      {
+        "url": "https://www.ycombinator.com/apply",
+        "title": "Apply to YC",
+        "publisher": "Y Combinator",
+        "sourceClass": "official_website",
+        "checkedAt": "2026-08-24",
+        "supports": [
+          "late applications accepted",
+          "Fall 2026 batch",
+          "San Francisco location"
+        ]
       }
     ],
     "lastVerifiedAt": "2026-08-24",

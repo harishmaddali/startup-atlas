@@ -34,7 +34,7 @@ export function CompanyList({
             Startup Atlas
           </h1>
           <p className="text-sm text-muted-foreground">
-            Recent startups worldwide, expanded across India
+            Startups and founder support across global markets
           </p>
         </div>
         <ThemeToggle />

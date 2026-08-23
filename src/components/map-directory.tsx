@@ -27,7 +27,8 @@ import {
   primaryLayer,
   type MapFilters,
 } from "@/lib/map-filtering";
-import type { CoverageSummary, MapItem, MapLayer } from "@/types/ecosystem";
+import { MARKETS, MARKET_BY_CODE, marketLabel } from "@/lib/markets";
+import type { CoverageSummary, MapItem, MapLayer, MarketCode } from "@/types/ecosystem";
 
 const layerPresentation: Record<
   MapLayer,
@@ -41,17 +42,17 @@ const layerPresentation: Record<
 };
 
 const chequeLabels: Record<string, string> = {
-  under_50l: "Under ₹50L",
-  "50l_2cr": "₹50L–₹2Cr",
-  "2cr_10cr": "₹2Cr–₹10Cr",
-  "10cr_plus": "₹10Cr+",
+  under_50k_usd: "Under US$50K",
+  "50k_250k_usd": "US$50K–250K",
+  "250k_1m_usd": "US$250K–1M",
+  "1m_plus_usd": "US$1M+",
 };
 
 interface MapDirectoryProps {
   allItems: MapItem[];
   coverage: CoverageSummary[];
   items: MapItem[];
-  indiaWideItems: MapItem[];
+  marketWideItems: MapItem[];
   totalMatchingPins: number;
   filters: MapFilters;
   selectedEntityKey: string | null;
@@ -59,7 +60,7 @@ interface MapDirectoryProps {
   onFiltersChange: (filters: MapFilters) => void;
   onSelect: (item: MapItem) => void;
   onHover: (key: string | null) => void;
-  onIndiaZoom: () => void;
+  onMarketZoom: (marketCode: MarketCode) => void;
   onClose?: () => void;
   className?: string;
 }
@@ -72,7 +73,7 @@ export function MapDirectory({
   allItems,
   coverage,
   items,
-  indiaWideItems,
+  marketWideItems,
   totalMatchingPins,
   filters,
   selectedEntityKey,
@@ -80,7 +81,7 @@ export function MapDirectory({
   onFiltersChange,
   onSelect,
   onHover,
-  onIndiaZoom,
+  onMarketZoom,
   onClose,
   className,
 }: MapDirectoryProps) {
@@ -132,7 +133,7 @@ export function MapDirectory({
               </span>
               <div>
                 <h1 className="text-base font-semibold tracking-tight">Startup Atlas</h1>
-                <p className="text-xs text-muted-foreground">India capital & support directory</p>
+                <p className="text-xs text-muted-foreground">Global startup capital & support</p>
               </div>
             </div>
           </div>
@@ -201,8 +202,24 @@ export function MapDirectory({
             {hasAdvancedFilters && <span className="size-1.5 rounded-full bg-blue-600" />}
             <ChevronDown className={cn("transition-transform", filtersOpen && "rotate-180")} />
           </Button>
-          <Button variant="outline" size="sm" onClick={onIndiaZoom}>
-            <MapPinned /> India
+          <select
+            value={filters.market}
+            onChange={(event) => updateFilter("market", event.target.value as MapFilters["market"])}
+            aria-label="Filter by market"
+            className="h-8 min-w-0 max-w-32 rounded-md border bg-background px-2 text-xs"
+          >
+            <option value="">All markets</option>
+            {MARKETS.map((market) => (
+              <option key={market.code} value={market.code}>{market.shortLabel}</option>
+            ))}
+          </select>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => onMarketZoom(filters.market || "IN")}
+            aria-label={`Zoom map to ${marketLabel(filters.market || "IN")}`}
+          >
+            <MapPinned /> {MARKET_BY_CODE.get(filters.market || "IN")?.shortLabel}
           </Button>
           {hasAdvancedFilters && (
             <Button
@@ -249,7 +266,7 @@ export function MapDirectory({
       </div>
 
       <ScrollArea className="min-h-0 flex-1">
-        {items.length === 0 && indiaWideItems.length === 0 ? (
+        {items.length === 0 && marketWideItems.length === 0 ? (
           <div className="px-5 py-10 text-center">
             <MapPinned className="mx-auto size-7 text-muted-foreground/60" />
             <p className="mt-3 text-sm font-medium">No matching profiles here</p>
@@ -265,11 +282,11 @@ export function MapDirectory({
               onSelect={onSelect}
               onHover={onHover}
             />
-            {indiaWideItems.length > 0 && (
+            {marketWideItems.length > 0 && (
               <ResultSection
-                title="Available India-wide"
-                description="Remote or pan-India support"
-                items={indiaWideItems}
+                title={filters.market ? `Available ${marketLabel(filters.market)}-wide` : "Available market-wide"}
+                description="Remote or market-wide support"
+                items={marketWideItems}
                 selectedEntityKey={selectedEntityKey}
                 hoveredEntityKey={hoveredEntityKey}
                 onSelect={onSelect}
@@ -283,18 +300,18 @@ export function MapDirectory({
       <footer className="border-t px-4 py-3 text-[11px] leading-relaxed text-muted-foreground">
         <details>
           <summary className="cursor-pointer font-medium text-foreground">
-            Coverage status · {coverage.length} Wave 1 clusters
+            Coverage status · {coverage.length} areas
           </summary>
           <ul className="mt-2 grid gap-1">
             {coverage.map((area) => (
               <li key={area.id} className="flex items-center justify-between gap-3">
-                <span className="truncate">{area.name}</span>
+                <span className="truncate">{marketLabel(area.marketCode)} · {area.name}</span>
                 <span className="shrink-0">{humanize(area.status)} · {area.unresolvedLeads} leads</span>
               </li>
             ))}
           </ul>
         </details>
-        <p className="mt-2">Source-backed coverage is released city by city. Evidence and verification dates appear in each profile.</p>
+        <p className="mt-2">Source-backed coverage is released area by area. Evidence and verification dates appear in each profile.</p>
       </footer>
     </div>
   );
@@ -383,7 +400,7 @@ function ResultSection({
                     <Icon className={cn("size-3.5 shrink-0", presentation.className)} />
                   </div>
                   <div className="mt-0.5 flex items-center gap-1.5 text-[11px] text-muted-foreground">
-                    <span className="truncate">{item.pin ? `${item.pin.city}${item.pin.state ? `, ${item.pin.state}` : ""}` : "India-wide"}</span>
+                    <span className="truncate">{item.pin ? `${item.pin.city}${item.pin.state ? `, ${item.pin.state}` : ""}` : `${item.marketWideCodes.map(marketLabel).join(", ") || "Market"}-wide`}</span>
                     <span aria-hidden="true">·</span>
                     <span className="truncate">{humanize(item.subtypes[0] ?? layer)}</span>
                   </div>

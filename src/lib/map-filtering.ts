@@ -1,4 +1,4 @@
-import type { MapItem, MapLayer, StartupStage } from "@/types/ecosystem";
+import type { MapItem, MapLayer, MarketCode, StartupStage } from "@/types/ecosystem";
 
 export const ALL_LAYERS: MapLayer[] = [
   "startup",
@@ -11,6 +11,7 @@ export const ALL_LAYERS: MapLayer[] = [
 export interface MapFilters {
   query: string;
   layers: MapLayer[];
+  market: MarketCode | "";
   sector: string;
   stage: StartupStage | "";
   city: string;
@@ -25,6 +26,7 @@ export interface MapFilters {
 export const DEFAULT_MAP_FILTERS: MapFilters = {
   query: "",
   layers: ALL_LAYERS,
+  market: "",
   sector: "",
   stage: "",
   city: "",
@@ -39,8 +41,15 @@ export const DEFAULT_MAP_FILTERS: MapFilters = {
 export function matchesMapFilters(item: MapItem, filters: MapFilters) {
   if (!item.layers.some((layer) => filters.layers.includes(layer))) return false;
   if (
+    filters.market &&
+    item.pin?.marketCode !== filters.market &&
+    !item.marketWideCodes.includes(filters.market)
+  ) {
+    return false;
+  }
+  if (
     filters.query &&
-    !item.searchText.includes(filters.query.trim().toLocaleLowerCase("en-IN"))
+    !item.searchText.includes(filters.query.trim().toLocaleLowerCase("en"))
   ) {
     return false;
   }
