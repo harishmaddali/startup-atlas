@@ -5,6 +5,12 @@ import {
   matchesMapFilters,
   uniqueEntities,
 } from "@/lib/map-filtering";
+import {
+  companies,
+  getCoverageSummaries,
+  getMapItemsForMarket,
+} from "@/lib/ecosystem-repository";
+import { marketFromStartupAddress } from "@/lib/markets";
 import type { MapItem } from "@/types/ecosystem";
 
 const item: MapItem = {
@@ -70,5 +76,42 @@ describe("map filtering", () => {
     const secondPin = { ...item, key: "program:sample:second-location" };
     expect(uniqueEntities([item, secondPin])).toEqual([item]);
     expect(entityKey(item)).toBe("program:sample");
+  });
+});
+
+describe("market-scoped map data", () => {
+  it("returns only India pins and India-wide unpinned entries", () => {
+    const items = getMapItemsForMarket("IN", new Date("2026-08-26T00:00:00.000Z"));
+
+    expect(items.length).toBeGreaterThan(0);
+    expect(
+      items.every((entry) =>
+        entry.pin
+          ? entry.pin.marketCode === "IN"
+          : entry.marketWideCodes.includes("IN")
+      )
+    ).toBe(true);
+  });
+
+  it("keeps the full startup dataset while selecting India records for the map", () => {
+    expect(
+      companies.some(
+        (company) => marketFromStartupAddress(company.address).marketCode !== "IN"
+      )
+    ).toBe(true);
+    expect(
+      getMapItemsForMarket("IN").filter((entry) => entry.entityKind === "startup")
+    ).toHaveLength(
+      companies.filter(
+        (company) => marketFromStartupAddress(company.address).marketCode === "IN"
+      ).length
+    );
+  });
+
+  it("limits coverage summaries to India", () => {
+    expect(getCoverageSummaries("IN")).not.toHaveLength(0);
+    expect(
+      getCoverageSummaries("IN").every((area) => area.marketCode === "IN")
+    ).toBe(true);
   });
 });

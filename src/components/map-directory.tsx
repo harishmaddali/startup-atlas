@@ -99,6 +99,17 @@ export function MapDirectory({
     }),
     [allItems]
   );
+  const availableMarkets = useMemo(
+    () =>
+      MARKETS.filter((market) =>
+        allItems.some(
+          (item) =>
+            item.pin?.marketCode === market.code ||
+            item.marketWideCodes.includes(market.code)
+        )
+      ),
+    [allItems]
+  );
   const hasAdvancedFilters = Boolean(
     filters.sector ||
       filters.stage ||
@@ -209,7 +220,7 @@ export function MapDirectory({
             className="h-8 min-w-0 max-w-32 rounded-md border bg-background px-2 text-xs"
           >
             <option value="">All markets</option>
-            {MARKETS.map((market) => (
+            {availableMarkets.map((market) => (
               <option key={market.code} value={market.code}>{market.shortLabel}</option>
             ))}
           </select>

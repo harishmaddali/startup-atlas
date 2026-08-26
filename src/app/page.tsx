@@ -1,11 +1,16 @@
 import { StartupMapLoader } from "@/components/startup-map-loader";
-import { getCoverageSummaries, getMapItems } from "@/lib/ecosystem-repository";
+import {
+  getCoverageSummaries,
+  getMapItemsForMarket,
+} from "@/lib/ecosystem-repository";
 
 export const dynamic = "force-dynamic";
 
+const ACTIVE_MARKET = "IN";
+
 export default async function Home() {
-  const items = getMapItems();
-  const coverage = getCoverageSummaries();
+  const items = getMapItemsForMarket(ACTIVE_MARKET);
+  const coverage = getCoverageSummaries(ACTIVE_MARKET);
 
   return (
     <main className="h-screen w-screen">

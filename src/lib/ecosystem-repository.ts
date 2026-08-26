@@ -15,6 +15,7 @@ import {
   type MapEntity,
   type MapItem,
   type MapLayer,
+  type MarketCode,
   type OrganizationCategory,
 } from "@/types/ecosystem";
 import { getProgramStatus, isLiveProgram } from "@/lib/program-status";
@@ -306,17 +307,30 @@ export function getMapItems(now = new Date()): MapItem[] {
   ];
 }
 
-export function getCoverageSummaries(): CoverageSummary[] {
-  return coverageAreas.map((area) => ({
-    id: area.id,
-    marketCode: area.marketCode,
-    name: area.name,
-    scope: area.scope,
-    status: area.status,
-    unresolvedLeads: area.unresolvedLeads,
-    lastSweepAt: area.lastSweepAt,
-    nextReviewAt: area.nextReviewAt,
-  }));
+export function getMapItemsForMarket(
+  marketCode: MarketCode,
+  now = new Date()
+): MapItem[] {
+  return getMapItems(now).filter((item) =>
+    item.pin
+      ? item.pin.marketCode === marketCode
+      : item.marketWideCodes.includes(marketCode)
+  );
+}
+
+export function getCoverageSummaries(marketCode?: MarketCode): CoverageSummary[] {
+  return coverageAreas
+    .filter((area) => !marketCode || area.marketCode === marketCode)
+    .map((area) => ({
+      id: area.id,
+      marketCode: area.marketCode,
+      name: area.name,
+      scope: area.scope,
+      status: area.status,
+      unresolvedLeads: area.unresolvedLeads,
+      lastSweepAt: area.lastSweepAt,
+      nextReviewAt: area.nextReviewAt,
+    }));
 }
 
 export function getMapEntity(kind: string, id: string): MapEntity | null {

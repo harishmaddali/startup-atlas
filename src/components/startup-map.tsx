@@ -6,7 +6,6 @@ import {
   MapContainer,
   Marker,
   TileLayer,
-  useMap,
   useMapEvents,
 } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
@@ -30,17 +29,8 @@ import {
   uniqueEntities,
   type MapFilters,
 } from "@/lib/map-filtering";
-import {
-  USER_LOCATION_ZOOM,
-  WORLD_CENTER,
-  WORLD_DEFAULT_ZOOM,
-} from "@/lib/geo";
+import { INDIA_CENTER, INDIA_DEFAULT_ZOOM } from "@/lib/geo";
 import { MARKETS, MARKET_BY_CODE } from "@/lib/markets";
-import {
-  fetchApproximateUserLocation,
-  hasInitialMapView,
-  markInitialMapViewSet,
-} from "@/lib/user-location";
 import type { CoverageSummary, MapItem, MapLayer, MarketCode, StartupStage } from "@/types/ecosystem";
 
 const LIST_CAP = 200;
@@ -111,28 +101,6 @@ function clusterIcon(cluster: L.MarkerCluster) {
     html: `<span style="display:flex;align-items:center;justify-content:center;width:${size}px;height:${size}px;border-radius:9999px;background:#18181b;color:#fff;border:3px solid #fff;box-shadow:0 0 0 2px rgba(24,24,27,.3),0 2px 8px rgba(0,0,0,.35);font-size:${size <= 48 ? 14 : 16}px;font-weight:700;">${count}</span>`,
     iconSize: [size, size],
   });
-}
-
-function InitialViewController() {
-  const map = useMap();
-
-  useEffect(() => {
-    if (hasInitialMapView()) return;
-    let cancelled = false;
-    void (async () => {
-      const location = await fetchApproximateUserLocation();
-      if (cancelled) return;
-      if (location) {
-        map.flyTo([location.lat, location.lng], USER_LOCATION_ZOOM, { duration: 1.2 });
-      }
-      markInitialMapViewSet();
-    })();
-    return () => {
-      cancelled = true;
-    };
-  }, [map]);
-
-  return null;
 }
 
 function MapController({
@@ -324,8 +292,8 @@ export function StartupMap({
 
       <div className="relative min-h-0 flex-1">
         <MapContainer
-          center={[WORLD_CENTER.lat, WORLD_CENTER.lng]}
-          zoom={WORLD_DEFAULT_ZOOM}
+          center={[INDIA_CENTER.lat, INDIA_CENTER.lng]}
+          zoom={INDIA_DEFAULT_ZOOM}
           scrollWheelZoom
           zoomControl={false}
           attributionControl={false}
@@ -337,7 +305,6 @@ export function StartupMap({
             url={tileUrl}
           />
           <AttributionControl position="bottomleft" />
-          <InitialViewController />
           <MapController
             selected={selected}
             marketZoomRequest={marketZoomRequest}

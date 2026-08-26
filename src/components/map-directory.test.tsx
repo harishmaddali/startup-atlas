@@ -47,6 +47,10 @@ describe("MapDirectory", () => {
       />
     );
 
+    expect(screen.getByLabelText("Filter by market")).toHaveTextContent(
+      "All marketsIndia"
+    );
+    expect(screen.queryByRole("option", { name: "Singapore" })).not.toBeInTheDocument();
     expect(screen.getByText("Available market-wide")).toBeInTheDocument();
     expect(screen.getByText("Founder Program")).toBeInTheDocument();
     expect(screen.getByText("0 matching pins")).toBeInTheDocument();
