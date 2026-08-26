@@ -18,7 +18,7 @@ import {
   type OrganizationCategory,
 } from "@/types/ecosystem";
 import { getProgramStatus, isLiveProgram } from "@/lib/program-status";
-import { marketFromStartupAddress } from "@/lib/markets";
+import { cityFromStartupAddress, marketFromStartupAddress } from "@/lib/markets";
 
 const investorCategories = new Set<OrganizationCategory>([
   "vc_firm",
@@ -95,7 +95,7 @@ function startupMapItems(): MapItem[] {
         lat: company.location.lat,
         lng: company.location.lng,
         precision: company.dataConfidence === "verified" ? "building" : "city",
-        city: company.address,
+        city: cityFromStartupAddress(company.address),
         state: "",
         marketCode: market.marketCode,
         countryCode: market.countryCode,

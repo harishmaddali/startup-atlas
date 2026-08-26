@@ -35,6 +35,36 @@ const US_CITY_LABELS = new Set([
   "denver",
 ]);
 
+const INDIAN_STATE = /^(?:Andhra Pradesh|Arunachal Pradesh|Assam|Bihar|Chhattisgarh|Goa|Gujarat|Haryana|Himachal Pradesh|Jharkhand|Karnataka|Kerala|Madhya Pradesh|Maharashtra|Manipur|Meghalaya|Mizoram|Nagaland|Odisha|Punjab|Rajasthan|Tamil Nadu|Telangana|Uttar Pradesh|Uttarakhand|West Bengal)(?:\s+\d{6})?$/i;
+
+export function cityFromStartupAddress(address: string): string {
+  const parts = address
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  if (parts.length === 1) {
+    return parts[0].replace(/\s+-\s+United Arab Emirates$/i, "");
+  }
+
+  const country = parts.at(-1)?.toLocaleLowerCase("en");
+  const region = parts.at(-2) ?? parts[0];
+
+  if (country === "india" && parts.length >= 3 && INDIAN_STATE.test(region)) {
+    return parts.at(-3) ?? region;
+  }
+
+  if ((country === "usa" || country === "canada") && parts.length >= 3) {
+    return parts.at(-3) ?? region;
+  }
+
+  if (country === "australia") {
+    return region.replace(/\s+(?:ACT|NSW|NT|QLD|SA|TAS|VIC|WA)$/i, "");
+  }
+
+  return region;
+}
+
 export function marketFromStartupAddress(address: string): {
   marketCode: MarketCode | null;
   countryCode: string | null;

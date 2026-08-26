@@ -72,3 +72,21 @@ describe("map filtering", () => {
     expect(entityKey(item)).toBe("program:sample");
   });
 });
+
+describe("startup map items", () => {
+  it("keeps the full address as the pin label but exposes only the city", async () => {
+    const { getMapItems } = await import("@/lib/ecosystem-repository");
+    const startup = getMapItems().find((entry) => entry.entityId === "xbattery");
+
+    expect(startup?.pin?.label).toContain("Main Road");
+    expect(startup?.pin?.city).toBe("Hyderabad");
+  });
+
+  it("normalizes city-only startup address formats", async () => {
+    const { cityFromStartupAddress } = await import("@/lib/markets");
+
+    expect(cityFromStartupAddress("San Francisco")).toBe("San Francisco");
+    expect(cityFromStartupAddress("Sydney NSW, Australia")).toBe("Sydney");
+    expect(cityFromStartupAddress("Dubai - United Arab Emirates")).toBe("Dubai");
+  });
+});
